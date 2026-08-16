@@ -5,6 +5,7 @@ import { RegionId, HistoricalEvent } from '@/types/database.types';
 import { TimelineDimensions, calculateEventLanes, PlacedEvent } from '@/lib/timeline/coordinates';
 import { EventItem } from './EventItem';
 import { KoreanKingsTrack } from './KoreanKingsTrack';
+import { ChineseDynastiesTrack } from './ChineseDynastiesTrack';
 
 interface TimelineTrackProps {
   regionId: RegionId;
@@ -101,6 +102,9 @@ export const TimelineTrack: React.FC<TimelineTrackProps> = ({
     <div
       className={`relative ${style.border} ${style.bgGradient} ${style.leftAccent} transition-all duration-300 hover:brightness-105`}
     >
+      {/* 중국사 트랙인 경우 상단에 중국 역대 왕조 연표 전용 레인 렌더링 */}
+      {regionId === 'CHINA' && <ChineseDynastiesTrack dimensions={dimensions} />}
+
       {/* 한국사 트랙인 경우 상단에 역대 국왕 재위 연표 전용 레인 렌더링 */}
       {regionId === 'KOREA' && <KoreanKingsTrack dimensions={dimensions} />}
 
