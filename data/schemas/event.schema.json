@@ -1,0 +1,121 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "HistoricalEvent",
+  "type": "object",
+  "required": [
+    "id",
+    "title",
+    "region_id",
+    "category_id",
+    "importance",
+    "year_start",
+    "year_end",
+    "summary"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9-]+$"
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1
+    },
+    "title_en": {
+      "type": "string"
+    },
+    "region_id": {
+      "type": "string",
+      "enum": ["WEST", "CHINA", "KOREA", "CLIMATE"]
+    },
+    "sub_region": {
+      "type": "string"
+    },
+    "category_id": {
+      "type": "string",
+      "enum": [
+        "POLITICS",
+        "PERSON",
+        "INSTITUTION",
+        "RELIGION",
+        "SCIENCE",
+        "ART_CULTURE",
+        "CLIMATE_ENVIRONMENT",
+        "ECONOMY"
+      ]
+    },
+    "importance": {
+      "type": "string",
+      "enum": ["A", "B", "C"]
+    },
+    "year_start": {
+      "type": "integer"
+    },
+    "year_end": {
+      "type": "integer"
+    },
+    "date_precision": {
+      "type": "string",
+      "enum": ["exact", "approximate", "range", "unknown"]
+    },
+    "summary": {
+      "type": "string",
+      "minLength": 5
+    },
+    "historical_significance": {
+      "type": "string"
+    },
+    "cause": {
+      "type": "string"
+    },
+    "consequence": {
+      "type": "string"
+    },
+    "confidence": {
+      "type": "string",
+      "enum": ["HIGH", "MEDIUM", "LOW"]
+    },
+    "related_people": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "name_ko"],
+        "properties": {
+          "id": { "type": "string" },
+          "name_ko": { "type": "string" },
+          "name_en": { "type": "string" },
+          "role_title": { "type": "string" },
+          "description": { "type": "string" }
+        }
+      }
+    },
+    "related_events": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["target_event_id", "relation_type"],
+        "properties": {
+          "target_event_id": { "type": "string" },
+          "relation_type": {
+            "type": "string",
+            "enum": ["CAUSES", "INFLUENCED_BY", "SYNCHRONOUS", "BRANCH_OF", "CONTRAST_WITH"]
+          },
+          "description": { "type": "string" }
+        }
+      }
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["title"],
+        "properties": {
+          "title": { "type": "string" },
+          "author": { "type": "string" },
+          "publisher": { "type": "string" },
+          "url": { "type": "string" }
+        }
+      }
+    }
+  }
+}
