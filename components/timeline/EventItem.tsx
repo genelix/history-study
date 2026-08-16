@@ -29,6 +29,7 @@ export const EventItem: React.FC<EventItemProps> = ({ event, onSelect, isSelecte
   const isB = event.importance === 'B';
 
   const laneTopPx = event.lane * 36; // 레인당 36px 간격
+  const isTopLane = event.lane <= 1; // 상단 0, 1번 레인은 아래로 모달 표시, 하단 레인은 위로 표시
 
   return (
     <div
@@ -106,24 +107,48 @@ export const EventItem: React.FC<EventItemProps> = ({ event, onSelect, isSelecte
         </div>
       )}
 
-      {/* 호버 마이크로 툴팁 / 미니 모달 (최상단 z-[70] 레이어로 표시) */}
+      {/* 호버 마이크로 툴팁 / 미니 모달 (상/하 지능형 가변 배치 & 표제 줄바꿈 방지) */}
       {showTooltip && (
-        <div className="absolute left-0 bottom-full mb-2.5 z-[70] pointer-events-none min-w-[240px] max-w-sm rounded-xl border border-slate-600/90 bg-slate-950/98 p-3 text-xs text-slate-100 shadow-2xl backdrop-blur-xl animate-in fade-in zoom-in-95 duration-150">
-          <div className="flex items-start justify-between gap-3 mb-1.5 border-b border-slate-800/80 pb-1.5">
-            <span className="font-bold text-amber-300 leading-snug text-[13px]">{event.title}</span>
-            <span className="text-[11px] font-mono text-slate-400 shrink-0 bg-slate-900 px-1.5 py-0.5 rounded border border-slate-800">
-              {formatYearRange(event.year_start, event.year_end, event.date_precision)}
-            </span>
+        <div
+          className={`absolute left-0 z-[70] pointer-events-none min-w-[280px] max-w-[380px] rounded-xl border border-slate-600/90 bg-slate-950/98 p-3.5 text-xs text-slate-100 shadow-2xl backdrop-blur-xl animate-in fade-in zoom-in-95 duration-150 ${
+            isTopLane ? 'top-full mt-2.5' : 'bottom-full mb-2.5'
+          }`}
+        >
+          {/* 상단 메타 영역: 연도 뱃지 & 지역 */}
+          <div className="mb-2 border-b border-slate-800/80 pb-2">
+            <div className="flex items-center justify-between gap-2 mb-1.5">
+              <span className="inline-flex items-center gap-1 text-[11px] font-mono font-bold text-amber-300 bg-amber-500/10 px-2 py-0.5 rounded border border-amber-500/25">
+                📅 {formatYearRange(event.year_start, event.year_end, event.date_precision)}
+              </span>
+              <span className="text-[10px] font-medium text-slate-400 bg-slate-900/90 px-2 py-0.5 rounded border border-slate-800">
+                {event.sub_region || event.region_id}
+              </span>
+            </div>
+            {/* 표제: 줄바꿈 없이 시원하고 또렷하게 표시 */}
+            <h4 className="font-bold text-slate-100 text-[13.5px] leading-snug tracking-tight break-keep">
+              {event.title}
+            </h4>
           </div>
-          <p className="line-clamp-3 text-[11.5px] text-slate-200 leading-relaxed">
+
+          {/* 본문 요약 */}
+          <p className="line-clamp-3 text-[11.5px] text-slate-200/90 leading-relaxed break-keep">
             {event.summary}
           </p>
-          <div className="mt-2 pt-1.5 border-t border-slate-800/60 flex items-center justify-between text-[10px] text-slate-400">
-            <span className="font-medium text-slate-300">{event.sub_region || event.region_id}</span>
-            <span className={`${colors.text} font-semibold`}>클릭하여 상세 정보 보기 →</span>
+
+          {/* 하단 액션 힌트 */}
+          <div className="mt-2.5 pt-2 border-t border-slate-800/60 flex items-center justify-between text-[10px] text-slate-400">
+            <span className="font-semibold text-slate-400">중요도 {event.importance}등급</span>
+            <span className={`${colors.text} font-semibold flex items-center gap-1`}>
+              클릭하여 상세 정보 보기 →
+            </span>
           </div>
-          {/* 말풍선 아래쪽 꼭짓점 화살표 */}
-          <div className="absolute left-6 -bottom-1.5 w-3 h-3 bg-slate-950 border-r border-b border-slate-600/90 transform rotate-45" />
+
+          {/* 상/하 위치에 따른 말풍선 화살표 꼬리 */}
+          {isTopLane ? (
+            <div className="absolute left-6 -top-1.5 w-3 h-3 bg-slate-950 border-l border-t border-slate-600/90 transform rotate-45" />
+          ) : (
+            <div className="absolute left-6 -bottom-1.5 w-3 h-3 bg-slate-950 border-r border-b border-slate-600/90 transform rotate-45" />
+          )}
         </div>
       )}
     </div>
