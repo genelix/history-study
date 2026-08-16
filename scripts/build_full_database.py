@@ -15,6 +15,10 @@ from dataset_b3_medieval import BLOCK_3_CENTURIES
 from dataset_b4_late_medieval import BLOCK_4_CENTURIES
 from dataset_b5_modern import BLOCK_5_CENTURIES
 
+from generate_science_100 import SCIENCE_100, export_science_100
+from generate_art_100 import ART_100, export_art_100
+from generate_philosophy_100 import PHILOSOPHY_100, export_philosophy_100
+
 ALL_CENTURIES = (
     BLOCK_1_CENTURIES
     + BLOCK_2_CENTURIES
@@ -123,6 +127,66 @@ def build_database():
             json.dump(century_obj, f, ensure_ascii=False, indent=2)
 
         print(f"  ✓ Exported century: {c_id}.json ({len(century_events)} events)")
+
+    # 2.5 Export and merge Themed Datasets (Science, Art, Philosophy 100 each)
+    print("\n🎨 [Themed Datasets] Exporting and Merging 100 Science, 100 Art/Music, 100 Philosophy events...")
+    export_science_100()
+    export_art_100()
+    export_philosophy_100()
+
+    themed_collections = [
+        ("Science", SCIENCE_100),
+        ("Art/Culture", ART_100),
+        ("Philosophy", PHILOSOPHY_100),
+    ]
+
+    for cat_name, items in themed_collections:
+        for item in items:
+            event_id = item["id"]
+            title = item["title"]
+            title_en = item.get("title_en", title)
+            region_id = item.get("region_id", "WEST")
+            sub_region = item.get("sub_region", "")
+            category_id = item.get("category_id", "SCIENCE")
+            importance = item.get("importance", "A")
+            start = item.get("year_start", 1)
+            end = item.get("year_end", start)
+            precision = item.get("date_precision", "exact")
+            summary = item.get("summary", "")
+            significance = item.get("historical_significance", "")
+            cause = item.get("cause", "")
+            consequence = item.get("consequence", "")
+            related_people = item.get("related_people", [])
+            related_events = item.get("related_events", [])
+            sources = item.get("sources", [{"title": f"글로벌 {cat_name} 100선 (HistoryGrid)"}])
+
+            if start == 0: start = 1
+            if end == 0: end = 1
+            if start > end:
+                start, end = end, start
+
+            formatted_event = {
+                "id": event_id,
+                "title": title,
+                "title_en": title_en,
+                "region_id": region_id,
+                "sub_region": sub_region,
+                "category_id": category_id,
+                "importance": importance,
+                "year_start": start,
+                "year_end": end,
+                "date_precision": precision,
+                "summary": summary,
+                "historical_significance": significance,
+                "cause": cause,
+                "consequence": consequence,
+                "confidence": "HIGH",
+                "related_people": related_people,
+                "related_events": related_events,
+                "sources": sources
+            }
+
+            event_map[event_id] = formatted_event
 
     # 3. Sort all merged events by start year, then end year
     all_merged = list(event_map.values())

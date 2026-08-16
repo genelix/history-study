@@ -1,9 +1,13 @@
 -- ============================================================================
 -- HistoryGrid Master Historical Events Seed Data
--- Total Events: 853
+-- Total Events: 1153
 -- Covers BC 400 ~ 21st Century (West, China, Korea, Climate/Global)
 -- ============================================================================
 BEGIN;
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('art-001-lascaux-cave-paintings', '라스코 동굴 벽화와 후기 구석기 미술의 탄생', '라스코 동굴 벽화와 후기 구석기 미술의 탄생', 'WEST', '', 'ART_CULTURE', 'A', -15000, -13000, 'exact', '프랑스 라스코 동굴에 붉은 황토와 숯으로 야생 들소, 사슴, 말의 역동적인 움직임을 사실적으로 묘사.', '인류 회화 예술의 기원이자 주술적 생명력 표현의 걸작.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
 VALUES ('west-agriculture-neolithic-revolution', '농경과 정착생활의 확산', '', 'WEST', '', 'INSTITUTION', 'A', -10000, -3000, 'range', '서아시아를 중심으로 농경과 가축 사육이 확산되면서 수렵채집 중심의 생활에서 정착 농경사회로 전환하였다.', '잉여생산, 인구 증가, 정착촌, 사회계층, 국가와 도시의 장기적 형성을 가능하게 한 문명사의 근본적 전환이다.', '기후 변화와 야생 동식물의 이용 확대 및 인간의 환경 적응', '정착촌과 사회적 분업이 발달하고 이후 도시와 국가 형성의 기반이 마련되었다.', 'HIGH', 'APPROVED')
@@ -43,6 +47,10 @@ ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summar
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
 VALUES ('gojoseon-founding', '고조선 성립 및 청동기 문화', 'Establishment of Gojoseon & Bronze Age', 'KOREA', '고조선', 'POLITICS', 'A', -2333, -108, 'approximate', '한반도 및 요동 일대에 성립된 한민족 최초의 고대 국가이자 청동기·철기 문화의 중심.', '동북아시아 독자적 청동기 문화(비파형동검, 탁자식 고인돌)를 발전시키며 고대 국가 체제로 성장함.', '신석기 농경 발달과 청동기 무기 보급으로 족장 사회 형성 및 연맹 왕국 발전.', '위만조선으로 이어져 한나라와 대립하다 기원전 108년 멸망 후 여러 소국(부여, 고구려, 옥저, 동예, 삼한)으로 분화.', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('art-002-epic-of-gilgamesh', '메소포타미아 『길가메시 서사시』 (인류 최초의 서사시)', '메소포타미아 『길가메시 서사시』 (인류 최초의 서사시)', 'WEST', '', 'ART_CULTURE', 'A', -2100, -1200, 'exact', '우루크의 왕 길가메시가 친구 엔키두의 죽음 후 영생의 약초를 찾아 떠나는 여정을 쐐기문자 점토판에 기록.', '세계 문학사상 가장 오래된 대서사시이자 대홍수 신화의 원형.', '', '', 'HIGH', 'APPROVED')
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
@@ -106,6 +114,10 @@ VALUES ('korea-dolmen', '한반도 고인돌 문화의 확산', '', 'KOREA', '',
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('art-003-homer-iliad-odyssey', '호메로스의 2대 서사시 『일리아스』와 『오디세이아』', '호메로스의 2대 서사시 『일리아스』와 『오디세이아』', 'WEST', '', 'ART_CULTURE', 'A', -800, -750, 'exact', '트로이 전쟁의 영웅 아킬레우스의 분노와 오디세우스의 10년간의 귀향 모험을 운문 서사시로 노래.', '서양 고전문학과 신화, 그리스 비극의 영원한 원천.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
 VALUES ('west-greek-alphabet', '그리스 알파벳의 형성', '', 'WEST', '', 'SCIENCE', 'A', -800, -700, 'approximate', '그리스인들이 페니키아 문자에서 영향을 받아 모음을 포함하는 독자적인 알파벳 체계를 발전시켰다.', '그리스 문학·철학·과학의 기록과 전승을 가능하게 했으며 후대 라틴 문자에도 영향을 주었다.', '페니키아와의 교역 및 문자 접촉', '그리스어 문학과 철학의 기록문화 발전을 촉진하였다.', 'HIGH', 'APPROVED')
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
@@ -115,6 +127,10 @@ ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summar
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
 VALUES ('korea-bronze-dagger-culture', '비파형 동검 문화의 발전', '', 'KOREA', '', 'ART_CULTURE', 'B', -800, -500, 'range', '한반도와 만주 일대에서 비파형 동검을 비롯한 독특한 청동기 문화가 발전하였다.', '초기 정치체와 지역 간 교류 및 권력 상징을 연구하는 핵심 고고학 자료이다.', '청동기 제작기술의 발전과 지역 교류', '지역 지배층의 권력과 정체성을 나타내는 청동기 문화가 발전하였다.', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('phi-002-upanishads-brahman-atman', '인도 우파니샤드 철학의 범아일여(梵我一如) 사상', '인도 우파니샤드 철학의 범아일여(梵我一如) 사상', 'WEST', '', 'RELIGION', 'A', -800, -500, 'exact', '우주의 궁극적 실재인 브라흐만(Brahman)과 개인의 참된 자아인 아트만(Atman)이 본질적으로 하나임을 설파.', '힌두교 철학의 심오한 정수이자 동양 형이상학의 근간.', '', '', 'HIGH', 'APPROVED')
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
@@ -138,6 +154,10 @@ VALUES ('korea-gojoseon-tradition', '고조선 형성에 관한 전승과 초기
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('art-006-shijing-classic-of-poetry', '동양 최초의 시가 총집 『시경(詩經)』 편찬', '동양 최초의 시가 총집 『시경(詩經)』 편찬', 'CHINA', '', 'ART_CULTURE', 'A', -600, -500, 'exact', '주나라의 민요(국풍), 궁중 음악(아), 제사 음악(송) 305편을 공자가 산정·정리한 시가집.', '동아시아 낭만주의 및 현실주의 서정시의 시조.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
 VALUES ('west-greek-philosophy', '그리스 자연철학의 등장', '', 'WEST', '', 'SCIENCE', 'A', -600, -500, 'range', '탈레스·아낙시만드로스·헤라클레이토스 등 초기 철학자들이 신화적 설명을 넘어 자연현상을 이성적으로 설명하려 시도하였다.', '서양 철학과 과학적 탐구의 중요한 출발점이다.', '그리스 도시국가의 지적 교류와 문자문화 발전', '자연·우주·인간에 대한 합리적 탐구 전통이 발전하였다.', 'HIGH', 'APPROVED')
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
@@ -150,7 +170,15 @@ VALUES ('west-athens-solon', '솔론의 아테네 개혁', '', 'WEST', '', 'POLI
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('phi-001-thales-arche-water', '탈레스의 만물 근원(아르케) ''물'' 선언 (서양 철학의 기원)', '탈레스의 만물 근원(아르케) ''물'' 선언 (서양 철학의 기원)', 'WEST', '', 'RELIGION', 'A', -585, -585, 'exact', '신화적 신들의 개입 대신 자연 현상의 근본 원리(Arche)를 자연 내부의 물질 ''물''로 설명하려 시도.', '밀레토스 자연철학과 서양 합리적 이성 탐구의 출발점.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
 VALUES ('china-confucius', '공자와 유학의 형성', '', 'CHINA', '', 'RELIGION', 'A', -551, -479, 'exact', '공자는 인과 예를 중심으로 인간관계와 정치질서에 대한 사상을 발전시켰다.', '후대 유학 및 동아시아 정치·윤리·교육사상의 핵심적 기반을 형성하였다.', '춘추시대 정치질서의 붕괴와 사회적 혼란', '유학이라는 장기적인 사상 전통이 형성되었다.', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('phi-004-confucius-analects-ren-li', '공자의 『논어(論語)』와 인(仁)·예(禮)·덕치주의', '공자의 『논어(論語)』와 인(仁)·예(禮)·덕치주의', 'CHINA', '', 'RELIGION', 'A', -551, -479, 'exact', '사람을 사랑하는 어진 마음(仁)과 사회적 규범(禮)을 바탕으로 군자(君子)의 수양과 도덕 정치를 주창.', '동아시아 2천 년 문명과 윤리 도덕의 절대적 규범 확립.', '', '', 'HIGH', 'APPROVED')
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
@@ -158,7 +186,15 @@ VALUES ('china-hundred-schools', '제자백가의 등장', '', 'CHINA', '', 'REL
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('sci-001-pythagoras-theorem', '피타고라스 정리의 증명과 수학적 음계 발견', '피타고라스 정리의 증명과 수학적 음계 발견', 'WEST', '', 'SCIENCE', 'A', -530, -500, 'exact', '직각삼각형의 빗변 제곱이 두 변의 제곱 합과 같음을 증명하고 현의 길이 비율에 따른 음계를 발견함.', '자연을 수학적 법칙과 수(Number)로 이해하는 서양 과학의 기초.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
 VALUES ('west-pythagoras', '피타고라스와 수학·철학 전통', '', 'WEST', '', 'SCIENCE', 'B', -530, -500, 'approximate', '피타고라스와 그 추종자들이 수학적 질서와 우주론을 결합한 철학적 전통을 발전시켰다.', '수학과 자연철학의 결합이라는 고대 그리스 지적 전통을 보여준다.', '그리스 자연철학과 수학적 탐구의 발전', '후대 서양 수학·철학 전통에 영향을 주었다.', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('phi-003-buddha-four-noble-truths', '고타마 붓다(석가모니)의 깨달음과 사성제·연기설(緣起說)', '고타마 붓다(석가모니)의 깨달음과 사성제·연기설(緣起說)', 'WEST', '', 'RELIGION', 'A', -528, -528, 'exact', '보리수 아래에서 만물이 상호의존적으로 생겨난다는 연기법과 고·집·멸·도 4성제 및 8정도를 깨닫고 녹야원에서 초전법륜.', '2,500년간 인류에게 자비와 해탈의 길을 연 세계 종교 철학의 탄생.', '', '', 'HIGH', 'APPROVED')
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
@@ -171,6 +207,18 @@ ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summar
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
 VALUES ('korea-early-iron-contact', '한반도 철기문화의 초기 전파', '', 'KOREA', '', 'SCIENCE', 'C', -501, -500, 'approximate', '철기문화가 한반도 북부와 주변지역에서 점차 확산되기 시작하였다.', '후대 철기시대와 국가 형성으로 이어지는 기술적 변화의 초기 단계이다.', '중국 동북부 및 주변지역과의 교류', '철제 무기와 도구의 확산 기반이 마련되었다.', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('phi-006-heraclitus-panta-rhei-logos', '헤라클레이토스의 판타 레이(''만물은 유전한다'')와 로고스(Logos)', '헤라클레이토스의 판타 레이(''만물은 유전한다'')와 로고스(Logos)', 'WEST', '', 'RELIGION', 'A', -500, -480, 'exact', '''같은 강물에 두 번 발을 담글 수 없다''며 대립물의 투쟁과 끊임없는 변화 속에서 조화를 이루는 로고스 제안.', '변증법적 사고의 시초이자 스토아 철학 로고스 개념의 모태.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('phi-007-parmenides-being-unchangeable', '파르메니데스의 존재론 (''존재하는 것은 있고, 존재하지 않는 것은 없다'')', '파르메니데스의 존재론 (''존재하는 것은 있고, 존재하지 않는 것은 없다'')', 'WEST', '', 'RELIGION', 'A', -500, -460, 'exact', '감각적 경험의 변화는 환상이며, 순수 이성으로 파악되는 진정한 ''존재''는 영원불변하고 유일하다는 존재론 정립.', '서양 형이상학(존재론)의 창시자.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('phi-005-laozi-daodejing-wuwei', '노자의 『도덕경(道德經)』과 무위자연(無爲自然)', '노자의 『도덕경(道德經)』과 무위자연(無爲自然)', 'CHINA', '', 'RELIGION', 'A', -500, -450, 'exact', '''도는 말로 표현할 수 없다(道可道非常道)''며 인위적인 조작을 버리고 자연의 순리에 따르는 무위(無爲)의 도와 상선약수(上善若水) 제시.', '도가(道家) 철학의 창시이자 유교와 상보적인 동양 사상의 한 축.', '', '', 'HIGH', 'APPROVED')
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
@@ -230,11 +278,31 @@ VALUES ('china-jin-partition', '진의 분열과 전국시대의 시작', '', 'C
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('art-004-parthenon-temple-athens', '아테네 아크로폴리스 파르테논 신전 완공 (익티노스·페이디아스)', '아테네 아크로폴리스 파르테논 신전 완공 (익티노스·페이디아스)', 'WEST', '', 'ART_CULTURE', 'A', -447, -432, 'exact', '황금비율(1:1.618)과 엔타시스(배흘림 기법), 착시 교정 기법을 적용한 도리스식 대리석 아테나 신전.', '서양 고전주의 건축 미학의 절대적 표준.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
 VALUES ('west-parthenon', '파르테논 신전 건립', '', 'WEST', '', 'ART_CULTURE', 'B', -447, -432, 'exact', '아테네 아크로폴리스에 아테나에게 봉헌된 파르테논 신전이 건립되었다.', '고전기 그리스 건축과 조각의 대표적 성취이며 아테네의 정치·문화적 위상을 상징한다.', '페르시아 전쟁 이후 아테네의 부흥과 재건', '고전 그리스 예술의 대표적인 기념물이 되었다.', 'HIGH', 'APPROVED')
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
 VALUES ('west-peloponnesian-war', '펠로폰네소스 전쟁', '', 'WEST', '', 'POLITICS', 'A', -431, -404, 'exact', '아테네와 스파르타를 중심으로 한 그리스 세계의 장기적인 전쟁이 벌어졌다.', '고전기 그리스의 세력 균형을 근본적으로 변화시키고 아테네의 패권을 종식시켰다.', '아테네 제국의 확대와 스파르타 및 동맹국들의 위협 인식', '아테네가 패배하고 스파르타가 그리스 세계의 우세한 세력으로 부상하였다.', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('sci-002-democritus-atom', '데모크리토스의 고대 원자론(Atomism) 제시', '데모크리토스의 고대 원자론(Atomism) 제시', 'WEST', '', 'SCIENCE', 'A', -430, -400, 'exact', '모든 물질은 더 이상 쪼갤 수 없는 미세한 입자인 원자(Atom)와 빈 공간(허공)으로 이루어져 있다고 주장.', '근대 물질관과 화학 원자론의 철학적 모태.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('phi-008-socrates-know-thyself-midwife', '소크라테스의 산파술과 ''너 자신을 알라'' (무지의 지)', '소크라테스의 산파술과 ''너 자신을 알라'' (무지의 지)', 'WEST', '', 'RELIGION', 'A', -430, -399, 'exact', '문답법을 통해 자신이 안다고 착각하는 무지를 자각(무지의 지)하게 하고, ''성찰하지 않는 삶은 살 가치가 없다''며 독배를 마심.', '서양 윤리학과 철학적 대화법의 영원한 스승.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('art-005-greek-tragedy-sophocles-oedipus', '소포클레스의 비극 『오이디푸스 왕』 상연', '소포클레스의 비극 『오이디푸스 왕』 상연', 'WEST', '', 'ART_CULTURE', 'A', -429, -429, 'exact', '자신의 운명을 피하려다 아버지를 죽이고 어머니와 혼인한 테베 왕의 비극적 운명과 카타르시스(정화)를 그린 희곡.', '서양 연극과 드라마 예술의 최고 정점.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('sci-003-hippocrates-clinical-medicine', '히포크라테스의 임상 의학과 체액설', '히포크라테스의 임상 의학과 체액설', 'WEST', '', 'SCIENCE', 'A', -410, -370, 'exact', '신벌(神罰)이나 미신 대신 식이요법, 관찰, 4체액의 균형을 바탕으로 한 합리적 의학 체계 확립.', '의학의 아버지이자 히포크라테스 선서의 윤리적 기원.', '', '', 'HIGH', 'APPROVED')
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
@@ -262,6 +330,10 @@ VALUES ('korea-bc4-songgukri-farming', '송국리형 농경 취락과 벼농사'
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('art-012-danyu-semungyeong-mirror', '한국 국보 다뉴세문경(정문경)의 초정밀 청동 기하학 주조', '한국 국보 다뉴세문경(정문경)의 초정밀 청동 기하학 주조', 'KOREA', '', 'ART_CULTURE', 'A', -400, -300, 'exact', '직경 21cm 거울 뒷면에 0.3mm 간격의 미세한 동심원과 삼각선 13,000개를 새긴 청동 거울.', '고대 동아시아 최고의 금속 공예 미술품.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
 VALUES ('west-bc4-socrates-death', '소크라테스의 재판과 사형', '소크라테스의 재판과 사형', 'WEST', '', 'RELIGION', 'A', -399, -399, 'exact', '아테네 법정에서 청년들을 타락시켰다는 혐의로 소크라테스가 독배를 마심.', '비판적 이성 철학의 상징이자 플라톤 철학의 출발점.', '', '', 'HIGH', 'APPROVED')
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
@@ -275,6 +347,10 @@ ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summar
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
 VALUES ('west-bc4-plato-academy', '플라톤의 아카데미아 창설', '플라톤의 아카데미아 창설', 'WEST', '', 'SCIENCE', 'A', -387, -387, 'exact', '아테네에 서양 최초의 고등 교육·연구 기관 아카데미아를 설립함.', '서양 대학 및 아카데미 제도의 원형.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('phi-009-plato-theory-of-forms-republic', '플라톤의 이데아론(Theory of Forms)과 이상국가론(『국가』)', '플라톤의 이데아론(Theory of Forms)과 이상국가론(『국가』)', 'WEST', '', 'RELIGION', 'A', -380, -375, 'exact', '동굴의 비유를 통해 감각 너머의 완전한 영원불변의 원형 ''이데아''를 역설하고 철인 통치자가 다스리는 정의로운 이상 국가 제안.', '''서양 철학사는 플라톤의 각주에 불과하다''는 찬사를 받은 서양 합리주의의 거인.', '', '', 'HIGH', 'APPROVED')
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
@@ -338,11 +414,23 @@ VALUES ('china-bc4-qu-yuan', '굴원의 초사 문학과 이소', '굴원의 초
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('art-007-qu-yuan-chu-ci-lisao', '굴원의 초사 『이소(離騷)』와 남방 낭만주의 문학', '굴원의 초사 『이소(離騷)』와 남방 낭만주의 문학', 'CHINA', '', 'ART_CULTURE', 'A', -340, -278, 'exact', '초나라 시인 굴원이 나라를 걱정하며 신화와 상상력을 결합한 373구의 웅장한 서정시 창작.', '단오절(멱라수)의 유래이자 북방 시경과 대비되는 남방 문학의 최고봉.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
 VALUES ('alexander-hellenism', '알렉산드로스 제국과 헬레니즘 문화', 'Alexander''s Empire & Hellenism', 'WEST', '지중해/오리엔트', 'ART_CULTURE', 'A', -336, -323, 'exact', '알렉산드로스 대왕의 동방 원정으로 그리스 문화와 오리엔트 문화가 융합되어 헬레니즘 세계가 형성됨.', '동서 문화 교류를 촉진하고 이후 로마 문화와 간다라 불교 미술에 지대한 영향을 미침.', '마케도니아의 그리스 통일과 페르시아 정복 야망.', '알렉산드로스 사후 제국 분열 및 간다라 미술(동서 융합) 태동.', 'HIGH', 'APPROVED')
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
 VALUES ('west-bc4-aristotle-lyceum', '아리스토텔레스의 리케이온 설립', '아리스토텔레스의 리케이온 설립', 'WEST', '', 'SCIENCE', 'A', -335, -335, 'exact', '경험적 관찰과 귀납적 논리학을 연구하는 학당 리케이온을 세움.', '자연과학, 논리학, 윤리학 체계의 기초 확립.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('phi-0010-aristotle-metaphysics-nicomachean', '아리스토텔레스의 질료형상설과 『니코마코스 윤리학』 (중용과 행복)', '아리스토텔레스의 질료형상설과 『니코마코스 윤리학』 (중용과 행복)', 'WEST', '', 'RELIGION', 'A', -335, -322, 'exact', '형상이 현실 세계의 질료 속에 내재한다는 현실주의와 인간 삶의 궁극 목적은 덕을 통한 행복(Eudaimonia)이자 과부족이 없는 중용(Mesotes)임을 규명.', '논리학, 생물학, 정치학, 윤리학을 아우른 만학의 아버지.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('sci-004-aristotle-natural-philosophy', '아리스토텔레스의 자연학과 생물 분류학 체계', '아리스토텔레스의 자연학과 생물 분류학 체계', 'WEST', '', 'SCIENCE', 'A', -335, -322, 'exact', '4원소설과 500여 종의 동물 해부 관찰을 통해 서양 최초의 체계적인 자연과학 분류학 확립.', '중세 천 년간 서양 자연철학의 절대적 기준.', '', '', 'HIGH', 'APPROVED')
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
@@ -358,6 +446,14 @@ VALUES ('west-bc4-pytheas-voyage', '피테아스의 북유럽 탐험', '피테�
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('phi-011-mencius-human-goodness-mandate', '맹자의 성선설(性善說)과 사단(四端) 및 역성혁명론', '맹자의 성선설(性善說)과 사단(四端) 및 역성혁명론', 'CHINA', '', 'RELIGION', 'A', -320, -300, 'exact', '인간 본성에 측은지심 등 4단이 내재해 선하다는 성선설과 백성을 도탄에 빠뜨린 군주는 천명을 잃어 교체할 수 있다는 역성혁명 주창.', '유가 도덕 철학과 민본주의 정치학의 확립자.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('phi-012-zhuangzi-relativism-butterfly', '장자의 『장자(莊子)』와 제물론(齊物論)·호접지몽(胡蝶之夢)', '장자의 『장자(莊子)』와 제물론(齊物論)·호접지몽(胡蝶之夢)', 'CHINA', '', 'RELIGION', 'A', -320, -286, 'exact', '내가 나비가 된 꿈인가 나비가 내가 된 꿈인가라는 상대주의적 사유와 세속적 시비와 분별을 잊는 소요유(逍遙遊) 설파.', '동양 자유주의와 심미적 예술 철학의 최고봉.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
 VALUES ('west-bc4-appian-way', '아피아 가도 및 수도교 건설', '아피아 가도 및 수도교 건설', 'WEST', '', 'INSTITUTION', 'B', -312, -312, 'exact', '로마 최초의 포장 군사도로와 수도교 아쿠아 아피아를 축조함.', '로마 토목 공학 인프라의 효시.', '', '', 'HIGH', 'APPROVED')
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
@@ -366,11 +462,23 @@ VALUES ('china-bc4-wuling-king', '조나라 무령왕의 호복기사', '조나�
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('phi-016-epicurus-ataraxia-pleasure', '에피쿠로스의 쾌락주의와 아타락시아(Ataraxia)', '에피쿠로스의 쾌락주의와 아타락시아(Ataraxia)', 'WEST', '', 'RELIGION', 'A', -306, -270, 'exact', '육체적 방탕이 아닌 정신적 평정과 고통 없는 상태(Ataraxia), 소박한 정원 공동체에서의 우정과 지적 탐구를 최고의 선으로 제시.', '근대 공리주의와 계몽주의 철학의 선구.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('sci-005-euclid-geometry-elements', '유클리드의 기하학 원론(Elements) 편찬', '유클리드의 기하학 원론(Elements) 편찬', 'WEST', '', 'SCIENCE', 'A', -300, -275, 'exact', '5대 공리와 공준을 바탕으로 평면 기하학과 정수론을 연역적으로 증명한 수학 교과서 완성.', '논리적 공리체계의 표본이자 인류 역사상 성경 다음으로 많이 인쇄된 고전.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
 VALUES ('west-bc3-euclid-elements', '유클리드의 기하학 원론 편찬', '유클리드의 기하학 원론 편찬', 'WEST', '', 'SCIENCE', 'A', -300, -275, 'exact', '공리와 정리를 바탕으로 유클리드 기하학 체계를 완성함.', '2천 년간 서양 수학 교육과 논리적 사고의 표준 교과서.', '', '', 'HIGH', 'APPROVED')
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
 VALUES ('west-bc3-epicureanism', '에피쿠로스의 쾌락주의 철학', '에피쿠로스의 쾌락주의 철학', 'WEST', '', 'RELIGION', 'B', -300, -270, 'exact', '마음의 동요가 없는 정신적 평정(아타락시아)과 원자론적 자연관 제시.', '근대 유물론과 자유주의 철학의 원류.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('phi-015-zeno-stoicism-apatheia', '제논의 스토아학파(Stoicism) 창시와 아파테이아(Apatheia)', '제논의 스토아학파(Stoicism) 창시와 아파테이아(Apatheia)', 'WEST', '', 'RELIGION', 'A', -300, -260, 'exact', '자연의 이법(Logos)에 순응하고 정념(욕망, 공포)에 휘둘리지 않는 부동심(Apatheia)과 만인평등의 세계시민주의(Cosmopolitanism) 주창.', '로마 황제 마르쿠스 아우렐리우스, 세네카 및 근대 의무론의 원천.', '', '', 'HIGH', 'APPROVED')
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
@@ -406,6 +514,10 @@ VALUES ('west-bc3-colossus-rhodes', '로도스의 거상 완성', '로도스의 
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('phi-013-xunzi-human-nature-bad', '순자의 성악설(性惡說)과 예(禮)를 통한 후천적 교화', '순자의 성악설(性惡說)과 예(禮)를 통한 후천적 교화', 'CHINA', '', 'RELIGION', 'A', -280, -238, 'exact', '인간의 타고난 본성은 이기적 욕망으로 가득 차 악하므로(性惡), 스승과 법도, 예(禮)를 통한 후천적 인위적 교화(僞)가 필수적이라고 주장.', '현실주의 유학과 후대 법가 사상에 지대한 영향.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
 VALUES ('china-bc3-han-feizi', '한비자의 법가 사상 집대성', '한비자의 법가 사상 집대성', 'CHINA', '', 'INSTITUTION', 'B', -280, -233, 'exact', '법(法), 술(術), 세(勢)를 결합하여 군주 전제 통치의 이론을 완성함.', '진시황의 통치 철학이자 중국 제국 통치술의 뼈대.', '', '', 'HIGH', 'APPROVED')
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
@@ -419,6 +531,10 @@ ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summar
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
 VALUES ('china-bc3-dujiangyan', '이빙의 도강언 수리 시설', '이빙의 도강언 수리 시설', 'CHINA', '', 'SCIENCE', 'B', -256, -256, 'exact', '촉나라 민강에 댐 없이 물길을 나누는 자연 친화적 수리시설 축조.', '사천 분지를 ''천부지국(풍요의 땅)''으로 탈바꿈시킴.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('sci-006-archimedes-mechanics-buoyancy', '아르키메데스의 부력 원리와 지렛대 법칙 발견', '아르키메데스의 부력 원리와 지렛대 법칙 발견', 'WEST', '', 'SCIENCE', 'A', -250, -212, 'exact', '목욕탕에서 부력의 원리(유레카!)를 깨닫고, 지렛대·도르래·원주율 계산법(3.14)과 투석기 등 역학 공학 혁신.', '고대 수학과 물리학, 기계공학의 최고 천재.', '', '', 'HIGH', 'APPROVED')
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
@@ -446,11 +562,23 @@ VALUES ('roman-warm-period', '로마 온난기 (Roman Warm Period)', 'Roman Warm
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('art-008-terracotta-army-sculpture', '진시황릉 병마용갱(Terracotta Army)의 대규모 사실주의 조각', '진시황릉 병마용갱(Terracotta Army)의 대규모 사실주의 조각', 'CHINA', '', 'ART_CULTURE', 'A', -246, -208, 'exact', '얼굴 표정과 복식, 머리 모양이 모두 다른 실물 크기 8,000여 구의 점토 군사·군마 조각상 군단.', '고대 동양의 경이로운 사실주의 군상 조각 기술 증명.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
 VALUES ('china-bc3-terracotta', '진시황릉 병마용갱 조성', '진시황릉 병마용갱 조성', 'CHINA', '', 'ART_CULTURE', 'C', -246, -208, 'exact', '실물 크기의 정교한 도용 군단 수천 점을 지하 궁전에 매장.', '진나라의 군사 편제와 놀라운 사실주의 조각 예술 증명.', '', '', 'HIGH', 'APPROVED')
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('sci-007-eratosthenes-earth-circumference', '에라토스테네스의 지구 둘레 과학적 실측', '에라토스테네스의 지구 둘레 과학적 실측', 'WEST', '', 'SCIENCE', 'A', -240, -240, 'exact', '시에네와 알렉산드리아의 하짓날 정오 태양 그림자 각도(7.2도)를 이용해 지구 둘레를 오차 2% 이내로 계산.', '인류 최초의 지구 크기 과학적 측정.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
 VALUES ('west-bc3-eratosthenes', '에라토스테네스의 지구 둘레 측정', '에라토스테네스의 지구 둘레 측정', 'WEST', '', 'SCIENCE', 'A', -240, -240, 'exact', '시에네와 알렉산드리아의 하짓날 그림자 각도를 이용해 지구 둘레를 오차 2% 이내로 측정.', '인류 최초의 과학적 지구 크기 계산.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('phi-014-han-feizi-legalism-statecraft', '한비자의 법가(法家) 사상과 『한비자』 (법·술·세)', '한비자의 법가(法家) 사상과 『한비자』 (법·술·세)', 'CHINA', '', 'RELIGION', 'A', -240, -233, 'exact', '도덕 대신 엄격한 법률(法), 신하를 다스리는 은밀한 통치 기술(術), 군주의 권력과 지위(勢)를 결합한 절대 군주 통치론 완성.', '진시황의 중국 최초 중앙집권 천하통일의 통치 이념.', '', '', 'HIGH', 'APPROVED')
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
@@ -570,7 +698,15 @@ VALUES ('china-bc2-confucian-orthodoxy', '동중서의 건의와 유교의 국�
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('phi-017-dong-zhongshu-confucian-orthodoxy', '동중서의 천인감응설(天人感應說)과 유교 국교화', '동중서의 천인감응설(天人感應說)과 유교 국교화', 'CHINA', '', 'RELIGION', 'A', -134, -130, 'exact', '하늘과 인간은 상호 감응한다는 음양오행설과 유학을 결합하여 한무제에게 건의해 오경박사를 두고 유교를 제국의 통치 이념으로 확립.', '유교가 동아시아 2천 년 관학(官學)으로 자리잡은 결정적 계기.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
 VALUES ('west-bc2-gracchi-reforms', '그라쿠스 형제의 토지 개혁 운동', '그라쿠스 형제의 토지 개혁 운동', 'WEST', '', 'POLITICS', 'A', -133, -121, 'exact', '호민관 티베리우스와 가이우스 그라쿠스가 자영농 육성을 위한 농지법을 추진하다 원로원에 암살당함.', '로마 공화정 말기 내란의 세기(벌족파 vs 평민파) 개막.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('art-009-venus-de-milo-sculpture', '밀로의 비너스(아프로디테) 대리석 조각상 제작', '밀로의 비너스(아프로디테) 대리석 조각상 제작', 'WEST', '', 'ART_CULTURE', 'A', -130, -100, 'exact', '밀로스섬에서 발견된 고전적 단아함과 헬레니즘의 관능미, 8등신 황금비율이 완벽하게 결합된 대리석 누드상.', '서양 미술에서 여성의 인체 미학을 대표하는 불멸의 조각.', '', '', 'HIGH', 'APPROVED')
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
@@ -642,6 +778,10 @@ VALUES ('korea-bc1-okjeo-minmyeoneuri', '옥저의 민며느리제와 골장제(
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('sci-012-jiuzhang-suanshu-china', '동양 수학의 기초 『구장산술(九章算術)』 편찬', '동양 수학의 기초 『구장산술(九章算術)』 편찬', 'CHINA', '', 'SCIENCE', 'A', -100, 100, 'exact', '분수 연산, 연립일차방정식(가우스 소거법 원형), 피타고라스 구고현 정리, 토지 면적 측량 계산법 집대성.', '동아시아 전통 수학의 표준 교본.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
 VALUES ('china-bc1-zhaodi-xuandi-renaissance', '소제·선제의 소선중흥(昭宣中興)', '소제·선제의 소선중흥(昭宣中興)', 'CHINA', '', 'POLITICS', 'A', -87, -49, 'exact', '곽광의 보필과 선제의 유법양용(儒法兩用) 통치로 한무제 시기 피폐해진 민생을 회복함.', '한나라의 정치·사회적 안정과 태평성대 구가.', '', '', 'HIGH', 'APPROVED')
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
@@ -695,6 +835,10 @@ ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summar
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
 VALUES ('korea-bc1-iron-armors-weapons', '고구려·신라 초기 비늘갑옷(찰갑)과 철제 무기', '고구려·신라 초기 비늘갑옷(찰갑)과 철제 무기', 'KOREA', '', 'SCIENCE', 'B', -50, -1, 'exact', '작은 철판을 가죽 끈으로 엮은 찰갑과 강력한 복합궁(맥궁)을 장비한 기병 양성.', '주변 읍락 정복과 고대 국가 성장의 군사적 원동력.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('art-010-laocoon-and-his-sons', '헬레니즘 조각의 극치 『라오콘 군상(Laocoön and His Sons)』', '헬레니즘 조각의 극치 『라오콘 군상(Laocoön and His Sons)』', 'WEST', '', 'ART_CULTURE', 'A', -50, 50, 'exact', '트로이 사제 라오콘과 두 아들이 바다뱀에게 휘감겨 고통스럽게 절규하는 순간의 근육과 표정을 극적으로 묘사.', '르네상스 미켈란젤로에게 결정적 영감을 준 역동적 조각의 걸작.', '', '', 'HIGH', 'APPROVED')
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
@@ -834,6 +978,10 @@ VALUES ('china-ce1-buddhism-white-horse', '명제의 백마사 창건과 불교 
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('art-011-colosseum-amphitheatre-rome', '로마 콜로세움(플라비우스 원형극장) 완공', '로마 콜로세움(플라비우스 원형극장) 완공', 'WEST', '', 'ART_CULTURE', 'A', 70, 80, 'exact', '5만 명을 수용할 수 있는 4층 구조의 거대 타원형 극장으로 도리스·이오니아·코린트 양식 기둥과 아치 결합.', '고대 로마 콘크리트 공학과 대중 엔터테인먼트 건축의 정점.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
 VALUES ('west-ce1-colosseum-built', '로마 콜로세움(플라비우스 원형극장) 완공', '로마 콜로세움(플라비우스 원형극장) 완공', 'WEST', '', 'ART_CULTURE', 'A', 70, 80, 'exact', '베스파시아누스 황제가 착공하고 티투스 황제가 완공한 5만 명 수용 규모의 거대 원형경기장.', '로마 콘크리트 아치 공학의 최고 걸작이자 제국의 위용 과시.', '', '', 'HIGH', 'APPROVED')
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
@@ -882,6 +1030,10 @@ VALUES ('paper-invention-cailun', '채륜의 제지술 개량 및 보급', 'Inve
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('sci-008-cai-lun-papermaking', '후한 채륜의 식물 섬유 제지술 개량 및 대량 보급', '후한 채륜의 식물 섬유 제지술 개량 및 대량 보급', 'CHINA', '', 'SCIENCE', 'A', 105, 105, 'exact', '나무껍질, 마, 넝마, 어망을 활용해 가볍고 내구성 있는 종이(채후지)를 생산하여 죽간과 양피지를 대체.', '인류 문자 지식 보존과 문명 확산에 가장 위대한 기여.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
 VALUES ('west-ce2-trajan-column', '트라야누스 원주 축조', '트라야누스 원주 축조', 'WEST', '', 'ART_CULTURE', 'C', 113, 113, 'exact', '다키아 전쟁 승리를 기념하여 30m 높이의 대리석 원주 표면에 2,500명의 인물이 등장하는 나선형 부조 조각.', '로마 군사 장비와 전쟁사의 생생한 시각적 기록.', '', '', 'HIGH', 'APPROVED')
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
@@ -906,7 +1058,15 @@ VALUES ('china-ce2-zhang-heng-seismoscope', '장형의 지진계(지동의)와 �
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('sci-009-zhang-heng-seismometer', '장형의 세계 최초 지진계(후풍지동의) 제작', '장형의 세계 최초 지진계(후풍지동의) 제작', 'CHINA', '', 'SCIENCE', 'A', 132, 132, 'exact', '내부 관성 진자 메커니즘을 이용해 500km 밖에서 발생한 지진의 방향을 감지하는 정밀 청동 기구 발명.', '고대 정밀 기계 및 지진 관측 공학의 기적적 성취.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
 VALUES ('korea-ce2-chadae-tyranny', '고구려 차대왕의 폭정과 신대왕의 옹립', '고구려 차대왕의 폭정과 신대왕의 옹립', 'KOREA', '', 'POLITICS', 'C', 146, 165, 'exact', '차대왕이 신하들을 숙청하고 폭정을 펴다 명림답부에게 시해되고 신대왕이 즉위.', '고구려 최초의 귀족 정변이자 국상 직제 신설 계기.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('sci-010-ptolemy-astronomy-almagest', '프톨레마이오스의 천동설과 알마게스트(Almagest)', '프톨레마이오스의 천동설과 알마게스트(Almagest)', 'WEST', '', 'SCIENCE', 'A', 150, 150, 'exact', '주전원과 이심원 모델을 적용하여 행성의 겉보기 역행 운동을 설명한 수학적 지구 중심 우주 모델 완성.', '1400년간 서양과 아랍 천문학의 표준 우주관.', '', '', 'HIGH', 'APPROVED')
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
@@ -922,11 +1082,19 @@ VALUES ('korea-ce2-silla-gold-crown-origin', '신라 적석목곽분(돌무지�
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('phi-018-nagarjuna-madhyamaka-sunyata', '나가르주나(용수)의 중관사상(中觀思想)과 공(空, Śūnyatā)', '나가르주나(용수)의 중관사상(中觀思想)과 공(空, Śūnyatā)', 'WEST', '', 'RELIGION', 'A', 150, 200, 'exact', '모든 존재는 고정된 실체가 없다는 공(空)과 집착을 떠난 팔불중도(八不中道)를 수학적 논리로 정립한 대승불교의 최고 논서 『중론』 저술.', '''제2의 붓다''로 불리는 대승불교의 아버지이자 대승 8종의 종조.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
 VALUES ('korea-ce2-silla-adalla-expansion', '신라 아달라이사금의 소백산맥 도로 개척 (죽령·계립령)', '신라 아달라이사금의 소백산맥 도로 개척 (죽령·계립령)', 'KOREA', '', 'INSTITUTION', 'A', 156, 158, 'exact', '경북과 충북을 연결하는 험준한 산악 관문 죽령(158)과 계립령(156)을 개척하여 교통로 확보.', '신라의 북방 진출 및 소백산맥 방어선 구축의 핵심 통로 마련.', '', '', 'HIGH', 'APPROVED')
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
 VALUES ('korea-ce2-silla-wa-conflict', '신라의 왜구 침입 격퇴와 연오랑 세오녀 전승', '신라의 왜구 침입 격퇴와 연오랑 세오녀 전승', 'KOREA', '', 'POLITICS', 'B', 157, 193, 'exact', '영일만에서 일본으로 건너간 연오랑 세오녀 설화와 왜인의 동해안 침략에 맞선 수비전.', '고대 한일 해상 교류와 일월신화의 역사적 반영.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('sci-011-galen-anatomy-physiology', '갈레노스의 해부학과 4체액설 집대성', '갈레노스의 해부학과 4체액설 집대성', 'WEST', '', 'SCIENCE', 'A', 160, 200, 'exact', '원숭이와 돼지 해부를 통해 뇌신경, 척수, 혈관 구조를 밝히고 동맥에 혈액이 흐름을 최초로 증명.', '베살리우스 이전까지 중세 의학의 절대적 권위.', '', '', 'HIGH', 'APPROVED')
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
@@ -1046,6 +1214,10 @@ VALUES ('korea-ce3-baekje-han-river-supremacy', '백제 고이왕의 한강 유�
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('phi-019-plotinus-neoplatonism-the-one', '플로티노스의 신플라톤주의와 ''일자(The One)'' 유출설', '플로티노스의 신플라톤주의와 ''일자(The One)'' 유출설', 'WEST', '', 'RELIGION', 'A', 250, 270, 'exact', '만물은 궁극적인 초월자 ''일자(To Hen)''로부터 지성(Nous)과 영혼(Psyche), 물질로 유출되며 관조를 통해 일자와 합일(황홀경)한다고 주장.', '초기 기독교 교부 철학과 이슬람 신비주의(수피즘)의 모태.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
 VALUES ('korea-ce3-baekje-earthen-wall', '풍납토성 및 몽촌토성 대규모 축조', '풍납토성 및 몽촌토성 대규모 축조', 'KOREA', '', 'INSTITUTION', 'C', 250, 300, 'exact', '한강변에 수백만 명의 인력을 동원한 둘레 3.5km, 높이 11m의 거대한 판축 토성 축조.', '초기 백제 한성(위례성) 왕도의 웅장한 규모 실증.', '', '', 'HIGH', 'APPROVED')
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
@@ -1150,6 +1322,10 @@ VALUES ('korea-ce4-daeseongdong-iron-cuirass', '김해 대성동·복천동 가�
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('art-013-wang-xizhi-lantingji-xu', '서성(書聖) 왕희지의 『난정집서(蘭亭集序)』 행서체 완성', '서성(書聖) 왕희지의 『난정집서(蘭亭集序)』 행서체 완성', 'CHINA', '', 'ART_CULTURE', 'A', 353, 353, 'exact', '324자의 글자 중 ''갈 지(之)''자 20자가 모두 다른 변화무쌍한 필치를 선보인 ''천하제일행서''.', '동양 서예를 독자적 순수 예술로 승격시킨 최고 걸작.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
 VALUES ('china-ce4-wang-xizhi-calligraphy', '왕희지의 난정서(蘭亭序)와 서예 예술의 최고봉', '왕희지의 난정서(蘭亭序)와 서예 예술의 최고봉', 'CHINA', '', 'ART_CULTURE', 'A', 353, 353, 'exact', '난정 모임에서 행서체로 즉흥 작성한 『난정집서』가 ''천하제일행서''로 칭송받음.', '서성(書聖) 왕희지에 의한 동양 서예 미학의 완성.', '', '', 'HIGH', 'APPROVED')
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
@@ -1190,6 +1366,10 @@ VALUES ('west-ce4-theodosius-state-religion', '테오도시우스 1세의 기독
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('art-014-gu-kaizhi-nushi-zhen-tu', '고개지의 『여사잠도(女史箴圖)』와 춘잠토사 선묘화', '고개지의 『여사잠도(女史箴圖)』와 춘잠토사 선묘화', 'CHINA', '', 'ART_CULTURE', 'A', 380, 405, 'exact', '누에고치에서 실을 뽑아내듯 유려하고 끊어지지 않는 철선묘로 궁중 여인들의 자태를 묘사한 인물화.', '중국 전통 회화의 ''이형전신(형상으로 정신을 전함)'' 미학의 원조.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
 VALUES ('china-ce4-gu-kaizhi-painting', '고개지의 『여사잠도』와 중국 인물화의 개조', '고개지의 『여사잠도』와 중국 인물화의 개조', 'CHINA', '', 'ART_CULTURE', 'B', 380, 405, 'exact', '형상으로 정신을 전한다(이형전신)는 원리를 정립하고 유려한 선묘(춘잠토사)로 인물화 창작.', '중국 회화 이론과 고전 인물화의 원조.', '', '', 'HIGH', 'APPROVED')
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
@@ -1226,11 +1406,19 @@ VALUES ('three-kingdoms-korea-flourishing', '삼국시대의 정립과 영토 �
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('phi-020-augustine-city-of-god-confessions', '아우구스티누스의 『고백록』과 『신국론(City of God)』 (교부 철학 완성)', '아우구스티누스의 『고백록』과 『신국론(City of God)』 (교부 철학 완성)', 'WEST', '', 'RELIGION', 'A', 397, 426, 'exact', '플라톤 철학을 기독교 신학과 융합하여 원죄론, 은총론, 지상국과 신의 나라의 역사 섭리를 체계화.', '중세 천 년 서양 기독교 신학과 역사철학의 뼈대.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
 VALUES ('china-ce4-fa-xian-pilgrimage', '법현 스님의 인도 구법 순례 출발', '법현 스님의 인도 구법 순례 출발', 'CHINA', '', 'RELIGION', 'B', 399, 412, 'exact', '60세가 넘은 고령에 육로로 인도로 건너가 불경을 구하고 해로로 귀국하여 『불국기』 저술.', '중국 최초의 실크로드-인도양 횡단 여행기.', '', '', 'HIGH', 'APPROVED')
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
 VALUES ('korea-ce4-gwanggaeto-rescue-silla', '광개토대왕의 신라 구원과 왜군 격퇴 (서기 400년)', '광개토대왕의 신라 구원과 왜군 격퇴 (서기 400년)', 'KOREA', '', 'POLITICS', 'A', 400, 400, 'exact', '신라 내물마립간의 요청으로 보병과 기병 5만을 파견하여 신라 영내와 금관가야 임나가라까지 진격해 왜군 섬멸.', '신라를 고구려의 영향력 아래 두고 전기 가야 연맹의 맹주권 해체 촉발.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('art-015-goguryeo-tomb-murals-muyongchong', '고구려 무용총·수렵도 고분 벽화 프레스코 완성', '고구려 무용총·수렵도 고분 벽화 프레스코 완성', 'KOREA', '', 'ART_CULTURE', 'A', 400, 500, 'exact', '달리는 말 위에서 뒤를 돌아보며 활을 쏘는 파르티안 샷(개마총)과 웅장한 수렵도, 가무 무용도 채색 벽화.', '고구려의 호방한 기상과 동아시아 고대 회화의 최고 걸작(세계유산).', '', '', 'HIGH', 'APPROVED')
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
@@ -1330,6 +1518,10 @@ VALUES ('china-ce5-zu-chongzhi-pi', '조충지의 초정밀 원주율(밀률) �
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('sci-013-zu-chongzhi-pi-precision', '조충지의 초정밀 원주율(밀률 355/113) 계산', '조충지의 초정밀 원주율(밀률 355/113) 계산', 'CHINA', '', 'SCIENCE', 'A', 480, 480, 'exact', '원에 내접하는 24,576각형을 계산하여 원주율을 3.1415926과 3.1415927 사이로 확정(유럽보다 1천 년 앞섬).', '고대 세계 최고 정밀도의 수학 계산 성취.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
 VALUES ('west-ce5-clovis-frankish-catholic', '클로비스 1세의 프랑크 왕국 건국 및 가톨릭 개종', '클로비스 1세의 프랑크 왕국 건국 및 가톨릭 개종', 'WEST', '', 'POLITICS', 'A', 481, 496, 'exact', '메로빙거 왕조 클로비스가 갈리아를 통일하고 아리우스파가 아닌 로마 가톨릭으로 개종.', '게르만 프랑크족과 로마 교회의 결합 및 현대 프랑스·독일의 모태 형성.', '', '', 'HIGH', 'APPROVED')
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
@@ -1398,7 +1590,15 @@ VALUES ('china-ce6-qimin-yaoshu', '가사협의 『제민요술(齊民要術)』
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('sci-015-qimin-yaoshu-agriculture', '가사협의 종합 농업기술서 『제민요술』 편찬', '가사협의 종합 농업기술서 『제민요술』 편찬', 'CHINA', '', 'SCIENCE', 'A', 533, 544, 'exact', '윤작, 접목, 발효 식품, 가축 번식, 종자 보관법을 체계화한 현존 최고(最古)의 농업 백과사전.', '동아시아 농경 과학의 기념비적 집대성.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
 VALUES ('west-ce6-belisarius-reconquest', '벨리사리우스 장군의 고토 회복 (이탈리아·북아프리카 재정복)', '벨리사리우스 장군의 고토 회복 (이탈리아·북아프리카 재정복)', 'WEST', '', 'POLITICS', 'A', 533, 554, 'exact', '반달 왕국을 멸망시키고 동고트 왕국을 격파하여 로마, 라벤나, 카르타고를 동로마 제국 영토로 회복.', '로마 제국의 지중해 재통합(일시적) 달성.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('art-016-hagia-sophia-byzantine-mosaic', '콘스탄티노폴리스 하기아 소피아 대성당과 황금 모자이크', '콘스탄티노폴리스 하기아 소피아 대성당과 황금 모자이크', 'WEST', '', 'ART_CULTURE', 'A', 537, 560, 'exact', '빛이 쏟아지는 거대한 펜던티브 돔과 유리·금박 테세라를 이용한 그리스도 판토크라토르 모자이크 예술.', '비잔틴 제국 기독교 예술과 건축 공학의 최고봉.', '', '', 'HIGH', 'APPROVED')
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
@@ -1423,6 +1623,10 @@ ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summar
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
 VALUES ('china-ce6-fubing-system-origin', '서위 우문태의 부병제(府兵制) 창설', '서위 우문태의 부병제(府兵制) 창설', 'CHINA', '', 'INSTITUTION', 'B', 550, 550, 'exact', '농민을 병사로 징집하여 평소에는 농사짓고 전시에는 출정하는 병농일치 군사 제도 확립.', '수·당 제국의 강력한 군사력의 원천.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('art-018-baekje-gilt-bronze-incense-burner', '백제 금동대향로(국보) 주조', '백제 금동대향로(국보) 주조', 'KOREA', '', 'ART_CULTURE', 'A', 550, 600, 'exact', '용 받침대 위에 연꽃과 74개 봉우리, 신선, 악사 5명, 동물 39마리를 완벽한 비례로 조각한 61.8cm 대향로.', '백제 금속 공예 미술의 정점이자 도교와 불교 사상의 완벽한 융합.', '', '', 'HIGH', 'APPROVED')
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
@@ -1471,6 +1675,10 @@ ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summar
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
 VALUES ('china-ce6-yan-zhitui-family-instructions', '안지추의 『안씨가훈(顔氏家訓)』', '안지추의 『안씨가훈(顔氏家訓)』', 'CHINA', '', 'ART_CULTURE', 'C', 589, 595, 'exact', '남북조의 격변을 겪은 지식인이 자손 교육과 가문 경영, 처세술을 기록한 고전.', '동양 가정 교육서의 최고 규범.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('art-017-gregorian-chant-codification', '교황 그레고리우스 1세의 그레고리오 성가(Gregorian Chant) 집대성', '교황 그레고리우스 1세의 그레고리오 성가(Gregorian Chant) 집대성', 'WEST', '', 'ART_CULTURE', 'A', 590, 604, 'exact', '반주 없는 단선율(Monophony) 라틴어 전례 찬트를 수집·체계화하고 네우마(Neume) 악보 표기법의 기초 마련.', '서양 클래식 음악과 오선보 기보법의 모태.', '', '', 'HIGH', 'APPROVED')
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
@@ -1534,6 +1742,10 @@ VALUES ('korea-ce7-cheomseongdae-astronomy', '신라 선덕여왕의 첨성대(�
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('sci-014-cheomseongdae-astronomy-korea', '신라 선덕여왕의 첨성대 축조와 동양 천문학 발전', '신라 선덕여왕의 첨성대 축조와 동양 천문학 발전', 'KOREA', '', 'SCIENCE', 'A', 634, 647, 'exact', '362개의 돌과 27단 구조로 1년 일수와 24절기를 상징하며 일식, 혜성, 행성 궤도를 관측한 국보급 천문대.', '동양에 현존하는 가장 오래된 천문대.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
 VALUES ('china-ce7-nestorian-monument-changan', '경교(기독교 네스토리우스파)의 장안 전래', '경교(기독교 네스토리우스파)의 장안 전래', 'CHINA', '', 'RELIGION', 'C', 635, 635, 'exact', '페르시아 사제 아라본이 장안에 도착하자 당태종이 경교 사원(대진사) 건립을 허가함.', '기독교의 최초 중국 전래와 다종교 융합.', '', '', 'HIGH', 'APPROVED')
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
@@ -1570,6 +1782,10 @@ VALUES ('korea-ce7-silla-tripartite-unification', '신라의 삼국 통일 완�
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('phi-021-wonhyo-hwajaeng-one-mind', '신라 원효대사의 화쟁사상(和諍思想)과 일심(一心)·무애행', '신라 원효대사의 화쟁사상(和諍思想)과 일심(一心)·무애행', 'KOREA', '', 'RELIGION', 'A', 660, 686, 'exact', '『십문화쟁론』과 『대승기신론소』를 통해 불교 종파 간의 극심한 교리 대립을 더 높은 차원의 ''일심''으로 조화·융합하고 표주박을 치며 민중 교화.', '한국 불교의 독창적인 화쟁적 전통과 대승 불교 철학의 세계적 금자탑.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
 VALUES ('west-ce7-umayyad-caliphate-damascus', '우마이야 왕조의 성립과 다마스쿠스 천도', '우마이야 왕조의 성립과 다마스쿠스 천도', 'WEST', '', 'POLITICS', 'A', 661, 661, 'exact', '무아위야 1세가 알리를 제치고 세습 칼리프 왕조를 창건하여 시리아 다마스쿠스에 도읍함.', '아랍 제국이 중앙아시아에서 이베리아 반도(스페인)까지 팽창하는 전초기지.', '', '', 'HIGH', 'APPROVED')
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
@@ -1591,6 +1807,10 @@ ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summar
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
 VALUES ('west-ce7-greek-fire-constantinople-siege', '그리스의 불(Greek Fire)과 제1차 콘스탄티노폴리스 공방전', '그리스의 불(Greek Fire)과 제1차 콘스탄티노폴리스 공방전', 'WEST', '', 'SCIENCE', 'A', 674, 678, 'exact', '물 위에서도 불타는 화학 무기 그리스의 불을 개발하여 우마이야 아랍 함대의 콘스탄티노폴리스 포위를 완파함.', '서유럽으로의 이슬람 확장을 동쪽 관문에서 결정적으로 저지.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('phi-022-huineng-platform-sutra-sudden-enlightenment', '혜능의 『육조단경』과 남종선(禪)의 돈오(頓悟) 사상', '혜능의 『육조단경』과 남종선(禪)의 돈오(頓悟) 사상', 'CHINA', '', 'RELIGION', 'A', 677, 713, 'exact', '''본래 한 물건도 없다(本來無一物)''며 경전 문자나 점진적 수행에 얽매이지 않고 자신의 본성을 직관해 단번에 부처가 되는 돈오성불(頓悟成佛) 제창.', '동아시아 선종(Zen) 불교를 주류로 확립시킨 일대 혁명.', '', '', 'HIGH', 'APPROVED')
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
@@ -1634,6 +1854,10 @@ VALUES ('west-ce8-byzantine-iconoclasm', '비잔틴 제국의 성상 파괴 운�
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('art-020-li-bai-du-fu-tang-poetry', '이백과 두보의 당시(唐詩) 문학의 황금기', '이백과 두보의 당시(唐詩) 문학의 황금기', 'CHINA', '', 'ART_CULTURE', 'A', 730, 770, 'exact', '시선(詩仙) 이백의 초월적 낭만주의와 시성(詩聖) 두보의 엄격한 율시(칠언율시)와 애민 사실주의 시편 집대성.', '동양 서정 문학의 영원한 최고봉.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
 VALUES ('korea-ce8-balhae-muwang-dengzhou', '발해 무왕의 산둥반도 등주 공격 (장문휴 장군, 732년)', '발해 무왕의 산둥반도 등주 공격 (장문휴 장군, 732년)', 'KOREA', '', 'POLITICS', 'A', 732, 732, 'exact', '당나라의 흑수말갈 연합 포위망에 선제 타격으로 장문휴 장군이 해군을 이끌고 당나라 등주를 기습하여 자사 유준을 사살함.', '발해의 막강한 군사력과 독자적 패권 의지 과시.', '', '', 'HIGH', 'APPROVED')
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
@@ -1670,7 +1894,15 @@ VALUES ('korea-ce8-mugu-jeonggwang-dharani', '무구정광대다라니경 목판
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('sci-018-mugu-jeonggwang-woodblock', '통일신라 『무구정광대다라니경』 목판 인쇄', '통일신라 『무구정광대다라니경』 목판 인쇄', 'KOREA', '', 'SCIENCE', 'A', 751, 751, 'exact', '불국사 삼층석탑에서 출토된 닥종이 두루마리 인쇄물로 현존하는 세계에서 가장 오래된 목판 인쇄본.', '한국 고대 인쇄술과 닥종이 제지술의 독보적 위상 입증.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
 VALUES ('woodblock-printing-dharani', '무구정광대다라니경과 목판 인쇄술', 'Mugu Jeonggwang Dharani Sutra & Woodblock Printing', 'KOREA', '통일신라', 'SCIENCE', 'B', 751, 751, 'approximate', '경주 불국사 석가탑에서 발견된 현존 세계 최고(最古)의 목판 인쇄물로 뛰어난 인쇄 기술과 종이 품질을 입증함.', '동아시아 목판 인쇄 기술의 높은 수준과 한지의 내구성을 증명하는 유네스코 기록유산급 가치.', '불교 경전 보급과 공덕 축적을 위한 인쇄 기술 발전.', '고려 대장경 조판으로 이어지는 인쇄 문화의 원류.', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('art-019-bulguksa-seokguram-buddha', '통일신라 석굴암 본존불과 불국사 석조 건축 (김대성)', '통일신라 석굴암 본존불과 불국사 석조 건축 (김대성)', 'KOREA', '', 'ART_CULTURE', 'A', 751, 774, 'exact', '백색 화강암 인공 돔 석굴에 3.5m 크기의 완벽한 황금비율 본존불과 십대제자 부조 조각 완성(유네스코 세계유산).', '동양 불교 조각사상 가장 자비롭고 완벽한 비례를 갖춘 최고 걸작.', '', '', 'HIGH', 'APPROVED')
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
@@ -1746,11 +1978,19 @@ VALUES ('china-ce9-gunpowder-invention', '연단술 도사들에 의한 흑색 �
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('sci-017-chinese-gunpowder-invention', '중국 도사들의 흑색 화약(초석·유황·목탄) 발명', '중국 도사들의 흑색 화약(초석·유황·목탄) 발명', 'CHINA', '', 'SCIENCE', 'A', 808, 850, 'exact', '불로불사약을 만들던 연단술 과정에서 폭발력을 가진 화약을 발견하고 화창, 비화 등 군사용 무기로 발전.', '인류 4대 발명의 하나로 전 세계 군사 무기 체계의 혁명.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
 VALUES ('china-ce9-flying-money-feiqian', '비전(飛錢, 어음)의 등장과 신용 경제 발전', '비전(飛錢, 어음)의 등장과 신용 경제 발전', 'CHINA', '', 'ECONOMY', 'C', 810, 830, 'exact', '무거운 동전을 들고 다닐 필요 없이 장안과 지방에서 환어음을 통해 대금을 결제하는 신용 화폐 태동.', '송대 세계 최초의 지폐(교자) 출현의 모태.', '', '', 'HIGH', 'APPROVED')
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
 VALUES ('korea-ce9-balhae-seonwang-peak', '발해 선왕 대인수의 영토 극대화와 ''해동성국'' 칭호', '발해 선왕 대인수의 영토 극대화와 ''해동성국'' 칭호', 'KOREA', '', 'POLITICS', 'A', 818, 830, 'exact', '요동반도에서 연해주, 흑룡강에 이르는 북방 유목 부족들을 복속시키고 5경 15부 62주 체제 완성.', '발해 역사상 최대 판도를 개척한 대제국 전성기.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('sci-016-al-khwarizmi-algebra-concept', '알 콰리즈미의 대수학(Algebra) 창안과 알고리즘 기원', '알 콰리즈미의 대수학(Algebra) 창안과 알고리즘 기원', 'WEST', '', 'SCIENCE', 'A', 820, 830, 'exact', '이차방정식의 해법과 미지수 계산법을 정리한 『알 자브르』를 저술하고 0을 포함한 인도-아라비아 숫자 전파.', '대수학(Algebra) 및 알고리즘(Algorithm) 어원의 창시자.', '', '', 'HIGH', 'APPROVED')
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
@@ -1851,6 +2091,10 @@ ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summar
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
 VALUES ('korea-ce9-later-three-kingdoms-origin', '후삼국 시대 개막 (견훤의 후백제 완산주 건국, 892/900년)', '후삼국 시대 개막 (견훤의 후백제 완산주 건국, 892/900년)', 'KOREA', '', 'POLITICS', 'A', 892, 900, 'exact', '신라 서남해 군인 출신 견훤이 무진주를 거쳐 전주(완산주)에서 백제 부흥을 기치로 후백제를 건국함.', '신라 천년 사직의 해체와 후삼국 분열의 본격화.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('phi-023-al-farabi-islamic-political-philosophy', '알 파라비의 이슬람 철학과 『이상도시론(The Virtuous City)』', '알 파라비의 이슬람 철학과 『이상도시론(The Virtuous City)』', 'WEST', '', 'RELIGION', 'A', 900, 950, 'exact', '아리스토텔레스와 플라톤 철학을 이슬람 신학과 융합하여 철학자-예언자가 다스리는 이상 국가 모델 제시.', '아리스토텔레스에 이은 ''제2의 스승''으로 불리는 아랍 철학의 아버지.', '', '', 'HIGH', 'APPROVED')
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
@@ -1990,6 +2234,10 @@ VALUES ('korea-ce11-hyeonjong-administrative-reform', '고려 현종의 5도 양
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('sci-019-ibn-al-haytham-optics', '이븐 알 하이탐(알하젠)의 『광학의 서』와 카메라 옵스큐라', '이븐 알 하이탐(알하젠)의 『광학의 서』와 카메라 옵스큐라', 'WEST', '', 'SCIENCE', 'A', 1011, 1021, 'exact', '빛이 눈에서 나오는 것이 아니라 물체에서 반사되어 눈으로 들어온다는 원리를 실험으로 증명하고 핀홀 카메라 제작.', '현대 광학과 과학적 실험 방법론의 선구자.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
 VALUES ('korea-ce11-first-tripitaka-koreana', '고려 초조대장경(初雕大藏經) 조판 시작 (1011년)', '고려 초조대장경(初雕大藏經) 조판 시작 (1011년)', 'KOREA', '', 'ART_CULTURE', 'B', 1011, 1087, 'exact', '거란의 침략을 부처의 가호로 격퇴하고자 6천여 권에 달하는 거대한 대장경 목판 조판 착수.', '고려 목판 인쇄 기술의 집약체이자 팔만대장경의 원형.', '', '', 'HIGH', 'APPROVED')
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
@@ -1999,6 +2247,10 @@ ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summar
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
 VALUES ('korea-ce11-gang-gamchan-gwiju', '강감찬 장군의 귀주대첩 (고려-거란 전쟁 종결, 1019년)', '강감찬 장군의 귀주대첩 (고려-거란 전쟁 종결, 1019년)', 'KOREA', '', 'POLITICS', 'A', 1018, 1019, 'exact', '거란 소배압의 10만 정예 침략군을 흥화진 수공에 이어 귀주 벌판에서 배후 기병 협공으로 전멸시킴(수천 명만 생환).', '고려를 동북아 세력 균형의 중심 패권국으로 우뚝 세운 구국의 대승.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('sci-020-avicenna-canon-medicine', '이븐 시나(아비센나)의 의학정전(The Canon of Medicine)', '이븐 시나(아비센나)의 의학정전(The Canon of Medicine)', 'WEST', '', 'SCIENCE', 'A', 1020, 1025, 'exact', '전염병의 공기 전파, 검역 격리법, 약리학, 암 수술법을 총망라한 14권의 의학 대백과사전 완성.', '중세 유럽 및 이슬람 의과대학에서 600년간 표준 교재 사용.', '', '', 'HIGH', 'APPROVED')
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
@@ -2019,6 +2271,10 @@ ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summar
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
 VALUES ('china-ce11-movable-type-bi-sheng', '필승(畢昇)의 교니 활판 인쇄술 발명 (1040년대)', '필승(畢昇)의 교니 활판 인쇄술 발명 (1040년대)', 'CHINA', '', 'SCIENCE', 'A', 1041, 1048, 'exact', '점토를 구워 활자를 만들고 송진과 밀랍으로 조판하는 세계 최초의 가동 활판 인쇄 기술 개발.', '구텐베르크보다 400년 앞선 활판 인쇄 기술의 원류.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('sci-022-bi-sheng-movable-clay-type', '필승의 찰흙 활자(교니 활판) 인쇄술 발명', '필승의 찰흙 활자(교니 활판) 인쇄술 발명', 'CHINA', '', 'SCIENCE', 'A', 1041, 1048, 'exact', '점토를 구워 개별 활자를 만들고 송진과 밀랍 판 위에 배열해 인쇄하는 가동 활자 기술 최초 개발.', '구텐베르크 활판 인쇄보다 400년 앞선 활자 인쇄의 효시.', '', '', 'HIGH', 'APPROVED')
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
@@ -2054,6 +2310,10 @@ VALUES ('china-ce11-zhou-dunyi-taiji', '주돈이의 『태극도설』과 신�
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('art-022-bayeux-tapestry-embroidery', '바이외 태피스트리(Bayeux Tapestry) 70m 자수 서사화', '바이외 태피스트리(Bayeux Tapestry) 70m 자수 서사화', 'WEST', '', 'ART_CULTURE', 'A', 1070, 1080, 'exact', '노르만 정복과 헤이스팅스 전투, 핼리 혜성을 양모 실로 수놓은 70m 길이의 아마포 두루마리 자수.', '중세 시각 예술과 역사 기록화의 최고 걸작(유네스코 세계기록유산).', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
 VALUES ('west-ce11-bayeux-tapestry', '바이외 태피스트리(Bayeux Tapestry) 완성', '바이외 태피스트리(Bayeux Tapestry) 완성', 'WEST', '', 'ART_CULTURE', 'C', 1070, 1080, 'exact', '노르만 정복과 핼리 혜성 출현, 중세 무기 장비를 70m 길이의 아마포에 자수로 수놓은 기록 예술.', '중세 시각 예술과 역사 기록의 최고 유물.', '', '', 'HIGH', 'APPROVED')
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
@@ -2063,6 +2323,10 @@ ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summar
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
 VALUES ('west-ce11-walk-to-canossa', '카노사의 굴욕 (교황 그레고리우스 7세 vs 하인리히 4세, 1077년)', '카노사의 굴욕 (교황 그레고리우스 7세 vs 하인리히 4세, 1077년)', 'WEST', '', 'POLITICS', 'A', 1077, 1077, 'exact', '서임권 투쟁 중 파문당한 신성로마 황제 하인리히 4세가 눈 덮인 카노사 성문 밖에서 3일간 무릎 꿇고 용서를 빎.', '교황권이 세속 황제권을 압도한 중세 최고 권력의 상징적 사건.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('phi-024-anselm-ontological-argument', '안셀무스의 존재론적 신 존재 증명 (『프로슬로기온』)', '안셀무스의 존재론적 신 존재 증명 (『프로슬로기온』)', 'WEST', '', 'RELIGION', 'A', 1077, 1078, 'exact', '''이보다 더 큰 것을 생각할 수 없는 완전한 존재''는 개념 속에만 있을 수 없고 필연적으로 현실에 실재해야 한다는 순수 연역 증명.', '스콜라 철학과 서양 합리론 존재론의 가장 유명한 논증.', '', '', 'HIGH', 'APPROVED')
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
@@ -2083,6 +2347,10 @@ ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summar
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
 VALUES ('china-ce11-shen-kuo-dream-pool', '심괄의 『몽계필담(夢溪筆談)』과 나침반 편각 발견', '심괄의 『몽계필담(夢溪筆談)』과 나침반 편각 발견', 'CHINA', '', 'SCIENCE', 'A', 1086, 1093, 'exact', '자침이 진북을 가리키지 않고 약간 기운다는 자편각(Magnetic Declination)을 인류 최초로 기록하고 석유, 지질학, 천문학 해설.', '중국 고대 과학 기술의 백과사전적 최고 저작.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('sci-021-shen-kuo-magnetic-declination', '심괄의 나침반 자편각 발견과 『몽계필담』', '심괄의 나침반 자편각 발견과 『몽계필담』', 'CHINA', '', 'SCIENCE', 'A', 1086, 1093, 'exact', '자석 바늘이 가리키는 자북과 진북이 일치하지 않는다는 자편각(Magnetic Declination)을 인류 최초로 기록.', '대양 원양 항해술을 가능하게 한 항법 과학의 기초.', '', '', 'HIGH', 'APPROVED')
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
@@ -2107,6 +2375,10 @@ ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summar
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
 VALUES ('korea-ce11-goryeo-coin-haedong-tongbo', '고려 주전도감 설치와 해동통보·삼한통보 주조', '고려 주전도감 설치와 해동통보·삼한통보 주조', 'KOREA', '', 'ECONOMY', 'C', 1097, 1102, 'exact', '의천의 건의로 숙종 때 화폐 주조 관청을 두고 동전(해동통보)과 은화(은병·활구) 주조.', '물품 화폐(쌀·포)를 넘어 금속 화폐 유통을 꾀한 경제 선진화 정책.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('art-024-zhang-zeduan-along-the-river', '장택단의 『청명상하도(淸明上河圖)』 두루마리 풍속화', '장택단의 『청명상하도(淸明上河圖)』 두루마리 풍속화', 'CHINA', '', 'ART_CULTURE', 'A', 1101, 1125, 'exact', '북송 수도 변경의 번화한 홍교 다리, 낙타 상단, 운하 배, 주막, 814명의 인물을 세밀화로 포착한 5.28m 명화.', '중국 회화사상 가장 위대한 도시 풍속 기록 예술.', '', '', 'HIGH', 'APPROVED')
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
@@ -2174,6 +2446,10 @@ VALUES ('korea-ce12-samguk-sagi-compilation', '김부식의 『삼국사기(三�
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('art-021-goryeo-sangam-celadon-vase', '고려 상감청자(청자상감운학문매병)의 비색 공예 완성', '고려 상감청자(청자상감운학문매병)의 비색 공예 완성', 'KOREA', '', 'ART_CULTURE', 'A', 1150, 1200, 'exact', '구름 사이를 날아오르는 69마리의 학을 흑백 상감으로 새기고 비취색 비색 유약을 입힌 고려 대표 국보 매병.', '송나라 사신 서긍도 『고려도경』에서 ''천하제일''로 극찬한 세계적 도예 걸작.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
 VALUES ('korea-ce12-inlay-celadon-sangam', '고려 상감청자(象嵌靑磁) 기법의 완성', '고려 상감청자(象嵌靑磁) 기법의 완성', 'KOREA', '', 'ART_CULTURE', 'A', 1150, 1200, 'exact', '흙 표면을 파내고 백토와 흑토를 메워 넣어 학, 구름, 국화 문양을 표현하는 독보적인 상감 기법(청자상감운학문매병) 완성.', '동양 도자기 역사상 오직 고려인만이 창안한 최고 독창적 도예 기술.', '', '', 'HIGH', 'APPROVED')
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
@@ -2198,7 +2474,15 @@ VALUES ('china-ce12-jin-dynasty-sinicization', '금 세종의 ''대정지치(大
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('art-023-notre-dame-gothic-cathedral', '파리 노트르담 대성당 완공과 고딕 스테인드글라스 (장미창)', '파리 노트르담 대성당 완공과 고딕 스테인드글라스 (장미창)', 'WEST', '', 'ART_CULTURE', 'A', 1163, 1250, 'exact', '플라잉 버트레스와 리브 볼트로 벽을 허물고 거대한 원형 장미창 스테인드글라스를 통해 천상의 빛을 구현.', '중세 서유럽 고딕 건축 예술의 최고 상징.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
 VALUES ('korea-ce12-military-revolt-1170', '무신정변(武臣政變) 발발 (1170년)과 무신정권 개막', '무신정변(武臣政變) 발발 (1170년)과 무신정권 개막', 'KOREA', '', 'POLITICS', 'A', 1170, 1170, 'exact', '문벌 귀족의 무신 차별과 보현원 횡포에 맞서 정중부, 이의방, 이고 등이 정변을 일으켜 문관들을 학살하고 정권 장악.', '100년간 지속된 무신 집권기(1170~1270)의 개막과 문벌 귀족 사회 붕괴.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('phi-025-zhu-xi-neo-confucianism-sishu', '주희(주자)의 성리학(性理學) 집대성과 사서집주(四書集註)', '주희(주자)의 성리학(性理學) 집대성과 사서집주(四書集註)', 'CHINA', '', 'RELIGION', 'A', 1170, 1200, 'exact', '우주의 궁극 원리인 이(理)와 질료적 에너지인 기(氣)의 이기론(理氣論), 성즉리(性卽理), 격물치지(格物致知)를 체계화.', '송·명·청과 조선 500년 국가 공인 최고 통치 이념이자 유학의 르네상스.', '', '', 'HIGH', 'APPROVED')
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
@@ -2210,11 +2494,19 @@ VALUES ('korea-ce12-mangisi-mangsoi-rebellion', '망이·망소이의 난 (공�
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('phi-026-averroes-double-truth-aristotle', '이븐 루슈드(아베로에스)의 아리스토텔레스 주해와 이성적 합리주의', '이븐 루슈드(아베로에스)의 아리스토텔레스 주해와 이성적 합리주의', 'WEST', '', 'RELIGION', 'A', 1180, 1198, 'exact', '종교적 신앙과 철학적 이성이 모순되지 않고 각자의 영역에서 진리를 추구한다는 주해를 저술하여 서유럽에 아리스토텔레스 철학 역수출.', '13세기 서유럽 라틴 아베로에스주의와 르네상스 지적 각성의 불꽃.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
 VALUES ('west-ce12-third-crusade-saladin-richard', '제3차 십자군 원정과 살라딘 vs 사자심왕 리처드', '제3차 십자군 원정과 살라딘 vs 사자심왕 리처드', 'WEST', '', 'POLITICS', 'A', 1187, 1192, 'exact', '살라딘의 하틴 전투 승리로 예루살렘이 함락되자 리처드 1세 등이 출정하여 야파 조약으로 기독교 순례자 방문권 확보.', '중세 기사도 정신의 정수이자 이슬람-기독교 공존 협정.', '', '', 'HIGH', 'APPROVED')
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
 VALUES ('korea-ce12-jinul-jogye-buddhism', '보조국사 지눌의 정혜결사(定慧結社)와 조계종 확립', '보조국사 지눌의 정혜결사(定慧結社)와 조계종 확립', 'KOREA', '', 'RELIGION', 'B', 1190, 1200, 'exact', '송광사(수선사)에서 승려들의 세속 타락을 비판하고 ''돈오점수(頓悟漸修)''와 ''정혜쌍수''를 주창하여 선종 중심 교선 통합.', '한국 불교의 최대 종파 대한불교 조계종의 사상적 종조.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('phi-028-chinul-don-o-jeom-su-korea', '고려 지눌의 정혜쌍수(定慧雙修)와 돈오점수(頓悟漸修)', '고려 지눌의 정혜쌍수(定慧雙修)와 돈오점수(頓悟漸修)', 'KOREA', '', 'RELIGION', 'A', 1190, 1210, 'exact', '선종의 직관적 깨달음(돈오) 후에도 끊임없이 번뇌를 닦아나가는 점수(점진적 수행)와 선교 통합의 조계종 개창.', '한국 불교를 대표하는 독보적인 조계종 수행 철학의 기틀.', '', '', 'HIGH', 'APPROVED')
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
@@ -2262,6 +2554,10 @@ VALUES ('korea-ce13-sangjeong-gogeum-yemun', '이규보의 『상정고금예문
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('sci-023-sangjeong-gogeum-yemun-metal-type', '고려 『상정고금예문』 세계 최초 금속활자 인쇄 기록', '고려 『상정고금예문』 세계 최초 금속활자 인쇄 기록', 'KOREA', '', 'SCIENCE', 'A', 1234, 1241, 'exact', '강화도 피난 중 주자(금속활자)로 50권 28부를 인쇄했다고 이규보의 『동국이상국집』에 공식 기록.', '인류 최초의 금속활자 인쇄술 창안국 입증.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
 VALUES ('korea-ce13-hyangyak-gugeupbang', '『향약구급방(鄕藥救急方)』 편찬 (현존 최고(最古) 의학서)', '『향약구급방(鄕藥救急方)』 편찬 (현존 최고(最古) 의학서)', 'KOREA', '', 'SCIENCE', 'B', 1236, 1251, 'exact', '비싼 중국 수입 약재 대신 산천에서 쉽게 구할 수 있는 180여 종의 국산 향약초와 응급 처방을 한글 이두로 기록.', '한국 자주적 향약 의학의 시초이자 보물.', '', '', 'HIGH', 'APPROVED')
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
@@ -2291,6 +2587,10 @@ ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summar
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
 VALUES ('west-ce13-simon-de-montfort-parliament', '시몽 드 몽포르의 의회 소집 (영국 의회의 기원, 1265년)', '시몽 드 몽포르의 의회 소집 (영국 의회의 기원, 1265년)', 'WEST', '', 'INSTITUTION', 'B', 1265, 1265, 'exact', '헨리 3세에 맞서 귀족뿐 아니라 각 주(Shire)의 기사 2명과 도시(Borough)의 시민 대표 2명을 최초로 의회에 출석시킴.', '영국 하원(House of Commons)과 대의 민주주의 제도의 효시.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('phi-027-thomas-aquinas-summa-theologiae', '토마스 아퀴나스의 『신학대전(Summa Theologiae)』 (스콜라 철학의 정점)', '토마스 아퀴나스의 『신학대전(Summa Theologiae)』 (스콜라 철학의 정점)', 'WEST', '', 'RELIGION', 'A', 1265, 1274, 'exact', '''은총은 자연을 파괴하지 않고 완성한다''며 아리스토텔레스 이성 철학과 기독교 계시 신학을 5대 신 존재 증명으로 완벽하게 조화.', '가톨릭 교회의 공인 철학(토미즘)이자 중세 서양 철학의 최고봉.', '', '', 'HIGH', 'APPROVED')
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
@@ -2330,6 +2630,10 @@ VALUES ('china-ce13-four-class-system-yuan', '원나라의 4계급 신분제 (�
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('sci-025-guo-shoujing-shoushi-calendar-calc', '곽수경의 수시력 제정과 1년 365.2425일 정밀 계산', '곽수경의 수시력 제정과 1년 365.2425일 정밀 계산', 'CHINA', '', 'SCIENCE', 'A', 1280, 1280, 'exact', '간의 등 첨단 관측 기구를 제작하여 현대 그레고리력과 완전히 일치하는 초정밀 역법 계산.', '동양 고대 천문학 역법 기술의 최고 정점.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
 VALUES ('korea-ce13-cotton-plant-mun-ikjeom', '문익점의 목화씨 도입과 정천익의 물레 방적 기술 (1363년 예비 형성)', '문익점의 목화씨 도입과 정천익의 물레 방적 기술 (1363년 예비 형성)', 'KOREA', '', 'SCIENCE', 'B', 1280, 1300, 'exact', '원나라와의 빈번한 교류 속에서 남방의 면화 재배 정보가 유입되어 고려 의생활 혁명의 전조 형성.', '삼베와 모시에서 따뜻한 무명옷으로의 의복 혁명 준비.', '', '', 'HIGH', 'APPROVED')
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
@@ -2354,11 +2658,23 @@ VALUES ('little-ice-age-start', '14세기 소빙기 시작과 기후 한랭화',
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('art-026-giotto-arena-chapel-frescoes', '조토 디 본도네의 아레나 예배당 프레스코화 (르네상스 미술의 효시)', '조토 디 본도네의 아레나 예배당 프레스코화 (르네상스 미술의 효시)', 'WEST', '', 'ART_CULTURE', 'A', 1305, 1305, 'exact', '평면적 중세 이콘을 벗어나 인물의 감정(유다의 입맞춤, 애도)과 3차원 공간 입체감을 최초로 표현.', '서양 회화에 사실주의와 인간미를 불어넣은 근대 미술의 아버지.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('art-025-dante-divine-comedy-poem', '단테 알리기에리의 서사시 『신곡(La Divina Commedia)』', '단테 알리기에리의 서사시 『신곡(La Divina Commedia)』', 'WEST', '', 'ART_CULTURE', 'A', 1308, 1320, 'exact', '지옥(Inferno), 연옥(Purgatorio), 천국(Paradiso)을 3운구법(Terza Rima) 이탈리아 속어로 순례하는 대작.', '중세 기독교 세계관의 총결산이자 르네상스 문학의 출발점.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
 VALUES ('west-ce14-dante-divine-comedy-completion', '단테의 대서사시 『신곡(Divina Commedia)』 완성 (1320년)', '단테의 대서사시 『신곡(Divina Commedia)』 완성 (1320년)', 'WEST', '', 'ART_CULTURE', 'B', 1308, 1320, 'exact', '베르길리우스와 베아트리체의 인도로 지옥, 연옥, 천국을 순례하는 3부작 14,233행의 이탈리아 운문 서사시.', '중세 기독교 세계관의 총결산이자 르네상스를 여는 문학의 정점.', '', '', 'HIGH', 'APPROVED')
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
 VALUES ('west-ce14-avignon-papacy-schism', '아비뇽 유수(1309~1377)와 서구 대분열(1378~1417)', '아비뇽 유수(1309~1377)와 서구 대분열(1378~1417)', 'WEST', '', 'RELIGION', 'A', 1309, 1378, 'exact', '프랑스 필리프 4세가 교황청을 아비뇽으로 강제 이전시키고, 이후 로마와 아비뇽에서 두 명의 교황이 난립하며 상호 파문.', '교황권의 처참한 추락과 위클리프·후스의 종교개혁 선구 운동 촉발.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('phi-029-william-of-ockham-razor-nominalism', '윌리엄 오컴의 유명론(Nominalism)과 ''오컴의 면도날'' 법칙', '윌리엄 오컴의 유명론(Nominalism)과 ''오컴의 면도날'' 법칙', 'WEST', '', 'RELIGION', 'A', 1320, 1340, 'exact', '보편자는 실재하지 않고 단지 이름(말)에 불과하며, 필요 이상으로 가정을 늘려서는 안 된다는 경제성의 원리(면도날) 제시.', '중세 보편논쟁을 종식시키고 근대 경험론과 자연과학의 길을 연 분기점.', '', '', 'HIGH', 'APPROVED')
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
@@ -2422,7 +2738,19 @@ VALUES ('korea-ce14-jikji-movable-metal-type', '『직지심체요절(백운화�
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('phi-030-ibn-khaldun-muqaddimah-sociology', '이븐 칼둔의 역사철학서 『무깟디마(역사서설)』와 아사비야(연대의식)', '이븐 칼둔의 역사철학서 『무깟디마(역사서설)』와 아사비야(연대의식)', 'WEST', '', 'RELIGION', 'A', 1377, 1377, 'exact', '유목민의 집단 연대감(아사비야)과 정주 도시 문명의 사치·부패로 인한 국가의 4단계 순환 흥망성쇠 법칙을 과학적으로 분석.', '근대 사회학, 인구학, 역사철학의 진정한 선구자.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('sci-024-jikji-metal-type-extant', '청주 흥덕사 『직지심체요절』 금속활자본 인쇄 (현존 최고)', '청주 흥덕사 『직지심체요절』 금속활자본 인쇄 (현존 최고)', 'KOREA', '', 'SCIENCE', 'A', 1377, 1377, 'exact', '금속활자로 인쇄된 현존하는 세계 최고(最古)의 책으로 유네스코 세계기록유산 등재(구텐베르크 성경보다 78년 앞섬).', '금속활자 실물로 증명된 한국 인쇄 기술의 세계적 정점.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
 VALUES ('korea-ce14-choe-museon-jinpo-gunpowder', '최무선의 화통도감 설치와 진포대첩 화포 승리 (1377/1380년)', '최무선의 화통도감 설치와 진포대첩 화포 승리 (1377/1380년)', 'KOREA', '', 'SCIENCE', 'A', 1377, 1380, 'exact', '염초 제조법을 습득해 화통도감을 세우고 화포, 화통, 주화(로켓)를 개발하여 진포 해전에서 왜선 500척을 화포로 격침.', '세계 해전사상 최초의 함포 해전 승리이자 왜구 격퇴의 주역.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('sci-026-choe-museon-gunpowder-cannon', '최무선의 화통도감 설치와 조선 화포 무기 체계화', '최무선의 화통도감 설치와 조선 화포 무기 체계화', 'KOREA', '', 'SCIENCE', 'A', 1377, 1380, 'exact', '염초 추출법을 독자 개발하여 화포와 로켓 무기(주화)를 제작하고 진포 해전에서 왜선 500척을 함포로 격침.', '세계 최초의 함포 해전 승리와 한국 화약 무기 국산화.', '', '', 'HIGH', 'APPROVED')
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
@@ -2514,6 +2842,10 @@ VALUES ('korea-ce15-tsushima-expedition-gihae', '이종무 장군의 쓰시마�
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('art-027-brunelleschi-florence-dome', '브루넬레스키의 피렌체 두오모 돔(Dome) 완공', '브루넬레스키의 피렌체 두오모 돔(Dome) 완공', 'WEST', '', 'ART_CULTURE', 'A', 1420, 1436, 'exact', '목재 지지대 없이 이중 껍질 구조와 생선뼈 벽돌 쌓기로 직경 45m 거대 돔 완공 및 선원근법 발명.', '르네상스 건축 공학과 원근법 회화 이론의 탄생.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
 VALUES ('west-ce15-florence-duomo-brunelleschi', '브루넬레스키의 피렌체 두오모(산타 마리아 델 피오레) 돔 완공', '브루넬레스키의 피렌체 두오모(산타 마리아 델 피오레) 돔 완공', 'WEST', '', 'ART_CULTURE', 'C', 1420, 1436, 'exact', '비계(받침대) 없이 벽돌을 헤링본(생선뼈) 패턴으로 쌓아올린 45m 직경의 거대 8각형 르네상스 돔 완공.', '르네상스 건축 공학의 기적적 개가.', '', '', 'HIGH', 'APPROVED')
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
@@ -2534,6 +2866,14 @@ VALUES ('korea-ce15-four-forts-six-posts', '4군 6진 개척과 압록강·두�
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('art-028-jan-van-eyck-arnolfini-portrait', '얀 반 에이크의 『아르놀피니 부부의 초상』과 유화 기법 혁신', '얀 반 에이크의 『아르놀피니 부부의 초상』과 유화 기법 혁신', 'WEST', '', 'ART_CULTURE', 'A', 1434, 1434, 'exact', '린시드 오일을 안료와 섞은 유화 물감을 최초로 완성하여 볼록거울 반사, 샹들리에 금속 광택의 극사실적 질감 묘사.', '북유럽 르네상스 유화(Oil Painting) 기법의 완성자.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('sci-029-jang-yeongsil-water-clock-jagyeokru', '장영실의 자동 물시계 자격루 및 옥루(흠경각) 제작', '장영실의 자동 물시계 자격루 및 옥루(흠경각) 제작', 'KOREA', '', 'SCIENCE', 'A', 1434, 1438, 'exact', '부력과 쇠구슬의 낙하를 이용한 자동 탈속 장치로 인형이 종, 북, 징을 쳐서 시간을 알리는 첨단 오토마타 완성.', '15세기 동아시아 최고의 자동 기계식 시계 공학 기술.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
 VALUES ('korea-ce15-sejong-science-revolution', '세종대왕·장영실의 과학기술 황금기 (측우기·자격루·혼천의·칠정산)', '세종대왕·장영실의 과학기술 황금기 (측우기·자격루·혼천의·칠정산)', 'KOREA', '', 'SCIENCE', 'A', 1434, 1444, 'exact', '세계 최초의 표준 우량계 측우기(1441), 자동 물시계 자격루(1434), 해시계 앙부일구, 한양 기준 독자 천문역법 『칠정산 내·외편』(1444) 완성.', '15세기 전반 세계 과학기술 연구의 30%를 차지한 경이로운 과학 르네상스.', '', '', 'HIGH', 'APPROVED')
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
@@ -2546,11 +2886,23 @@ VALUES ('china-ce15-silver-monetization-begins', '은(銀) 중심 화폐 경제�
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('sci-028-sejong-cheugugi-rain-gauge', '세종대왕·문종의 세계 최초 측우기(Rain Gauge) 발명', '세종대왕·문종의 세계 최초 측우기(Rain Gauge) 발명', 'KOREA', '', 'SCIENCE', 'A', 1441, 1442, 'exact', '원통형 구리 그릇과 주척(측정 자)을 전국 8도 관아에 보급하여 강우량을 정밀 측정한 세계 최초의 기상 관측망 구축.', '이탈리아 카스텔리의 측우기(1639)보다 200년 앞선 세계 최초의 기상 계측기.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('sci-030-chiljeongsan-astronomy-korea', '세종대왕의 독자적 역법서 『칠정산(七政算) 내·외편』 편찬', '세종대왕의 독자적 역법서 『칠정산(七政算) 내·외편』 편찬', 'KOREA', '', 'SCIENCE', 'A', 1442, 1444, 'exact', '한양의 위도를 기준으로 태양, 달, 5행성의 운행을 계산하여 일식과 월식을 분·초 단위까지 정확히 예측한 역법서.', '조선이 세계에서 몇 안 되는 독자 천문 역법 계산 능력을 갖춘 과학 강국임을 입증.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
 VALUES ('hangul-creation-sejong', '훈민정음(한글) 창제와 과학기술 진흥', 'Creation of Hunminjeongeum (Hangul) & Scientific Flourishing', 'KOREA', '조선', 'ART_CULTURE', 'A', 1443, 1446, 'exact', '세종대왕이 백성을 위해 독창적이고 과학적인 음소 문자 훈민정음을 창제하고 측우기, 자격루, 칠정산 등 과학기구를 제작함.', '문자 독점을 타파하고 민족 문화의 자주성을 확립한 인류 언어학 역사상 최고의 업적.', '한자의 어려움으로 인한 백성의 소통 단절과 농업 생산성 향상을 위한 과학 연구 필요성.', '국문 문학 발달 및 조선의 독자적 역법과 천문학 정립.', 'HIGH', 'APPROVED')
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
 VALUES ('korea-ce15-hunminjeongeum-creation', '세종대왕의 훈민정음(한글) 창제 (1443년) 및 반포 (1446년)', '세종대왕의 훈민정음(한글) 창제 (1443년) 및 반포 (1446년)', 'KOREA', '', 'ART_CULTURE', 'A', 1443, 1446, 'exact', '백성을 사랑하는 애민정신으로 발음기관의 모양을 본떠 28자의 과학적 표음문자를 독창적으로 창제하고 집현전 학사들과 『훈민정음 해례본』 편찬(국보·유네스코 세계기록유산).', '세계 문자 역사상 가장 과학적이고 독창적인 인류 최고의 문화유산.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('art-033-an-gyeon-dream-journey-peach-blossom', '안견의 『몽유도원도(夢遊桃源圖)』 (안평대군의 꿈)', '안견의 『몽유도원도(夢遊桃源圖)』 (안평대군의 꿈)', 'KOREA', '', 'ART_CULTURE', 'A', 1447, 1447, 'exact', '안평대군이 꾼 무릉도원 꿈을 사흘 만에 웅장한 필치로 화폭에 담은 조선 전기 산수화의 최고 국보급 걸작.', '조선 초기 독창적인 관념 산수화의 최고봉.', '', '', 'HIGH', 'APPROVED')
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
@@ -2563,6 +2915,10 @@ ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summar
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
 VALUES ('gutenberg-printing-press', '구텐베르크 활판 인쇄술 혁명', 'Gutenberg''s Movable Type Printing Revolution', 'WEST', '독일 마인츠', 'SCIENCE', 'A', 1450, 1455, 'exact', '요하네스 구텐베르크가 금속 활자와 유성 잉크, 압착 인쇄기를 결합하여 『42행 성경』을 대량 인쇄함.', '지식과 정보의 대중화를 이끌어 르네상스 확산, 종교개혁, 과학혁명의 결정적 매개체가 됨.', '서적 수요 증가와 필사본 제작의 한계.', '루터의 95개조 반박문이 전 유럽으로 수주일 만에 퍼져나갈 수 있는 인프라 구축.', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('sci-027-gutenberg-printing-press-revolution', '구텐베르크의 납 활판 인쇄술과 42행 성서 인쇄', '구텐베르크의 납 활판 인쇄술과 42행 성서 인쇄', 'WEST', '', 'SCIENCE', 'A', 1450, 1455, 'exact', '납·주석 합금 활자, 유성 잉크, 포도주 압착기를 융합한 인쇄기로 서적 대량 인쇄 상용화 성공.', '지식 혁명과 종교개혁, 근대 과학 혁명의 촉매가 된 인류 최대 발명.', '', '', 'HIGH', 'APPROVED')
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
@@ -2594,6 +2950,10 @@ VALUES ('west-ce15-italian-renaissance-art', '이탈리아 르네상스의 황�
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('art-029-botticelli-birth-of-venus', '산드로 보티첼리의 『비너스의 탄생(The Birth of Venus)』', '산드로 보티첼리의 『비너스의 탄생(The Birth of Venus)』', 'WEST', '', 'ART_CULTURE', 'A', 1485, 1485, 'exact', '바다 거품에서 조개껍데기를 타고 태어난 사랑과 미의 여신 비너스를 신플라톤주의 미학으로 묘사한 템페라화.', '기독교 주제를 넘어 고대 그리스 신화를 부활시킨 르네상스 명작.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
 VALUES ('korea-ce15-dongguk-tonggam-history', '서거정의 『동국통감(東國通鑑)』 편찬 (1485년)', '서거정의 『동국통감(東國通鑑)』 편찬 (1485년)', 'KOREA', '', 'ART_CULTURE', 'C', 1485, 1485, 'exact', '단군조선부터 삼국, 고려 말까지의 역사를 편년체로 서술한 57권의 관찬 통사 완성.', '조선 전기를 대표하는 통사 체계의 완성.', '', '', 'HIGH', 'APPROVED')
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
@@ -2614,6 +2974,10 @@ VALUES ('west-ce15-treaty-of-tordesillas', '토르데시야스 조약 (스페인
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('art-030-da-vinci-mona-lisa-last-supper', '레오나르도 다 빈치의 『모나리자』와 『최후의 만찬』 (스푸마토 기법)', '레오나르도 다 빈치의 『모나리자』와 『최후의 만찬』 (스푸마토 기법)', 'WEST', '', 'ART_CULTURE', 'A', 1495, 1506, 'exact', '윤곽선을 안개처럼 부드럽게 흐리는 스푸마토 기법과 심리적 긴장감을 투시원근법으로 포착한 신비한 미소의 초상화.', '인류 역사상 가장 유명한 회화이자 르네상스 천재 예술의 상징.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
 VALUES ('west-ce15-vasco-da-gama-india-route', '바스쿠 다 가마의 인도 항로 개척 (희망봉 경유, 1497~1498년)', '바스쿠 다 가마의 인도 항로 개척 (희망봉 경유, 1497~1498년)', 'WEST', '', 'SCIENCE', 'B', 1497, 1498, 'exact', '포르투갈 함대가 아프리카 남단 희망봉을 돌아 인도 서해안 캘리컷에 도달하여 직접 향신료 무역로 개척.', '지중해-베네치아 무역 독점 타파와 대서양-인도양 해양 패권 포르투갈 장악.', '', '', 'HIGH', 'APPROVED')
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
@@ -2622,7 +2986,15 @@ VALUES ('korea-ce15-muo-sahwa-first-literati-purge', '무오사화(1498년) - �
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('art-031-michelangelo-david-and-sistine', '미켈란젤로의 『다비드상』 및 시스티나 성당 천장화 『천지창조』', '미켈란젤로의 『다비드상』 및 시스티나 성당 천장화 『천지창조』', 'WEST', '', 'ART_CULTURE', 'A', 1501, 1512, 'exact', '5.17m 거대한 대리석 조각 다비드상과 시스티나 성당 천장에 『아담의 창조』를 포함한 300여 명의 웅장한 인체 프레스코 완성.', '조각과 회화에서 인체 해부학적 완벽성과 신적 영감을 구현한 거장.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
 VALUES ('korea-ce16-jungjong-coup', '중종반정 (연산군 폐위, 1506년)', '중종반정 (연산군 폐위, 1506년)', 'KOREA', '', 'POLITICS', 'B', 1506, 1506, 'exact', '폭정을 일삼던 연산군을 박원종, 성희안 등이 폐위하고 진성대군(중종)을 옹립하여 왕도 정치 복원 도모.', '조선 최초의 신하에 의한 국왕 폐위와 사림 등용의 계기.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('phi-043-wang-yangming-mind-innate-knowing', '왕양명의 심즉리(心卽理)와 지행합일(知行合一)·양명학', '왕양명의 심즉리(心卽理)와 지행합일(知行合一)·양명학', 'CHINA', '', 'RELIGION', 'A', 1508, 1527, 'exact', '''마음이 곧 이치다''라며 타고난 양심(치양지)을 깨닫고 앎과 행함은 본래 하나라는 지행합일(知行合一)의 실천 철학 정립.', '주자학의 교조주의를 타파한 동양 근대 주체적 실천 철학.', '', '', 'HIGH', 'APPROVED')
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
@@ -2634,11 +3006,23 @@ VALUES ('west-ce16-michelangelo-sistine-chapel', '미켈란젤로의 시스티�
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('art-032-raphael-school-of-athens', '라파엘로 산치오의 바티칸 궁전 벽화 『아테네 학당』', '라파엘로 산치오의 바티칸 궁전 벽화 『아테네 학당』', 'WEST', '', 'ART_CULTURE', 'A', 1509, 1511, 'exact', '하늘을 가리키는 플라톤과 땅을 가리키는 아리스토텔레스를 중심으로 고대 50여 명의 철학자를 완벽한 아치 원근법 안에 배치.', '르네상스 고전주의 균형과 조화의 최고 걸작.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('phi-031-machiavelli-the-prince-realpolitik', '니콜로 마키아벨리의 『군주론(The Prince)』 (정치학과 도덕의 분리)', '니콜로 마키아벨리의 『군주론(The Prince)』 (정치학과 도덕의 분리)', 'WEST', '', 'INSTITUTION', 'A', 1513, 1532, 'exact', '''군주는 사자의 용맹과 여우의 간교함을 겸비해야 한다''며 중세 도덕주의적 환상을 깨고 현실 권력 정치(Realpolitik)의 메커니즘을 최초로 분석.', '근대 정치학의 아버지.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
 VALUES ('west-ce16-machiavelli-the-prince', '니콜로 마키아벨리의 『군주론(Il Principe)』', '니콜로 마키아벨리의 『군주론(Il Principe)』', 'WEST', '', 'ART_CULTURE', 'B', 1513, 1532, 'exact', '도덕과 정치를 분리하여 군주는 여우의 교활함과 사자의 용맹을 겸비해야 한다고 주장.', '근대 정치학의 출발점이자 현실주의 정치사상의 효시.', '', '', 'HIGH', 'APPROVED')
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
 VALUES ('korea-ce16-jo-gwangjo-gimyo-reforms', '조광조의 도학 정치 개혁과 기묘사화 (1519년)', '조광조의 도학 정치 개혁과 기묘사화 (1519년)', 'KOREA', '', 'INSTITUTION', 'A', 1515, 1519, 'exact', '중종 때 조광조가 현량과(추천제) 실시, 소격서 폐지, 향약 보급, 위훈삭제(훈구 공신 거짓 공신 삭탈)를 추진하다 주초위왕 모함으로 사사됨.', '조선 사림파의 도덕주의 개혁 운동의 상징적 사건.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('phi-032-thomas-more-utopia-critique', '토머스 모어의 『유토피아(Utopia)』와 이상사회 구상', '토머스 모어의 『유토피아(Utopia)』와 이상사회 구상', 'WEST', '', 'INSTITUTION', 'A', 1516, 1516, 'exact', '''양이 사람을 잡아먹는다''며 인클로저 운동을 비판하고 사유재산이 폐지된 공유 재산과 하루 6시간 노동의 평등 유토피아 섬 묘사.', '근대 사회주의 및 비판적 사회철학의 효시.', '', '', 'HIGH', 'APPROVED')
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
@@ -2663,6 +3047,14 @@ ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summar
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
 VALUES ('west-ce16-john-calvin-institutes', '장 칼뱅의 『기독교 강요』와 예정설 (제네바 종교개혁)', '장 칼뱅의 『기독교 강요』와 예정설 (제네바 종교개혁)', 'WEST', '', 'RELIGION', 'A', 1536, 1559, 'exact', '구원은 오직 하나님의 절대 주권에 예정되어 있다는 교리와 직업소명설, 근면·절약을 강조.', '막스 베버가 분석한 자본주의 정신의 산실이자 장로교·청교도의 모태.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('sci-031-copernicus-heliocentric-theory', '코페르니쿠스의 『천구의 회전에 관하여』와 지동설', '코페르니쿠스의 『천구의 회전에 관하여』와 지동설', 'WEST', '', 'SCIENCE', 'A', 1543, 1543, 'exact', '지구가 태양 주위를 도는 행성 중 하나임을 기하학적으로 증명하여 천동설을 뒤흔듦.', '과학 혁명(Scientific Revolution)을 촉발한 패러다임 전환의 출발점.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('sci-032-vesalius-human-anatomy-fabric', '베살리우스의 『인체의 구조에 관하여(De Fabrica)』', '베살리우스의 『인체의 구조에 관하여(De Fabrica)』', 'WEST', '', 'SCIENCE', 'A', 1543, 1543, 'exact', '갈레노스의 도그마를 직접 시체 해부와 정밀 목판 삽화로 교정하여 근대 해부학 체계 확립.', '현대 의학과 인체 생리학의 확고한 기초.', '', '', 'HIGH', 'APPROVED')
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
@@ -2702,6 +3094,10 @@ VALUES ('korea-ce16-lim-kkeokjeong-rebellion', '임꺽정의 구월산 도적 �
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('phi-041-yi-hwang-toegye-juri-philosophy', '퇴계 이황의 주리론(主理論)과 『성학십도(聖學十圖)』', '퇴계 이황의 주리론(主理論)과 『성학십도(聖學十圖)』', 'KOREA', '', 'RELIGION', 'A', 1568, 1568, 'exact', '이(理)가 발하여 기(氣)가 따르는 이기호발설과 경(敬) 사상을 바탕으로 선조에게 10폭의 병풍 그림으로 성리학의 도덕적 정수를 바침.', '''동방의 주자''로 불리며 일본 에도 유학(야마자키 안사이)에 지대한 영향.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
 VALUES ('china-ce16-silver-influx-global-trade', '스페인·일본 은(銀)의 중국 대량 유입과 글로벌 무역', '스페인·일본 은(銀)의 중국 대량 유입과 글로벌 무역', 'CHINA', '', 'ECONOMY', 'B', 1570, 1600, 'exact', '마닐라 갤리온 무역과 일본 이와미 은광의 은이 중국의 비단, 도자기, 차와 교환되며 전 세계 은의 3분의 1이 명나라로 집결.', '글로벌 조기 자본주의 경제망의 중심축으로 중국 번영.', '', '', 'HIGH', 'APPROVED')
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
@@ -2711,6 +3107,10 @@ ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summar
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
 VALUES ('korea-ce16-sarim-factional-split', '붕당 정치의 발생 (동인과 서인의 분당, 1575년)', '붕당 정치의 발생 (동인과 서인의 분당, 1575년)', 'KOREA', '', 'POLITICS', 'A', 1575, 1575, 'exact', '이조전랑 자리를 두고 김효원(동인)과 심의겸(서인)을 중심으로 사림파가 양분되어 학문과 정견에 따른 붕당 정치 시작.', '상호 비판과 견제를 통한 조선 중기 정치 질서의 틀 형성.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('phi-042-yi-i-yulgok-jugi-philosophy', '율곡 이이의 주기론(主氣論)과 『성학집요(聖學輯要)』·십만양병설', '율곡 이이의 주기론(主氣論)과 『성학집요(聖學輯要)』·십만양병설', 'KOREA', '', 'RELIGION', 'A', 1575, 1583, 'exact', '기는 발하고 이는 타는 기발이승일도설(氣發理乘一途說)과 이통기국(理通氣局)을 제창하고 현실 개혁(수미법, 양병) 강조.', '조선 성리학의 실천적 현실 개혁 이론 완성.', '', '', 'HIGH', 'APPROVED')
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
@@ -2754,7 +3154,23 @@ VALUES ('china-ce16-donglin-academy-movement', '고헌성의 동림서원 재건
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('art-036-caravaggio-chiaroscuro-baroque', '카라바조의 강렬한 명암대조법(테네브리즘)과 바로크 미술 탄생', '카라바조의 강렬한 명암대조법(테네브리즘)과 바로크 미술 탄생', 'WEST', '', 'ART_CULTURE', 'A', 1599, 1605, 'exact', '『성 마태오의 소명』 등에서 칠흑 같은 어둠 속에 한 줄기 빛을 던져 인물의 긴장감과 연극적 사실주의를 극대화.', '바로크 회화의 시조이자 렘브란트, 벨라스케스에게 결정적 영향.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('art-034-shakespeare-four-great-tragedies', '윌리엄 셰익스피어의 4대 비극 (『햄릿』, 『오셀로』, 『리어왕』, 『맥베스』)', '윌리엄 셰익스피어의 4대 비극 (『햄릿』, 『오셀로』, 『리어왕』, 『맥베스』)', 'WEST', '', 'ART_CULTURE', 'A', 1600, 1606, 'exact', '''죽느냐 사느냐 그것이 문제로다'' 등 인간의 우유부단, 질투, 오만, 야망의 파멸을 운문과 산문 희곡으로 완성.', '세계 문학사상 가장 위대한 극작가이자 영어 어휘의 대혁신.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
 VALUES ('west-ce17-dutch-east-india-voc', '네덜란드 동인도회사(VOC) 설립과 암스테르담 증권거래소 (1602년)', '네덜란드 동인도회사(VOC) 설립과 암스테르담 증권거래소 (1602년)', 'WEST', '', 'ECONOMY', 'B', 1602, 1602, 'exact', '인류 최초의 주식회사이자 유한책임제, 세계 최초의 공설 증권거래소를 세워 향신료 무역 독점.', '근대 금융 자본주의와 주식회사 제도의 효시.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('art-035-cervantes-don-quixote-novel', '미겔 데 세르반테스의 『돈키호테(Don Quixote)』 (최초의 근대 소설)', '미겔 데 세르반테스의 『돈키호테(Don Quixote)』 (최초의 근대 소설)', 'WEST', '', 'ART_CULTURE', 'A', 1605, 1615, 'exact', '기사도 소설에 빠져 풍차를 거인으로 착각해 돌진하는 돈키호테와 현실적인 산초 판사의 풍자 모험담.', '서양 최초의 근대 리얼리즘 소설이자 세계 문학의 불멸의 고전.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('art-041-monteverdi-opera-lorfeo', '클라우디오 몬테베르디의 오페라 『오르페오(L''Orfeo)』 (최초의 걸작 오페라)', '클라우디오 몬테베르디의 오페라 『오르페오(L''Orfeo)』 (최초의 걸작 오페라)', 'WEST', '', 'ART_CULTURE', 'A', 1607, 1607, 'exact', '오르페우스 신화를 바탕으로 독창(레치타티보·아리아), 합창, 40인조 오케스트라 서곡을 유기적으로 결합.', '현대적 종합 오페라(Opera) 장르의 확립자.', '', '', 'HIGH', 'APPROVED')
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
@@ -2766,11 +3182,23 @@ VALUES ('korea-ce17-daedongbeop-tax-reform', '대동법(大同法) 실시 (이�
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('sci-033-kepler-planetary-motion-laws', '요하네스 케플러의 행성 운동 3대 법칙 발표', '요하네스 케플러의 행성 운동 3대 법칙 발표', 'WEST', '', 'SCIENCE', 'A', 1609, 1619, 'exact', '타원 궤도의 법칙, 면적 속도 일정의 법칙, 조화의 법칙(P²=a³)을 티코 브라헤의 관측 자료를 통해 증명.', '천체역학의 기틀 마련 및 뉴턴 만유인력 법칙의 직접적 토대.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('sci-034-galileo-telescope-astronomy', '갈릴레오 갈릴레이의 망원경 천체 관측과 관성 법칙', '갈릴레오 갈릴레이의 망원경 천체 관측과 관성 법칙', 'WEST', '', 'SCIENCE', 'A', 1609, 1632, 'exact', '망원경으로 목성의 4대 위성, 달 표면, 금성 위상을 관측하고 낙하 실험을 통해 근대 역학의 기초 정립.', '근대 관측 천문학과 실험 물리학의 창시자.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
 VALUES ('west-ce17-galileo-telescope-dialogue', '갈릴레오 갈릴레이의 망원경 천체 관측과 지동설 옹호', '갈릴레오 갈릴레이의 망원경 천체 관측과 지동설 옹호', 'WEST', '', 'SCIENCE', 'A', 1609, 1633, 'exact', '목성의 4대 위성, 달의 크레이터, 금성의 위상을 관측하고 『두 우주 체계에 관한 대화』를 썼다가 종교재판에서 ''그래도 지구는 돈다'' 남김.', '근대 관측 천문학과 실험 물리학의 창시.', '', '', 'HIGH', 'APPROVED')
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
 VALUES ('korea-ce17-donguibogam-heojun', '허준의 『동의보감(東醫寶鑑)』 완성 (유네스코 세계기록유산, 1610년/1613년)', '허준의 『동의보감(東醫寶鑑)』 완성 (유네스코 세계기록유산, 1610년/1613년)', 'KOREA', '', 'SCIENCE', 'A', 1610, 1613, 'exact', '광해군의 명으로 내경·외형·잡병·탕액·침구 5편 25권으로 동양 의학 지식을 집대성하고 한글 약초 이름을 병기.', '동양 의학사상 독보적인 예방의학 백과사전이자 의학서 최초의 유네스코 세계기록유산.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('sci-041-heo-jun-donguibogam-medicine', '허준의 『동의보감』 편찬 (유네스코 세계기록유산)', '허준의 『동의보감』 편찬 (유네스코 세계기록유산)', 'KOREA', '', 'SCIENCE', 'A', 1610, 1613, 'exact', '내경·외형·잡병·탕액·침구 5편 25권으로 동양 의학을 집대성하고 조선 산천의 향약초 630종을 한글로 명시.', '동양 임상·예방의학의 최고 백과사전이자 세계 최초의 의학 기록유산.', '', '', 'HIGH', 'APPROVED')
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
@@ -2782,11 +3210,19 @@ VALUES ('west-ce17-peace-of-westphalia', '30년 전쟁 종결과 베스트팔렌
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('phi-033-francis-bacon-novum-organum-empiricism', '프랜시스 베이컨의 『신기관(Novum Organum)』과 ''아는 것이 힘이다''', '프랜시스 베이컨의 『신기관(Novum Organum)』과 ''아는 것이 힘이다''', 'WEST', '', 'RELIGION', 'A', 1620, 1620, 'exact', '4대 우상(종족·동굴·시장·극장)을 타파하고 자연 관찰과 실험을 통한 귀납법(Induction)으로 인간의 복지를 증진하는 지식 탐구 주창.', '영국 경험론(Empiricism)과 근대 과학 방법론의 기수.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
 VALUES ('korea-ce17-injo-coup-1623', '인조반정 (1623년)과 친명배금 정책', '인조반정 (1623년)과 친명배금 정책', 'KOREA', '', 'POLITICS', 'A', 1623, 1623, 'exact', '서인 세력(이귀·김류)이 광해군의 폐모살제와 중립외교를 비판하며 무력으로 정권을 탈취하고 능양군(인조)을 옹립.', '친명배금 노선으로 정묘호란과 병자호란의 참화를 자초한 정치적 분기점.', '', '', 'HIGH', 'APPROVED')
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
 VALUES ('china-ce17-xu-guangqi-nongzheng-quanshu', '서광계의 『농정전서(農政全書)』 편찬 (1639년)', '서광계의 『농정전서(農政全書)』 편찬 (1639년)', 'CHINA', '', 'SCIENCE', 'B', 1625, 1639, 'exact', '전통 농업 기술에 서양의 수리 공학(아르키메데스 나선 펌프 등)을 접목한 60권의 종합 농업 기술서 완성.', '서양 과학과 결합한 명 말기 실학의 걸작.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('sci-035-william-harvey-blood-circulation-discovery', '윌리엄 하비의 심장 펌프 및 혈액 순환 법칙 발견', '윌리엄 하비의 심장 펌프 및 혈액 순환 법칙 발견', 'WEST', '', 'SCIENCE', 'A', 1628, 1628, 'exact', '심장이 근육질 펌프 역할을 하여 동맥을 통해 전신으로 보낸 혈액이 정맥을 통해 다시 심장으로 돌아옴을 증명.', '근대 실험 생리학 및 순환기 내과학의 탄생.', '', '', 'HIGH', 'APPROVED')
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
@@ -2802,7 +3238,15 @@ VALUES ('china-ce17-tiangong-kaiwu', '송응성의 산업기술 백과사전 『
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('sci-042-tiangong-kaiwu-encyclopedia', '송응성의 고대 산업기술 백과사전 『천공개물』 편찬', '송응성의 고대 산업기술 백과사전 『천공개물』 편찬', 'CHINA', '', 'SCIENCE', 'A', 1637, 1637, 'exact', '농업, 방직, 야금, 도자기, 주조, 화약, 제지 등 18개 분야 제조 공정을 123점의 정밀 도해와 함께 서술.', '동양의 디드로 백과사전으로 불리는 실용 산업 기술학의 정수.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
 VALUES ('west-ce17-descartes-discourse-on-method', '르네 데카르트의 『방법서설』 (''나는 생각한다, 고로 존재한다'')', '르네 데카르트의 『방법서설』 (''나는 생각한다, 고로 존재한다'')', 'WEST', '', 'SCIENCE', 'A', 1637, 1637, 'exact', '방법적 회의를 통해 확실한 철학의 제1원리(Cogito, ergo sum)를 도출하고 해석기하학(직교좌표계) 창안.', '근대 서양 합리론 철학과 수학의 아버지.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('phi-034-descartes-cogito-ergo-sum-rationalism', '르네 데카르트의 방법적 회의와 ''나는 생각한다, 고로 존재한다''', '르네 데카르트의 방법적 회의와 ''나는 생각한다, 고로 존재한다''', 'WEST', '', 'RELIGION', 'A', 1637, 1641, 'exact', '모든 것을 의심한 끝에 더 이상 의심할 수 없는 제1원리(Cogito)에 도달하고 정신과 물질을 구분한 심신이원론 확립.', '근대 서양 합리론(Rationalism)과 주체성 철학의 아버지.', '', '', 'HIGH', 'APPROVED')
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
@@ -2810,7 +3254,15 @@ VALUES ('korea-ce17-sohyeon-crown-prince-western', '소현세자의 심양 볼�
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('art-038-rembrandt-the-night-watch', '렘브란트 판 레인의 『야간 순찰(The Night Watch)』', '렘브란트 판 레인의 『야간 순찰(The Night Watch)』', 'WEST', '', 'ART_CULTURE', 'A', 1642, 1642, 'exact', '정적인 단체 초상화 관습을 깨고 출동하는 암스테르담 민병대원들의 순간적 움직임과 빛의 마법을 4m 대화폭에 담음.', '네덜란드 황금시대 회화의 최고 걸작이자 빛의 화가 렘브란트의 대표작.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
 VALUES ('west-ce17-rembrandt-night-watch', '렘브란트의 명암법과 『야간 순찰(The Night Watch)』 (1642년)', '렘브란트의 명암법과 『야간 순찰(The Night Watch)』 (1642년)', 'WEST', '', 'ART_CULTURE', 'C', 1642, 1642, 'exact', '키아로스쿠로(빛과 어둠의 대조) 기법으로 민병대 시민들의 역동적인 움직임을 담은 바로크 미술의 최고봉.', '네덜란드 황금시대 회화 예술의 대표작.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('sci-036-torricelli-barometer-vacuum', '토리첼리의 수은 기압계 발명과 진공의 존재 증명', '토리첼리의 수은 기압계 발명과 진공의 존재 증명', 'WEST', '', 'SCIENCE', 'A', 1643, 1643, 'exact', '수은주 실험을 통해 대기압(1기압 = 76cmHg)을 측정하고 ''자연은 진공을 혐오한다''는 아리스토텔레스 교리를 반증.', '대기 물리학 및 진공 펌프 공학의 개막.', '', '', 'HIGH', 'APPROVED')
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
@@ -2830,7 +3282,19 @@ VALUES ('china-ce17-queuing-order-manchu', '변발령(剃髮令) 시행 (''머�
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('art-037-bernini-ecstasy-of-saint-teresa', '잔 로렌초 베르니니의 『성 테레사의 환희』 대리석 조각', '잔 로렌초 베르니니의 『성 테레사의 환희』 대리석 조각', 'WEST', '', 'ART_CULTURE', 'A', 1647, 1652, 'exact', '천사의 화살을 맞고 신의 사랑에 도취된 성녀의 황홀경과 옷자락의 격정적 주름을 대리석으로 역동적으로 조각.', '바로크 조각의 최고 정점이자 극장식 공간 연출의 걸작.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
 VALUES ('china-ce17-gu-yanwu-evidential-scholarship', '고염무의 고증학(考證學) 제창 (''천하흥망 필부유책'')', '고염무의 고증학(考證學) 제창 (''천하흥망 필부유책'')', 'CHINA', '', 'SCIENCE', 'B', 1650, 1682, 'exact', '공리공담의 양명학을 배격하고 문헌의 철저한 실증과 음운학, 지리학을 강조한 『일지록』 저술.', '청대 학문의 주류가 된 실사구시 고증학의 창시.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('phi-035-thomas-hobbes-leviathan-social-contract', '토머스 홉스의 『리바이어던(Leviathan)』과 자연상태의 사회계약', '토머스 홉스의 『리바이어던(Leviathan)』과 자연상태의 사회계약', 'WEST', '', 'INSTITUTION', 'A', 1651, 1651, 'exact', '국가가 없는 자연상태는 ''만인의 만인에 대한 투쟁''이므로 생명 보존을 위해 절대 군주(리바이어던)에게 권력을 위임하는 계약을 맺는다고 주장.', '근대 사회계약설과 주권 이론의 출발점.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('art-039-velazquez-las-meninas', '디에고 벨라스케스의 『시녀들(Las Meninas)』', '디에고 벨라스케스의 『시녀들(Las Meninas)』', 'WEST', '', 'ART_CULTURE', 'A', 1656, 1656, 'exact', '마르가리타 공주와 시녀들, 거울 속 국왕 부부, 그림을 그리는 화가 자신을 다층적 시선과 공간 구성으로 배치.', '미술사학자 푸코가 격찬한 회화 속 시선과 재현의 철학적 최고 걸작.', '', '', 'HIGH', 'APPROVED')
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
@@ -2842,7 +3306,27 @@ VALUES ('west-ce17-louis-xiv-versailles-absolutism', '루이 14세의 베르사�
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('sci-037-robert-boyle-gas-law', '로버트 보일의 기체 법칙(PV=k)과 근대 화학의 기원', '로버트 보일의 기체 법칙(PV=k)과 근대 화학의 기원', 'WEST', '', 'SCIENCE', 'A', 1662, 1662, 'exact', '온도가 일정할 때 기체의 압력과 부피가 반비례함을 정량적으로 규명하고 연금술을 탈피한 『회의적 화학자』 저술.', '정량적 근대 화학의 출발점.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
 VALUES ('china-ce17-huang-zongxi-waiting-for-the-dawn', '황종희의 『명이대방록(明夷待訪錄)』과 반전제주의 사상', '황종희의 『명이대방록(明夷待訪錄)』과 반전제주의 사상', 'CHINA', '', 'INSTITUTION', 'A', 1662, 1663, 'exact', '''천하의 주인은 백성이고 군주는 손님이다''를 선언하며 군주 전제정과 법률 독점을 맹렬히 비판.', '중국 근대 계몽주의 사상과 민주적 헌정론의 선구.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('art-040-vermeer-girl-with-pearl-earring', '요하네스 베르메르의 『진주 귀걸이를 한 소녀』', '요하네스 베르메르의 『진주 귀걸이를 한 소녀』', 'WEST', '', 'ART_CULTURE', 'A', 1665, 1665, 'exact', '청금석(울트라마린) 터번을 두르고 돌아보는 소녀의 촉촉한 입술과 빛나는 진주 귀걸이를 섬세한 빛으로 포착.', '''북유럽의 모나리자''로 불리는 네덜란드 델프트 화파의 보물.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('sci-038-leeuwenhoek-microscope-microbiology', '안톤 판 레이우엔훅의 현미경 미생물(박테리아·적혈구) 관찰', '안톤 판 레이우엔훅의 현미경 미생물(박테리아·적혈구) 관찰', 'WEST', '', 'SCIENCE', 'A', 1674, 1683, 'exact', '자체 제작한 300배 단렌즈 현미경으로 연못물 속 원생동물, 박테리아, 정자, 혈액 속 적혈구를 인류 최초로 관찰.', '미생물학과 세포생물학의 문을 연 쾌거.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('sci-040-leibniz-calculus-binary', '라이프니츠의 미적분 기호(dx, ∫) 및 2진법 체계 고안', '라이프니츠의 미적분 기호(dx, ∫) 및 2진법 체계 고안', 'WEST', '', 'SCIENCE', 'A', 1675, 1703, 'exact', '현대 수학에서 사용하는 직관적인 미적분 기호를 창안하고, 0과 1만으로 모든 수를 표현하는 2진법 수학 제안.', '현대 컴퓨터 과학과 디지털 계산의 수학적 뼈대.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('phi-036-spinoza-ethics-pantheism-substance', '바뤼흐 스피노자의 『에티카(Ethica)』와 범신론(''신 즉 자연'')', '바뤼흐 스피노자의 『에티카(Ethica)』와 범신론(''신 즉 자연'')', 'WEST', '', 'RELIGION', 'A', 1677, 1677, 'exact', '신과 자연은 하나(Deus sive Natura)라는 일원론적 실체론을 기하학적 연역 방식으로 증명하고 지적 사랑(Amor Dei Intellectualis)을 통한 자유 제시.', '자유사상가이자 범신론·현대 생태철학의 선구.', '', '', 'HIGH', 'APPROVED')
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
@@ -2855,6 +3339,10 @@ ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summar
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
 VALUES ('korea-ce17-hwanguk-politics-sukjong', '숙종 대의 환국 정치 (경신·기사·갑술환국과 장희빈)', '숙종 대의 환국 정치 (경신·기사·갑술환국과 장희빈)', 'KOREA', '', 'POLITICS', 'A', 1680, 1694, 'exact', '숙종이 왕권 강화를 위해 서인과 남인을 번갈아 일거에 실각·사사시키는 환국(換局)을 단행하여 붕당의 상호 공존 붕괴.', '붕당 정치가 일당 전제화 및 사생결단식 권력 투쟁으로 변질.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('sci-039-newton-principia-gravitation', '아이작 뉴턴의 『프린키피아』 발표와 만유인력·운동 법칙', '아이작 뉴턴의 『프린키피아』 발표와 만유인력·운동 법칙', 'WEST', '', 'SCIENCE', 'A', 1687, 1687, 'exact', '만유인력의 법칙(F=G·m1·m2/r²)과 관성·가속도·작용반작용의 3대 운동 법칙, 미적분학으로 천상계와 지상계의 역학을 단일 수학 체계로 통합.', '고전 물리학의 완성이자 인류 역사상 가장 위대한 과학 저작.', '', '', 'HIGH', 'APPROVED')
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
@@ -2874,6 +3362,10 @@ VALUES ('west-ce17-john-locke-two-treatises', '존 로크의 『정치통치론(
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('phi-037-john-locke-two-treatises-liberalism', '존 로크의 『통치론』과 자연권(생명·자유·재산) 및 저항권', '존 로크의 『통치론』과 자연권(생명·자유·재산) 및 저항권', 'WEST', '', 'INSTITUTION', 'A', 1689, 1690, 'exact', '인간은 백지상태(Tabula Rasa)로 태어나며, 정부가 시민의 기본권을 침해할 때 시민은 정부를 전복할 정당한 저항권이 있음을 천명.', '근대 자유주의(Liberalism)와 미국 독립선언서의 헌법적 모태.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
 VALUES ('korea-ce17-ahn-yongbok-dokdo', '안용복의 도일(渡日)과 독도·울릉도 조선 영유권 일본 막부 공인 (1693/1696년)', '안용복의 도일(渡日)과 독도·울릉도 조선 영유권 일본 막부 공인 (1693/1696년)', 'KOREA', '', 'POLITICS', 'B', 1693, 1696, 'exact', '부산 동래 어민 안용복이 일본 돗토리번에 건너가 항의하여 에도 막부로부터 ''울릉도와 독도는 조선의 영토''라는 서계를 받아냄.', '독도가 역사적·국제법적으로 명백한 대한민국의 영토임을 입증하는 결정적 사료.', '', '', 'HIGH', 'APPROVED')
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
@@ -2883,6 +3375,14 @@ ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summar
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
 VALUES ('china-ce18-tian-fu-yong-ding', '지정은제(地丁銀制)의 전국적 완성', '지정은제(地丁銀制)의 전국적 완성', 'CHINA', '', 'INSTITUTION', 'B', 1712, 1729, 'exact', '강희제가 인두세(정세)를 동결한 후 옹정제가 정세를 토지세(지세)에 완전 통합하여 은으로 징수.', '인두세 완전 폐지로 인한 중국 인구의 폭발적 증가(1억 명→3억 명).', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('art-043-bach-st-matthew-passion-well-tempered', '요한 제바스티안 바흐의 『마태 수난곡』 및 『평균율 클라비어곡집』', '요한 제바스티안 바흐의 『마태 수난곡』 및 『평균율 클라비어곡집』', 'WEST', '', 'ART_CULTURE', 'A', 1722, 1727, 'exact', '대위법(푸가)과 화성학을 총집대성하여 24개 조성을 모두 연주하는 건반 음악의 구약성서 완성.', '''음악의 아버지'' 바흐에 의한 서양 다성음악의 최고봉.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('art-042-vivaldi-four-seasons-concertos', '안토니오 비발디의 바이올린 협주곡 『사계(The Four Seasons)』', '안토니오 비발디의 바이올린 협주곡 『사계(The Four Seasons)』', 'WEST', '', 'ART_CULTURE', 'A', 1723, 1725, 'exact', '봄의 새소리, 여름의 폭풍, 가을의 수확, 겨울의 얼음판 미끄러짐을 표제 음악 형식의 독주 바이올린 협주곡으로 묘사.', '바로크 협주곡(Concerto)의 대중적 최고 명작.', '', '', 'HIGH', 'APPROVED')
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
@@ -2898,11 +3398,27 @@ VALUES ('korea-ce18-true-view-landscape-genre-painting', '진경산수화(겸재
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('sci-043-linnaeus-binomial-nomenclature', '칼 폰 린네의 생물 이명법(속명+종명) 분류 체계 확립', '칼 폰 린네의 생물 이명법(속명+종명) 분류 체계 확립', 'WEST', '', 'SCIENCE', 'A', 1735, 1758, 'exact', '『자연의 체계』를 통해 계-문-강-목-과-속-종의 계층 구조와 라틴어 이명법을 제정하여 생물 분류학 정립.', '현대 생물 분류학의 국제적 표준 확립.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
 VALUES ('china-ce18-qianlong-reign-zenith', '건륭제의 십전무공(十全武功)과 청 제국 최대 판도 완성', '건륭제의 십전무공(十全武功)과 청 제국 최대 판도 완성', 'CHINA', '', 'POLITICS', 'A', 1735, 1796, 'exact', '준가르, 신장(위구르), 티베트, 대만, 네팔(구르카)을 완전 복속시켜 1,300만 ㎢의 역사상 최대 판도 구축.', '오늘날 현대 중국 국경선의 기본 영토 확정.', '', '', 'HIGH', 'APPROVED')
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('art-044-handel-messiah-hallelujah', '게오르크 프리드리히 헨델의 오라토리오 『메시아(Messiah)』와 할렐루야', '게오르크 프리드리히 헨델의 오라토리오 『메시아(Messiah)』와 할렐루야', 'WEST', '', 'ART_CULTURE', 'A', 1741, 1742, 'exact', '그리스도의 탄생, 수난, 부활을 노래한 대규모 오라토리오로 국왕 조지 2세가 기립한 ''할렐루야'' 합창 수록.', '종교 합창 음악의 불멸의 기념비.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('phi-038-montesquieu-spirit-of-the-laws', '몽테스키외의 『법의 정신』과 3권 분립(Separation of Powers)', '몽테스키외의 『법의 정신』과 3권 분립(Separation of Powers)', 'WEST', '', 'INSTITUTION', 'A', 1748, 1748, 'exact', '권력의 남용을 막고 시민의 자유를 보장하기 위해 국가 권력을 입법권, 행정권, 사법권으로 분립하고 견제와 균형을 이루어야 한다고 역설.', '현대 민주주의 국가 헌법 체제의 필수 기본 원리.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
 VALUES ('west-ce18-enlightenment-philosophes', '유럽 계몽주의의 전성기 (볼테르·루소·몽테스키외)', '유럽 계몽주의의 전성기 (볼테르·루소·몽테스키외)', 'WEST', '', 'RELIGION', 'A', 1748, 1778, 'exact', '몽테스키외의 3권분립(『법의 정신』), 루소의 국민주권(『사회계약론』), 볼테르의 관용과 표현의 자유 주창.', '근대 민주 정치 제도의 철학적 청사진 완성.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('art-048-cao-xueqin-dream-of-red-chamber', '조설근의 장편 소설 『홍루몽(紅樓夢)』 편찬', '조설근의 장편 소설 『홍루몽(紅樓夢)』 편찬', 'CHINA', '', 'ART_CULTURE', 'A', 1750, 1791, 'exact', '가보옥과 임대옥의 비극적 사랑을 중심으로 청대 가문 귀족 사회의 성쇠를 유려한 필치로 묘사.', '중국 4대 기서 중 최고의 걸작이자 세계적 고전 문학.', '', '', 'HIGH', 'APPROVED')
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
@@ -2914,7 +3430,15 @@ VALUES ('korea-ce18-pansori-chunhyangjeon', '판소리 12마당과 서민 문학
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('art-045-jeong-seon-inwang-jesaekdo', '겸재 정선의 진경산수화 『인왕제색도』와 『금강전도』', '겸재 정선의 진경산수화 『인왕제색도』와 『금강전도』', 'KOREA', '', 'ART_CULTURE', 'A', 1751, 1751, 'exact', '비 온 뒤 안개 갠 인왕산의 묵직한 바위산 암벽을 대담한 먹물 번짐(적묵법)으로 사생한 국보 제216호.', '중국 산수화 모방을 탈피한 조선 고유의 독창적 진경산수화 완성.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
 VALUES ('west-ce18-diderot-encyclopedie', '디드로와 달랑베르의 『백과전서(Encyclopédie)』 편찬 (1751~1772년)', '디드로와 달랑베르의 『백과전서(Encyclopédie)』 편찬 (1751~1772년)', 'WEST', '', 'SCIENCE', 'B', 1751, 1772, 'exact', '모든 과학, 예술, 기술, 철학 지식을 비판적 이성으로 집대성한 28권의 기념비적 계몽 저작.', '지식의 대중화와 프랑스 혁명의 사상적 인큐베이터.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('sci-044-benjamin-franklin-lightning-rod', '벤저민 프랭클린의 연 실험과 피뢰침(Lightning Rod) 발명', '벤저민 프랭클린의 연 실험과 피뢰침(Lightning Rod) 발명', 'WEST', '', 'SCIENCE', 'A', 1752, 1752, 'exact', '연을 날려 번개가 전기 현상임을 증명하고 건물을 벼락으로부터 보호하는 피뢰침을 발명하여 무료 공개.', '전기학의 발전과 인류를 자연재해로부터 구한 발명.', '', '', 'HIGH', 'APPROVED')
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
@@ -2923,6 +3447,10 @@ ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summar
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
 VALUES ('china-ce18-canton-system-trade', '광주 1구 무역 체제(광둥 공행 제도, 1757년)', '광주 1구 무역 체제(광둥 공행 제도, 1757년)', 'CHINA', '', 'ECONOMY', 'A', 1757, 1757, 'exact', '서양 국가들과의 무역항을 광저우 1곳으로 제한하고 독점 상인 길드 공행(十三行)을 통해서만 교역 허용.', '아편전쟁(1840년)의 무역 불균형 갈등을 낳은 폐쇄적 무역 통제.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('art-050-haydn-father-of-symphony', '요제프 하이든의 교향곡 104곡 완성과 고전파 소나타 형식 확립', '요제프 하이든의 교향곡 104곡 완성과 고전파 소나타 형식 확립', 'WEST', '', 'ART_CULTURE', 'A', 1760, 1795, 'exact', '4악장 교향곡 형식과 현악 4중주 장르를 완성하여 『놀람 교향곡』, 『런던 교향곡』, 오라토리오 『천지창조』 작곡.', '''교향곡의 아버지''이자 모차르트와 베토벤의 스승.', '', '', 'HIGH', 'APPROVED')
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
@@ -2938,11 +3466,23 @@ VALUES ('korea-ce18-prince-sado-tragedy', '사도세자의 비극 (임오화변,
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('phi-040-rousseau-social-contract-general-will', '장 자크 루소의 『사회계약론』과 일반의지(General Will)·국민주권', '장 자크 루소의 『사회계약론』과 일반의지(General Will)·국민주권', 'WEST', '', 'INSTITUTION', 'A', 1762, 1762, 'exact', '''인간은 자유롭게 태어났으나 도처에서 사슬에 묶여 있다''며 공동선(일반의지)에 바탕을 둔 직접 민주주의와 국민주권론 제시.', '프랑스 대혁명(1789)의 직접적인 사상적 도화선.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('phi-039-voltaire-treatise-on-tolerance', '볼테르의 『관용론(Treatise on Tolerance)』과 표현의 자유', '볼테르의 『관용론(Treatise on Tolerance)』과 표현의 자유', 'WEST', '', 'RELIGION', 'A', 1763, 1763, 'exact', '칼라스 사건의 종교적 광신을 고발하며 ''나는 당신의 말에 동의하지 않지만, 당신이 말할 권리를 위해 목숨 바쳐 싸우겠다''는 관용 정신 주창.', '프랑스 계몽주의의 수장이자 인권·종교적 자유의 수호자.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
 VALUES ('korea-ce18-hong-daeyong-astronomy-inquiry', '홍대용의 의산문답(醫山問答)과 지전설·무한우주론', '홍대용의 의산문답(醫山問答)과 지전설·무한우주론', 'KOREA', '', 'SCIENCE', 'C', 1765, 1766, 'exact', '북경 천주당을 견학하고 사설 천문대 농수각을 지어 지구의 자전(지전설)과 지구가 우주의 중심이 아니라는 탈중화주의 과학관 제시.', '동양 전통 우주관을 깬 조선 실학 천문학의 선구.', '', '', 'HIGH', 'APPROVED')
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
 VALUES ('west-ce18-industrial-revolution-watt', '제임스 와트의 증기기관 개량과 산업혁명 개막 (1769년)', '제임스 와트의 증기기관 개량과 산업혁명 개막 (1769년)', 'WEST', '', 'SCIENCE', 'A', 1765, 1785, 'exact', '증기기관의 효율을 혁신하여 방적기, 방직기, 제철소, 증기선에 동력을 공급함으로써 기계화 대량 생산 시대 개막.', '인류 경제·사회 구조를 농경 사회에서 산업 자본주의 사회로 완전히 전환시킨 대변혁.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('sci-045-james-watt-steam-engine-condenser', '제임스 와트의 분리 응축기 증기기관 개량 (산업혁명 기폭제)', '제임스 와트의 분리 응축기 증기기관 개량 (산업혁명 기폭제)', 'WEST', '', 'SCIENCE', 'A', 1769, 1776, 'exact', '뉴커먼 기관의 열효율을 4배 이상 높인 회전식 증기기관을 완성하여 방직 공장, 광산, 증기 기관차의 동력원 제공.', '인류를 기계 동력 시대로 진입시킨 제1차 산업혁명의 심장.', '', '', 'HIGH', 'APPROVED')
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
@@ -2955,6 +3495,18 @@ ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summar
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
 VALUES ('west-ce18-american-independence-1776', '미국 독립 혁명과 독립선언서 발표 (1776년)', '미국 독립 혁명과 독립선언서 발표 (1776년)', 'WEST', '', 'POLITICS', 'A', 1775, 1783, 'exact', '토머스 제퍼슨이 기초한 독립선언서를 발표하고 조지 워싱턴이 요크타운 전투에서 승리하여 세계 최초의 근대 공화국 합중국 건국.', '근대 입헌 민주 공화국 모델의 탄생과 전 세계 민주화 혁명의 도화선.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('art-046-kim-hongdo-genre-paintings', '단원 김홍도의 풍속화첩 『단원풍속도첩』 (씨름·서당·타작)', '단원 김홍도의 풍속화첩 『단원풍속도첩』 (씨름·서당·타작)', 'KOREA', '', 'ART_CULTURE', 'A', 1775, 1790, 'exact', '역동적인 굵은 필선과 해학적인 구도로 조선 서민들의 생생한 노동과 놀이 문화를 묘사한 보물 화첩.', '조선 후기 서민 문화 부흥을 상징하는 민족 풍속화의 최고봉.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('art-051-goethe-faust-magnum-opus', '요한 볼프강 폰 괴테의 희곡 『파우스트(Faust)』 (질풍노도 운동)', '요한 볼프강 폰 괴테의 희곡 『파우스트(Faust)』 (질풍노도 운동)', 'WEST', '', 'ART_CULTURE', 'A', 1775, 1832, 'exact', '메피스토펠레스에게 영혼을 건 파우스트 박사가 끊임없이 방황하며 진리를 탐구하는 60년간의 필생의 대작.', '독일 고전문학의 최고봉이자 인류 영혼의 성찰록.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('phi-044-adam-smith-invisible-hand-wealth', '애덤 스미스의 『국부론』과 시장 경제의 ''보이지 않는 손''', '애덤 스미스의 『국부론』과 시장 경제의 ''보이지 않는 손''', 'WEST', '', 'INSTITUTION', 'A', 1776, 1776, 'exact', '개인의 합리적 이기심에 따른 경제 활동이 시장의 ''보이지 않는 손''에 의해 사회 전체의 부를 증진시킨다는 자유방임주의 경제철학 체계화.', '고전 자본주의 경제학의 탄생.', '', '', 'HIGH', 'APPROVED')
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
@@ -2974,11 +3526,27 @@ VALUES ('korea-ce18-catholicism-western-learning-origin', '천주교(서학)의 
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('sci-046-lavoisier-conservation-of-mass-oxygen', '라부아지에의 질량 보존 법칙 및 산소 연소 이론 정립', '라부아지에의 질량 보존 법칙 및 산소 연소 이론 정립', 'WEST', '', 'SCIENCE', 'A', 1777, 1789, 'exact', '정밀 저울을 이용해 연소는 산소와의 결합임을 규명하고 플로지스톤설을 타파하며 화학 반응 전후 질량이 보존됨을 증명.', '근대 화학의 아버지이자 화학 혁명의 완성.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
 VALUES ('china-ce18-he-shen-corruption', '화신(和珅)의 천문학적 부정축재와 사사 (1799년)', '화신(和珅)의 천문학적 부정축재와 사사 (1799년)', 'CHINA', '', 'POLITICS', 'C', 1780, 1799, 'exact', '건륭제의 총신 화신이 국가 15년 치 예산에 달하는 8억 냥의 은을 축재했다가 가경제에게 처형당함.', '청나라 관료 부패의 극치와 쇠락의 원인.', '', '', 'HIGH', 'APPROVED')
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('art-047-shin-yunbok-hyewon-genre-painting', '혜원 신윤복의 『혜원전신첩』 (단오풍정·월하정인)', '혜원 신윤복의 『혜원전신첩』 (단오풍정·월하정인)', 'KOREA', '', 'ART_CULTURE', 'A', 1780, 1805, 'exact', '섬세한 유려한 필선과 화려한 원색 채색으로 양반과 기녀의 풍류, 남녀의 은밀한 사랑을 묘사한 국보 화첩.', '조선 후기 도시 유흥 문화와 여성 생활사를 담은 회화 걸작.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('phi-045-immanuel-kant-critique-of-pure-reason', '임마누엘 칸트의 비판철학 (코페르니쿠스적 전환과 정언명령)', '임마누엘 칸트의 비판철학 (코페르니쿠스적 전환과 정언명령)', 'WEST', '', 'RELIGION', 'A', 1781, 1788, 'exact', '경험론과 합리론을 종합하여 대상이 주관의 인식틀(선험적 시공간과 범주)에 맞춰진다는 인식론적 전환과 도덕적 의무론(정언명령) 확립.', '근대 서양 철학의 최고 정점이자 독일 관념론의 문을 연 거장.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
 VALUES ('west-ce18-kant-critique-of-pure-reason', '임마누엘 칸트의 『순수이성비판』 (1781년)', '임마누엘 칸트의 『순수이성비판』 (1781년)', 'WEST', '', 'SCIENCE', 'C', 1781, 1788, 'exact', '대륙 합리론과 영국 경험론을 종합하여 인식론의 코페르니쿠스적 전환과 정언명령(도덕 법칙) 확립.', '독일 관념론과 현대 철학의 최고 거장.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('art-049-mozart-marriage-of-figaro-requiem', '볼프강 아마데우스 모차르트의 오페라 『피가로의 결혼』 및 『레퀴엠』', '볼프강 아마데우스 모차르트의 오페라 『피가로의 결혼』 및 『레퀴엠』', 'WEST', '', 'ART_CULTURE', 'A', 1786, 1791, 'exact', '천재적인 멜로디와 하모니로 귀족 풍자 오페라 『피가로의 결혼』, 『돈 조반니』와 미완의 유작 『레퀴엠』 작곡.', '고전파 음악의 천재이자 서양 음악사상 가장 완벽한 멜로디 메이커.', '', '', 'HIGH', 'APPROVED')
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
@@ -2987,6 +3555,10 @@ ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summar
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
 VALUES ('west-ce18-french-revolution', '프랑스 대혁명과 인권선언 (1789년)', '프랑스 대혁명과 인권선언 (1789년)', 'WEST', '', 'POLITICS', 'A', 1789, 1799, 'exact', '바스티유 감옥 습격으로 시작되어 구제도(앙시앵 레짐)를 타파하고 ''자유·평등·우애''의 인간과 시민의 권리선언 채택.', '근대 민주주의, 국민 국가, 인권 사상의 결정적 분수령.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('phi-050-bentham-utilitarianism-greatest-happiness', '제러미 벤담의 양적 공리주의 (''최대 다수의 최대 행복'')', '제러미 벤담의 양적 공리주의 (''최대 다수의 최대 행복'')', 'WEST', '', 'INSTITUTION', 'A', 1789, 1802, 'exact', '행위의 옳고 그름은 그것이 낳는 쾌락과 고통의 총량(쾌락 계산법)에 따라 결정된다는 입법과 도덕의 공리주의 원리 확립.', '현대 복지 경제학과 민주적 법 개혁의 토대.', '', '', 'HIGH', 'APPROVED')
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
@@ -3002,6 +3574,10 @@ VALUES ('china-ce18-macartney-embassy-1793', '영국 매카트니 사절단의 �
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('sci-047-edward-jenner-smallpox-vaccine-creation', '에드워드 제너의 우두법(천연두 백신) 발명', '에드워드 제너의 우두법(천연두 백신) 발명', 'WEST', '', 'SCIENCE', 'A', 1796, 1796, 'exact', '우두에 걸린 소젖 짜는 여인의 고름을 8세 소년 제임스 핍스에게 접종하여 치명적 천연두 면역 획득 증명.', '현대 면역학과 백신 접종법의 탄생으로 수억 명의 생명 구원.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
 VALUES ('west-ce18-edward-jenner-smallpox-vaccine', '에드워드 제너의 종두법(천연두 백신) 발명 (1796년)', '에드워드 제너의 종두법(천연두 백신) 발명 (1796년)', 'WEST', '', 'SCIENCE', 'B', 1796, 1796, 'exact', '우두 바이러스를 접종하여 인류 역사상 가장 치명적인 질병 천연두에 대한 면역력을 획득하는 백신 접종법 최초 개발.', '현대 면역학의 탄생과 수억 명의 생명을 구한 의학 혁신.', '', '', 'HIGH', 'APPROVED')
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
@@ -3010,11 +3586,51 @@ VALUES ('china-ce18-white-lotus-rebellion-1796', '백련교도의 난(白蓮敎�
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('sci-048-volta-chemical-battery', '알레산드로 볼타의 최초 화학 전지(볼타 전지) 발명', '알레산드로 볼타의 최초 화학 전지(볼타 전지) 발명', 'WEST', '', 'SCIENCE', 'A', 1800, 1800, 'exact', '아연판과 구리판 사이에 소금물에 적신 천을 번갈아 쌓아 지속적인 직류 전류를 생산하는 최초의 배터리 발명.', '전기화학과 전기공학의 시대를 연 역사적 발명(전압 단위 V의 기원).', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
 VALUES ('korea-ce19-sedo-politics-tribulations', '세도정치(안동 김씨·풍양 조씨)와 홍경래의 난 (1811년)', '세도정치(안동 김씨·풍양 조씨)와 홍경래의 난 (1811년)', 'KOREA', '', 'POLITICS', 'B', 1800, 1863, 'exact', '순조·헌종·철종 3대 60년간 외척 세도 가문이 매관매직과 삼정의 문란(전정·군정·환곡)을 일삼자 평안도에서 홍경래가 차별 타파를 외치며 농민 봉기.', '조선 후기 국가 시스템의 총체적 파탄과 민중 봉기의 도화선.', '', '', 'HIGH', 'APPROVED')
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('phi-046-jeong-yak-yong-dasan-silhak', '다산 정약용의 실학 집대성 (『목민심서』, 『경세유표』, 『흠흠신서』)', '다산 정약용의 실학 집대성 (『목민심서』, 『경세유표』, 『흠흠신서』)', 'KOREA', '', 'RELIGION', 'A', 1801, 1818, 'exact', '강진 유배 18년간 500여 권의 저술을 통해 전론(여전제·정전제 토지개혁), 지방관의 청렴 애민, 사법 개혁을 체계화한 실사구시 실학 완성.', '조선 후기 비판적 근대 지성의 최고봉.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('sci-049-john-dalton-atomic-theory', '존 돌턴의 근대 원자설 및 배수 비례의 법칙 발표', '존 돌턴의 근대 원자설 및 배수 비례의 법칙 발표', 'WEST', '', 'SCIENCE', 'A', 1803, 1808, 'exact', '물질은 더 이상 쪼갤 수 없는 고유한 질량을 가진 원자들로 구성되며 화학 반응은 원자의 재배열임을 제안.', '현대 정량 화학과 물질관의 기초 확립.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
 VALUES ('west-ce19-napoleonic-wars-code', '나폴레옹 전쟁과 나폴레옹 법전(Civil Code) 반포 (1804년)', '나폴레옹 전쟁과 나폴레옹 법전(Civil Code) 반포 (1804년)', 'WEST', '', 'POLITICS', 'A', 1804, 1815, 'exact', '나폴레옹 보나파르트가 유럽 대륙을 제패하고 아우스테를리츠 전투 승리 및 법 앞의 평등, 사유재산을 보장한 근대 민법전 반포.', '전 유럽에 프랑스 혁명 이념(자유·평등)을 확산시키고 근대 민법 체계 표준 확립.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('phi-047-hegel-phenomenology-dialectic', '게오르크 헤겔의 『정신현상학』과 변증법(정·반·합)', '게오르크 헤겔의 『정신현상학』과 변증법(정·반·합)', 'WEST', '', 'RELIGION', 'A', 1807, 1821, 'exact', '절대정신이 역사의 변증법적 발전(모순과 지양)을 통해 자유를 실현해 나간다는 독일 관념론의 거대한 체계 완성.', '마르크스 유물론과 19~20세기 유럽 철학 전체에 결정적 영향.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('phi-048-schopenhauer-world-as-will', '아르투어 쇼펜하우어의 『의지와 표상으로서의 세계』 (염세주의 철학)', '아르투어 쇼펜하우어의 『의지와 표상으로서의 세계』 (염세주의 철학)', 'WEST', '', 'RELIGION', 'A', 1818, 1818, 'exact', '세계의 본질은 맹목적인 ''살고자 하는 의지''이며 삶은 고통의 연속이므로 예술적 관조와 동양 불교적 해탈을 통해 구원받아야 함을 역설.', '니체, 프로이트, 바그너에게 심대한 영향을 준 비합리주의 철학.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('art-052-beethoven-ninth-symphony-choral', '루트비히 판 베토벤의 교향곡 9번 『합창(Choral)』 (환희의 송가)', '루트비히 판 베토벤의 교향곡 9번 『합창(Choral)』 (환희의 송가)', 'WEST', '', 'ART_CULTURE', 'A', 1822, 1824, 'exact', '청력을 완전히 잃은 상태에서 실러의 시에 성악과 합창을 교향곡 역사상 최초로 결합하여 인류 화합과 자유를 노래.', '서양 클래식 음악사상 가장 위대한 교향곡이자 유럽연합(EU) 공식 국가.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('art-053-delacroix-liberty-leading-the-people', '외젠 들라크루아의 『민중을 이끄는 자유의 여신(1830년 7월 28일)』', '외젠 들라크루아의 『민중을 이끄는 자유의 여신(1830년 7월 28일)』', 'WEST', '', 'ART_CULTURE', 'A', 1830, 1830, 'exact', '삼색기를 들고 바리케이드를 넘는 자유의 여신 마리안느와 시민들의 투쟁을 역동적인 낭만주의 붓터치로 묘사.', '프랑스 공화주의와 낭만주의 혁명 미술의 최고 상징.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('art-054-frederic-chopin-piano-nocturnes', '프레데리크 쇼팽의 피아노 시학 (녹턴·발라드·영웅 폴로네즈)', '프레데리크 쇼팽의 피아노 시학 (녹턴·발라드·영웅 폴로네즈)', 'WEST', '', 'ART_CULTURE', 'A', 1830, 1849, 'exact', '피아노의 음색을 극대화한 루바토 기법과 폴란드의 민족적 한(恨)을 서정적 피아노 곡으로 승화.', '''피아노의 시인''으로 불리는 낭만주의 피아노 음악의 거장.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('sci-050-michael-faraday-electromagnetic-induction', '마이클 패러데이의 전자기 유도 법칙 발견 및 발전기 모터 발명', '마이클 패러데이의 전자기 유도 법칙 발견 및 발전기 모터 발명', 'WEST', '', 'SCIENCE', 'A', 1831, 1831, 'exact', '변화하는 자기장이 도선에 전류를 유도함을 발견하여 전동기(모터)와 발전기, 변압기의 기본 원리 확립.', '현대 전기 문명과 전력 인프라의 어머니.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('sci-051-samuel-morse-telegraph-code', '새뮤얼 모스의 전신기 발명과 모스 부호 전송', '새뮤얼 모스의 전신기 발명과 모스 부호 전송', 'WEST', '', 'SCIENCE', 'A', 1837, 1844, 'exact', '전선을 통해 점(dot)과 선(dash)의 전기 신호로 문자를 전송하는 전신기를 발명하고 워싱턴-볼티모어 간 최초 타전.', '빛의 속도로 정보를 전달하는 원거리 전기 통신 시대 개막.', '', '', 'HIGH', 'APPROVED')
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
@@ -3026,7 +3642,23 @@ VALUES ('china-ce19-first-opium-war-nanjing', '제1차 아편전쟁(1840년)과 
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('phi-049-kierkegaard-either-or-existentialism', '쇠렌 키에르케고르의 『이것이냐 저것이냐』와 실존주의(Existentialism)의 기원', '쇠렌 키에르케고르의 『이것이냐 저것이냐』와 실존주의(Existentialism)의 기원', 'WEST', '', 'RELIGION', 'A', 1843, 1849, 'exact', '헤겔의 추상적 체계에 맞서 ''신 앞에 선 단독자''로서 미적·윤리적 단계를 넘어 결단과 신앙의 도약을 감행하는 주체적 실존 강조.', '현대 실존주의 철학의 아버지.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('sci-052-william-morton-anesthesia-surgery', '윌리엄 모턴의 에테르 마취 수술 성공 (무통 수술 개막)', '윌리엄 모턴의 에테르 마취 수술 성공 (무통 수술 개막)', 'WEST', '', 'SCIENCE', 'A', 1846, 1846, 'exact', '보스턴 매사추세츠 종합병원 에테르 돔에서 에테르 가스 마취 하에 환자의 목 종양 무통 절제 수술 성공.', '수술 고통의 지옥에서 인류를 해방시킨 현대 외과학의 혁명.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('phi-052-marx-engels-communist-manifesto', '카를 마르크스·프리드리히 엥겔스의 『공산당 선언』과 유물사관', '카를 마르크스·프리드리히 엥겔스의 『공산당 선언』과 유물사관', 'WEST', '', 'INSTITUTION', 'A', 1848, 1848, 'exact', '''지금까지의 모든 역사는 계급투쟁의 역사이다''를 선언하며 자본주의 잉여가치 착취를 분석하고 노동자 계급의 국제적 단결과 혁명 제시.', '20세기 전 세계 정치 지형을 바꾼 사회주의·공산주의 운동의 출발점.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
 VALUES ('west-ce19-karl-marx-communist-manifesto-das-kapital', '카를 마르크스의 『공산당 선언』(1848)과 『자본론』(1867)', '카를 마르크스의 『공산당 선언』(1848)과 『자본론』(1867)', 'WEST', '', 'ECONOMY', 'A', 1848, 1867, 'exact', '역사적 유물론과 잉여가치설을 바탕으로 자본주의 모순을 분석하고 프롤레타리아 계급투쟁과 사회주의 이론 정립.', '20세기 전 세계를 양분한 사회주의·공산주의 운동의 바이블.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('art-055-gustave-courbet-realism-burial', '귀스타브 쿠르베의 『오르낭의 매장』과 사실주의(Realism) 선언', '귀스타브 쿠르베의 『오르낭의 매장』과 사실주의(Realism) 선언', 'WEST', '', 'ART_CULTURE', 'A', 1849, 1855, 'exact', '''나에게 천사를 보여주면 천사를 그리겠다''며 신화나 영웅 대신 평범한 시골 촌부의 실제 장례식을 거대한 화폭에 그림.', '미화된 고전주의를 깨부순 근대 사실주의 회화의 개막.', '', '', 'HIGH', 'APPROVED')
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
@@ -3038,11 +3670,31 @@ VALUES ('china-ce19-beijing-treaty-1860', '제2차 아편전쟁과 북경조약�
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('sci-053-charles-darwin-natural-selection-evolution', '찰스 다윈의 『종의 기원』과 자연선택 진화론', '찰스 다윈의 『종의 기원』과 자연선택 진화론', 'WEST', '', 'SCIENCE', 'A', 1859, 1859, 'exact', '변이와 환경 적응, 생존 경쟁을 통한 자연선택설로 모든 생명체가 공통 조상으로부터 진화했음을 증명.', '생물학, 철학, 종교, 인류관을 뒤바꾼 19세기 최고의 지적 혁명.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
 VALUES ('west-ce19-charles-darwin-origin-of-species', '찰스 다윈의 『종의 기원』과 진화론 (1859년)', '찰스 다윈의 『종의 기원』과 진화론 (1859년)', 'WEST', '', 'SCIENCE', 'A', 1859, 1859, 'exact', '비글호 항해와 갈라파고스 군도 관찰을 통해 자연선택설(Natural Selection)에 의한 생물 진화 메커니즘 규명.', '생물학뿐 아니라 철학, 사회학, 세계관을 근본적으로 바꾼 과학 혁명.', '', '', 'HIGH', 'APPROVED')
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('phi-051-john-stuart-mill-on-liberty-utilitarianism', '존 스튜어트 밀의 『자유론(On Liberty)』과 질적 공리주의', '존 스튜어트 밀의 『자유론(On Liberty)』과 질적 공리주의', 'WEST', '', 'INSTITUTION', 'A', 1859, 1861, 'exact', '''만족한 돼지보다 불만족한 소크라테스가 낫다''며 정신적 쾌락의 질을 중시하고, 타인에게 해를 끼치지 않는 한 절대적 사상·표현의 자유 보장(해악 원칙) 주창.', '자유주의 민주주의 헌정 철학의 바이블.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
 VALUES ('korea-ce19-choe-jeu-donghak-creation', '수운 최제우의 동학(東學) 창시 (인내천 사상, 1860년)', '수운 최제우의 동학(東學) 창시 (인내천 사상, 1860년)', 'KOREA', '', 'RELIGION', 'B', 1860, 1864, 'exact', '서학(서양 세력)에 맞서 경주에서 ''사람이 곧 하늘이다(人乃天)''는 시천주와 후천개벽 사상을 창시하여 양반·천민 차별 없는 평등 세상 제시.', '한국 자생 근대 민족 종교의 탄생(천도교의 모태).', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('phi-072-choe-jeu-donghak-innaecheon', '수운 최제우의 동학 창시와 인내천(人乃天, 사람이 곧 하늘이다)', '수운 최제우의 동학 창시와 인내천(人乃天, 사람이 곧 하늘이다)', 'KOREA', '', 'RELIGION', 'A', 1860, 1864, 'exact', '서학(서구 열강)에 맞서 경주에서 시천주(侍天主)와 후천개벽을 선포하고 신분 귀천 없이 모든 인간이 하늘님을 모시고 있다는 절대 평등 사상 주창.', '한국 근대 민중 해방과 동학농민혁명의 사상적 모태.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('art-062-pansori-twelve-madang-korea', '조선 판소리 12마당의 집대성과 신재효의 판소리 사설 정립', '조선 판소리 12마당의 집대성과 신재효의 판소리 사설 정립', 'KOREA', '', 'ART_CULTURE', 'A', 1860, 1884, 'exact', '춘향가, 심청가, 흥보가, 수궁가, 적벽가 등 구전 판소리 사설을 6마당으로 정리하고 여류 명창(진채선) 육성.', '유네스코 인류무형문화유산으로 등재된 한국 고유의 종합 성악 예술.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('sci-057-louis-pasteur-germ-theory-rabies', '루이 파스퇴르의 세균 병원설 및 광견병 백신 개발', '루이 파스퇴르의 세균 병원설 및 광견병 백신 개발', 'WEST', '', 'SCIENCE', 'A', 1860, 1885, 'exact', '저온 살균법 개발, 미생물 자연발생설 반박, 약독화 병원균을 이용한 광견병·탄저병 백신 접종 성공.', '현대 미생물학, 감염병학, 공중보건학의 창시자.', '', '', 'HIGH', 'APPROVED')
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
@@ -3062,11 +3714,23 @@ VALUES ('china-ce19-cixi-empress-dowager', '서태후(Empress Dowager Cixi)의 4
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('art-056-victor-hugo-les-miserables', '빅토르 위고의 대하소설 『레 미제라블(Les Misérables)』', '빅토르 위고의 대하소설 『레 미제라블(Les Misérables)』', 'WEST', '', 'ART_CULTURE', 'A', 1862, 1862, 'exact', '빵 한 조각을 훔친 죄로 19년간 복역한 장발장의 구원과 1832년 6월 봉기 청년들의 자유 투쟁을 그린 인도주의 대작.', '프랑스 문학사상 가장 사랑받는 사회 고발 및 사랑의 서사시.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
 VALUES ('west-ce19-german-unification-bismarck', '비스마르크의 철혈 정책과 독일 제국 통일 (1871년)', '비스마르크의 철혈 정책과 독일 제국 통일 (1871년)', 'WEST', '', 'POLITICS', 'A', 1862, 1871, 'exact', '프로이센의 오토 폰 비스마르크가 오스트리아와 프랑스를 격파하고 베르사유 궁전 거울의 방에서 빌헬름 1세 황제 대관식 거행.', '유럽 중심부에 거대 강국 독일 탄생 및 세력 균형 재편.', '', '', 'HIGH', 'APPROVED')
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
 VALUES ('korea-ce19-heungseon-daewongun-reforms', '흥선대원군의 개혁과 쇄국 양요 (병인양요·신미양요, 1863~1873년)', '흥선대원군의 개혁과 쇄국 양요 (병인양요·신미양요, 1863~1873년)', 'KOREA', '', 'POLITICS', 'A', 1863, 1873, 'exact', '경복궁 중건, 서원 600여 개 철폐, 사창제·호포제(양반 군포 징수)를 단행하고 프랑스군(병인양요, 1866)과 미군(신미양요, 1871)을 격퇴하며 척화비 건립.', '왕권 강화와 통상 수교 거부로 자주를 지키려 한 쇄국 정치.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('sci-054-gregor-mendel-genetics-laws', '그레고어 멘델의 완두콩 교배 실험과 유전 법칙 발견', '그레고어 멘델의 완두콩 교배 실험과 유전 법칙 발견', 'WEST', '', 'SCIENCE', 'A', 1865, 1866, 'exact', '우열의 법칙, 분리의 법칙, 독립의 법칙을 수학적 확률 통계로 증명하여 유전 단위(인자)의 존재 규명.', '현대 유전학(Genetics)의 아버지.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('sci-055-james-clerk-maxwell-electromagnetism', '제임스 클러크 맥스웰의 4대 전자기 방정식 완성', '제임스 클러크 맥스웰의 4대 전자기 방정식 완성', 'WEST', '', 'SCIENCE', 'A', 1865, 1873, 'exact', '전기장과 자기장을 통합하고 빛이 전자기파의 일종임을 수학적으로 완벽하게 입증.', '라디오, TV, 레이더, 스마트폰 등 무선 통신의 이론적 기반.', '', '', 'HIGH', 'APPROVED')
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
@@ -3078,6 +3742,14 @@ VALUES ('meiji-restoration-japan', '메이지 유신과 일본의 근대화', 'M
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('sci-056-dmitri-mendeleev-periodic-table', '드미트리 멘델레예프의 원소 주기율표 발표', '드미트리 멘델레예프의 원소 주기율표 발표', 'WEST', '', 'SCIENCE', 'A', 1869, 1869, 'exact', '원자량 순서로 원소들을 배열하여 주기적 성질을 발견하고, 아직 발견되지 않은 갈륨, 게르마늄 등의 성질을 정확히 예언.', '화학을 체계적 예측 과학으로 승격시킨 기념비적 성취.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('art-057-claude-monet-impression-sunrise', '클로드 모네의 『인상, 일출(Impression, Sunrise)』과 인상주의의 탄생', '클로드 모네의 『인상, 일출(Impression, Sunrise)』과 인상주의의 탄생', 'WEST', '', 'ART_CULTURE', 'A', 1872, 1874, 'exact', '르아브르 항구의 아침 햇살과 바다 물결에 반사되는 빛의 찰나적 인상을 원색의 거친 터치로 포착.', '인상파(Impressionism)라는 이름을 낳은 현대 미술의 문을 연 명작.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
 VALUES ('west-ce19-impressionism-monet', '모네의 『인상, 일출』과 인상주의(Impressionism) 미술 탄생 (1872년)', '모네의 『인상, 일출』과 인상주의(Impressionism) 미술 탄생 (1872년)', 'WEST', '', 'ART_CULTURE', 'C', 1872, 1886, 'exact', '야외에서 시시각각 변화하는 빛의 순간적 인상을 원색의 붓터치로 포착한 미술 혁명.', '근대 현대 미술(모더니즘)의 출발점.', '', '', 'HIGH', 'APPROVED')
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
@@ -3086,7 +3758,27 @@ VALUES ('korea-ce19-ganghwa-treaty-1876', '강화도 조약(조일수호조규, 
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('sci-058-alexander-graham-bell-telephone', '알렉산더 그레이엄 벨의 전화기(Telephone) 발명', '알렉산더 그레이엄 벨의 전화기(Telephone) 발명', 'WEST', '', 'SCIENCE', 'A', 1876, 1876, 'exact', '전자기 유도 진동판을 이용해 사람의 음성을 전기 신호로 변환하여 실시간 음성 통화 성공.', '인류 글로벌 음성 통신 네트워크의 탄생.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('art-058-tchaikovsky-swan-lake-nutcracker', '표트르 차이콥스키의 3대 발레 명곡 (『백조의 호수』, 『호두까기 인형』)', '표트르 차이콥스키의 3대 발레 명곡 (『백조의 호수』, 『호두까기 인형』)', 'WEST', '', 'ART_CULTURE', 'A', 1876, 1892, 'exact', '화려한 오케스트레이션과 애절한 슬라브적 서정 선율로 고전 발레 음악을 독립된 예술 음악으로 격상.', '러시아 낭만주의 클래식 음악과 발레의 세계적 정점.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('sci-059-thomas-edison-incandescent-light-bulb', '토머스 에디슨의 탄소 필라멘트 백열전구 및 전력망 상용화', '토머스 에디슨의 탄소 필라멘트 백열전구 및 전력망 상용화', 'WEST', '', 'SCIENCE', 'A', 1879, 1882, 'exact', '40시간 이상 타는 실용 백열전구 개발 및 뉴욕 펄 스트리트에 중앙 발전소를 세워 가정과 공장에 전력 공급.', '인류의 밤을 환하게 밝히고 2차 산업혁명을 가속화한 발명왕.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
 VALUES ('west-ce19-edison-electricity-revolution', '토머스 에디슨의 백열전구 발명과 2차 산업혁명 (전기·화학·석유)', '토머스 에디슨의 백열전구 발명과 2차 산업혁명 (전기·화학·석유)', 'WEST', '', 'SCIENCE', 'A', 1879, 1890, 'exact', '실용 백열전구, 발전소, 축음기, 영사기를 발명하고 벨의 전화기, 테슬라의 교류 전기와 함께 밤을 낮으로 바꿈.', '전기화와 대량 생산 공장 체제를 구축한 제2차 산업혁명의 완성.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('art-060-auguste-rodin-the-thinker-gates-of-hell', '오귀스트 로댕의 조각 『생각하는 사람』과 『지옥의 문』', '오귀스트 로댕의 조각 『생각하는 사람』과 『지옥의 문』', 'WEST', '', 'ART_CULTURE', 'A', 1880, 1904, 'exact', '단테의 신곡에서 영감을 받아 웅크리고 고뇌하는 인간의 근육과 내면의 번뇌를 청동 조각으로 형상화.', '근대 조각의 아버지 로댕의 대표 걸작.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('phi-053-friedrich-nietzsche-thus-spoke-zarathustra', '프리드리히 니체의 ''신은 죽었다''와 위버멘쉬(초인)·영겁회귀', '프리드리히 니체의 ''신은 죽었다''와 위버멘쉬(초인)·영겁회귀', 'WEST', '', 'RELIGION', 'A', 1882, 1885, 'exact', '기독교 노예도덕과 허무주의(Nihilism)를 망치로 부수고, 운명을 사랑하는 아모르 파티(Amor Fati)와 삶의 주인이 되는 위버멘쉬(Übermensch) 선언.', '20세기 포스트모더니즘, 실존주의, 현대 사상의 불꽃.', '', '', 'HIGH', 'APPROVED')
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
@@ -3095,6 +3787,14 @@ ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summar
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
 VALUES ('west-ce19-scramble-for-africa-berlin', '베를린 회의와 아프리카 대륙 분할 (1884~1885년)', '베를린 회의와 아프리카 대륙 분할 (1884~1885년)', 'WEST', '', 'POLITICS', 'B', 1884, 1885, 'exact', '유럽 14개국이 모여 현지 민족을 무시하고 자로 잰 듯이 아프리카 전 대륙을 식민지로 분할 점령.', '제국주의 침탈의 극치와 20세기 아프리카 분쟁의 원인.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('art-059-vincent-van-gogh-starry-night', '빈센트 반 고흐의 『별이 빛나는 밤(The Starry Night)』', '빈센트 반 고흐의 『별이 빛나는 밤(The Starry Night)』', 'WEST', '', 'ART_CULTURE', 'A', 1889, 1889, 'exact', '생레미 요양원 방에서 소용돌이치는 밤하늘의 은하수와 별빛, 사이프러스 나무를 두터운 임파스토 물감으로 격정적 표현.', '후기 인상주의이자 표현주의 미술에 결정적 영향을 미친 불멸의 명화.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('art-061-edvard-munch-the-scream', '에드바르 뭉크의 『절규(The Scream)』와 표현주의(Expressionism)', '에드바르 뭉크의 『절규(The Scream)』와 표현주의(Expressionism)', 'WEST', '', 'ART_CULTURE', 'A', 1893, 1893, 'exact', '피빛으로 물든 노을 하늘 아래 귀를 막고 비명을 지르는 해골 형상의 인물을 통해 현대인의 실존적 불안을 시각화.', '20세기 표현주의 미술의 대표 아이콘.', '', '', 'HIGH', 'APPROVED')
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
@@ -3118,7 +3818,15 @@ VALUES ('china-ce19-sun-yat-sen-revive-china', '쑨원의 흥중회(興中會) �
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('art-089-cinematographe-lumiere-brothers', '뤼미에르 형제의 시네마토그래프 발명과 최초의 영화 상영 (1895년)', '뤼미에르 형제의 시네마토그래프 발명과 최초의 영화 상영 (1895년)', 'WEST', '', 'ART_CULTURE', 'A', 1895, 1895, 'exact', '파리 그랑 카페에서 스크린에 영사한 『열차의 도착』, 『공장을 나서는 노동자들』 유료 상영 성공.', '20세기 제7의 예술 ''영화(Cinema)''의 공식 탄생.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
 VALUES ('korea-ce19-eulmi-incident-queen-min', '을미사변(명성황후 시해, 1895년)과 단발령·을미의병', '을미사변(명성황후 시해, 1895년)과 단발령·을미의병', 'KOREA', '', 'POLITICS', 'A', 1895, 1895, 'exact', '일본 낭인과 군대가 경복궁 옥호루를 습격해 명성황후를 시해하고 단발령을 강제하자 유생과 백성들이 전국적으로 을미의병 궐기.', '항일 무장 독립운동의 첫 출발점.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('sci-060-wilhelm-rontgen-x-rays-discovery', '빌헬름 뢴트겐의 X선(X-ray) 발견 (제1회 노벨물리학상)', '빌헬름 뢴트겐의 X선(X-ray) 발견 (제1회 노벨물리학상)', 'WEST', '', 'SCIENCE', 'A', 1895, 1895, 'exact', '음극선관 실험 중 불투명한 물체를 투과하여 아내의 손가락 뼈와 반지 사진을 찍은 미지의 방사선 발견.', '의학 방사선 진단(X-ray, CT)과 원자 물리학의 서막.', '', '', 'HIGH', 'APPROVED')
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
@@ -3142,7 +3850,43 @@ VALUES ('china-ce19-yan-fu-tianyanlun', '엄복의 『천연론(天演論)』 �
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('sci-061-marie-curie-radium-polonium', '마리 퀴리·피에르 퀴리의 라듐 및 폴로늄 발견과 방사능 연구', '마리 퀴리·피에르 퀴리의 라듐 및 폴로늄 발견과 방사능 연구', 'WEST', '', 'SCIENCE', 'A', 1898, 1903, 'exact', '우라늄 광석에서 방사능(Radioactivity)을 내뿜는 새로운 원소 폴로늄과 라듐을 분리(노벨상 2회 수상).', '핵물리학과 암 방사선 치료의 위대한 개척자.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('phi-055-william-james-pragmatism-truth', '윌리엄 제임스의 실용주의(Pragmatism) 선언', '윌리엄 제임스의 실용주의(Pragmatism) 선언', 'WEST', '', 'RELIGION', 'A', 1898, 1907, 'exact', '진리란 고정된 추상적 관념이 아니라 실제 인간 삶의 경험 속에서 유용한 현금 가치(Cash value)를 발휘할 때 참이 된다는 실용주의 제안.', '미국을 대표하는 고유한 독자 철학 전통 확립.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('phi-054-sigmund-freud-interpretation-of-dreams', '지그문트 프로이트의 『꿈의 해석』과 무의식(Unconscious)·정신분석학', '지그문트 프로이트의 『꿈의 해석』과 무의식(Unconscious)·정신분석학', 'WEST', '', 'RELIGION', 'A', 1899, 1900, 'exact', '인간의 행동을 지배하는 무의식의 영역, 이드(Id)·에고(Ego)·초자아(Superego)의 갈등과 리비도(성적 에너지)를 규명.', '인간 심리학, 예술, 문학, 철학의 패러다임을 뒤흔든 정신분석학의 창시.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
 VALUES ('china-ce19-boxer-rebellion-1900', '의화단 운동(1899~1900년)과 8개국 연합군의 베이징 점령', '의화단 운동(1899~1900년)과 8개국 연합군의 베이징 점령', 'CHINA', '', 'POLITICS', 'A', 1899, 1901, 'exact', '''부청멸양''을 외치며 서양 교회와 철도를 파괴하자 서태후가 열강에 선전포고했으나 8개국 연합군에 자금성이 유린당하고 신축조약(4억 5천만 냥 배상) 체결.', '청 제국의 완전한 뇌사 상태 및 멸망 불가피.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('sci-063-max-planck-quantum-hypothesis', '막스 플랑크의 양자 가설(Quantum Hypothesis) 제안', '막스 플랑크의 양자 가설(Quantum Hypothesis) 제안', 'WEST', '', 'SCIENCE', 'A', 1900, 1900, 'exact', '흑체 복사 실험을 설명하기 위해 에너지가 연속적이 아니라 불연속적인 덩어리(E=hν)로 방출된다는 양자 개념 도입.', '양자역학(Quantum Mechanics)의 출발점이자 현대 물리학의 탄생.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('sci-062-karl-landsteiner-abo-blood-groups', '카를 란트슈타이너의 ABO식 혈액형 발견', '카를 란트슈타이너의 ABO식 혈액형 발견', 'WEST', '', 'SCIENCE', 'A', 1900, 1901, 'exact', '적혈구 응집 반응을 관찰하여 인간의 혈액형을 A형, B형, O형, AB형으로 분류.', '안전한 수혈을 가능하게 하여 수술과 응급의학의 비약적 발전.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('phi-057-edmund-husserl-phenomenology', '에드문트 후설의 현상학(Phenomenology)과 ''사태 자체로!''', '에드문트 후설의 현상학(Phenomenology)과 ''사태 자체로!''', 'WEST', '', 'RELIGION', 'A', 1900, 1913, 'exact', '자연주의적 선입견을 판단중지(에포케)하고 의식의 지향성(Intentionality)을 통해 순수 의식에 직접 주어지는 본질을 직관.', '하이데거, 사르트르, 메를로퐁티로 이어지는 20세기 대륙 철학의 뿌리.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('sci-064-wright-brothers-powered-flight', '라이트 형제의 인류 최초 동력 비행기(플라이어호) 비행', '라이트 형제의 인류 최초 동력 비행기(플라이어호) 비행', 'WEST', '', 'SCIENCE', 'A', 1903, 1903, 'exact', '노스캐롤라이나 키티호크에서 12초간 36.5m를 자력으로 비행하여 인류의 비행 꿈을 실현.', '항공 우주 공학과 글로벌 항공 교통 시대의 개막.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('phi-056-max-weber-protestant-ethic', '막스 베버의 『프로테스탄트 윤리와 자본주의 정신』', '막스 베버의 『프로테스탄트 윤리와 자본주의 정신』', 'WEST', '', 'INSTITUTION', 'A', 1904, 1905, 'exact', '칼뱅주의 예정설과 직업 소명 의식에 따른 금욕적 노동이 근대 합리적 자본주의 형성의 원동력이었음을 규명.', '현대 사회과학과 비교종교학, 경제사회학의 최고 고전.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('sci-065-einstein-special-relativity-emc2', '알베르트 아인슈타인의 특수 상대성이론 및 광전효과·E=mc² (1905년 기적의 해)', '알베르트 아인슈타인의 특수 상대성이론 및 광전효과·E=mc² (1905년 기적의 해)', 'WEST', '', 'SCIENCE', 'A', 1905, 1905, 'exact', '광속 불변과 시간·공간의 상대성, 질량-에너지 등가원리(E=mc²), 빛의 입자성(광양자설)을 단 한 해에 발표.', '20세기 현대 물리학의 혁명적 대전환.', '', '', 'HIGH', 'APPROVED')
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
@@ -3154,7 +3898,31 @@ VALUES ('west-ce20-einstein-relativity-quantum', '알베르트 아인슈타인�
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('art-063-pablo-picasso-les-demoiselles-guernica', '파블로 피카소의 『아비뇽의 처녀들』(1907)과 『게르니카』(1937, 입체파)', '파블로 피카소의 『아비뇽의 처녀들』(1907)과 『게르니카』(1937, 입체파)', 'WEST', '', 'ART_CULTURE', 'A', 1907, 1937, 'exact', '원근법을 파괴하고 대상을 다시점 입체로 해체·재조합한 큐비즘 창시 및 나치의 스페인 폭격을 고발한 『게르니카』 제작.', '20세기 미술사 최대의 혁명가 피카소의 불멸의 걸작.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('art-064-henri-matisse-the-dance-fauvism', '앙리 마티스의 『춤(The Dance)』과 야수파(Fauvism)의 색채 해방', '앙리 마티스의 『춤(The Dance)』과 야수파(Fauvism)의 색채 해방', 'WEST', '', 'ART_CULTURE', 'A', 1909, 1910, 'exact', '붉은 원색의 나체 인물들이 손을 잡고 원을 그리며 춤추는 모습을 강렬한 평면 색채로 표현.', '형태의 재현을 벗어나 원색의 순수한 감정을 폭발시킨 야수파의 거장.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('sci-068-haber-bosch-ammonia-synthesis', '프리츠 하버·카를 보슈의 공기 중 질소 고정(암모니아 합성법)', '프리츠 하버·카를 보슈의 공기 중 질소 고정(암모니아 합성법)', 'WEST', '', 'SCIENCE', 'A', 1909, 1913, 'exact', '고온·고압 촉매 하에서 공기 중 질소와 수소를 결합시켜 암모니아(비료)를 대량 생산하는 화학 공정 개발.', '''공기로 빵을 만든 기술''로 세계 식량 생산을 폭발시켜 인류를 기아에서 구원.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('art-065-wassily-kandinsky-abstract-art', '바실리 칸딘스키의 최초의 순수 추상 수채화 (추상미술의 탄생)', '바실리 칸딘스키의 최초의 순수 추상 수채화 (추상미술의 탄생)', 'WEST', '', 'ART_CULTURE', 'A', 1910, 1911, 'exact', '구체적인 대상을 완전히 지우고 점·선·면과 색채의 리듬만으로 음악적 영혼의 울림을 표현한 『예술에서의 정신적인 것에 대하여』 출간.', '현대 추상미술(Abstract Art)의 창시자.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('sci-067-rutherford-atomic-nucleus', '어니스트 러더퍼드의 알파입자 산란 실험과 원자핵 발견', '어니스트 러더퍼드의 알파입자 산란 실험과 원자핵 발견', 'WEST', '', 'SCIENCE', 'A', 1911, 1911, 'exact', '금박에 알파입자를 쏘아 대부분 통과하지만 극히 일부가 크게 튕겨 나옴을 통해 원자 중심에 극도로 밀집된 양전하 원자핵 존재 규명.', '현대 행성형 원자 모형과 핵물리학의 탄생.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
 VALUES ('china-ce20-xinhai-revolution-1911', '신해혁명(1911년)과 중화민국 건국 (쑨원의 삼민주의)', '신해혁명(1911년)과 중화민국 건국 (쑨원의 삼민주의)', 'CHINA', '', 'POLITICS', 'A', 1911, 1912, 'exact', '무창 봉기로 청나라가 멸망(마지막 황제 푸이 퇴위)하고 쑨원이 아시아 최초의 민주 공화국인 중화민국 임시 대총통으로 취임.', '2,132년간 지속된 중국 전제 황제정의 영구 종말.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('art-069-igor-stravinsky-rite-of-spring', '이고르 스트라빈스키의 발레 음악 『봄의 제전(The Rite of Spring)』', '이고르 스트라빈스키의 발레 음악 『봄의 제전(The Rite of Spring)』', 'WEST', '', 'ART_CULTURE', 'A', 1913, 1913, 'exact', '파리 초연 당시 파격적인 원시주의 불협화음과 변박자 리듬으로 객석에서 관객들의 격렬한 폭동을 유발.', '20세기 현대 음악(모더니즘)의 문을 연 기념비적 명곡.', '', '', 'HIGH', 'APPROVED')
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
@@ -3163,6 +3931,18 @@ ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summar
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
 VALUES ('west-ce20-world-war-one-versailles', '제1차 세계대전(1914~1918)과 베르사유 조약·국제연맹 창설', '제1차 세계대전(1914~1918)과 베르사유 조약·국제연맹 창설', 'WEST', '', 'POLITICS', 'A', 1914, 1919, 'exact', '사라예보 사건으로 촉발되어 참호전, 기관총, 독가스, 탱크가 등장한 총력전으로 4대 제국(독일·오스트리아·러시아·오스만)이 붕괴됨.', '20세기 세계 질서의 근본적 재편과 윌슨의 민족자결주의 선언.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('sci-066-einstein-general-relativity-gravity', '아인슈타인의 일반 상대성이론 (시공간 휨과 중력장 방정식)', '아인슈타인의 일반 상대성이론 (시공간 휨과 중력장 방정식)', 'WEST', '', 'SCIENCE', 'A', 1915, 1919, 'exact', '중력을 질량에 의해 왜곡된 4차원 시공간의 곡률로 설명하고, 1919년 개기일식 별빛 굴절 관측으로 입증.', '현대 우주론, 블랙홀, 중력파 이론의 절대적 토대.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('phi-085-john-dewey-democracy-and-education', '존 듀이의 『민주주의와 교육(Democracy and Education)』과 도구주의', '존 듀이의 『민주주의와 교육(Democracy and Education)』과 도구주의', 'WEST', '', 'INSTITUTION', 'B', 1916, 1916, 'exact', '주입식 교육을 배격하고 행함으로써 배우는(Learning by Doing) 경험 중심 진보주의 교육과 삶의 방식으로서의 참여 민주주의 주창.', '현대 공교육과 실천적 민주주의 철학의 기틀.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('art-066-marcel-duchamp-fountain-dadaism', '마르셀 뒤샹의 『샘(Fountain, 1917년)』과 개념미술(레디메이드)', '마르셀 뒤샹의 『샘(Fountain, 1917년)』과 개념미술(레디메이드)', 'WEST', '', 'ART_CULTURE', 'A', 1917, 1917, 'exact', '남성용 소변기에 ''R. Mutt''라고 서명하여 전시장(뉴욕 독립미술가전)에 출품함으로써 ''예술이란 손으로 만드는 것이 아니라 선택하는 개념''임을 선언.', '현대 개념미술과 다다이즘의 혁명적 분기점.', '', '', 'HIGH', 'APPROVED')
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
@@ -3186,7 +3966,79 @@ VALUES ('march-first-movement', '3·1 운동과 대한민국 임시정부 수립
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('art-067-piet-mondrian-composition-de-stijl', '피트 몬드리안의 기하학적 신조형주의 『빨강, 파랑, 노랑의 구성』', '피트 몬드리안의 기하학적 신조형주의 『빨강, 파랑, 노랑의 구성』', 'WEST', '', 'ART_CULTURE', 'A', 1921, 1930, 'exact', '검은 수평·수직 격자선과 3원색(빨강, 파랑, 노랑), 무채색 면만으로 우주의 절대적 질서와 균형을 표현(더 스테일).', '현대 미니멀리즘 디자인과 바우하우스 건축에 지대한 영향.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('phi-059-ludwig-wittgenstein-tractatus-investigations', '루트비히 비트겐슈타인의 『논리철학논고』와 『철학적 탐구』 (언어철학)', '루트비히 비트겐슈타인의 『논리철학논고』와 『철학적 탐구』 (언어철학)', 'WEST', '', 'RELIGION', 'A', 1921, 1953, 'exact', '''말할 수 없는 것에 대해서는 침묵해야 한다''는 초기 그림이론과 언어는 삶의 형식 속에서의 규칙 따르기라는 후기 ''언어게임'' 이론.', '20세기 분석철학과 일상언어학파를 창시한 천재 철학자.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('phi-083-martin-buber-i-and-thou', '마르틴 부버의 『나와 너(I and Thou)』와 대화 철학', '마르틴 부버의 『나와 너(I and Thou)』와 대화 철학', 'WEST', '', 'RELIGION', 'B', 1923, 1923, 'exact', '타자를 도구로 대하는 ''나-그것(I-It)''의 관계를 극복하고, 영혼과 영혼이 인격적으로 마주하는 진정한 ''나-너(I-Thou)''의 실존적 만남 역설.', '현대 종교철학, 교육학, 심리치료의 윤리적 기둥.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('art-071-george-gershwin-rhapsody-in-blue', '조지 거슈윈의 『랩소디 인 블루(Rhapsody in Blue)』 (재즈와 클래식 융합)', '조지 거슈윈의 『랩소디 인 블루(Rhapsody in Blue)』 (재즈와 클래식 융합)', 'WEST', '', 'ART_CULTURE', 'A', 1924, 1924, 'exact', '클라리넷의 미끄러지는 글리산도로 시작하여 미국 흑인 재즈 리듬과 서양 교향악 오케스트라를 완벽하게 결합.', '미국 고유의 심포닉 재즈 음악 장르 창시.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('art-090-louis-armstrong-jazz-improvisation', '루이 암스트롱의 트럼펫 솔로와 재즈 즉흥 연주(Improvisation) 혁명', '루이 암스트롱의 트럼펫 솔로와 재즈 즉흥 연주(Improvisation) 혁명', 'WEST', '', 'ART_CULTURE', 'B', 1925, 1928, 'exact', '뉴올리언스 핫 파이브/핫 세븐 레코딩을 통해 집단 연주에서 독주 솔리스트와 스캣(Scat) 보컬 중심의 재즈로 전환.', '20세기 미국 대중음악과 재즈의 대부.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('phi-058-martin-heidegger-being-and-time', '마르틴 하이데거의 『존재와 시간(Sein und Zeit)』 (현존재 분석론)', '마르틴 하이데거의 『존재와 시간(Sein und Zeit)』 (현존재 분석론)', 'WEST', '', 'RELIGION', 'A', 1927, 1927, 'exact', '전통 서양 존재론의 ''존재 망각''을 비판하고, 세계-내-존재이자 죽음을 향한 존재로서의 인간 현존재(Dasein)의 시간성을 규명.', '20세기 실존철학과 해석학의 최고 기념비.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('sci-070-heisenberg-uncertainty-principle', '하이젠베르크의 불확정성 원리와 양자역학 코펜하겐 해석', '하이젠베르크의 불확정성 원리와 양자역학 코펜하겐 해석', 'WEST', '', 'SCIENCE', 'A', 1927, 1927, 'exact', '미시세계 입자의 위치(x)와 운동량(p)을 동시에 정확하게 측정할 수 없다는 근본적 확률론적 한계 증명(Δx·Δp ≥ ℏ/2).', '결정론적 고전 물리학의 붕괴와 현대 양자물리학의 확립.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('sci-069-alexander-fleming-penicillin', '알렉산더 플레밍의 페니실린(최초 항생제) 발견', '알렉산더 플레밍의 페니실린(최초 항생제) 발견', 'WEST', '', 'SCIENCE', 'A', 1928, 1941, 'exact', '푸른곰팡이(Penicillium)가 포도상구균의 증식을 억제하는 현상을 발견하고 플로리·체인이 대량 생산 성공.', '세균 감염 사망률을 극적으로 낮추고 인간 평균 수명을 20년 이상 연장시킨 기적의 명약.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('sci-071-edwin-hubble-expanding-universe', '에드윈 허블의 은하 후퇴와 우주 팽창(허블 법칙) 관측', '에드윈 허블의 은하 후퇴와 우주 팽창(허블 법칙) 관측', 'WEST', '', 'SCIENCE', 'A', 1929, 1929, 'exact', '100인치 후커 망원경으로 외부 은하들의 적색편이를 관측하여 우주가 정적이지 않고 모든 방향으로 팽창하고 있음을 발견.', '빅뱅 우주론(Big Bang Theory)의 결정적 관측 증거.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('phi-068-antonio-gramsci-cultural-hegemony', '안토니오 그람시의 『옥중수고』와 문화적 헤게모니(Hegemony) 이론', '안토니오 그람시의 『옥중수고』와 문화적 헤게모니(Hegemony) 이론', 'WEST', '', 'INSTITUTION', 'A', 1929, 1935, 'exact', '지배 계급은 물리적 폭력뿐 아니라 언론, 교육, 문화를 통해 피지배자의 자발적 동의를 얻어 통치하므로 진지전(진보적 문화 운동)이 필요함을 역설.', '네오 마르크스주의와 현대 문화 연구의 핵심 이론.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
 VALUES ('west-ce20-great-depression-new-deal', '세계 대공황(1929년)과 루스벨트 대통령의 뉴딜 정책', '세계 대공황(1929년)과 루스벨트 대통령의 뉴딜 정책', 'WEST', '', 'ECONOMY', 'A', 1929, 1939, 'exact', '뉴욕 월스트리트 주가 대폭락으로 촉발된 글로벌 경제 공황에 맞서 케인스주의 수정자본주의와 TVA 공공사업, 사회보장법 도입.', '자유방임주의 종말과 복지 국가 정부 개입 모델의 확립.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('art-068-salvador-dali-persistence-of-memory', '살바도르 달리의 초현실주의 『기억의 지속(녹아내리는 시계)』', '살바도르 달리의 초현실주의 『기억의 지속(녹아내리는 시계)』', 'WEST', '', 'ART_CULTURE', 'A', 1931, 1931, 'exact', '나뭇가지와 해변에 흐물흐물하게 녹아내리는 시계들과 꿈속 무의식의 환상을 정밀한 사실적 기법으로 묘사.', '초현실주의(Surrealism) 미술의 가장 대표적인 아이콘.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('phi-086-george-herbert-mead-mind-self-society', '조지 허버트 미드의 상징적 상호작용론 (자아와 사회)', '조지 허버트 미드의 상징적 상호작용론 (자아와 사회)', 'WEST', '', 'INSTITUTION', 'B', 1934, 1934, 'exact', '인간의 자아(Self)는 타고난 것이 아니라 타인과의 상징적 언어 상호작용과 ''일반화된 타자(Generalized Other)''의 시선을 내면화하며 형성됨을 규명.', '미국 사회심리학과 미시사회학의 정립자.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('phi-060-karl-popper-falsificationism-open-society', '칼 포퍼의 반증 가능성(Falsifiability)과 『열린 사회와 그 적들』', '칼 포퍼의 반증 가능성(Falsifiability)과 『열린 사회와 그 적들』', 'WEST', '', 'INSTITUTION', 'A', 1934, 1945, 'exact', '과학적 이론은 반증될 수 있어야 하며, 플라톤·헤겔·마르크스의 역사주의 전체주의를 비판하고 비판적 합리주의에 기초한 열린 사회 옹호.', '현대 과학철학과 자유민주주의 옹호론의 최고 고전.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('phi-087-walter-benjamin-work-of-art-mechanical', '발터 벤야민의 『기계복제시대의 예술작품』과 아우라(Aura)의 붕괴', '발터 벤야민의 『기계복제시대의 예술작품』과 아우라(Aura)의 붕괴', 'WEST', '', 'ART_CULTURE', 'A', 1935, 1936, 'exact', '사진과 영화 같은 대량 복제 기술로 예술의 고유한 신비성(아우라)은 사라졌으나 대중의 비판적 수용과 예술의 민주화가 열렸음을 분석.', '현대 미디어 이론과 문화비평의 최고 고전.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('art-087-frank-lloyd-wright-fallingwater', '프랭크 로이드 라이트의 낙수재(Fallingwater) 유기적 건축', '프랭크 로이드 라이트의 낙수재(Fallingwater) 유기적 건축', 'WEST', '', 'ART_CULTURE', 'B', 1935, 1939, 'exact', '폭포 위에 캔틸레버(돌출 발코니) 콘크리트 슬래브를 얹어 자연 암반과 폭포 소리가 집 안으로 녹아들게 한 유기적 건축.', '현대 유기적 건축(Organic Architecture)의 최고 걸작(유네스코 세계유산).', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('art-070-charlie-chaplin-modern-times-cinema', '찰리 채플린의 무성영화 걸작 『모던 타임즈(Modern Times)』 (1936년)', '찰리 채플린의 무성영화 걸작 『모던 타임즈(Modern Times)』 (1936년)', 'WEST', '', 'ART_CULTURE', 'A', 1936, 1936, 'exact', '공장의 톱니바퀴에 끼어 나사를 조이는 노동자 찰리를 통해 산업 자본주의의 인간 소외를 눈물겨운 슬랩스틱 코미디로 풍자.', '영화 예술사상 최고의 사회 풍자 영화이자 클래식 명작.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('sci-072-alan-turing-universal-machine', '앨런 튜링의 튜링 기계(Turing Machine)와 컴퓨터 과학의 정립', '앨런 튜링의 튜링 기계(Turing Machine)와 컴퓨터 과학의 정립', 'WEST', '', 'SCIENCE', 'A', 1936, 1936, 'exact', '테이프와 헤드로 기계적 알고리즘을 수행하는 보편 튜링 기계 모델을 고안하여 현대 컴퓨터의 수학적 작동 원리 제시.', '컴퓨터 과학과 인공지능(AI)의 아버지.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('art-086-frida-kahlo-self-portraits', '프리다 칼로의 초현실주의적 자화상과 멕시코 민중 미술', '프리다 칼로의 초현실주의적 자화상과 멕시코 민중 미술', 'WEST', '', 'ART_CULTURE', 'B', 1938, 1954, 'exact', '교통사고의 육체적 고통과 디에고 리베라와의 격정적 사랑을 멕시코 전통 색채와 가시밭길 자화상으로 표현.', '20세기 페미니즘 미술과 자전적 회화의 불멸의 상징.', '', '', 'HIGH', 'APPROVED')
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
@@ -3198,6 +4050,22 @@ VALUES ('world-war-two-holocaust', '제2차 세계대전과 원자폭탄 투하'
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('sci-073-manhattan-project-atomic-bomb', '맨해튼 프로젝트와 핵분열 원자폭탄 개발 (트리니티 실험, 1945년)', '맨해튼 프로젝트와 핵분열 원자폭탄 개발 (트리니티 실험, 1945년)', 'WEST', '', 'SCIENCE', 'A', 1942, 1945, 'exact', '오펜하이머, 페르미 등이 우라늄·플루토늄 연쇄 핵분열을 제어하여 세계 최초의 핵무기 개발.', '원자력 시대의 개막이자 인류 자멸의 위험을 안긴 거대한 과학 기술의 양날의 검.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('phi-062-albert-camus-myth-of-sisyphus', '알베르 카뮈의 『시지프 신화』와 부조리(The Absurd)에의 반항', '알베르 카뮈의 『시지프 신화』와 부조리(The Absurd)에의 반항', 'WEST', '', 'RELIGION', 'A', 1942, 1951, 'exact', '끝없이 바위를 굴려 올려야 하는 시지프처럼 삶이 무의미하고 부조리할지라도 자살하지 않고 매 순간 치열하게 반항하며 살아가는 인간 찬가.', '부조리 철학과 노벨문학상에 빛나는 20세기 지성.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('phi-061-jean-paul-sartre-existentialism-humanism', '장 폴 사르트르의 『존재와 무』 (''실존은 본질에 앞선다'')', '장 폴 사르트르의 『존재와 무』 (''실존은 본질에 앞선다'')', 'WEST', '', 'RELIGION', 'A', 1943, 1946, 'exact', '인간은 정해진 본질 없이 세상에 던져졌으므로 스스로 선택하고 그 자유에 따르는 전적인 책임을 져야 한다는 앙가주망(사회참여) 실존주의.', '20세기 프랑스 실존주의를 전 세계 지성계의 유행으로 이끈 기수.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('phi-088-theodor-adorno-dialectic-of-enlightenment', '아도르노·호르크하이머의 『계몽의 변증법』과 문화산업 비판', '아도르노·호르크하이머의 『계몽의 변증법』과 문화산업 비판', 'WEST', '', 'RELIGION', 'A', 1944, 1947, 'exact', '자연의 공포에서 벗어나려던 계몽 이성이 도구적 합리성으로 변질되어 아우슈비츠와 대중 기만의 문화산업(Culture Industry)을 낳았음을 통렬히 비판.', '프랑크푸르트학파 비판이론(Critical Theory)의 출발점.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
 VALUES ('korea-ce20-korean-liberation-division-1945', '8·15 광복과 남북 분단 (1945년)', '8·15 광복과 남북 분단 (1945년)', 'KOREA', '', 'POLITICS', 'A', 1945, 1945, 'exact', '일제의 무조건 항복으로 35년 식민 지배에서 해방되었으나 38도선을 경계로 미·소 양군이 진주하여 국토 분단.', '민족 해방의 기쁨과 비극적 분단 냉전 체제의 시작.', '', '', 'HIGH', 'APPROVED')
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
@@ -3206,7 +4074,31 @@ VALUES ('korean-liberation-division', '8·15 광복과 한국전쟁(6·25 전쟁
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('phi-084-viktor-frankl-mans-search-for-meaning', '빅터 프랭클의 『죽음의 수용소에서』와 의미치료(Logotherapy)', '빅터 프랭클의 『죽음의 수용소에서』와 의미치료(Logotherapy)', 'WEST', '', 'RELIGION', 'B', 1946, 1946, 'exact', '아우슈비츠 강제수용소의 생지옥 속에서도 ''왜 살아야 하는지 아는 사람은 어떤 고통도 견뎌낸다''며 삶의 의미를 찾는 로고테라피 창안.', '인류 고통 극복과 회복 탄력성의 가장 감동적인 심리 철학.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('sci-075-eniac-first-electronic-computer', '최초의 범용 전자식 디지털 컴퓨터 에니악(ENIAC) 탄생', '최초의 범용 전자식 디지털 컴퓨터 에니악(ENIAC) 탄생', 'WEST', '', 'SCIENCE', 'A', 1946, 1946, 'exact', '18,000개의 진공관을 사용하여 초당 5,000회의 덧셈 연산을 수행한 30톤 규모의 전자 컴퓨터 가동.', '전자 계산 및 정보화 사회의 서막.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('sci-074-transistor-invention-bell-labs', '벨 연구소의 반도체 트랜지스터(Transistor) 발명', '벨 연구소의 반도체 트랜지스터(Transistor) 발명', 'WEST', '', 'SCIENCE', 'A', 1947, 1948, 'exact', '쇼클리, 바딘, 브래튼이 게르마늄 반도체로 진공관을 대체하는 증폭·스위칭 소자 트랜지스터 발명(1956 노벨상).', '실리콘밸리와 현대 모든 전자제품·컴퓨터·스마트폰의 심장.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('art-072-jackson-pollock-action-painting', '잭슨 폴록의 액션 페인팅(Action Painting)과 추상표현주의', '잭슨 폴록의 액션 페인팅(Action Painting)과 추상표현주의', 'WEST', '', 'ART_CULTURE', 'A', 1947, 1950, 'exact', '바닥에 캔버스를 펼쳐놓고 에나멜 페인트를 흩뿌리고 흘리는 드립 페인팅(Drip painting) 기법으로 전면 균일 회화(All-over) 완성.', '세계 현대 미술의 중심지를 파리에서 뉴욕으로 이동시킨 주역.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('art-079-george-orwell-1984-dystopia', '조지 오웰의 디스토피아 소설 『1984』 (빅 브라더)', '조지 오웰의 디스토피아 소설 『1984』 (빅 브라더)', 'WEST', '', 'ART_CULTURE', 'A', 1949, 1949, 'exact', '텔레스크린으로 모든 일상을 감시하는 전체주의 독재 국가 오세아니아와 언어 통제(신어), ''빅 브라더''의 공포를 고발.', '전체주의와 감시 사회를 경고한 20세기 최고 예언적 정치 소설.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
 VALUES ('china-ce20-peoples-republic-founding-1949', '중화인민공화국 건국 선포 (마오쩌둥, 1949년 10월 1일)', '중화인민공화국 건국 선포 (마오쩌둥, 1949년 10월 1일)', 'CHINA', '', 'POLITICS', 'A', 1949, 1949, 'exact', '국공내전에서 장제스의 국민당을 대만으로 축출하고 마오쩌둥이 천안문 망루에서 ''중국 인민이 일어섰다''고 선포.', '사회주의 신중국 탄생과 양안 분단 체제 형성.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('phi-073-simone-de-beauvoir-second-sex', '시몬 드 보부아르의 『제2의 성(The Second Sex)』 (''여성은 태어나는 것이 아니라 만들어진다'')', '시몬 드 보부아르의 『제2의 성(The Second Sex)』 (''여성은 태어나는 것이 아니라 만들어진다'')', 'WEST', '', 'INSTITUTION', 'A', 1949, 1949, 'exact', '가부장제 사회가 여성을 주체(남성)에 종속된 ''타자''로 규정해왔음을 역사적·사회적으로 폭로하고 여성의 자율적 해방 선언.', '현대 페미니즘 이론의 가장 위대한 고전.', '', '', 'HIGH', 'APPROVED')
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
@@ -3218,7 +4110,19 @@ VALUES ('korea-ce20-korean-war-1950', '6·25 전쟁(한국전쟁, 1950~1953년)�
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('phi-075-ham-seokheon-ssial-philosophy', '함석헌의 씨알 사상과 『뜻으로 본 한국역사』', '함석헌의 씨알 사상과 『뜻으로 본 한국역사』', 'KOREA', '', 'RELIGION', 'A', 1950, 1970, 'exact', '왕조나 권력자가 아닌 민중(씨알)이 역사의 참된 주인이며 고난의 역사를 통해 인류 평화의 사명을 감당해야 한다는 비폭력 평화주의 철학.', '한국 근현대 민주화 운동과 평화 사상의 영적 지주.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
 VALUES ('global-climate-change-anthropocene', '지구 온난화와 인류세 (Anthropocene)', 'Global Climate Change & The Anthropocene', 'CLIMATE', '지구 전역', 'CLIMATE_ENVIRONMENT', 'A', 1950, 2026, 'range', '온실가스 배출로 인한 지구 평균 기온 상승, 극단적 기상이변, 북극 빙하 감소 등 인류 활동이 지구 시스템을 변화시키는 현대 환경 위기.', '탄소 중립, 재생에너지 전환, 국제 파리 기후협약 등 21세기 인류 문명의 지속가능성을 좌우하는 핵심 과제.', '화석연료 대량 연소와 무분별한 삼림 벌채 및 산업화.', '기후 난민 발생, 해수면 상승, 에너지 대전환 가속.', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('art-077-samuel-beckett-waiting-for-godot', '사무엘 베케트의 부조리극 『고도를 기다리며(Waiting for Godot)』', '사무엘 베케트의 부조리극 『고도를 기다리며(Waiting for Godot)』', 'WEST', '', 'ART_CULTURE', 'A', 1952, 1953, 'exact', '오지 않는 ''고도''를 하염없이 기다리는 두 방랑자 블라디미르와 에스트라공을 통해 현대인의 실존적 허무와 기다림을 묘사.', '전통 서사를 파괴한 20세기 부조리 연극(Theater of the Absurd)의 최고봉.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('sci-076-watson-crick-dna-double-helix', '왓슨과 크릭의 DNA 이중나선(Double Helix) 구조 규명', '왓슨과 크릭의 DNA 이중나선(Double Helix) 구조 규명', 'WEST', '', 'SCIENCE', 'A', 1953, 1953, 'exact', '아데닌(A)-티민(T), 구아닌(G)-시토신(C)의 상보적 염기쌍 결합으로 유전 정보가 복제되는 분자 생물학적 구조 발견.', '현대 생명공학, 유전공학, 유전자 편집의 출발점.', '', '', 'HIGH', 'APPROVED')
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
@@ -3226,7 +4130,23 @@ VALUES ('west-ce20-dna-double-helix-discovery', '왓슨과 크릭의 DNA 이중�
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('sci-077-jonas-salk-polio-vaccine', '조너스 소크의 소아마비 백신 개발과 무료 기부', '조너스 소크의 소아마비 백신 개발과 무료 기부', 'WEST', '', 'SCIENCE', 'A', 1953, 1955, 'exact', '사멸 바이러스를 이용한 소아마비 백신을 개발하고 특허를 포기하여 ''태양에도 특허를 낼 건가요?''라며 전 세계에 무료 보급.', '전 세계 수백만 어린이의 마비를 종식시킨 인도주의 과학의 귀감.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('sci-078-sputnik-first-satellite-space-age', '소련의 인류 최초 인공위성 스푸트니크 1호 발사 (우주 시대 개막)', '소련의 인류 최초 인공위성 스푸트니크 1호 발사 (우주 시대 개막)', 'WEST', '', 'SCIENCE', 'A', 1957, 1957, 'exact', 'R-7 로켓으로 83.6kg의 금속 구체를 지구 궤도에 올려 96분마다 신호음을 발신(스푸트니크 쇼크).', '미·소 우주 경쟁(Space Race)과 GPS, 위성 통신의 출발점.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
 VALUES ('china-ce20-great-leap-forward-famine', '대약진 운동(1958~1962)과 3년 대기근', '대약진 운동(1958~1962)과 3년 대기근', 'CHINA', '', 'ECONOMY', 'B', 1958, 1962, 'exact', '인민공사와 토법고로(철강 증산), 제사해 운동(참새 잡기) 등 비과학적 정책으로 수천만 명이 아사한 비극.', '극좌 모험주의의 참담한 실패.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('phi-063-hannah-arendt-banality-of-evil', '한나 아렌트의 ''악의 평범성(Banality of Evil)'' (『예루살렘의 아이히만』)', '한나 아렌트의 ''악의 평범성(Banality of Evil)'' (『예루살렘의 아이히만』)', 'WEST', '', 'INSTITUTION', 'A', 1958, 1963, 'exact', '수백만 명을 학살한 나치 관료 아이히만은 악마가 아니라 타인의 처지를 생각하지 못하는 ''생각 없음(사유의 무능)''에서 악을 저질렀음을 고발.', '현대 정치철학과 도덕적 사유의 필수 규범.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('art-088-sydney-opera-house-utzon', '요른 웃손의 시드니 오페라 하우스 완공 (20세기 조각 건축의 정점)', '요른 웃손의 시드니 오페라 하우스 완공 (20세기 조각 건축의 정점)', 'WEST', '', 'ART_CULTURE', 'B', 1959, 1973, 'exact', '항구 바다 위에 조개껍데기와 돛을 형상화한 구형(Spherical) 프리캐스트 콘크리트 지붕을 얹은 혁신적 건축.', '20세기 인류 건축 공학의 기적적 랜드마크.', '', '', 'HIGH', 'APPROVED')
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
@@ -3234,7 +4154,35 @@ VALUES ('korea-ce20-april-nineteenth-revolution-1960', '4·19 혁명 (1960년) -
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('sci-080-theodore-maiman-laser-invention', '시어도어 메이먼의 루비 레이저(LASER) 발명', '시어도어 메이먼의 루비 레이저(LASER) 발명', 'WEST', '', 'SCIENCE', 'A', 1960, 1960, 'exact', '빛의 유도 방출을 이용해 위상이 완벽히 일치하는 고에너지 결맞음 광선(Laser) 최초 방출 성공.', '광통신, 바코드, 레이저 수술, 반도체 노광 공정의 핵심 기술.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
 VALUES ('korean-democratization-economic-growth', '대한민국의 경제성장(한강의 기적)과 6월 민주항쟁', 'Miracle on the Han River & June Democratic Struggle', 'KOREA', '대한민국', 'POLITICS', 'A', 1960, 1987, 'range', '전쟁의 폐허에서 고도 산업화(한강의 기적)를 달성함과 동시에 1987년 6월 항쟁으로 대통령 직선제와 완전한 민주화를 쟁취함.', '2차 대전 이후 독립한 국가 중 경제 발전과 민주주의를 동시에 달성한 세계적인 성공 모델.', '수출 중심 산업화 정책, 국민의 높은 교육열, 시민사회의 민주화 열망.', '1988 서울올림픽 개최, OECD 가입, 글로벌 문화강국(K-Culture) 도약.', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('phi-080-frantz-fanon-wretched-of-the-earth', '프란츠 파농의 『대지의 저주받은 자들』과 탈식민주의(Postcolonialism)', '프란츠 파농의 『대지의 저주받은 자들』과 탈식민주의(Postcolonialism)', 'WEST', '', 'INSTITUTION', 'B', 1961, 1961, 'exact', '서구 제국주의의 식민 통치가 피식민자의 정신과 신체를 어떻게 파괴했는지 정신의학적으로 분석하고 해방 투쟁을 정당화.', '알제리 해방과 제3세계 탈식민주의 저항 운동의 성서.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('sci-079-yuri-gagarin-first-human-space', '유리 가가린의 인류 최초 유인 우주비행 (보스토크 1호, 1961년)', '유리 가가린의 인류 최초 유인 우주비행 (보스토크 1호, 1961년)', 'WEST', '', 'SCIENCE', 'A', 1961, 1961, 'exact', '''지구는 푸른빛이었다''는 명언을 남기며 108분간 지구 궤도를 한 바퀴 비행하고 무사 귀환.', '인간이 지구 대기권을 벗어난 최초의 우주 비행 성공.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('phi-064-michel-foucault-discipline-and-punish', '미셸 푸코의 권력-지식 담론과 『감시와 처벌』 (판옵티콘)', '미셸 푸코의 권력-지식 담론과 『감시와 처벌』 (판옵티콘)', 'WEST', '', 'INSTITUTION', 'A', 1961, 1975, 'exact', '근대 감옥, 병원, 학교가 규율 권력(규격화, 시선)을 통해 인간의 신체를 순종적으로 길들여왔음을 벤담의 원형감옥(판옵티콘)을 통해 해부.', '구조주의 및 포스트모더니즘 권력 비판의 최고 거장.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('phi-074-thomas-kuhn-structure-scientific-revolutions', '토머스 쿤의 『과학혁명의 구조』와 패러다임 전환(Paradigm Shift)', '토머스 쿤의 『과학혁명의 구조』와 패러다임 전환(Paradigm Shift)', 'WEST', '', 'RELIGION', 'A', 1962, 1962, 'exact', '과학의 발전은 단순한 지식의 누적이 아니라 위기와 비합리적 혁명을 거쳐 지배적인 패러다임이 완전히 교체되는 불연속적 도약임을 증명.', '과학철학 및 현대 지성계 모든 학문에 ''패러다임'' 용어 정착.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('art-073-andy-warhol-pop-art-campbell', '앤디 워홀의 팝아트(Pop Art)와 『캠벨 수프 캔』·『마릴린 먼로』', '앤디 워홀의 팝아트(Pop Art)와 『캠벨 수프 캔』·『마릴린 먼로』', 'WEST', '', 'ART_CULTURE', 'A', 1962, 1964, 'exact', '실크스크린 기법으로 대량 생산 소비 상품과 대중 스타 이미지를 복제하여 고급 예술과 대중문화의 경계를 허묾.', '20세기 후반 팝아트 혁명의 교황.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('phi-066-jurgen-habermas-communicative-action', '위르겐 하버마스의 『의사소통행위이론』과 공론장(Public Sphere)', '위르겐 하버마스의 『의사소통행위이론』과 공론장(Public Sphere)', 'WEST', '', 'INSTITUTION', 'A', 1962, 1981, 'exact', '도구적 이성의 폐해를 극복하기 위해 지배 없는 합리적 토론과 상호 이해를 지향하는 의사소통적 합리성과 심의 민주주의 제창.', '프랑크푸르트 비판이론 제2세대의 대표 사상가.', '', '', 'HIGH', 'APPROVED')
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
@@ -3242,7 +4190,39 @@ VALUES ('korea-ce20-miracle-on-the-han-river', '한강의 기적 (초고속 산�
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('art-074-nam-june-paik-video-art-father', '백남준의 비디오 아트(Video Art) 창시와 『다다익선』 (1988년)', '백남준의 비디오 아트(Video Art) 창시와 『다다익선』 (1988년)', 'KOREA', '', 'ART_CULTURE', 'A', 1963, 1988, 'exact', '텔레비전 모니터와 비디오 신디사이저를 결합해 미디어 아트를 개척하고 국립현대미술관에 1,003대 TV 타워 『다다익선』 설치.', '''비디오 아트의 창시자''이자 글로벌 미디어 아트의 독보적 거장.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('art-091-bob-dylan-poetic-folk-nobel', '밥 딜런의 포크 음악 혁명과 노벨문학상 수상', '밥 딜런의 포크 음악 혁명과 노벨문학상 수상', 'WEST', '', 'ART_CULTURE', 'B', 1963, 2016, 'exact', '『Blowin'' in the Wind』, 『Like a Rolling Stone』을 통해 반전 평화와 저항의 시적 가사를 대중음악에 도입(2016 노벨문학상).', '대중가요 가사를 위대한 문학의 반열에 올린 음악 혁신.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('art-097-yayoi-kusama-infinity-mirrors', '쿠사마 야요이의 물방울무늬(Polka Dots)와 『무한 거울의 방』', '쿠사마 야요이의 물방울무늬(Polka Dots)와 『무한 거울의 방』', 'CHINA', '', 'ART_CULTURE', 'C', 1965, 2020, 'exact', '자신의 환각 증세를 호박 조각과 무한히 반사되는 거울 방의 반복적인 땡땡이 점들로 승화시킨 전위 예술.', '현대 설치 미술과 관객 몰입형 전시의 최고 인기 작가.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
 VALUES ('china-ce20-cultural-revolution-disaster', '문화대혁명(1966~1976년)의 광기와 참극', '문화대혁명(1966~1976년)의 광기와 참극', 'CHINA', '', 'POLITICS', 'A', 1966, 1976, 'exact', '마오쩌둥의 주도로 홍위병들이 구사상·구문화를 파괴하고 지식인, 류사오치, 덩샤오핑을 숙청하며 수백만 명이 희생된 10년 동란.', '중국 전통 문화와 경제의 궤멸적 타격.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('art-075-the-beatles-sgt-pepper-album', '비틀즈(The Beatles)의 『Sgt. Pepper''s Lonely Hearts Club Band』 (1967년)', '비틀즈(The Beatles)의 『Sgt. Pepper''s Lonely Hearts Club Band』 (1967년)', 'WEST', '', 'ART_CULTURE', 'A', 1967, 1967, 'exact', '스튜디오 녹음 기술을 극대화하여 앨범 전체를 하나의 유기적 서사로 연결한 최초의 콘셉트 앨범.', '대중 록 음악을 고급 예술의 경지로 끌어올린 대중음악 역사상 최고의 음반.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('art-078-gabriel-garcia-marquez-macondo', '가브리엘 가르시아 마르케스의 『백년 동안의 고독』 (마술적 사실주의)', '가브리엘 가르시아 마르케스의 『백년 동안의 고독』 (마술적 사실주의)', 'WEST', '', 'ART_CULTURE', 'A', 1967, 1967, 'exact', '가상의 마을 마콘도에서 부엔디아 가문 7대의 흥망성쇠를 환상과 현실이 교차하는 마술적 리얼리즘(Magical Realism)으로 서술.', '라틴아메리카 문학 붐을 전 세계에 알린 20세기 문학의 걸작.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('phi-065-jacques-derrida-deconstruction', '자크 데리다의 해체주의(Deconstruction)와 차연(Différance)', '자크 데리다의 해체주의(Deconstruction)와 차연(Différance)', 'WEST', '', 'RELIGION', 'A', 1967, 1972, 'exact', '서구 전통의 음성중심주의와 이분법적 위계 구조(빛/어둠, 남/여)를 텍스트 내부의 모순을 통해 해체(Deconstruction)하고 의미의 끊임없는 지연 선언.', '현대 문학 이론과 포스트구조주의 철학의 핵.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('sci-081-apollo-11-moon-landing-science', '아폴로 11호의 달 착륙과 월석 채취 (1969년)', '아폴로 11호의 달 착륙과 월석 채취 (1969년)', 'WEST', '', 'SCIENCE', 'A', 1969, 1969, 'exact', '새턴 V 로켓과 컴퓨터 유도 장치로 달 표면에 착륙하여 지진계 설치 및 월석 21.5kg 채취.', '인류 우주 탐사사상 가장 위대한 공학적 금자탑.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('sci-082-arpanet-internet-first-packet', 'ARPANET의 최초 패킷 교환 통신 성공 (인터넷의 탄생, 1969년)', 'ARPANET의 최초 패킷 교환 통신 성공 (인터넷의 탄생, 1969년)', 'WEST', '', 'SCIENCE', 'A', 1969, 1969, 'exact', 'UCLA와 스탠퍼드 연구소 간 최초의 패킷 스위칭 메시지 ''LO'' 전송 성공.', 'TCP/IP와 글로벌 인터넷의 원형 탄생.', '', '', 'HIGH', 'APPROVED')
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
@@ -3254,7 +4234,35 @@ VALUES ('digital-revolution-internet', '디지털 혁명과 인터넷·정보화
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('phi-067-john-rawls-theory-of-justice-veil', '존 롤스의 『정의론(A Theory of Justice)』과 ''무지의 베일''', '존 롤스의 『정의론(A Theory of Justice)』과 ''무지의 베일''', 'WEST', '', 'INSTITUTION', 'A', 1971, 1971, 'exact', '자신의 계급·재능을 모르는 ''무지의 베일'' 가상 원초 상태에서 합의되는 기본적 자유의 평등(제1원칙)과 최소수혜자 최대이익(차등원칙) 제시.', '현대 자유주의 정의론과 복지 국가 재분배 윤리의 절대적 기준.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('sci-083-intel-4004-microprocessor', '인텔 4004 세계 최초 단일 칩 마이크로프로세서(CPU) 발명', '인텔 4004 세계 최초 단일 칩 마이크로프로세서(CPU) 발명', 'WEST', '', 'SCIENCE', 'A', 1971, 1971, 'exact', '손톱만 한 실리콘 칩 하나에 2,300개의 트랜지스터를 집적하여 컴퓨터의 중앙처리장치(CPU)를 원칩화.', '개인용 컴퓨터(PC)와 마이크로컨트롤러 혁명의 출발점.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
 VALUES ('china-ce20-sino-american-rapprochement', '닉슨 대통령의 방중과 미·중 수교 (핑퐁 외교, 1972/1979년)', '닉슨 대통령의 방중과 미·중 수교 (핑퐁 외교, 1972/1979년)', 'CHINA', '', 'POLITICS', 'B', 1971, 1979, 'exact', '핑퐁 외교를 거쳐 리처드 닉슨이 베이징을 방문해 상하이 코뮈니케를 발표하고 1979년 공식 외교 수교 체결.', '중·소 분열 속에서 소련을 견제하고 중국이 국제 사회 무대로 복귀한 전략적 대전환.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('phi-082-gilles-deleuze-anti-oedipus-rhizome', '질 들뢰즈·펠릭스 가타리의 『안티 오이디푸스』와 리좀(Rhizome) 철학', '질 들뢰즈·펠릭스 가타리의 『안티 오이디푸스』와 리좀(Rhizome) 철학', 'WEST', '', 'RELIGION', 'B', 1972, 1980, 'exact', '뿌리 형태의 중심적 위계 구조를 거부하고 수평적으로 뻗어나가 접속하는 리좀(줄기) 네트워크와 욕망의 유목민(노마드) 주체론 제안.', '디지털 인터넷망과 다원주의 사상의 철학적 모델.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('sci-084-recombinant-dna-technology-boyer-cohen', '보이어와 코언의 유전자 재조합(Recombinant DNA) 기술 개발', '보이어와 코언의 유전자 재조합(Recombinant DNA) 기술 개발', 'WEST', '', 'SCIENCE', 'A', 1973, 1973, 'exact', '제한효소와 플라스미드를 이용해 다른 생물의 외래 유전자를 대장균에 삽입하여 복제 성공(제넨텍 창립).', '인슐린 대량 생산 및 현대 바이오 제약 산업의 개막.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('sci-085-paul-lauterbur-mri-imaging', '폴 로터버의 자기공명영상(MRI) 개발', '폴 로터버의 자기공명영상(MRI) 개발', 'WEST', '', 'SCIENCE', 'A', 1973, 1977, 'exact', '핵자기공명(NMR)과 자기장 구배를 결합하여 인체 내부의 단면을 방사선 없이 고해상도로 영상화.', '뇌신경 및 연부조직 진단의 혁신적 영상의학 도구.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('phi-070-peter-singer-animal-liberation-altruism', '피터 싱어의 『동물 해방(Animal Liberation)』과 효율적 이타주의', '피터 싱어의 『동물 해방(Animal Liberation)』과 효율적 이타주의', 'WEST', '', 'RELIGION', 'A', 1975, 2015, 'exact', '고통을 느낄 수 있는 모든 생명체(동물)에 대한 종차별주의(Speciesism)를 비판하고 공리주의적 관점에서 동물 권리와 빈곤 퇴치 기부 실천 주장.', '현대 응용윤리학과 비건·동물권 운동의 기폭제.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('phi-081-edward-said-orientalism', '에드워드 사이드의 『오리엔탈리즘(Orientalism)』과 서구 제국주의 비판', '에드워드 사이드의 『오리엔탈리즘(Orientalism)』과 서구 제국주의 비판', 'WEST', '', 'INSTITUTION', 'A', 1978, 1978, 'exact', '서양이 동양(오리엔트)을 신비롭고 열등하며 수동적인 타자로 타자화하여 지배를 정당화해 온 문화적 담론 구조를 고발.', '탈식민주의 문화 비평 및 비교문학의 패러다임 전환.', '', '', 'HIGH', 'APPROVED')
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
@@ -3262,7 +4270,47 @@ VALUES ('china-ce20-reform-and-opening-deng', '덩샤오핑의 개혁개방(改�
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('phi-093-g-a-cohen-why-not-socialism', 'G. A. 코헨의 분석마르크스주의와 평등주의 철학', 'G. A. 코헨의 분석마르크스주의와 평등주의 철학', 'WEST', '', 'INSTITUTION', 'B', 1978, 2009, 'exact', '영미 분석철학의 엄밀한 논리를 적용하여 마르크스 유물론을 재해석하고 자발적 연대와 기회 평등의 사회주의적 이상 옹호.', '영미 분석 마르크스주의의 최고 지성.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('phi-089-richard-rorty-philosophy-mirror-nature', '리처드 로티의 『철학과 자연의 거울』과 신실용주의', '리처드 로티의 『철학과 자연의 거울』과 신실용주의', 'WEST', '', 'RELIGION', 'B', 1979, 1979, 'exact', '마음이 객관적 실재를 있는 그대로 비추는 ''거울''이라는 서양 인식론적 환상을 해체하고, 진리 대신 연대성과 민주적 대화(에디피케이션)를 제안.', '20세기 후반 미국 철학을 재정의한 네오 프래그머티즘의 기수.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
 VALUES ('korea-ce20-may-eighteenth-gwangju-uprising', '5·18 광주 민주화 운동 (유네스코 세계기록유산, 1980년)', '5·18 광주 민주화 운동 (유네스코 세계기록유산, 1980년)', 'KOREA', '', 'POLITICS', 'A', 1980, 1980, 'exact', '전두환 신군부의 5·17 비상계엄 확대와 계엄군의 무자비한 유혈 진압에 맞서 광주 시민들이 시민군을 결성하고 계엄군을 몰아내며 열흘간 자치 공동체 수호.', '대한민국 민주화 운동의 숭고한 성지이자 세계 민주주의의 교과서.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('art-092-jean-michel-basquiat-graffiti', '장 미셸 바스키아의 낙서화(신표현주의)와 거리 예술', '장 미셸 바스키아의 낙서화(신표현주의)와 거리 예술', 'WEST', '', 'ART_CULTURE', 'B', 1980, 1988, 'exact', '뉴욕 지하철 그라피티(SAMO)에서 출발하여 왕관, 해골, 아프리카 디아스포라의 텍스트와 원시적 에너지를 캔버스에 폭발시킴.', '거리 미술을 현대 파인 아트의 중심에 세운 20세기 천재 화가.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('art-076-michael-jackson-thriller-album', '마이클 잭슨의 『Thriller』 앨범과 뮤직비디오 혁명 (1982년)', '마이클 잭슨의 『Thriller』 앨범과 뮤직비디오 혁명 (1982년)', 'WEST', '', 'ART_CULTURE', 'A', 1982, 1983, 'exact', '역대 전 세계 음반 판매량 1위(7,000만 장)를 기록하고 문워크와 시네마틱 뮤직비디오로 MTV 시대를 연 ''팝의 황제''.', '인종 장벽을 허물고 20세기 글로벌 팝 음악의 최고 정점 달성.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('phi-069-michael-sandel-justice-communitarianism', '마이클 샌델의 공동체주의(Communitarianism)와 『정의란 무엇인가』', '마이클 샌델의 공동체주의(Communitarianism)와 『정의란 무엇인가』', 'WEST', '', 'INSTITUTION', 'A', 1982, 2009, 'exact', '롤스의 연고 없는 개인주의를 비판하고, 공동체의 미덕과 역사적 유대 속에서 좋은 삶과 공공선(Common Good)을 추구하는 정치철학 제시.', '현대 공동체주의 윤리학과 대중 정치철학의 세계적 신드롬.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('sci-086-kary-mullis-pcr-gene-amplification', '캐리 멀리스의 중합효소 연쇄 반응(PCR) 기술 발명', '캐리 멀리스의 중합효소 연쇄 반응(PCR) 기술 발명', 'WEST', '', 'SCIENCE', 'A', 1983, 1983, 'exact', '극소량의 특정 DNA 조각을 수 시간 만에 수억 배로 증폭하는 기술 개발(1993 노벨화학상).', '유전자 감식, 친자 확인, 바이러스(코로나 등) 진단의 만능 표준 도구.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('art-095-cirque-du-soleil-art-circus', '태양의 서커스(Cirque du Soleil)의 서사 아트 서커스 혁명', '태양의 서커스(Cirque du Soleil)의 서사 아트 서커스 혁명', 'WEST', '', 'ART_CULTURE', 'C', 1984, 2000, 'exact', '동물 쇼를 배제하고 음악, 조명, 무용, 철학적 서사와 초인적 곡예를 결합한 라스베이거스 『O』, 『KA』 공연.', '사양길의 서커스를 블루오션 최고급 공연 예술로 부활.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('phi-095-donna-haraway-cyborg-manifesto', '도나 해러웨이의 『사이보그 선언(A Cyborg Manifesto)』', '도나 해러웨이의 『사이보그 선언(A Cyborg Manifesto)』', 'WEST', '', 'INSTITUTION', 'A', 1985, 1991, 'exact', '인간/기계, 자연/문화, 남성/여성의 이분법적 본질주의를 거부하고 경계가 해체된 하이브리드 ''사이보그'' 정체성을 통해 해방 모색.', '포스트휴머니즘과 테크노페미니즘의 불후의 명저.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('phi-077-ulrich-beck-risk-society', '울리히 벡의 『위험사회(Risk Society)』와 성찰적 근대화', '울리히 벡의 『위험사회(Risk Society)』와 성찰적 근대화', 'WEST', '', 'INSTITUTION', 'B', 1986, 1986, 'exact', '원전 사고(체르노빌), 환경 파괴, 기후 위기 등 근대 산업화의 성공 자체가 통제 불가능한 글로벌 위험을 낳고 있음을 경고.', '현대 생태주의와 위험 관리 거버넌스의 기본 교본.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('art-085-phantom-of-the-opera-musical', '앤드루 로이드 웨버의 뮤지컬 『오페라의 유령(The Phantom of the Opera)』', '앤드루 로이드 웨버의 뮤지컬 『오페라의 유령(The Phantom of the Opera)』', 'WEST', '', 'ART_CULTURE', 'A', 1986, 1988, 'exact', '파리 오페라 하우스의 샹들리에 추락과 팬텀의 비극적 사랑을 웅장한 오케스트라 넘버(Think of Me, Music of the Night)로 무대화.', '브로드웨이 최장기 공연 기록을 세운 웨스트엔드·브로드웨이 뮤지컬의 대명사.', '', '', 'HIGH', 'APPROVED')
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
@@ -3274,7 +4322,15 @@ VALUES ('korea-ce20-seoul-olympics-1988', '1988 서울 올림픽 개최 (''손�
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('art-094-hayao-miyazaki-studio-ghibli-magic', '스튜디오 지브리의 서정적 판타지 명작 (『이웃집 토토로』, 『원령공주』)', '스튜디오 지브리의 서정적 판타지 명작 (『이웃집 토토로』, 『원령공주』)', 'CHINA', '', 'ART_CULTURE', 'B', 1988, 1997, 'exact', '히사이시 조의 서정적인 음악과 자연과의 공존, 반전을 주제로 한 장인 정신의 핸드드로잉 애니메이션 세계 구축.', '세계 애니메이션 영화의 서정적 지평을 넓힌 거장.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
 VALUES ('china-ce20-tiananmen-square-massacre-1989', '천안문 6·4 민주화 운동과 유혈 진압 (1989년)', '천안문 6·4 민주화 운동과 유혈 진압 (1989년)', 'CHINA', '', 'POLITICS', 'A', 1989, 1989, 'exact', '호요방 사망 후 대학생과 시민들이 천안문 광장에서 자유와 민주화를 요구했으나 당국이 탱크와 군대로 유혈 진압.', '정치적 민주화 요구의 전면 억압과 경제 개혁 중심의 독자 노선 고착화.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('sci-088-tim-berners-lee-world-wide-web', '팀 버너스리의 월드와이드웹(WWW) 개발과 무료 공개', '팀 버너스리의 월드와이드웹(WWW) 개발과 무료 공개', 'WEST', '', 'SCIENCE', 'A', 1989, 1991, 'exact', '하이퍼텍스트와 URL, HTTP, HTML을 설계하여 전 세계 누구나 웹 브라우저로 정보를 탐색할 수 있도록 개방.', '인류 정보 공유 방식을 근본적으로 바꾼 정보 사회의 대혁명.', '', '', 'HIGH', 'APPROVED')
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
@@ -3282,7 +4338,35 @@ VALUES ('west-ce20-fall-of-berlin-wall-soviet-collapse', '베를린 장벽 붕�
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('phi-090-charles-taylor-sources-of-the-self', '찰스 테일러의 『자아의 원천들(Sources of the Self)』과 다문화주의', '찰스 테일러의 『자아의 원천들(Sources of the Self)』과 다문화주의', 'WEST', '', 'INSTITUTION', 'B', 1989, 1994, 'exact', '근대 도덕적 정체성의 형성을 탐구하고 소수 집단의 정체성과 문화를 동등하게 존중해야 한다는 ''인정의 정치(Politics of Recognition)'' 주창.', '현대 다문화주의와 정치철학의 필독서.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
 VALUES ('west-ce20-invention-of-internet-www', '팀 버너스리의 월드 와이드 웹(WWW) 발명과 인터넷 혁명 (1989/1990년)', '팀 버너스리의 월드 와이드 웹(WWW) 발명과 인터넷 혁명 (1989/1990년)', 'WEST', '', 'SCIENCE', 'A', 1989, 1995, 'exact', 'CERN에서 HTML, HTTP, URL 기반의 월드 와이드 웹을 개발하여 무료 공개함으로써 전 인류를 초연결 정보망으로 통합.', '3차 산업혁명인 정보통신(IT) 디지털 시대의 폭발적 개막.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('phi-078-slavoj-zizek-sublime-object-ideology', '슬라보예 지젝의 『이데올로기의 숭고한 대상』과 라캉주의 비판', '슬라보예 지젝의 『이데올로기의 숭고한 대상』과 라캉주의 비판', 'WEST', '', 'RELIGION', 'B', 1989, 2000, 'exact', '''사람들은 그것이 거짓임을 알면서도 그대로 행한다''는 시니컬한 현대 이데올로기 작동 방식을 라캉의 정신분석과 대중문화로 통렬히 폭로.', '현대 급진 철학의 최고 엔터테이너이자 비판적 지성.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('phi-079-judith-butler-gender-trouble', '주디스 버틀러의 『젠더 트러블(Gender Trouble)』과 젠더 수행성', '주디스 버틀러의 『젠더 트러블(Gender Trouble)』과 젠더 수행성', 'WEST', '', 'INSTITUTION', 'B', 1990, 1990, 'exact', '생물학적 성(Sex)조차 자연적인 것이 아니며 젠더(Gender)는 사회적 규범의 반복적인 수행(Performativity)을 통해 구성된 환상임을 주장.', '현대 퀴어 이론(Queer Theory)과 제3세대 페미니즘의 기틀.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('sci-087-hubble-space-telescope-launch', '허블 우주망원경(HST) 발사와 심우주 관측', '허블 우주망원경(HST) 발사와 심우주 관측', 'WEST', '', 'SCIENCE', 'A', 1990, 1990, 'exact', '대기권 밖 550km 궤도에 2.4m 반사망원경을 배치하여 허블 딥 필드 등 130억 년 전 초기 우주 은하 촬영.', '우주 나이(138억 년) 측정 및 암흑에너지 발견에 결정적 공헌.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('art-098-damien-hirst-shark-installation', '데미안 허스트의 『살아있는 자의 마음속에 있는 죽음의 육체적 불가능성』', '데미안 허스트의 『살아있는 자의 마음속에 있는 죽음의 육체적 불가능성』', 'WEST', '', 'ART_CULTURE', 'C', 1991, 1991, 'exact', '포름알데히드 유리 수조 속에 4m짜리 타이거 상어를 통째로 박제하여 전시(yBa 운동의 대표작).', '죽음과 삶의 충격적 시각화를 통해 현대 미술계를 뒤흔든 화제작.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('phi-096-bruno-latour-we-have-never-been-modern', '브뤼노 라투르의 행위자-연결망 이론(ANT)과 『우리는 결코 근대인이었던 적이 없다』', '브뤼노 라투르의 행위자-연결망 이론(ANT)과 『우리는 결코 근대인이었던 적이 없다』', 'WEST', '', 'RELIGION', 'A', 1991, 2005, 'exact', '자연과 사회를 인위적으로 분리한 근대주의를 비판하고 인간과 비인간(미생물, 기계, 바이러스)이 평등하게 상호작용하는 네트워크로서 세상 규명.', '현대 인류세(Anthropocene) 철학과 과학사회학의 최고 석학.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('phi-092-axell-honneth-struggle-for-recognition', '악셀 호네트의 『인정투쟁(The Struggle for Recognition)』', '악셀 호네트의 『인정투쟁(The Struggle for Recognition)』', 'WEST', '', 'INSTITUTION', 'B', 1992, 1995, 'exact', '사랑(자신감), 권리(자존감), 연대(자긍심)의 3단계 상호 인정이 인간의 온전한 정체성에 필수적이며 무시당함이 사회적 저항을 낳음을 규명.', '프랑크푸르트학파 3세대 인정 중심 비판이론 정립.', '', '', 'HIGH', 'APPROVED')
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
@@ -3290,11 +4374,31 @@ VALUES ('west-ce20-european-union-maastricht', '마스트리히트 조약과 유
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('sci-089-dolly-the-sheep-cloning', '이언 윌머트의 성체 체세포 복제양 ''돌리'' 탄생', '이언 윌머트의 성체 체세포 복제양 ''돌리'' 탄생', 'WEST', '', 'SCIENCE', 'A', 1996, 1996, 'exact', '성체 양의 젖샘 세포핵을 탈핵 난자에 이식하여 포유류 최초로 체세포 복제 동물 탄생 성공.', '줄기세포 연구 및 재생의학의 새로운 장을 연 생명과학의 이정표.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
 VALUES ('china-ce20-hong-kong-handover-1997', '홍콩의 중국 반환과 ''일국양제(一國兩制)'' 출범 (1997년 7월 1일)', '홍콩의 중국 반환과 ''일국양제(一國兩制)'' 출범 (1997년 7월 1일)', 'CHINA', '', 'POLITICS', 'A', 1997, 1997, 'exact', '156년간의 영국 통치를 끝내고 홍콩 주권이 중국으로 반환되었으며 ''한 국가 두 체제(50년 불변)'' 약속.', '식민지 시대의 완전한 종식과 대중화권 통합 가속.', '', '', 'HIGH', 'APPROVED')
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('phi-091-amartya-sen-development-as-freedom', '아마르티아 센의 역량 접근법(Capability Approach)과 『자유로서의 발전』', '아마르티아 센의 역량 접근법(Capability Approach)과 『자유로서의 발전』', 'WEST', '', 'INSTITUTION', 'A', 1999, 1999, 'exact', '단순한 GDP 성장이 아니라 인간이 가치 있다고 여기는 삶을 영위할 실질적 역량(교육, 건강, 자유)을 확장하는 것이 진정한 발전임을 역설(1998 노벨경제학상).', 'UN 인간개발지수(HDI)의 이론적 기초.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
 VALUES ('korea-ce20-inter-korean-summit-2000', '최초의 남북 정상회담과 6·15 남북공동선언 (2000년)', '최초의 남북 정상회담과 6·15 남북공동선언 (2000년)', 'KOREA', '', 'POLITICS', 'A', 2000, 2000, 'exact', '김대중 대통령과 김정일 국방위원장이 평양에서 만나 분단 55년 만에 최초의 정상회담을 갖고 자주적 평화 통일과 이산가족 상봉, 개성공단 등에 합의.', '한반도 평화 공존과 화해 협력의 새 시대 개막(김대중 대통령 노벨평화상 수상).', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('sci-090-human-genome-project-draft', '인간 게놈 프로젝트(HGP) 30억 염기서열 초안 완성', '인간 게놈 프로젝트(HGP) 30억 염기서열 초안 완성', 'WEST', '', 'SCIENCE', 'A', 2000, 2003, 'exact', '인간의 유전체 30억 쌍의 DNA 염기서열을 전 세계 국제 컨소시엄이 해독하여 인간 유전체의 설계도 완성.', '정밀 맞춤 의학 및 유전체학 혁명의 출발점.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('art-093-banksy-street-art-shredder', '뱅크시의 게릴라 스트리트 아트와 파격적 미술관 경매 퍼포먼스', '뱅크시의 게릴라 스트리트 아트와 파격적 미술관 경매 퍼포먼스', 'WEST', '', 'ART_CULTURE', 'B', 2000, 2018, 'exact', '얼굴 없는 그래피티 아티스트로 반전, 반자본주의 메시지를 스텐실 벽화로 남기고, 경매 낙찰 순간 작품(『풍선과 소녀』)을 파쇄기로 분쇄.', '미술 시장 자본화와 제도권 권위를 통렬히 조롱한 21세기 예술 혁신.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('art-080-miyazaki-hayao-spirited-away', '미야자키 하야오의 애니메이션 『센과 치히로의 행방불명』 (2001년)', '미야자키 하야오의 애니메이션 『센과 치히로의 행방불명』 (2001년)', 'CHINA', '', 'ART_CULTURE', 'A', 2001, 2001, 'exact', '신들의 온천장에 들어간 소녀 치히로의 성장담을 통해 전통 자연관과 자본주의 비판을 수려한 수작업 작화로 완성(베를린 황금곰상).', '세계 애니메이션 영화사상 최고의 예술적 성취.', '', '', 'HIGH', 'APPROVED')
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
@@ -3314,11 +4418,23 @@ VALUES ('korea-ce21-world-cup-semifinals-2002', '2002 한일 월드컵 4강 신�
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('art-096-korean-webtoon-global-revolution', '한국 웹툰(Webtoon)의 세로 스크롤 디지털 만화 혁명', '한국 웹툰(Webtoon)의 세로 스크롤 디지털 만화 혁명', 'KOREA', '', 'ART_CULTURE', 'B', 2003, 2026, 'exact', '스마트폰 화면에 최적화된 세로 스크롤 연출과 풀컬러 디지털 만화 포맷을 창안하여 전 세계 글로벌 만화 시장 석권 및 영상화(IP) 열풍.', '디지털 시대의 새로운 글로벌 시각 스토리텔링 표준 확립.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('phi-094-quentin-meillassoux-after-finitude', '퀭탱 메이야수의 『유한성 이후』와 사변적 실재론(Speculative Realism)', '퀭탱 메이야수의 『유한성 이후』와 사변적 실재론(Speculative Realism)', 'WEST', '', 'RELIGION', 'B', 2006, 2008, 'exact', '인간의 사유와 대상의 상관관계를 넘어서 인간 이전의 화석(선조성)처럼 인간 의식과 무관하게 존재하는 객관적 실재를 탐구.', '21세기 탈인간중심주의 사변적 실재론 철학의 기폭제.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
 VALUES ('china-ce21-three-gorges-dam-completion', '삼협댐(싼샤댐) 완공 (세계 최대 수력발전소, 2006/2012년)', '삼협댐(싼샤댐) 완공 (세계 최대 수력발전소, 2006/2012년)', 'CHINA', '', 'SCIENCE', 'B', 2006, 2012, 'exact', '양쯔강에 길이 2.3km, 높이 185m의 거대 댐을 완공하여 2,250만 kW의 전력을 생산하고 홍수 통제.', '단일 시설 세계 최대 발전량을 기록한 토목 공학의 집약체.', '', '', 'HIGH', 'APPROVED')
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
 VALUES ('west-ce21-iphone-smartphone-revolution', '스티브 잡스의 아이폰(iPhone) 출시와 모바일 혁명 (2007년)', '스티브 잡스의 아이폰(iPhone) 출시와 모바일 혁명 (2007년)', 'WEST', '', 'SCIENCE', 'A', 2007, 2007, 'exact', '정전식 멀티터치 스크린, 앱스토어 생태계를 결합한 스마트폰을 출시하여 인류의 라이프스타일과 소통 방식을 완전히 재편.', '모바일 컴퓨팅, 앱 경제, 소셜 미디어(SNS) 시대의 폭발적 개막.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('sci-091-smartphone-ios-android-mobile', '스마트폰과 모바일 OS(iOS/Android) 혁명', '스마트폰과 모바일 OS(iOS/Android) 혁명', 'WEST', '', 'SCIENCE', 'A', 2007, 2008, 'exact', '정전식 멀티터치 스크린과 앱스토어 생태계를 갖춘 아이폰 출시 및 안드로이드 오픈 플랫폼 확산.', '손 안의 슈퍼컴퓨터로 전 인류의 디지털 생활 양식 대전환.', '', '', 'HIGH', 'APPROVED')
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
@@ -3342,6 +4458,30 @@ VALUES ('korea-ce21-unesco-world-heritage-inscriptions', '조선왕릉·한국�
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('phi-100-dipesh-chakrabarty-climate-history', '디페시 차크라바르티의 인류세(Anthropocene) 역사철학과 지구적 공존 윤리', '디페시 차크라바르티의 인류세(Anthropocene) 역사철학과 지구적 공존 윤리', 'WEST', '', 'RELIGION', 'A', 2009, 2021, 'exact', '인간의 행위가 지구 지질학적 힘이 된 인류세 시대에 인간 중심의 역사를 넘어 지구 생명 시스템 전체와의 공존을 도모하는 새로운 지구적 역사철학 주창.', '기후 위기 시대 21세기 인류 문명의 생존을 위한 철학적 대전환.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('phi-076-byung-chul-han-burnout-society', '한병철의 『피로사회(The Burnout Society)』와 자기착취 비판', '한병철의 『피로사회(The Burnout Society)』와 자기착취 비판', 'WEST', '', 'RELIGION', 'A', 2010, 2012, 'exact', '규율사회의 금지(''해서는 안 된다'')에서 성과사회의 긍정 과잉(''할 수 있다'')으로 전환되며 스스로를 착취해 번아웃에 빠지는 현대인 진단.', '21세기 신자유주의 성과주의를 날카롭게 해부한 세계적 베스트셀러 철학.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('art-100-korean-food-k-wave-global', 'K-푸드(김치·비빔밥·K-치킨·불닭)의 글로벌 문화 유행', 'K-푸드(김치·비빔밥·K-치킨·불닭)의 글로벌 문화 유행', 'KOREA', '', 'ART_CULTURE', 'B', 2010, 2026, 'exact', '발효 과학 김치(유네스코 인류무형문화유산 김장문화)와 한국 길거리 음식, K-바비큐가 전 세계 미식 트렌드로 정착.', '한국 고유의 식문화가 글로벌 라이프스타일로 확고히 자리잡음.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('phi-071-yuval-harari-sapiens-cognitive-revolution', '유발 하라리의 『사피엔스』와 가상(허구)을 믿는 인지혁명', '유발 하라리의 『사피엔스』와 가상(허구)을 믿는 인지혁명', 'WEST', '', 'RELIGION', 'A', 2011, 2014, 'exact', '호모 사피엔스가 지구를 지배하게 된 비결은 신, 국가, 돈, 인권 등 실재하지 않는 ''허구의 이야기''를 수백만 명이 함께 믿고 협력한 인지혁명 덕분임을 규명.', '21세기 인류학, 역사학, 미래학의 세계적 밀리언셀러.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('sci-092-higgs-boson-discovery-cern', 'CERN 대형강입자충돌기(LHC)의 힉스 보손(신의 입자) 발견', 'CERN 대형강입자충돌기(LHC)의 힉스 보손(신의 입자) 발견', 'WEST', '', 'SCIENCE', 'A', 2012, 2012, 'exact', '27km 둘레의 지하 입자가속기에서 우주 만물에 질량을 부여하는 표준모형의 마지막 퍼즐 힉스 입자 검출(2013 노벨상).', '현대 입자물리학 표준모형의 완벽한 검증.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('sci-093-crispr-cas9-gene-editing-tool', 'CRISPR-Cas9 3세대 유전자 가위 기술 개발', 'CRISPR-Cas9 3세대 유전자 가위 기술 개발', 'WEST', '', 'SCIENCE', 'A', 2012, 2020, 'exact', '샤르팡티에와 다우드나가 박테리아 면역계를 이용해 특정 유전자를 손쉽게 잘라내고 교정하는 정밀 유전자 가위 개발(2020 노벨상).', '난치성 유전병 치료, 농작물 품종 개량의 혁명적 도구.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
 VALUES ('west-ce21-crispr-cas9-gene-editing', 'CRISPR-Cas9 3세대 유전자 가위 기술 개발 (2012년)', 'CRISPR-Cas9 3세대 유전자 가위 기술 개발 (2012년)', 'WEST', '', 'SCIENCE', 'B', 2012, 2020, 'exact', '다우드나와 샤르팡티에가 특정 유전자 염기서열을 정밀하게 자르고 교정하는 유전자 가위 개발(2020 노벨화학상).', '난치성 유전 질환 치료와 맞춤 생명공학 혁명.', '', '', 'HIGH', 'APPROVED')
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
@@ -3362,7 +4502,15 @@ VALUES ('korea-ce21-sewol-ferry-tragedy-safety', '세월호 참사(2014년)와 �
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('phi-097-nick-bostrom-superintelligence-ai-ethics', '닉 보스트롬의 『슈퍼인텔리전스』와 인공지능(AI) 실존적 위험 및 윤리', '닉 보스트롬의 『슈퍼인텔리전스』와 인공지능(AI) 실존적 위험 및 윤리', 'WEST', '', 'RELIGION', 'A', 2014, 2016, 'exact', '인간 지능을 뛰어넘는 초지능 AI가 인류의 가치와 정렬(Alignment)되지 못할 경우 닥칠 실존적 위협을 경고하고 AI 안전 윤리 표준 제시.', '21세기 생성형 AI 시대 인류 존망을 다루는 AI 윤리학의 필독서.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
 VALUES ('west-ce21-paris-climate-agreement', '파리 기후변화협정 체결 (탄소중립과 신재생에너지, 2015년)', '파리 기후변화협정 체결 (탄소중립과 신재생에너지, 2015년)', 'WEST', '', 'CLIMATE_ENVIRONMENT', 'A', 2015, 2015, 'exact', '전 세계 195개국이 지구 평균 온도 상승을 산업화 이전 대비 1.5℃ 이내로 제한하기로 결의한 기후 협약.', '기후 위기 대응을 위한 전 지구적 에너지 전환(RE100, 전기차)의 법적 기준.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('sci-094-ligo-gravitational-waves-detection', 'LIGO(라이고) 연구단의 아인슈타인 중력파 최초 직접 검출', 'LIGO(라이고) 연구단의 아인슈타인 중력파 최초 직접 검출', 'WEST', '', 'SCIENCE', 'A', 2015, 2016, 'exact', '13억 광년 전 두 블랙홀의 충돌로 발생하여 시공간을 흔든 중력파를 레이저 간섭계로 100년 만에 직접 검출(2017 노벨상).', '전자기파를 넘어 중력파로 우주를 관측하는 ''중력파 천문학'' 개막.', '', '', 'HIGH', 'APPROVED')
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
@@ -3370,7 +4518,19 @@ VALUES ('west-ce21-spacex-reusable-rocket', '스페이스X의 재사용 로켓 �
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('sci-095-alphago-deepmind-ai-go', '딥마인드 알파고(AlphaGo)의 이세돌 9단 바둑 승리 (인공지능 대약진)', '딥마인드 알파고(AlphaGo)의 이세돌 9단 바둑 승리 (인공지능 대약진)', 'WEST', '', 'SCIENCE', 'A', 2016, 2016, 'exact', '심층 신경망(Deep Neural Networks)과 몬테카를로 트리 탐색(MCTS)으로 인간 최고수 이세돌을 4대 1로 꺾음.', '딥러닝 인공지능이 인간 직관의 영역을 넘어선 충격적 분기점.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
 VALUES ('korea-ce21-candlelight-revolution-impeachment', '촛불시민혁명과 대통령 탄핵 인용 (2016~2017년)', '촛불시민혁명과 대통령 탄핵 인용 (2016~2017년)', 'KOREA', '', 'POLITICS', 'A', 2016, 2017, 'exact', '국정농단 사태에 맞서 연인원 1,700만 명의 시민들이 광화문 광장에서 평화로운 촛불 집회를 열어 국회 탄핵 소추와 헌법재판소 전원일치 탄핵 인용 쟁취.', '헌정 질서와 민주주의의 회복력을 평화적으로 증명하여 전 세계 민주주의의 귀감이 된 사건.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('art-083-han-kang-nobel-literature-2024', '소설가 한강의 한국인 최초 노벨문학상 수상 (2024년)', '소설가 한강의 한국인 최초 노벨문학상 수상 (2024년)', 'KOREA', '', 'ART_CULTURE', 'A', 2016, 2024, 'exact', '『채식주의자』(맨부커상), 『소년이 온다』(5·18), 『작별하지 않는다』(제주 4·3)를 통해 ''역사적 트라우마에 맞서고 인간 삶의 연약함을 드러낸 강렬한 시적 산문''으로 노벨상 수상.', '한국 문학의 찬란한 세계적 공인이자 아시아 여성 작가 최초의 노벨문학상.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('sci-099-generative-ai-transformer-llm', '트랜스포머 아키텍처와 생성형 AI(Generative AI / ChatGPT) 혁명', '트랜스포머 아키텍처와 생성형 AI(Generative AI / ChatGPT) 혁명', 'WEST', '', 'SCIENCE', 'A', 2017, 2024, 'exact', 'Attention 메커니즘을 기반으로 대규모 언어 모델(LLM)과 멀티모달 AI가 텍스트, 코드, 이미지, 단백질 구조(AlphaFold)를 생성.', '인공일반지능(AGI)으로 향하는 4차 산업혁명의 최고 핵심 엔진.', '', '', 'HIGH', 'APPROVED')
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
@@ -3378,7 +4538,23 @@ VALUES ('korea-ce21-panmunjeom-declaration-2018', '2018 판문점 선언과 남�
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('art-099-bts-love-yourself-world-tour', '방탄소년단(BTS)의 웸블리 스타디움 공연과 LOVE YOURSELF 글로벌 메시지', '방탄소년단(BTS)의 웸블리 스타디움 공연과 LOVE YOURSELF 글로벌 메시지', 'KOREA', '', 'ART_CULTURE', 'A', 2018, 2019, 'exact', '영국 팝의 성지 웸블리 스타디움을 비영어권 가수 최초로 매진시키고 전 세계 청년들에게 ''자신을 사랑하라''는 연대 선언.', '음악을 통한 전 지구적 팬덤(ARMY) 문화와 긍정적 사회 변혁 운동.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
 VALUES ('china-ce21-us-china-tech-trade-war', '미·중 기술 패권 전쟁과 반도체 공급망 갈등 (2018년~현재)', '미·중 기술 패권 전쟁과 반도체 공급망 갈등 (2018년~현재)', 'CHINA', '', 'ECONOMY', 'B', 2018, 2026, 'exact', '관세 부과로 시작되어 화웨이 제재, 첨단 반도체 장비 수출 통제 및 공급망 디커플링(디리스킹) 대치 격화.', '21세기 세계 경제와 첨단 기술 표준을 둘러싼 신냉전의 핵심 전선.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('phi-098-shoshana-zuboff-surveillance-capitalism', '쇼샤나 주보프의 『감시 자본주의의 시대(The Age of Surveillance Capitalism)』', '쇼샤나 주보프의 『감시 자본주의의 시대(The Age of Surveillance Capitalism)』', 'WEST', '', 'INSTITUTION', 'A', 2019, 2019, 'exact', '빅테크 기업들이 사용자의 행동 잉여 데이터를 무단 채굴하여 행동 수정 상품으로 판매하는 새로운 형태의 디지털 감시 권력 폭로.', '디지털 플랫폼 독점과 데이터 주권 침해에 대한 21세기 최고의 비판적 분석.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('sci-096-event-horizon-telescope-blackhole', '사건지평선망원경(EHT)의 인류 최초 블랙홀 그림자 직접 촬영', '사건지평선망원경(EHT)의 인류 최초 블랙홀 그림자 직접 촬영', 'WEST', '', 'SCIENCE', 'A', 2019, 2019, 'exact', '전 세계 8대 전파망원경을 지구 크기 가상 망원경으로 연동하여 M87 은하 중심 초대질량 블랙홀의 윤곽 촬영 성공.', '아인슈타인 일반상대성이론의 궁극적 시각적 실증.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('art-081-bong-joon-ho-parasite-oscars', '봉준호 감독의 영화 『기생충(Parasite)』 칸 황금종려상 및 아카데미 4관왕', '봉준호 감독의 영화 『기생충(Parasite)』 칸 황금종려상 및 아카데미 4관왕', 'KOREA', '', 'ART_CULTURE', 'A', 2019, 2020, 'exact', '반지하 가족과 대저택 가족의 대비를 통해 현대 자본주의 계급 격차를 정교한 서스펜스와 블랙코미디로 연출(비영어권 영화 최초 작품상).', '92년 오스카 역사상 최초의 외국어 영화 작품상 수상 및 세계 영화사 대기록.', '', '', 'HIGH', 'APPROVED')
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
@@ -3394,11 +4570,35 @@ VALUES ('china-ce21-space-station-tiangong', '중국 독자 우주정거장 ''�
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('phi-099-michael-sandels-tyranny-of-merit', '마이클 샌델의 『공정하다는 착각(The Tyranny of Merit)』 (능력주의의 덫)', '마이클 샌델의 『공정하다는 착각(The Tyranny of Merit)』 (능력주의의 덫)', 'WEST', '', 'INSTITUTION', 'A', 2020, 2020, 'exact', '자신의 성공이 오직 자신의 노력 때문이라는 능력주의의 오만이 패자에게 굴욕을 안기고 사회적 양극화와 포퓰리즘을 낳았음을 고발하고 겸손과 연대 촉구.', '현대 교육과 노동, 분배 정의에 대한 가장 뜨거운 담론.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('art-082-bts-billboard-hot-100-dynamite', '방탄소년단(BTS)의 빌보드 핫100 1위 및 K-POP 글로벌 신드롬', '방탄소년단(BTS)의 빌보드 핫100 1위 및 K-POP 글로벌 신드롬', 'KOREA', '', 'ART_CULTURE', 'A', 2020, 2022, 'exact', '『Dynamite』, 『Butter』 등으로 한국 가수 최초 빌보드 메인 싱글 차트 1위를 연속 달성하고 UN 총회 연설을 통해 청년 세대 위로.', 'K-POP이 아시아를 넘어 전 세계 팝 음악의 주류로 우뚝 선 문화적 쾌거.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('sci-097-mrna-covid-vaccine-technology', 'mRNA 백신 기술 상용화 (카리코·와이스만, 코로나19 백신)', 'mRNA 백신 기술 상용화 (카리코·와이스만, 코로나19 백신)', 'WEST', '', 'SCIENCE', 'A', 2020, 2023, 'exact', '바이러스의 유전 정보를 담은 mRNA를 지질나노입자(LNP)로 전달하여 사상 최단 기간 백신 개발 성공(2023 노벨생리의학상).', '글로벌 팬데믹을 극복하고 암 백신 등 미래 유전자 치료의 새 장을 엶.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
 VALUES ('korea-ce21-superconducting-fusion-kstar', '인공태양 KSTAR 초전도 핵융합 1억도 초고온 운전 성공', '인공태양 KSTAR 초전도 핵융합 1억도 초고온 운전 성공', 'KOREA', '', 'SCIENCE', 'B', 2020, 2024, 'exact', '한국형 초전도 핵융합 연구장치 KSTAR가 1억도 초고온 플라즈마를 48초간 연속 유지하는 세계 신기록 달성.', '인류 꿈의 무한 청정 에너지 핵융합 발전 기술 선도.', '', '', 'HIGH', 'APPROVED')
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
 VALUES ('china-ce21-digital-yuan-e-cny', '중국 디지털 위안화(e-CNY) 시범 도입과 핀테크 발전', '중국 디지털 위안화(e-CNY) 시범 도입과 핀테크 발전', 'CHINA', '', 'ECONOMY', 'C', 2020, 2026, 'exact', '주요국 중앙은행 최초로 중앙은행 디지털 화폐(CBDC)를 상용화하고 알리페이·위챗페이 모바일 결제 일상화.', '글로벌 달러 패권에 도전하는 디지털 통화 실험.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('sci-100-kstar-fusion-and-quantum-supremacy', '한국 KSTAR 초전도 핵융합 1억도 48초 유지 및 양자 컴퓨터 도약', '한국 KSTAR 초전도 핵융합 1억도 48초 유지 및 양자 컴퓨터 도약', 'KOREA', '', 'SCIENCE', 'A', 2020, 2026, 'exact', '한국 인공태양 KSTAR가 초전도 토카막 1억도 플라즈마 연속 운전 세계 기록을 달성하고 1,000큐비트급 양자 컴퓨터 실용화 개막.', '인류 무한 청정 에너지(핵융합)와 차세대 양자 컴퓨팅 시대를 선도.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('art-084-squid-game-global-number-one', '황동혁 감독의 넷플릭스 드라마 『오징어 게임』 전 세계 1위 (2021년)', '황동혁 감독의 넷플릭스 드라마 『오징어 게임』 전 세계 1위 (2021년)', 'KOREA', '', 'ART_CULTURE', 'A', 2021, 2022, 'exact', '456억 원의 상금을 건 목숨을 건 어린이 놀이 서바이벌을 통해 글로벌 자본주의 경쟁 사회를 날카롭게 풍자(에미상 6관왕).', '넷플릭스 역사상 최다 시청 시간을 기록한 글로벌 K-콘텐츠의 대도약.', '', '', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('sci-098-james-webb-space-telescope', '제임스 웹 우주망원경(JWST) 발사와 최고 해상도 초기 우주 관측', '제임스 웹 우주망원경(JWST) 발사와 최고 해상도 초기 우주 관측', 'WEST', '', 'SCIENCE', 'A', 2021, 2022, 'exact', '6.5m 금 코팅 베릴륨 주경과 적외선 검출기를 지구에서 150만 km 떨어진 라그랑주 L2점에 안착시켜 135억 년 전 첫 별 관측.', '허블을 뛰어넘은 인류 역사상 가장 강력한 천문 관측기.', '', '', 'HIGH', 'APPROVED')
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, historical_significance = EXCLUDED.historical_significance, updated_at = NOW();
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
