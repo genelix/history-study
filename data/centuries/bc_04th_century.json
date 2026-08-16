@@ -1,0 +1,731 @@
+{
+  "centuryId": "bc_04th_century",
+  "centuryLabel": "기원전 4세기 (BC 400 ~ BC 301)",
+  "period": {
+    "yearStart": -400,
+    "yearEnd": -301
+  },
+  "eventCount": 30,
+  "events": [
+    {
+      "id": "west-bc4-socrates-death",
+      "title": "소크라테스의 재판과 사형",
+      "title_en": "소크라테스의 재판과 사형",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "RELIGION",
+      "importance": "A",
+      "year_start": -399,
+      "year_end": -399,
+      "date_precision": "exact",
+      "summary": "아테네 법정에서 청년들을 타락시켰다는 혐의로 소크라테스가 독배를 마심.",
+      "historical_significance": "비판적 이성 철학의 상징이자 플라톤 철학의 출발점.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "west-bc4-plato-academy",
+      "title": "플라톤의 아카데미아 창설",
+      "title_en": "플라톤의 아카데미아 창설",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "SCIENCE",
+      "importance": "A",
+      "year_start": -387,
+      "year_end": -387,
+      "date_precision": "exact",
+      "summary": "아테네에 서양 최초의 고등 교육·연구 기관 아카데미아를 설립함.",
+      "historical_significance": "서양 대학 및 아카데미 제도의 원형.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "west-bc4-aristotle-lyceum",
+      "title": "아리스토텔레스의 리케이온 설립",
+      "title_en": "아리스토텔레스의 리케이온 설립",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "SCIENCE",
+      "importance": "A",
+      "year_start": -335,
+      "year_end": -335,
+      "date_precision": "exact",
+      "summary": "경험적 관찰과 귀납적 논리학을 연구하는 학당 리케이온을 세움.",
+      "historical_significance": "자연과학, 논리학, 윤리학 체계의 기초 확립.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "west-bc4-alexander-conquests",
+      "title": "알렉산드로스 대왕의 동방 원정",
+      "title_en": "알렉산드로스 대왕의 동방 원정",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "A",
+      "year_start": -334,
+      "year_end": -323,
+      "date_precision": "exact",
+      "summary": "페르시아를 정복하고 이집트와 인도 서북부까지 뻗은 제국을 건설함.",
+      "historical_significance": "그리스와 동방 문화를 융합한 헬레니즘 시대 개막.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "west-bc4-samnite-wars",
+      "title": "로마의 삼니움 전쟁",
+      "title_en": "로마의 삼니움 전쟁",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "B",
+      "year_start": -343,
+      "year_end": -301,
+      "date_precision": "exact",
+      "summary": "로마가 삼니움족을 격파하고 이탈리아 중남부의 패권을 장악함.",
+      "historical_significance": "로마 군단병(레기온) 전술의 완성 및 이탈리아 통일의 발판.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "west-bc4-appian-way",
+      "title": "아피아 가도 및 수도교 건설",
+      "title_en": "아피아 가도 및 수도교 건설",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "INSTITUTION",
+      "importance": "B",
+      "year_start": -312,
+      "year_end": -312,
+      "date_precision": "exact",
+      "summary": "로마 최초의 포장 군사도로와 수도교 아쿠아 아피아를 축조함.",
+      "historical_significance": "로마 토목 공학 인프라의 효시.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "west-bc4-gallic-sack",
+      "title": "갈리아족의 로마 침공 및 약탈",
+      "title_en": "갈리아족의 로마 침공 및 약탈",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "B",
+      "year_start": -390,
+      "year_end": -387,
+      "date_precision": "exact",
+      "summary": "브렌누스가 이끄는 갈리아족이 알리아 전투 후 로마 시를 점령함.",
+      "historical_significance": "로마의 방어 체제 재편과 세르비우스 성벽 강화 촉발.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "west-bc4-leuctra-battle",
+      "title": "레욱트라 전투와 테베의 패권",
+      "title_en": "레욱트라 전투와 테베의 패권",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "B",
+      "year_start": -371,
+      "year_end": -371,
+      "date_precision": "exact",
+      "summary": "에파메이논다스의 사선진 전술로 테베가 스파르타를 격파함.",
+      "historical_significance": "스파르타 불패 신화 붕괴와 전술학의 혁신.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "west-bc4-pytheas-voyage",
+      "title": "피테아스의 북유럽 탐험",
+      "title_en": "피테아스의 북유럽 탐험",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "SCIENCE",
+      "importance": "C",
+      "year_start": -325,
+      "year_end": -320,
+      "date_precision": "exact",
+      "summary": "마살리아의 피테아스가 브리튼과 북극해 인근 툴레를 탐험함.",
+      "historical_significance": "고대 지중해 세계 최초의 북유럽 및 조석 관측 기록.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "west-bc4-diogenes-cynic",
+      "title": "디오게네스의 견유학파 철학",
+      "title_en": "디오게네스의 견유학파 철학",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "RELIGION",
+      "importance": "C",
+      "year_start": -370,
+      "year_end": -323,
+      "date_precision": "exact",
+      "summary": "관습과 세속적 부를 거부하고 자연에 따른 무소유를 실천함.",
+      "historical_significance": "헬레니즘 개인주의 윤리학과 스토아 철학의 선구.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-bc4-shang-yang",
+      "title": "진나라 상앙의 변법 개혁",
+      "title_en": "진나라 상앙의 변법 개혁",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "INSTITUTION",
+      "importance": "A",
+      "year_start": -356,
+      "year_end": -338,
+      "date_precision": "exact",
+      "summary": "군공수작제, 군현제, 십오제를 통해 철저한 법가적 부국강병 추진.",
+      "historical_significance": "진나라가 천하 통일의 기반을 구축한 결정적 개혁.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-bc4-mencius",
+      "title": "맹자의 왕도정치와 성선설",
+      "title_en": "맹자의 왕도정치와 성선설",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "RELIGION",
+      "importance": "A",
+      "year_start": -372,
+      "year_end": -301,
+      "date_precision": "exact",
+      "summary": "인의(仁義)에 기초한 왕도정치와 민본주의 역성혁명론을 주장함.",
+      "historical_significance": "동아시아 유교 정치사상의 기본 규범 정립.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-bc4-zhuangzi",
+      "title": "장자의 도가 철학과 제물론",
+      "title_en": "장자의 도가 철학과 제물론",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "RELIGION",
+      "importance": "A",
+      "year_start": -369,
+      "year_end": -301,
+      "date_precision": "exact",
+      "summary": "만물의 평등과 절대적 자유(소요유)를 역설한 도가 철학 집대성.",
+      "historical_significance": "동양 예술론과 문학, 선불교에 지대한 영향.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-bc4-jixia-academy",
+      "title": "제나라 직하학궁 번영",
+      "title_en": "제나라 직하학궁 번영",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "SCIENCE",
+      "importance": "A",
+      "year_start": -360,
+      "year_end": -301,
+      "date_precision": "exact",
+      "summary": "임치에 제자백가 학자들을 모아 자유로운 학술 토론을 지원함.",
+      "historical_significance": "동양 최초의 국립 종합 학술원으로서 백가쟁명 주도.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-bc4-sun-bin",
+      "title": "손빈의 마릉 전투와 손빈병법",
+      "title_en": "손빈의 마릉 전투와 손빈병법",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "SCIENCE",
+      "importance": "B",
+      "year_start": -341,
+      "year_end": -341,
+      "date_precision": "exact",
+      "summary": "감조지계 전술로 위나라 군대를 섬멸하고 병법 체계를 발전시킴.",
+      "historical_significance": "집단 석궁 운용과 기동전술의 획기적 발전.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-bc4-qu-yuan",
+      "title": "굴원의 초사 문학과 이소",
+      "title_en": "굴원의 초사 문학과 이소",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "ART_CULTURE",
+      "importance": "B",
+      "year_start": -340,
+      "year_end": -301,
+      "date_precision": "exact",
+      "summary": "초나라 시인 굴원이 나라를 걱정하며 장편 서정시 이소경을 지음.",
+      "historical_significance": "중국 남방 낭만주의 문학의 최고봉.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-bc4-wuling-king",
+      "title": "조나라 무령왕의 호복기사",
+      "title_en": "조나라 무령왕의 호복기사",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "INSTITUTION",
+      "importance": "B",
+      "year_start": -307,
+      "year_end": -307,
+      "date_precision": "exact",
+      "summary": "유목민의 복장과 궁기병 전술을 중원에 최초로 도입함.",
+      "historical_significance": "동아시아 기병 전술의 혁신과 전차의 퇴조.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-bc4-su-qin-zhang-yi",
+      "title": "합종연횡 외교술의 대결",
+      "title_en": "합종연횡 외교술의 대결",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "B",
+      "year_start": -330,
+      "year_end": -310,
+      "date_precision": "exact",
+      "summary": "소진의 6국 합종책과 장의의 연횡책이 펼쳐진 치열한 외교전.",
+      "historical_significance": "세력균형과 다자외교의 효시.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-bc4-iron-plow",
+      "title": "철제 보습과 우경 농업의 보급",
+      "title_en": "철제 보습과 우경 농업의 보급",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "SCIENCE",
+      "importance": "C",
+      "year_start": -380,
+      "year_end": -301,
+      "date_precision": "exact",
+      "summary": "소 쟁기질과 단단한 철제 농기구로 토지 생산성이 급증함.",
+      "historical_significance": "대규모 인구 증가와 도시 경제 발달 촉진.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-bc4-seven-powers",
+      "title": "전국 칠웅의 총력전 체제",
+      "title_en": "전국 칠웅의 총력전 체제",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "C",
+      "year_start": -350,
+      "year_end": -301,
+      "date_precision": "exact",
+      "summary": "진, 초, 제, 연, 조, 위, 한의 상호 침략전이 전면화됨.",
+      "historical_significance": "귀족 사회에서 관료제 국가로의 완전한 이행.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-bc4-slender-dagger",
+      "title": "한국식 세형동검 문화의 확립",
+      "title_en": "한국식 세형동검 문화의 확립",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "SCIENCE",
+      "importance": "A",
+      "year_start": -400,
+      "year_end": -301,
+      "date_precision": "exact",
+      "summary": "비파형동검을 개량하여 한반도 고유의 독창적 세형동검을 주조함.",
+      "historical_significance": "독자적인 한반도 청동기 금속 공학의 절정.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-bc4-yan-rivalry",
+      "title": "고조선과 연나라의 왕호 칭당 및 대립",
+      "title_en": "고조선과 연나라의 왕호 칭당 및 대립",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "A",
+      "year_start": -350,
+      "year_end": -301,
+      "date_precision": "exact",
+      "summary": "고조선 후가 왕을 칭하며 연나라와 요동에서 대등하게 대립함.",
+      "historical_significance": "고조선이 만주-한반도 일대 강력한 왕국임을 보여주는 문헌 기록.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-bc4-danyu-mirror",
+      "title": "국보 다뉴세문경(정문경) 주조",
+      "title_en": "국보 다뉴세문경(정문경) 주조",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "ART_CULTURE",
+      "importance": "B",
+      "year_start": -380,
+      "year_end": -301,
+      "date_precision": "exact",
+      "summary": "0.3mm 간격의 초정밀 기하학 문양을 새긴 청동 거울 제작.",
+      "historical_significance": "고대 동아시아 최고의 청동 주조 정밀 기술 입증.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-bc4-early-iron",
+      "title": "단조 철기 농기구의 초기 유입",
+      "title_en": "단조 철기 농기구의 초기 유입",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "SCIENCE",
+      "importance": "B",
+      "year_start": -400,
+      "year_end": -301,
+      "date_precision": "exact",
+      "summary": "손칼, 괭이 등 철제 도구가 보급되며 생산력이 향상됨.",
+      "historical_significance": "철기 시대로의 진입과 읍락의 정치적 통합 촉진.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-bc4-songgukri-farming",
+      "title": "송국리형 농경 취락과 벼농사",
+      "title_en": "송국리형 농경 취락과 벼농사",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "INSTITUTION",
+      "importance": "B",
+      "year_start": -400,
+      "year_end": -301,
+      "date_precision": "exact",
+      "summary": "원형 주거지와 탄화미, 반달돌칼을 사용하는 대규모 농경 마을 번영.",
+      "historical_significance": "한반도 수전(논농사) 농경 사회의 완전한 정착.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-bc4-dolmen-peak",
+      "title": "남방식 바둑판식 고인돌 축조",
+      "title_en": "남방식 바둑판식 고인돌 축조",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "INSTITUTION",
+      "importance": "B",
+      "year_start": -400,
+      "year_end": -301,
+      "date_precision": "exact",
+      "summary": "호남·영남 해안가에 수십 톤의 상석을 얹은 고인돌 집중 축조.",
+      "historical_significance": "수백 명을 동원할 수 있는 족장 사회의 권력 가시화.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-bc4-ritual-bells",
+      "title": "청동 팔주령·간두령과 제천 의례",
+      "title_en": "청동 팔주령·간두령과 제천 의례",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "RELIGION",
+      "importance": "C",
+      "year_start": -380,
+      "year_end": -301,
+      "date_precision": "exact",
+      "summary": "제의용 청동 방울을 통해 군장의 제정일치 종교 권위 행사.",
+      "historical_significance": "단군왕검 샤머니즘 제의의 고고학적 실증.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-bc4-pottery-stripes",
+      "title": "점토대토기 문화의 확산",
+      "title_en": "점토대토기 문화의 확산",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "ART_CULTURE",
+      "importance": "C",
+      "year_start": -400,
+      "year_end": -301,
+      "date_precision": "exact",
+      "summary": "원형 덧띠를 아가리에 두른 토기가 한반도 중남부로 확산.",
+      "historical_significance": "초기 철기시대 진입의 표지 유물.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-bc4-liaodong-trade",
+      "title": "고조선 요동-서해 해상 교역망",
+      "title_en": "고조선 요동-서해 해상 교역망",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "ECONOMY",
+      "importance": "C",
+      "year_start": -370,
+      "year_end": -301,
+      "date_precision": "exact",
+      "summary": "요동반도와 대동강, 서해안을 잇는 무역로로 모피, 소금, 청동 교환.",
+      "historical_significance": "중계 무역을 통한 고조선의 경제적 성장.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-bc4-palisade-town",
+      "title": "환호와 목책 방어 취락 증대",
+      "title_en": "환호와 목책 방어 취락 증대",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "C",
+      "year_start": -390,
+      "year_end": -301,
+      "date_precision": "exact",
+      "summary": "취락 주위에 도랑과 나무 울타리를 둘러 집단 간 침입 대비.",
+      "historical_significance": "군사적 성채 취락의 발달과 성곽 축조의 원형.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    }
+  ]
+}

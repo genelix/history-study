@@ -1,0 +1,731 @@
+{
+  "centuryId": "ce_01th_century",
+  "centuryLabel": "서기 1세기 (AD 1 ~ AD 100)",
+  "period": {
+    "yearStart": 1,
+    "yearEnd": 100
+  },
+  "eventCount": 30,
+  "events": [
+    {
+      "id": "west-ce1-jesus-crucifixion",
+      "title": "예수 그리스도의 사역과 기독교의 탄생",
+      "title_en": "예수 그리스도의 사역과 기독교의 탄생",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "RELIGION",
+      "importance": "A",
+      "year_start": 30,
+      "year_end": 33,
+      "date_precision": "exact",
+      "summary": "예수가 하나님 나라와 사랑의 복음을 전파하고 십자가에 처형된 후 사도들을 통해 기독교가 전파됨.",
+      "historical_significance": "서구 문명과 세계 윤리관을 근본적으로 뒤바꾼 기독교의 시작.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "west-ce1-paul-missionary",
+      "title": "사도 바울의 지중해 선교 여행",
+      "title_en": "사도 바울의 지중해 선교 여행",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "RELIGION",
+      "importance": "A",
+      "year_start": 46,
+      "year_end": 64,
+      "date_precision": "exact",
+      "summary": "바울이 소아시아, 그리스, 로마를 순회하며 이방인에게 기독교를 전파하고 서신서(바울 서신)를 작성.",
+      "historical_significance": "유대교 분파를 넘어 보편적 세계 종교로 기독교를 확립.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "west-ce1-vesuvius-pompeii",
+      "title": "베수비오 화산 폭발과 폼페이의 파멸",
+      "title_en": "베수비오 화산 폭발과 폼페이의 파멸",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "CLIMATE_ENVIRONMENT",
+      "importance": "A",
+      "year_start": 79,
+      "year_end": 79,
+      "date_precision": "exact",
+      "summary": "베수비오 화산이 대폭발하여 나폴리만의 번영하던 로마 도시 폼페이와 헤르쿨라네움이 화산재에 매몰됨.",
+      "historical_significance": "로마 제국의 일상생활, 벽화, 건축 유적이 생생하게 보존된 고고학의 보물창고.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "west-ce1-colosseum-built",
+      "title": "로마 콜로세움(플라비우스 원형극장) 완공",
+      "title_en": "로마 콜로세움(플라비우스 원형극장) 완공",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "ART_CULTURE",
+      "importance": "A",
+      "year_start": 70,
+      "year_end": 80,
+      "date_precision": "exact",
+      "summary": "베스파시아누스 황제가 착공하고 티투스 황제가 완공한 5만 명 수용 규모의 거대 원형경기장.",
+      "historical_significance": "로마 콘크리트 아치 공학의 최고 걸작이자 제국의 위용 과시.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "west-ce1-teutoburg-forest",
+      "title": "토이토부르크 숲 전투 (바루스 패전)",
+      "title_en": "토이토부르크 숲 전투 (바루스 패전)",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "A",
+      "year_start": 9,
+      "year_end": 9,
+      "date_precision": "exact",
+      "summary": "아르미니우스가 이끄는 게르만 연합군이 바루스의 로마 3개 군단을 숲속에서 전멸시킴.",
+      "historical_significance": "로마의 엘베강 진출 좌절 및 라인강을 로마-게르마니아의 영구 국경선으로 확정.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "west-ce1-claudius-britain",
+      "title": "클라우디우스 황제의 브리타니아 정복",
+      "title_en": "클라우디우스 황제의 브리타니아 정복",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "B",
+      "year_start": 43,
+      "year_end": 43,
+      "date_precision": "exact",
+      "summary": "로마군이 브리튼섬을 침공하여 론디니움(런던)을 건설하고 브리타니아 속주를 설치.",
+      "historical_significance": "영국 브리튼 지역이 로마 문명권에 편입.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "west-ce1-jerusalem-siege",
+      "title": "제1차 유대-로마 전쟁과 예루살렘 성전 파괴",
+      "title_en": "제1차 유대-로마 전쟁과 예루살렘 성전 파괴",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "B",
+      "year_start": 66,
+      "year_end": 70,
+      "date_precision": "exact",
+      "summary": "티투스 장군이 예루살렘을 함락하고 제2성전을 철저히 파괴함(통곡의 벽만 잔존).",
+      "historical_significance": "유대인들의 2천 년 디아스포라(이산)와 랍비 유대교 전환.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "west-ce1-nero-fire-persecution",
+      "title": "로마 대화재와 네로 황제의 최초 기독교 박해",
+      "title_en": "로마 대화재와 네로 황제의 최초 기독교 박해",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "B",
+      "year_start": 64,
+      "year_end": 64,
+      "date_precision": "exact",
+      "summary": "로마 시가지에 대화재가 발생하자 네로가 기독교인들에게 방화 혐의를 씌워 베드로, 바울을 순교시킴.",
+      "historical_significance": "로마 제국의 조직적 기독교 박해의 시작.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "west-ce1-pliny-elder",
+      "title": "대 플리니우스의 『박물지(Naturalis Historia)』 편찬",
+      "title_en": "대 플리니우스의 『박물지(Naturalis Historia)』 편찬",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "SCIENCE",
+      "importance": "C",
+      "year_start": 77,
+      "year_end": 77,
+      "date_precision": "exact",
+      "summary": "천문, 지리, 동물, 식물, 광물, 의학을 망라한 37권의 서양 최초 백과사전.",
+      "historical_significance": "중세와 르네상스 자연과학의 핵심 표준 레퍼런스.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "west-ce1-seneca-stoic",
+      "title": "세네카의 스토아 철학과 도덕 서간",
+      "title_en": "세네카의 스토아 철학과 도덕 서간",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "RELIGION",
+      "importance": "C",
+      "year_start": 40,
+      "year_end": 65,
+      "date_precision": "exact",
+      "summary": "네로의 스승이자 정치가인 세네카가 『인생의 짧음에 관하여』 등 후기 스토아 철학 저술.",
+      "historical_significance": "인간의 도덕적 품격과 운명에 대한 담담한 수용 강조.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-ce1-wang-mang-xin",
+      "title": "왕망의 신(新) 왕조 건국과 왕전문 개혁",
+      "title_en": "왕망의 신(新) 왕조 건국과 왕전문 개혁",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "INSTITUTION",
+      "importance": "A",
+      "year_start": 9,
+      "year_end": 23,
+      "date_precision": "exact",
+      "summary": "주례(周禮)를 모방하여 토지 국유화(왕전제), 노비 매매 금지, 오균육관제를 추진했으나 대혼란 초래.",
+      "historical_significance": "이상주의적 복고 개혁의 실패와 농민 봉기(적미·녹림의 난).",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-ce1-eastern-han-founding",
+      "title": "광무제 유수의 후한(後漢) 건국과 광무중흥",
+      "title_en": "광무제 유수의 후한(後漢) 건국과 광무중흥",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "A",
+      "year_start": 25,
+      "year_end": 57,
+      "date_precision": "exact",
+      "summary": "한나라 종실 유수가 낙양에 도읍하고 군웅들을 평정하여 한 왕조를 재건함.",
+      "historical_significance": "후한 200년 번영의 개막과 유학 중심 통치 질서 정착.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-ce1-cai-lun-paper",
+      "title": "채륜의 실용 제지술 완성 및 보급",
+      "title_en": "채륜의 실용 제지술 완성 및 보급",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "SCIENCE",
+      "importance": "A",
+      "year_start": 105,
+      "year_end": 105,
+      "date_precision": "exact",
+      "summary": "나무껍질, 마, 넝마, 어망을 이용해 가볍고 질긴 '채후지(蔡侯紙)'를 제조하여 대량 생산 성공.",
+      "historical_significance": "세계 문자 문명과 지식 전파에 가장 위대한 혁신.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-ce1-buddhism-white-horse",
+      "title": "명제의 백마사 창건과 불교 공식 전래",
+      "title_en": "명제의 백마사 창건과 불교 공식 전래",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "RELIGION",
+      "importance": "A",
+      "year_start": 67,
+      "year_end": 68,
+      "date_precision": "exact",
+      "summary": "한명제가 금인(金人) 꿈을 꾼 후 서역에서 가섭마등, 축법란을 모셔와 낙양에 최초의 사찰 백마사 건립.",
+      "historical_significance": "불교가 중국 문화와 사상계에 공식적으로 뿌리내린 출발점.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-ce1-ban-gu-hanshu",
+      "title": "반고의 『한서(漢書)』 편찬",
+      "title_en": "반고의 『한서(漢書)』 편찬",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "ART_CULTURE",
+      "importance": "B",
+      "year_start": 80,
+      "year_end": 92,
+      "date_precision": "exact",
+      "summary": "서한 230년의 역사를 단대사(斷代史) 기전체 형식으로 정리한 정사(正史) 완성.",
+      "historical_significance": "이후 역대 중국 왕조 정사 편찬의 절대적 표준 확립.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-ce1-ban-chao-silk-road",
+      "title": "반초의 서역 36국 평정과 실크로드 재장악",
+      "title_en": "반초의 서역 36국 평정과 실크로드 재장악",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "B",
+      "year_start": 73,
+      "year_end": 97,
+      "date_precision": "exact",
+      "summary": "불입호혈 부득호자(호랑이 굴에 들어가지 않고 어찌 호랑이를 잡으랴)의 기개로 서역 50여 국 복속.",
+      "historical_significance": "동서 무역로의 안전 확보 및 로마 제국과의 간접 접촉.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-ce1-wang-chong-lunheng",
+      "title": "왕충의 『논형(論衡)』과 유물론적 회의주의",
+      "title_en": "왕충의 『논형(論衡)』과 유물론적 회의주의",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "SCIENCE",
+      "importance": "B",
+      "year_start": 86,
+      "year_end": 86,
+      "date_precision": "exact",
+      "summary": "당시 성행하던 참위설(도참)과 천인감응설을 비판하고 자연의 자발성과 경험적 사실을 옹호.",
+      "historical_significance": "고대 동양의 독보적인 합리주의·무신론 철학.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-ce1-gan-ying-rome-mission",
+      "title": "감영의 대진국(로마 제국) 파견 사절단",
+      "title_en": "감영의 대진국(로마 제국) 파견 사절단",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "C",
+      "year_start": 97,
+      "year_end": 97,
+      "date_precision": "exact",
+      "summary": "반초의 부하 감영이 로마 제국(대진국)을 향해 페르시아만 해안까지 도달함.",
+      "historical_significance": "고대 중국인이 지중해 세계에 가장 근접했던 공식 외교 탐험.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-ce1-ming-zhang-reign",
+      "title": "명제·장제의 명장지치(明章之治)",
+      "title_en": "명제·장제의 명장지치(明章之治)",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "C",
+      "year_start": 57,
+      "year_end": 88,
+      "date_precision": "exact",
+      "summary": "부세를 감면하고 형벌을 완화하며 태학을 장려하여 후한의 황금기 구가.",
+      "historical_significance": "유교적 덕치주의의 모범적 통치기.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-ce1-iron-casting-hydraulic",
+      "title": "두시의 수력 풀무(수배) 발명과 주철 혁신",
+      "title_en": "두시의 수력 풀무(수배) 발명과 주철 혁신",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "SCIENCE",
+      "importance": "C",
+      "year_start": 31,
+      "year_end": 31,
+      "date_precision": "exact",
+      "summary": "남양태수 두시가 물의 힘으로 용광로에 바람을 불어넣는 수배를 만들어 철기 생산 극대화.",
+      "historical_significance": "유럽보다 1천 년 이상 앞선 수력 야금 기술.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-ce1-taejo-goguryeo",
+      "title": "고구려 태조대왕의 중앙집권적 영토 확장",
+      "title_en": "고구려 태조대왕의 중앙집권적 영토 확장",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "A",
+      "year_start": 53,
+      "year_end": 100,
+      "date_precision": "exact",
+      "summary": "계루부 고씨의 왕위 세습권을 확립하고 옥저, 동예를 복속하며 현도군·요동군을 공격.",
+      "historical_significance": "5부 연맹체 고구려가 확고한 중앙집권 고대 왕국으로 도약.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-ce1-baekje-daroo-expansion",
+      "title": "백제 다루왕·기루왕의 영토 확장과 마한 압박",
+      "title_en": "백제 다루왕·기루왕의 영토 확장과 마한 압박",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "A",
+      "year_start": 28,
+      "year_end": 100,
+      "date_precision": "exact",
+      "summary": "한강 유역에서 충청도 일대로 세력을 확장하며 마한 연맹체들을 복속시키기 시작.",
+      "historical_significance": "백제가 한반도 중부의 패권 국가로 성장하는 기반 마련.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-ce1-silla-talhae-yuri",
+      "title": "신라 유리이사금의 6부 개편과 가배(추석) 풍습",
+      "title_en": "신라 유리이사금의 6부 개편과 가배(추석) 풍습",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "INSTITUTION",
+      "importance": "A",
+      "year_start": 24,
+      "year_end": 57,
+      "date_precision": "exact",
+      "summary": "6촌을 6부로 개편하고 관등(17관등 기초)을 제정하였으며 두레 길쌈 놀이인 가배(추석) 장려.",
+      "historical_significance": "신라의 국가 제도 정비와 민족 명절 한가위의 기원.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-ce1-gaya-founding-suro",
+      "title": "금관가야 건국 (김수로왕과 허황옥)",
+      "title_en": "금관가야 건국 (김수로왕과 허황옥)",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "A",
+      "year_start": 42,
+      "year_end": 42,
+      "date_precision": "exact",
+      "summary": "김해 구지봉 설화와 함께 김수로왕이 가락국(금관가야)을 건국하고 인도 아유타국 공주 허황옥과 혼인.",
+      "historical_significance": "가야 연맹의 맹주국 탄생과 고대 국제 해상 교역망 구축.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-ce1-goguryeo-yurimyeong",
+      "title": "고구려 유리명왕의 국내성(국내위나암성) 천도",
+      "title_en": "고구려 유리명왕의 국내성(국내위나암성) 천도",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "B",
+      "year_start": 3,
+      "year_end": 3,
+      "date_precision": "exact",
+      "summary": "졸본에서 방어와 농경에 유리한 압록강변 국내성(통구 평야)으로 도읍을 옮김.",
+      "historical_significance": "이후 400년간 고구려 제국의 심장부가 된 국내성 시대 개막.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-ce1-silla-seok-clan",
+      "title": "석탈해의 즉위와 박·석·김 3성 교립 체제",
+      "title_en": "석탈해의 즉위와 박·석·김 3성 교립 체제",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "B",
+      "year_start": 57,
+      "year_end": 80,
+      "date_precision": "exact",
+      "summary": "용성국 출신 석탈해가 이사금으로 즉위하고 김알지 설화가 나타나며 3성 교립 왕권 형성.",
+      "historical_significance": "신라 초기 연맹체 왕권의 다원적 발전 특성.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-ce1-iron-export-gaya",
+      "title": "가야·변한의 철 생산과 왜·낙랑 수출",
+      "title_en": "가야·변한의 철 생산과 왜·낙랑 수출",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "ECONOMY",
+      "importance": "B",
+      "year_start": 50,
+      "year_end": 100,
+      "date_precision": "exact",
+      "summary": "김해·창원 일대 풍부한 철광석으로 덩이쇠를 대량 제련하여 낙랑과 왜에 수출.",
+      "historical_significance": "고대 동아시아 철의 제국으로서 가야의 경제적 번영.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-ce1-lelang-han-conflict",
+      "title": "고구려의 낙랑군 살수(청천강) 방어선 침공",
+      "title_en": "고구려의 낙랑군 살수(청천강) 방어선 침공",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "C",
+      "year_start": 32,
+      "year_end": 44,
+      "date_precision": "exact",
+      "summary": "호동왕자와 낙랑공주 설화의 배경 속에서 고구려가 낙랑군을 압박하여 살수 이북 통제.",
+      "historical_significance": "한사군 축출을 향한 고구려의 끈질긴 남진 투쟁.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-ce1-ondol-heating",
+      "title": "고구려·백제 전통 온돌(구들) 난방의 발전",
+      "title_en": "고구려·백제 전통 온돌(구들) 난방의 발전",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "SCIENCE",
+      "importance": "C",
+      "year_start": 1,
+      "year_end": 100,
+      "date_precision": "exact",
+      "summary": "방바닥 아래 고래를 켜고 아궁이 불길로 바닥 전체를 데우는 쪽구들 난방 기술 발전.",
+      "historical_significance": "한민족 고유의 독창적 주거 난방 문화 정착.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-ce1-pottery-wheel",
+      "title": "물레를 이용한 회청색 경질토기의 등장",
+      "title_en": "물레를 이용한 회청색 경질토기의 등장",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "ART_CULTURE",
+      "importance": "C",
+      "year_start": 50,
+      "year_end": 100,
+      "date_precision": "exact",
+      "summary": "회전 물레와 1000도 이상의 가마를 이용해 단단한 경질 도질토기 생산 시작.",
+      "historical_significance": "토기 제작 기술의 획기적 도약과 삼국 토기 문화의 모태.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    }
+  ]
+}

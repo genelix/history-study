@@ -1,0 +1,731 @@
+{
+  "centuryId": "ce_21th_century",
+  "centuryLabel": "서기 21세기 (AD 2001 ~ 현재)",
+  "period": {
+    "yearStart": 2001,
+    "yearEnd": 2026
+  },
+  "eventCount": 30,
+  "events": [
+    {
+      "id": "west-ce21-nine-eleven-attacks-terror",
+      "title": "9·11 테러와 대테러 전쟁의 시작 (2001년)",
+      "title_en": "9·11 테러와 대테러 전쟁의 시작 (2001년)",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "A",
+      "year_start": 2001,
+      "year_end": 2001,
+      "date_precision": "exact",
+      "summary": "알카에다의 항공기 납치 테러로 뉴욕 세계무역센터 쌍둥이 빌딩과 펜타곤이 피격되어 3,000여 명 사망.",
+      "historical_significance": "21세기 국제 안보 패러다임 전환과 아프가니스탄·이라크 전쟁 촉발.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "west-ce21-iphone-smartphone-revolution",
+      "title": "스티브 잡스의 아이폰(iPhone) 출시와 모바일 혁명 (2007년)",
+      "title_en": "스티브 잡스의 아이폰(iPhone) 출시와 모바일 혁명 (2007년)",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "SCIENCE",
+      "importance": "A",
+      "year_start": 2007,
+      "year_end": 2007,
+      "date_precision": "exact",
+      "summary": "정전식 멀티터치 스크린, 앱스토어 생태계를 결합한 스마트폰을 출시하여 인류의 라이프스타일과 소통 방식을 완전히 재편.",
+      "historical_significance": "모바일 컴퓨팅, 앱 경제, 소셜 미디어(SNS) 시대의 폭발적 개막.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "west-ce21-generative-ai-chatgpt-revolution",
+      "title": "생성형 인공지능(AI) 혁명과 초지능 시대 진입 (2022~현재)",
+      "title_en": "생성형 인공지능(AI) 혁명과 초지능 시대 진입 (2022~현재)",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "SCIENCE",
+      "importance": "A",
+      "year_start": 2022,
+      "year_end": 2026,
+      "date_precision": "exact",
+      "summary": "트랜스포머 아키텍처와 LLM(대형 언어 모델)을 바탕으로 한 ChatGPT, Gemini 등의 등장으로 지식 노동, 코딩, 창작의 자동화 혁신.",
+      "historical_significance": "인류 문명사상 가장 빠르고 심원한 4차 산업혁명의 정점 도래.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "west-ce21-covid19-global-pandemic",
+      "title": "코로나19(COVID-19) 글로벌 팬데믹과 mRNA 백신 혁신 (2019~2023년)",
+      "title_en": "코로나19(COVID-19) 글로벌 팬데믹과 mRNA 백신 혁신 (2019~2023년)",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "CLIMATE_ENVIRONMENT",
+      "importance": "A",
+      "year_start": 2019,
+      "year_end": 2023,
+      "date_precision": "exact",
+      "summary": "신종 코로나바이러스 대유행으로 전 세계 국경 봉쇄, 700만 명 사망, 비대면 원격 근무 확산 및 사상 최초 초고속 mRNA 백신 상용화.",
+      "historical_significance": "21세기 최대의 보건 위기이자 글로벌 공급망 재편과 디지털 전환의 가속화.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "west-ce21-paris-climate-agreement",
+      "title": "파리 기후변화협정 체결 (탄소중립과 신재생에너지, 2015년)",
+      "title_en": "파리 기후변화협정 체결 (탄소중립과 신재생에너지, 2015년)",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "CLIMATE_ENVIRONMENT",
+      "importance": "A",
+      "year_start": 2015,
+      "year_end": 2015,
+      "date_precision": "exact",
+      "summary": "전 세계 195개국이 지구 평균 온도 상승을 산업화 이전 대비 1.5℃ 이내로 제한하기로 결의한 기후 협약.",
+      "historical_significance": "기후 위기 대응을 위한 전 지구적 에너지 전환(RE100, 전기차)의 법적 기준.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "west-ce21-global-financial-crisis-2008",
+      "title": "2008 글로벌 금융위기 (리먼 브라더스 파산)",
+      "title_en": "2008 글로벌 금융위기 (리먼 브라더스 파산)",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "ECONOMY",
+      "importance": "A",
+      "year_start": 2008,
+      "year_end": 2008,
+      "date_precision": "exact",
+      "summary": "미국 서브프라임 모기지 사태로 투자은행 리먼 브라더스가 파산하며 전 세계 금융 시스템 붕괴 위기 및 양적완화(QE) 도입.",
+      "historical_significance": "신자유주의 금융 규제 완화의 한계 노출과 비트코인(블록체인) 탄생의 계기.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "west-ce21-russia-ukraine-war-2022",
+      "title": "러시아의 우크라이나 침공과 신냉전 대립 (2022년~현재)",
+      "title_en": "러시아의 우크라이나 침공과 신냉전 대립 (2022년~현재)",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "A",
+      "year_start": 2022,
+      "year_end": 2026,
+      "date_precision": "exact",
+      "summary": "푸틴의 러시아군이 우크라이나를 전면 침공하며 2차 대전 이후 유럽 최대의 전면전 발발 및 나토(NATO) 확장과 신냉전 심화.",
+      "historical_significance": "전후 유럽 평화 질서의 붕괴와 지정학적 에너지·식량 위기.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "west-ce21-spacex-reusable-rocket",
+      "title": "스페이스X의 재사용 로켓 팰컨9 성공과 민간 우주 시대 (2015년)",
+      "title_en": "스페이스X의 재사용 로켓 팰컨9 성공과 민간 우주 시대 (2015년)",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "SCIENCE",
+      "importance": "B",
+      "year_start": 2015,
+      "year_end": 2026,
+      "date_precision": "exact",
+      "summary": "1단 로켓 해상 바지선 수직 착륙 회수에 성공하여 우주 발사 비용을 10분의 1로 절감하고 스타링크 위성 인터넷망 구축.",
+      "historical_significance": "민간 상업 우주 개발(뉴 스페이스)과 화성 탐사의 길 개척.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "west-ce21-crispr-cas9-gene-editing",
+      "title": "CRISPR-Cas9 3세대 유전자 가위 기술 개발 (2012년)",
+      "title_en": "CRISPR-Cas9 3세대 유전자 가위 기술 개발 (2012년)",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "SCIENCE",
+      "importance": "B",
+      "year_start": 2012,
+      "year_end": 2020,
+      "date_precision": "exact",
+      "summary": "다우드나와 샤르팡티에가 특정 유전자 염기서열을 정밀하게 자르고 교정하는 유전자 가위 개발(2020 노벨화학상).",
+      "historical_significance": "난치성 유전 질환 치료와 맞춤 생명공학 혁명.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "west-ce21-first-black-president-obama",
+      "title": "버락 오바마 미국 최초 흑인 대통령 당선 (2008년)",
+      "title_en": "버락 오바마 미국 최초 흑인 대통령 당선 (2008년)",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "B",
+      "year_start": 2008,
+      "year_end": 2008,
+      "date_precision": "exact",
+      "summary": "'Yes We Can'을 슬로건으로 흑인 민권 운동 45년 만에 미국 최초의 아프리카계 미국인 대통령 당선.",
+      "historical_significance": "미국 민주주의와 인종 평등사의 상징적 이정표.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-ce21-wto-entry-g2-rise",
+      "title": "중국의 WTO 공식 가입(2001년)과 세계 2위 경제대국(G2) 등극",
+      "title_en": "중국의 WTO 공식 가입(2001년)과 세계 2위 경제대국(G2) 등극",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "ECONOMY",
+      "importance": "A",
+      "year_start": 2001,
+      "year_end": 2010,
+      "date_precision": "exact",
+      "summary": "세계무역기구에 가입하며 글로벌 공급망의 중심축으로 성장하여 2010년 일본을 제치고 세계 2위 경제 대국으로 부상.",
+      "historical_significance": "21세기 미·중 패권 경쟁(G2 구도)의 경제적 기반.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-ce21-beijing-olympics-2008",
+      "title": "2008 베이징 올림픽 개최와 중화민족 부흥 과시",
+      "title_en": "2008 베이징 올림픽 개최와 중화민족 부흥 과시",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "ART_CULTURE",
+      "importance": "A",
+      "year_start": 2008,
+      "year_end": 2008,
+      "date_precision": "exact",
+      "summary": "'하나의 세계, 하나의 꿈'을 슬로건으로 조류 둥지 경기장(냐오차오)에서 웅장한 개막식을 열고 종합 1위 달성.",
+      "historical_significance": "중국의 글로벌 강대국 복귀를 전 세계에 선언한 상징적 이벤트.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-ce21-belt-and-road-initiative",
+      "title": "시진핑 주석의 '일대일로(一帶一路)' 구상 제안 (2013년)",
+      "title_en": "시진핑 주석의 '일대일로(一帶一路)' 구상 제안 (2013년)",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "A",
+      "year_start": 2013,
+      "year_end": 2026,
+      "date_precision": "exact",
+      "summary": "육상 실크로드 경제벨트와 21세기 해상 실크로드를 통해 아시아, 유럽, 아프리카를 잇는 거대 인프라·경제 영향력망 구축.",
+      "historical_significance": "중국 주도 글로벌 대외 전략과 지정학적 영향력 확장.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-ce21-xi-jinping-third-term",
+      "title": "시진핑 국가주석 3연임과 '중국몽(中國夢)' 체제 확립",
+      "title_en": "시진핑 국가주석 3연임과 '중국몽(中國夢)' 체제 확립",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "A",
+      "year_start": 2012,
+      "year_end": 2026,
+      "date_precision": "exact",
+      "summary": "헌법상 주석 임기 제한을 철폐하고 '중화민족의 위대한 부흥'과 공동부유를 내세우며 1인 장기 집권 체제 완성.",
+      "historical_significance": "마오쩌둥·덩샤오핑 이래 가장 강력한 권력 집중.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-ce21-high-speed-rail-network",
+      "title": "중국 고속철도망(CRH) 4만 km 돌파 (세계 최장)",
+      "title_en": "중국 고속철도망(CRH) 4만 km 돌파 (세계 최장)",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "SCIENCE",
+      "importance": "A",
+      "year_start": 2008,
+      "year_end": 2026,
+      "date_precision": "exact",
+      "summary": "베이징-상하이, 베이징-광저우를 잇는 시속 350km 푸싱호 고속철도망을 전국에 깔아 세계 고속철 총연장의 70% 차지.",
+      "historical_significance": "세계 최대 규모의 첨단 교통 인프라 혁신.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-ce21-space-station-tiangong",
+      "title": "중국 독자 우주정거장 '톈궁(天宮)' 완공과 달·화성 탐사 (2021~2022년)",
+      "title_en": "중국 독자 우주정거장 '톈궁(天宮)' 완공과 달·화성 탐사 (2021~2022년)",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "SCIENCE",
+      "importance": "A",
+      "year_start": 2019,
+      "year_end": 2026,
+      "date_precision": "exact",
+      "summary": "창어 4호의 인류 최초 달 뒷면 착륙, 주룽호 화성 탐사선 착륙에 이어 독자적인 상설 우주정거장 톈궁 완공.",
+      "historical_significance": "미국과 대등하게 경쟁하는 우주 강국 도약.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-ce21-us-china-tech-trade-war",
+      "title": "미·중 기술 패권 전쟁과 반도체 공급망 갈등 (2018년~현재)",
+      "title_en": "미·중 기술 패권 전쟁과 반도체 공급망 갈등 (2018년~현재)",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "ECONOMY",
+      "importance": "B",
+      "year_start": 2018,
+      "year_end": 2026,
+      "date_precision": "exact",
+      "summary": "관세 부과로 시작되어 화웨이 제재, 첨단 반도체 장비 수출 통제 및 공급망 디커플링(디리스킹) 대치 격화.",
+      "historical_significance": "21세기 세계 경제와 첨단 기술 표준을 둘러싼 신냉전의 핵심 전선.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-ce21-three-gorges-dam-completion",
+      "title": "삼협댐(싼샤댐) 완공 (세계 최대 수력발전소, 2006/2012년)",
+      "title_en": "삼협댐(싼샤댐) 완공 (세계 최대 수력발전소, 2006/2012년)",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "SCIENCE",
+      "importance": "B",
+      "year_start": 2006,
+      "year_end": 2012,
+      "date_precision": "exact",
+      "summary": "양쯔강에 길이 2.3km, 높이 185m의 거대 댐을 완공하여 2,250만 kW의 전력을 생산하고 홍수 통제.",
+      "historical_significance": "단일 시설 세계 최대 발전량을 기록한 토목 공학의 집약체.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-ce21-hong-kong-national-security-law",
+      "title": "홍콩 국가보안법 제정과 일국양제 체제 변화 (2020년)",
+      "title_en": "홍콩 국가보안법 제정과 일국양제 체제 변화 (2020년)",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "C",
+      "year_start": 2019,
+      "year_end": 2020,
+      "date_precision": "exact",
+      "summary": "2019년 대규모 범죄인 인도법 반대 시위 이후 전인대에서 홍콩 보안법을 통과시켜 중앙 통제 강화.",
+      "historical_significance": "홍콩의 고도 자치권 축소와 국제 금융 중심지 위상 변화.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-ce21-digital-yuan-e-cny",
+      "title": "중국 디지털 위안화(e-CNY) 시범 도입과 핀테크 발전",
+      "title_en": "중국 디지털 위안화(e-CNY) 시범 도입과 핀테크 발전",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "ECONOMY",
+      "importance": "C",
+      "year_start": 2020,
+      "year_end": 2026,
+      "date_precision": "exact",
+      "summary": "주요국 중앙은행 최초로 중앙은행 디지털 화폐(CBDC)를 상용화하고 알리페이·위챗페이 모바일 결제 일상화.",
+      "historical_significance": "글로벌 달러 패권에 도전하는 디지털 통화 실험.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-ce21-k-culture-global-syndrome",
+      "title": "K-컬처(K-Culture)의 전 세계적 열풍 (BTS·오징어게임·기생충)",
+      "title_en": "K-컬처(K-Culture)의 전 세계적 열풍 (BTS·오징어게임·기생충)",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "ART_CULTURE",
+      "importance": "A",
+      "year_start": 2012,
+      "year_end": 2026,
+      "date_precision": "exact",
+      "summary": "싸이 강남스타일(2012), 봉준호 감독 『기생충』 칸 황금종려상·아카데미 4관왕(2020), BTS 빌보드 핫100 1위, 넷플릭스 『오징어 게임』 전 세계 1위, 한강 작가 노벨문학상 수상(2024).",
+      "historical_significance": "한국 문화 예술이 전 지구적 소프트 파워의 중심이자 글로벌 주류 문화로 우뚝 선 기적.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-ce21-semiconductor-it-superpower",
+      "title": "대한민국 글로벌 반도체·IT 초격차 제조 강국 도약",
+      "title_en": "대한민국 글로벌 반도체·IT 초격차 제조 강국 도약",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "ECONOMY",
+      "importance": "A",
+      "year_start": 2001,
+      "year_end": 2026,
+      "date_precision": "exact",
+      "summary": "메모리 반도체(D램·낸드플래시) 세계 시장 점유율 1위, 5G 세계 최초 상용화, 전기차 배터리(2차전지), 첨단 바이오 파운드리 석권.",
+      "historical_significance": "글로벌 첨단 공급망의 대체 불가능한 핵심 국가로 확고한 위상 확립.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-ce21-candlelight-revolution-impeachment",
+      "title": "촛불시민혁명과 대통령 탄핵 인용 (2016~2017년)",
+      "title_en": "촛불시민혁명과 대통령 탄핵 인용 (2016~2017년)",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "A",
+      "year_start": 2016,
+      "year_end": 2017,
+      "date_precision": "exact",
+      "summary": "국정농단 사태에 맞서 연인원 1,700만 명의 시민들이 광화문 광장에서 평화로운 촛불 집회를 열어 국회 탄핵 소추와 헌법재판소 전원일치 탄핵 인용 쟁취.",
+      "historical_significance": "헌정 질서와 민주주의의 회복력을 평화적으로 증명하여 전 세계 민주주의의 귀감이 된 사건.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-ce21-nuri-space-rocket-launch",
+      "title": "누리호(KSLV-II) 100% 독자 기술 우주 발사 성공 (2022~2023년)",
+      "title_en": "누리호(KSLV-II) 100% 독자 기술 우주 발사 성공 (2022~2023년)",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "SCIENCE",
+      "importance": "A",
+      "year_start": 2022,
+      "year_end": 2023,
+      "date_precision": "exact",
+      "summary": "순수 국내 독자 기술로 개발한 75톤급 액체연료 엔진 4기를 클러스터링한 누리호가 1톤 이상의 실용 위성을 고도 700km 궤도에 완벽 안착.",
+      "historical_significance": "세계 7번째 실용 우주 발사체 보유국이자 우주 강국 공식 진입.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-ce21-world-cup-semifinals-2002",
+      "title": "2002 한일 월드컵 4강 신화와 붉은악마 길거리 응원",
+      "title_en": "2002 한일 월드컵 4강 신화와 붉은악마 길거리 응원",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "ART_CULTURE",
+      "importance": "A",
+      "year_start": 2002,
+      "year_end": 2002,
+      "date_precision": "exact",
+      "summary": "거스 히딩크 감독의 지휘 아래 포르투갈, 이탈리아, 스페인을 격파하고 아시아 최초로 월드컵 4강에 진출하며 수천만 명의 길거리 응원 문화 창조.",
+      "historical_significance": "국민적 자긍심과 역동적 에너지를 전 세계에 분출한 국가적 축제.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-ce21-panmunjeom-declaration-2018",
+      "title": "2018 판문점 선언과 남북 정상회담 ('한반도의 평화와 번영')",
+      "title_en": "2018 판문점 선언과 남북 정상회담 ('한반도의 평화와 번영')",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "A",
+      "year_start": 2018,
+      "year_end": 2018,
+      "date_precision": "exact",
+      "summary": "문재인 대통령과 김정은 위원장이 판문점 군사분계선을 넘나들며 도보다리 회담을 갖고 '한반도에 더 이상 전쟁은 없을 것'을 선언.",
+      "historical_significance": "완전한 비핵화와 평화 체제 구축을 향한 역사적 이정표.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-ce21-superconducting-fusion-kstar",
+      "title": "인공태양 KSTAR 초전도 핵융합 1억도 초고온 운전 성공",
+      "title_en": "인공태양 KSTAR 초전도 핵융합 1억도 초고온 운전 성공",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "SCIENCE",
+      "importance": "B",
+      "year_start": 2020,
+      "year_end": 2024,
+      "date_precision": "exact",
+      "summary": "한국형 초전도 핵융합 연구장치 KSTAR가 1억도 초고온 플라즈마를 48초간 연속 유지하는 세계 신기록 달성.",
+      "historical_significance": "인류 꿈의 무한 청정 에너지 핵융합 발전 기술 선도.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-ce21-kf21-boramae-fighter",
+      "title": "초음속 전투기 KF-21 보라매 독자 개발 및 K-방산 수출",
+      "title_en": "초음속 전투기 KF-21 보라매 독자 개발 및 K-방산 수출",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "SCIENCE",
+      "importance": "B",
+      "year_start": 2022,
+      "year_end": 2026,
+      "date_precision": "exact",
+      "summary": "4.5세대 첨단 초음속 전투기 KF-21 비행 성공 및 K-9 자주포, K-2 흑표 전차, FA-50의 대규모 폴란드·유럽 수출.",
+      "historical_significance": "세계 4대 방위산업 강국으로의 도약.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-ce21-sewol-ferry-tragedy-safety",
+      "title": "세월호 참사(2014년)와 국가 안전망 대전환",
+      "title_en": "세월호 참사(2014년)와 국가 안전망 대전환",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "B",
+      "year_start": 2014,
+      "year_end": 2014,
+      "date_precision": "exact",
+      "summary": "진도 앞바다에서 여객선 세월호 침몰로 안산 단원고 학생 등 304명이 희생된 비극적 참사.",
+      "historical_significance": "생명 존중과 사회적 안전 시스템에 대한 전 국민적 각성과 책임 요구.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-ce21-unesco-world-heritage-inscriptions",
+      "title": "조선왕릉·한국의 서원·갯벌 유네스코 세계유산 등재",
+      "title_en": "조선왕릉·한국의 서원·갯벌 유네스코 세계유산 등재",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "ART_CULTURE",
+      "importance": "C",
+      "year_start": 2009,
+      "year_end": 2021,
+      "date_precision": "exact",
+      "summary": "조선 왕릉 40기(2009), 한국의 9개 서원(2019), 한국의 갯벌(2021) 등 찬란한 문화·자연유산이 세계유산으로 등재.",
+      "historical_significance": "한국의 독보적인 문화유산 보존과 세계적 가치 공인.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    }
+  ]
+}

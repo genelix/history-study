@@ -1,0 +1,731 @@
+{
+  "centuryId": "bc_02th_century",
+  "centuryLabel": "기원전 2세기 (BC 200 ~ BC 101)",
+  "period": {
+    "yearStart": -200,
+    "yearEnd": -101
+  },
+  "eventCount": 30,
+  "events": [
+    {
+      "id": "west-bc2-carthage-destruction",
+      "title": "제3차 포에니 전쟁과 카르타고 파괴",
+      "title_en": "제3차 포에니 전쟁과 카르타고 파괴",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "A",
+      "year_start": -149,
+      "year_end": -146,
+      "date_precision": "exact",
+      "summary": "로마가 카르타고를 완전히 포위하여 함락하고 도시를 철저히 파괴함.",
+      "historical_significance": "서지중해의 라이벌 카르타고 소멸 및 아프리카 속주 설치.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "west-bc2-corinth-conquest",
+      "title": "로마의 코린토스 파괴와 그리스 정복",
+      "title_en": "로마의 코린토스 파괴와 그리스 정복",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "A",
+      "year_start": -146,
+      "year_end": -146,
+      "date_precision": "exact",
+      "summary": "로마군이 마케도니아와 아카이아 동맹을 제압하고 코린토스를 파괴함.",
+      "historical_significance": "헬레니즘 그리스 세계 전체가 로마의 영토로 편입.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "west-bc2-gracchi-reforms",
+      "title": "그라쿠스 형제의 토지 개혁 운동",
+      "title_en": "그라쿠스 형제의 토지 개혁 운동",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "A",
+      "year_start": -133,
+      "year_end": -121,
+      "date_precision": "exact",
+      "summary": "호민관 티베리우스와 가이우스 그라쿠스가 자영농 육성을 위한 농지법을 추진하다 원로원에 암살당함.",
+      "historical_significance": "로마 공화정 말기 내란의 세기(벌족파 vs 평민파) 개막.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "west-bc2-marian-reforms",
+      "title": "가이우스 마리우스의 군제 개혁",
+      "title_en": "가이우스 마리우스의 군제 개혁",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "INSTITUTION",
+      "importance": "A",
+      "year_start": -107,
+      "year_end": -107,
+      "date_precision": "exact",
+      "summary": "무산자 시민을 모병하여 국가가 무장을 지급하는 직업군인제와 코호트 편제 도입.",
+      "historical_significance": "로마 군대의 사병화와 장군들의 군사 독재 발판 마련.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "west-bc2-polybius-history",
+      "title": "폴리비오스의 역사 저술과 혼합정체론",
+      "title_en": "폴리비오스의 역사 저술과 혼합정체론",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "SCIENCE",
+      "importance": "B",
+      "year_start": -150,
+      "year_end": -120,
+      "date_precision": "exact",
+      "summary": "그리스 역사가 폴리비오스가 로마가 53년 만에 지중해를 제패한 원인을 혼합정체(집정관·원로원·민회)로 설명.",
+      "historical_significance": "서양 헌정주의와 권력 분립 이론의 선구.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "west-bc2-hipparchus",
+      "title": "히파르코스의 춘분점 세차운동 발견 및 별자리 지도",
+      "title_en": "히파르코스의 춘분점 세차운동 발견 및 별자리 지도",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "SCIENCE",
+      "importance": "B",
+      "year_start": -147,
+      "year_end": -127,
+      "date_precision": "exact",
+      "summary": "천문학자 히파르코스가 춘분점의 세차운동을 발견하고 850개 항성의 등급을 분류.",
+      "historical_significance": "고대 정밀 천문학 및 삼각법의 창시.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "west-bc2-maccabean-revolt",
+      "title": "유대 마카베오 봉기와 하스몬 왕조 수립",
+      "title_en": "유대 마카베오 봉기와 하스몬 왕조 수립",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "RELIGION",
+      "importance": "B",
+      "year_start": -167,
+      "year_end": -140,
+      "date_precision": "exact",
+      "summary": "셀레우코스 왕조의 헬레니즘 강요에 맞서 유다 마카베오가 성전을 탈환하고 독립 왕국 건국.",
+      "historical_significance": "유대교 성전 정결 기념일 하누카(Hanukkah)의 기원.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "west-bc2-venus-de-milo",
+      "title": "밀로의 비너스 조각상 제작",
+      "title_en": "밀로의 비너스 조각상 제작",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "ART_CULTURE",
+      "importance": "B",
+      "year_start": -130,
+      "year_end": -100,
+      "date_precision": "exact",
+      "summary": "에게해 밀로스섬에서 발견된 고전미와 헬레니즘 관능미가 결합된 대리석 아프로디테상.",
+      "historical_significance": "서양 고전 미술의 황금비율을 상징하는 걸작.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "west-bc2-pergamon-library",
+      "title": "페르가몬 왕국의 양피지(파치먼트) 발전",
+      "title_en": "페르가몬 왕국의 양피지(파치먼트) 발전",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "SCIENCE",
+      "importance": "C",
+      "year_start": -180,
+      "year_end": -150,
+      "date_precision": "exact",
+      "summary": "이집트의 파피루스 수출 금지에 맞서 동물의 가죽을 가공한 양피지 도서 제작 기술 고도화.",
+      "historical_significance": "책(코덱스) 형태의 발전과 지식 보존의 획기적 기여.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "west-bc2-cato-elder",
+      "title": "대 카토의 전통 가치 수호와 '카르타고 멸망론'",
+      "title_en": "대 카토의 전통 가치 수호와 '카르타고 멸망론'",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "C",
+      "year_start": -184,
+      "year_end": -149,
+      "date_precision": "exact",
+      "summary": "엄격한 로마식 농경 도덕을 강조하며 모든 연설을 '카르타고는 파괴되어야 한다'로 끝맺음.",
+      "historical_significance": "로마 보수주의와 라틴어 산문 문학의 창시자.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-bc2-han-wudi",
+      "title": "한무제의 통치와 대제국 전성기",
+      "title_en": "한무제의 통치와 대제국 전성기",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "A",
+      "year_start": -141,
+      "year_end": -87,
+      "date_precision": "exact",
+      "summary": "군현제 전국 강화, 흉노 정벌, 남월과 고조선 정복을 통해 한나라 영토를 극대화함.",
+      "historical_significance": "동아시아 중화 제국의 표준 영토와 통치 시스템 완성.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-bc2-silk-road-zhang-qian",
+      "title": "장건의 서역 개척과 실크로드 개통",
+      "title_en": "장건의 서역 개척과 실크로드 개통",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "ECONOMY",
+      "importance": "A",
+      "year_start": -138,
+      "year_end": -126,
+      "date_precision": "exact",
+      "summary": "한무제의 명으로 대월지를 찾아 서역을 탐험하여 중앙아시아와 지중해를 잇는 비단길 개척.",
+      "historical_significance": "동서 유라시아 문명 교류의 대동맥 형성.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-bc2-sima-qian-shiji",
+      "title": "사마천의 『사기(史記)』 저술",
+      "title_en": "사마천의 『사기(史記)』 저술",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "ART_CULTURE",
+      "importance": "A",
+      "year_start": -109,
+      "year_end": -91,
+      "date_precision": "exact",
+      "summary": "궁형의 치욕을 견디며 황제부터 서민까지 3천 년 역사를 기전체로 서술한 역사서 완성.",
+      "historical_significance": "동양 역사학의 모범이자 불멸의 문학 걸작.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-bc2-confucian-orthodoxy",
+      "title": "동중서의 건의와 유교의 국교화",
+      "title_en": "동중서의 건의와 유교의 국교화",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "RELIGION",
+      "importance": "A",
+      "year_start": -134,
+      "year_end": -134,
+      "date_precision": "exact",
+      "summary": "백가 사상을 배척하고 오경박사를 설치하여 유학을 국가 통치의 유일한 이념으로 공인.",
+      "historical_significance": "2천 년간 동아시아 관료제와 과거 시험의 핵심 철학 확립.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-bc2-salt-iron-monopoly",
+      "title": "소금·철·술의 국가 전매제(전매관) 실시",
+      "title_en": "소금·철·술의 국가 전매제(전매관) 실시",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "ECONOMY",
+      "importance": "B",
+      "year_start": -119,
+      "year_end": -115,
+      "date_precision": "exact",
+      "summary": "흉노 정벌로 고갈된 국가 재정을 확충하기 위해 상홍양의 주도로 염철 전매와 균수법·평준법 시행.",
+      "historical_significance": "국가 주도 통제 경제 정책의 효시.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-bc2-rebellion-seven-states",
+      "title": "오·초 칠국의 난 진압과 제후국 억압",
+      "title_en": "오·초 칠국의 난 진압과 제후국 억압",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "B",
+      "year_start": -154,
+      "year_end": -154,
+      "date_precision": "exact",
+      "summary": "한경제 시기 주아부가 오왕 유비 등 제후왕들의 반란을 3개월 만에 평정함.",
+      "historical_significance": "군국제의 제후국 세력을 무력화하고 완전한 군현제 일원화 달성.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-bc2-xiongnu-expedition",
+      "title": "위청·곽거병의 흉노 대토벌과 하서주랑 장악",
+      "title_en": "위청·곽거병의 흉노 대토벌과 하서주랑 장악",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "B",
+      "year_start": -129,
+      "year_end": -119,
+      "date_precision": "exact",
+      "summary": "기병 군단으로 막북 전투에서 흉노 선우를 격파하고 하서 4군(무위·장액·주천·돈황)을 설치.",
+      "historical_significance": "서역 교역로의 안전 확보와 흉노의 분열 촉발.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-bc2-taichu-calendar",
+      "title": "태초력(太初曆) 제정과 천문 역법 개혁",
+      "title_en": "태초력(太初曆) 제정과 천문 역법 개혁",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "SCIENCE",
+      "importance": "C",
+      "year_start": -104,
+      "year_end": -104,
+      "date_precision": "exact",
+      "summary": "사마천, 낙하홍 등이 1년을 365.2502일로 계산한 중국 최초의 완전한 역법 반포.",
+      "historical_significance": "동양 음양력 체계의 기준 확립.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-bc2-huainanzi",
+      "title": "회남자(淮南子) 편찬과 백과사전적 사상 융합",
+      "title_en": "회남자(淮南子) 편찬과 백과사전적 사상 융합",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "SCIENCE",
+      "importance": "C",
+      "year_start": -139,
+      "year_end": -139,
+      "date_precision": "exact",
+      "summary": "회남왕 유안이 빈객들을 모아 도가, 유가, 음양가, 천문지리를 융합한 저작 편찬.",
+      "historical_significance": "한대 초기 황로사상과 자연학의 집대성.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-bc2-nanling-conquest",
+      "title": "남월(南越) 정복과 9군 설치",
+      "title_en": "남월(南越) 정복과 9군 설치",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "C",
+      "year_start": -111,
+      "year_end": -111,
+      "date_precision": "exact",
+      "summary": "광둥과 베트남 북부의 남월국을 멸망시키고 남해군·교지군 등을 설치.",
+      "historical_significance": "중국 남부 해양 교역로 장악.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-bc2-wiman-joseon",
+      "title": "위만의 고조선 집권과 위만조선 성립",
+      "title_en": "위만의 고조선 집권과 위만조선 성립",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "A",
+      "year_start": -194,
+      "year_end": -194,
+      "date_precision": "exact",
+      "summary": "연나라에서 망명한 위만이 상투를 틀고 조선인 복장으로 준왕을 몰아내고 왕검성에 집권.",
+      "historical_significance": "철기 문화를 기반으로 한 고조선의 비약적 국력 신장.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-bc2-gojoseon-han-war",
+      "title": "고조선-한나라 전쟁과 왕검성 결사항전",
+      "title_en": "고조선-한나라 전쟁과 왕검성 결사항전",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "A",
+      "year_start": -109,
+      "year_end": -108,
+      "date_precision": "exact",
+      "summary": "우거왕이 한무제의 5만 육해군을 맞아 1년간 왕검성에서 결사 항전함.",
+      "historical_significance": "고대 동북아의 패권을 두고 벌어진 최고 수준의 국제 대전쟁.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-bc2-fall-of-gojoseon",
+      "title": "고조선 멸망과 한사군 설치",
+      "title_en": "고조선 멸망과 한사군 설치",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "A",
+      "year_start": -108,
+      "year_end": -108,
+      "date_precision": "exact",
+      "summary": "지배층 내부 분열로 왕검성이 함락되고 낙랑, 임둔, 현도, 진번 4군이 설치됨.",
+      "historical_significance": "고조선 해체 후 부여, 고구려, 옥저, 동예, 삼한의 여러 소국으로 분화 발전.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-bc2-transit-trade",
+      "title": "위만조선의 중계무역 독점",
+      "title_en": "위만조선의 중계무역 독점",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "ECONOMY",
+      "importance": "B",
+      "year_start": -150,
+      "year_end": -109,
+      "date_precision": "exact",
+      "summary": "한반도 남부 진국과 중국 한나라 사이의 무역을 독점하여 막대한 경제적 부 축적.",
+      "historical_significance": "한무제가 고조선을 침공하게 된 핵심 경제적 원인.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-bc2-iron-weapons-mass",
+      "title": "철제 장검·투구·갑옷의 보급",
+      "title_en": "철제 장검·투구·갑옷의 보급",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "SCIENCE",
+      "importance": "B",
+      "year_start": -150,
+      "year_end": -101,
+      "date_precision": "exact",
+      "summary": "단련강 기술로 제작된 긴 철검과 철제 창, 판갑이 군대에 광범위하게 보급됨.",
+      "historical_significance": "고조선군의 막강한 군사력과 한나라 침략군 격퇴의 무기적 기반.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-bc2-samhan-chiefdoms",
+      "title": "삼한(마한·진한·변한) 78개 소국의 형성",
+      "title_en": "삼한(마한·진한·변한) 78개 소국의 형성",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "B",
+      "year_start": -150,
+      "year_end": -101,
+      "date_precision": "exact",
+      "summary": "준왕의 남천 이후 한반도 중남부에 신지, 읍차 등 군장이 다스리는 연맹 소국들이 분립.",
+      "historical_significance": "백제, 신라, 가야로 발전하는 모태.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-bc2-sodo-heaven-lord",
+      "title": "삼한의 소도(蘇塗)와 천군(天君) 신앙",
+      "title_en": "삼한의 소도(蘇塗)와 천군(天君) 신앙",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "RELIGION",
+      "importance": "B",
+      "year_start": -150,
+      "year_end": -101,
+      "date_precision": "exact",
+      "summary": "정치 군장과 분리된 종교 지도자 천군이 신성 구역 소도에서 방울과 북을 치며 제사.",
+      "historical_significance": "제정분리 사회로의 진화와 솟대 신앙의 기원.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-bc2-iron-ingot-currency",
+      "title": "변한·진한의 덩이쇠(철정) 화폐 사용",
+      "title_en": "변한·진한의 덩이쇠(철정) 화폐 사용",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "ECONOMY",
+      "importance": "C",
+      "year_start": -120,
+      "year_end": -101,
+      "date_precision": "exact",
+      "summary": "낙동강 유역의 풍부한 철을 일정한 규격의 덩이쇠로 만들어 화폐 및 무역 교환 매개물로 사용.",
+      "historical_significance": "낙랑, 대방, 왜를 잇는 국제 철 무역망 가동.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-bc2-daho-ri-brush",
+      "title": "창원 다호리 유적의 붓과 문자 사용",
+      "title_en": "창원 다호리 유적의 붓과 문자 사용",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "ART_CULTURE",
+      "importance": "C",
+      "year_start": -100,
+      "year_end": -100,
+      "date_precision": "exact",
+      "summary": "다호리 목관묘에서 출토된 옻칠 붓 5자루와 중국 한나라 오수전, 철기 유물.",
+      "historical_significance": "기원전 1~2세기 한반도 남부에서 한자를 이용한 문서 행정이 시작되었음을 실증.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-bc2-goguryeo-hyeon",
+      "title": "현도군 공격과 고구려 초기 나부 세력 성장",
+      "title_en": "현도군 공격과 고구려 초기 나부 세력 성장",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "C",
+      "year_start": -107,
+      "year_end": -101,
+      "date_precision": "exact",
+      "summary": "압록강 유역의 토착 세력들이 한나라 현도군을 공격하여 치소를 서쪽으로 밀어냄.",
+      "historical_significance": "고구려 건국 주도 세력의 급속한 성장.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    }
+  ]
+}

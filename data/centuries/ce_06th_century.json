@@ -1,0 +1,731 @@
+{
+  "centuryId": "ce_06th_century",
+  "centuryLabel": "서기 6세기 (AD 501 ~ AD 600)",
+  "period": {
+    "yearStart": 501,
+    "yearEnd": 600
+  },
+  "eventCount": 30,
+  "events": [
+    {
+      "id": "west-ce6-justinian-code",
+      "title": "유스티니아누스 1세의 『로마법 대전(Corpus Juris Civilis)』 편찬",
+      "title_en": "유스티니아누스 1세의 『로마법 대전(Corpus Juris Civilis)』 편찬",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "INSTITUTION",
+      "importance": "A",
+      "year_start": 529,
+      "year_end": 534,
+      "date_precision": "exact",
+      "summary": "트리보니아누스 등 법학자들을 총동원하여 1천 년 로마법을 칙법휘찬·학설휘찬·법학제요 등으로 집대성.",
+      "historical_significance": "근대 대륙법(프랑스 민법전, 독일 민법전)의 절대적 법률적 기초.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "west-ce6-hagia-sophia",
+      "title": "콘스탄티노폴리스 하기아 소피아(성소피아) 대성당 완공",
+      "title_en": "콘스탄티노폴리스 하기아 소피아(성소피아) 대성당 완공",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "ART_CULTURE",
+      "importance": "A",
+      "year_start": 532,
+      "year_end": 537,
+      "date_precision": "exact",
+      "summary": "안테미오스와 이시도로스가 직경 31m의 거대한 펜던티브 돔을 공중에 띄운 비잔틴 건축의 기적.",
+      "historical_significance": "'솔로몬이여, 내가 그대를 이겼노라'라고 외친 인류 건축사의 최고 걸작.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "west-ce6-belisarius-reconquest",
+      "title": "벨리사리우스 장군의 고토 회복 (이탈리아·북아프리카 재정복)",
+      "title_en": "벨리사리우스 장군의 고토 회복 (이탈리아·북아프리카 재정복)",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "A",
+      "year_start": 533,
+      "year_end": 554,
+      "date_precision": "exact",
+      "summary": "반달 왕국을 멸망시키고 동고트 왕국을 격파하여 로마, 라벤나, 카르타고를 동로마 제국 영토로 회복.",
+      "historical_significance": "로마 제국의 지중해 재통합(일시적) 달성.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "west-ce6-benedict-monastic-rule",
+      "title": "성 베네딕토의 몬테카시노 수도원 창설과 베네딕토 계율",
+      "title_en": "성 베네딕토의 몬테카시노 수도원 창설과 베네딕토 계율",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "RELIGION",
+      "importance": "A",
+      "year_start": 529,
+      "year_end": 547,
+      "date_precision": "exact",
+      "summary": "'기도하고 일하라(Ora et Labora)'를 모토로 서방 수도원의 표준 규율 제정.",
+      "historical_significance": "중세 유럽 학문·노동·농업 기술 보존의 핵심 거점 마련.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "west-ce6-plague-of-justinian",
+      "title": "유스티니아누스 페스트 (인류 최초의 림프절 흑사병 대유행)",
+      "title_en": "유스티니아누스 페스트 (인류 최초의 림프절 흑사병 대유행)",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "CLIMATE_ENVIRONMENT",
+      "importance": "A",
+      "year_start": 541,
+      "year_end": 542,
+      "date_precision": "exact",
+      "summary": "이집트에서 발생한 페스트균이 지중해 전역을 휩쓸어 콘스탄티노폴리스 인구의 절반 및 제국 수천만 명 사망.",
+      "historical_significance": "동로마 제국의 경제·군사력 파탄 및 이탈리아 재분열, 고대 지중해 세계의 완전한 몰락.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "west-ce6-gregory-great-papacy",
+      "title": "교황 그레고리우스 1세(대교황)의 교회 개혁",
+      "title_en": "교황 그레고리우스 1세(대교황)의 교회 개혁",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "RELIGION",
+      "importance": "B",
+      "year_start": 590,
+      "year_end": 604,
+      "date_precision": "exact",
+      "summary": "잉글랜드에 선교사 아우구스티누스를 파견하고 그레고리오 성가를 정리하며 교황권을 확립.",
+      "historical_significance": "중세 라틴 교황권과 전례 음악의 아버지.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "west-ce6-lombards-invade-italy",
+      "title": "랑고바르드족(롬바르드)의 이탈리아 침공",
+      "title_en": "랑고바르드족(롬바르드)의 이탈리아 침공",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "B",
+      "year_start": 568,
+      "year_end": 572,
+      "date_precision": "exact",
+      "summary": "알보인 왕이 이끄는 랑고바르드족이 북이탈리아를 점령하고 롬바르디아 왕국을 세움.",
+      "historical_significance": "이탈리아의 완전한 정치적 파편화(북부 랑고바르드 vs 남부·중부 비잔틴·교황령).",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "west-ce6-academy-closed-athens",
+      "title": "유스티니아누스의 아테네 철학 아카데미 폐쇄",
+      "title_en": "유스티니아누스의 아테네 철학 아카데미 폐쇄",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "SCIENCE",
+      "importance": "B",
+      "year_start": 529,
+      "year_end": 529,
+      "date_precision": "exact",
+      "summary": "이교 철학을 금지하여 플라톤 이래 900년간 이어온 아카데미아를 폐쇄함.",
+      "historical_significance": "그리스 철학자들이 페르시아로 망명하며 고대 학문이 이슬람 세계로 이전되는 계기.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "west-ce6-silk-smuggling-byzantium",
+      "title": "동로마의 비단 양잠 기술 밀수 (누에고치 도입)",
+      "title_en": "동로마의 비단 양잠 기술 밀수 (누에고치 도입)",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "ECONOMY",
+      "importance": "C",
+      "year_start": 552,
+      "year_end": 552,
+      "date_precision": "exact",
+      "summary": "네스토리우스교 수도사들이 대나무 지팡이에 누에 알을 숨겨 중국에서 콘스탄티노폴리스로 밀반입.",
+      "historical_significance": "유럽 내 독자적 비단 생산 및 직조 산업 태동.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "west-ce6-nika-riots",
+      "title": "콘스탄티노폴리스 니카(Nika) 반란 진압",
+      "title_en": "콘스탄티노폴리스 니카(Nika) 반란 진압",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "C",
+      "year_start": 532,
+      "year_end": 532,
+      "date_precision": "exact",
+      "summary": "원형경기장 청색당·녹색당 군중의 폭동에 테오도라 황후의 결단과 벨리사리우스의 진압으로 3만 명 처형.",
+      "historical_significance": "황제 전제권력의 절대화.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-ce6-sui-unification",
+      "title": "수문제 양견의 수(隋)나라 건국과 중국 재통일 (589년)",
+      "title_en": "수문제 양견의 수(隋)나라 건국과 중국 재통일 (589년)",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "A",
+      "year_start": 581,
+      "year_end": 589,
+      "date_precision": "exact",
+      "summary": "북주를 계승해 수나라를 세우고 남조의 진(陳)나라를 멸망시켜 위진남북조 300년 분열 종식.",
+      "historical_significance": "진(秦)·한(漢)에 이은 제2의 중화 통일 제국 완성.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-ce6-imperial-examination-origin",
+      "title": "과거제(科擧制) 도입과 3성 6부제 확립",
+      "title_en": "과거제(科擧制) 도입과 3성 6부제 확립",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "INSTITUTION",
+      "importance": "A",
+      "year_start": 587,
+      "year_end": 600,
+      "date_precision": "exact",
+      "summary": "문벌 귀족의 세습 추천제(구품관인법)를 폐지하고 시험을 통해 인재를 선발하는 진사과 설치.",
+      "historical_significance": "1300년간 동아시아 국가 관료 선발의 표준이 된 혁명적 제도.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-ce6-grand-canal-survey",
+      "title": "대운하(통제거·영제거) 노선 측량 및 계획",
+      "title_en": "대운하(통제거·영제거) 노선 측량 및 계획",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "INSTITUTION",
+      "importance": "A",
+      "year_start": 587,
+      "year_end": 600,
+      "date_precision": "exact",
+      "summary": "양쯔강 유역의 풍부한 물자를 정치 중심지 화북(낙양·장안)으로 수송하기 위한 남북 대운하 착수.",
+      "historical_significance": "중국 남북 경제·문화를 하나로 묶은 거대 인프라.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-ce6-qimin-yaoshu",
+      "title": "가사협의 『제민요술(齊民要術)』 편찬",
+      "title_en": "가사협의 『제민요술(齊民要術)』 편찬",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "SCIENCE",
+      "importance": "A",
+      "year_start": 533,
+      "year_end": 544,
+      "date_precision": "exact",
+      "summary": "농작물 재배, 과수, 축산, 양조, 식품 가공을 총망라한 현존 최고(最古)의 종합 농업 백과사전.",
+      "historical_significance": "동아시아 전통 농경 과학의 기념비적 집대성.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-ce6-zhiyi-tiantai-buddhism",
+      "title": "지자대사 지의의 천태종(天台宗) 창시",
+      "title_en": "지자대사 지의의 천태종(天台宗) 창시",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "RELIGION",
+      "importance": "B",
+      "year_start": 575,
+      "year_end": 597,
+      "date_precision": "exact",
+      "summary": "『법화경』을 근본 경전으로 삼아 교관겸수(이론과 명상)를 강조하는 중국 자생적 불교 종파 확립.",
+      "historical_significance": "중국, 한국, 일본 불교 철학에 지대한 영향.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-ce6-hou-jing-rebellion",
+      "title": "후경의 난(侯景之亂)과 남조 강남 사회의 궤멸",
+      "title_en": "후경의 난(侯景之亂)과 남조 강남 사회의 궤멸",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "B",
+      "year_start": 548,
+      "year_end": 552,
+      "date_precision": "exact",
+      "summary": "투항한 동위 장수 후경이 반란을 일으켜 양무제를 굶겨 죽이고 건강을 유린함.",
+      "historical_significance": "남조 문벌 귀족 사회의 궤멸과 남북 힘의 균형이 북조로 결정적 기울어짐.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-ce6-fubing-system-origin",
+      "title": "서위 우문태의 부병제(府兵制) 창설",
+      "title_en": "서위 우문태의 부병제(府兵制) 창설",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "INSTITUTION",
+      "importance": "B",
+      "year_start": 550,
+      "year_end": 550,
+      "date_precision": "exact",
+      "summary": "농민을 병사로 징집하여 평소에는 농사짓고 전시에는 출정하는 병농일치 군사 제도 확립.",
+      "historical_significance": "수·당 제국의 강력한 군사력의 원천.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-ce6-northern-zhou-unification",
+      "title": "북주 무제의 북제 병합과 불교 탄압(삼무일종의 법난)",
+      "title_en": "북주 무제의 북제 병합과 불교 탄압(삼무일종의 법난)",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "C",
+      "year_start": 574,
+      "year_end": 577,
+      "date_precision": "exact",
+      "summary": "사찰을 폐쇄하고 승려를 환속시켜 국가 재정을 확충한 후 북제를 멸망시켜 화북 재통일.",
+      "historical_significance": "수나라의 통일을 바로 눈앞에 둔 정지 작업.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-ce6-kaihuang-code",
+      "title": "수나라 개황율(開皇律) 반포",
+      "title_en": "수나라 개황율(開皇律) 반포",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "INSTITUTION",
+      "importance": "C",
+      "year_start": 583,
+      "year_end": 583,
+      "date_precision": "exact",
+      "summary": "가혹한 형벌을 폐지하고 5형(태·장·도·유·사)과 10악(十惡)의 법체계를 정립.",
+      "historical_significance": "당률(唐律)과 동아시아 율령 체계의 모태.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-ce6-yan-zhitui-family-instructions",
+      "title": "안지추의 『안씨가훈(顔氏家訓)』",
+      "title_en": "안지추의 『안씨가훈(顔氏家訓)』",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "ART_CULTURE",
+      "importance": "C",
+      "year_start": 589,
+      "year_end": 595,
+      "date_precision": "exact",
+      "summary": "남북조의 격변을 겪은 지식인이 자손 교육과 가문 경영, 처세술을 기록한 고전.",
+      "historical_significance": "동양 가정 교육서의 최고 규범.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-ce6-silla-jijeung-reforms",
+      "title": "신라 지증왕의 국호 '신라'·왕호 '왕' 확정 및 우산국 복속 (512년)",
+      "title_en": "신라 지증왕의 국호 '신라'·왕호 '왕' 확정 및 우산국 복속 (512년)",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "INSTITUTION",
+      "importance": "A",
+      "year_start": 500,
+      "year_end": 514,
+      "date_precision": "exact",
+      "summary": "국호를 '신라', 군주 칭호를 '왕'으로 확정하고 순장을 금지하며, 이사부를 파견해 울릉도·독도 우산국을 복속시킴.",
+      "historical_significance": "신라 국가 체제의 현대화와 해양 영토 주권 확립.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-ce6-silla-beopheung-buddhism",
+      "title": "신라 법흥왕의 율령 반포·공복 제정 및 불교 공인 (이차돈 순교)",
+      "title_en": "신라 법흥왕의 율령 반포·공복 제정 및 불교 공인 (이차돈 순교)",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "INSTITUTION",
+      "importance": "A",
+      "year_start": 520,
+      "year_end": 527,
+      "date_precision": "exact",
+      "summary": "17관등 율령 반포(520), 병부 설치, 독자 연호 '건원' 선포, 이차돈의 흰 피 순교로 불교 공인(527).",
+      "historical_significance": "신라의 절대 왕권 확립과 사상적 대통합.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-ce6-silla-jinheung-expansion",
+      "title": "신라 진흥왕의 한강 유역 장악 및 영토 확장 (순수비 건립)",
+      "title_en": "신라 진흥왕의 한강 유역 장악 및 영토 확장 (순수비 건립)",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "A",
+      "year_start": 540,
+      "year_end": 576,
+      "date_precision": "exact",
+      "summary": "화랑도를 국가 조직으로 개편하고, 한강 상·하류를 모두 장악(당항성)한 후 대가야 멸망(562) 및 북한산·창녕·황초령·마운령 순수비 건립.",
+      "historical_significance": "신라가 삼국 통일의 주도권을 장악하는 결정적 발판 마련.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-ce6-gwansanseong-battle",
+      "title": "관산성 전투와 백제 성왕의 전사 (554년)",
+      "title_en": "관산성 전투와 백제 성왕의 전사 (554년)",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "A",
+      "year_start": 554,
+      "year_end": 554,
+      "date_precision": "exact",
+      "summary": "신라 진흥왕의 한강 독점에 맞서 백제 성왕이 가야와 연합해 충북 옥천 관산성을 공격했으나 신라 복병에 전사.",
+      "historical_significance": "120년 나제동맹 파기 및 백제와 신라의 철천지원수 관계화.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-ce6-baekje-muryeong-tomb",
+      "title": "백제 무령왕릉 축조와 22담로 왕족 파견",
+      "title_en": "백제 무령왕릉 축조와 22담로 왕족 파견",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "ART_CULTURE",
+      "importance": "A",
+      "year_start": 501,
+      "year_end": 525,
+      "date_precision": "exact",
+      "summary": "전국 22담로에 왕족을 파견해 중앙집권을 강화하고, 양나라 양식의 벽돌무덤에 국보급 금제관식 등 매장.",
+      "historical_significance": "무덤 주인공이 명확한 유일한 삼국 왕릉이자 백제 르네상스 증명.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-ce6-baekje-seong-sabi-capital",
+      "title": "백제 성왕의 사비(부여) 천도와 국호 '남부여' 개칭",
+      "title_en": "백제 성왕의 사비(부여) 천도와 국호 '남부여' 개칭",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "A",
+      "year_start": 538,
+      "year_end": 538,
+      "date_precision": "exact",
+      "summary": "넓은 평야가 있는 사비로 천도하고 22부 관제와 5부 5방 행정구역 정비, 겸익을 통한 계율종 진흥.",
+      "historical_significance": "백제의 전열 재정비와 부여 계승 의식 천명.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-ce6-gaya-confederacy-fall",
+      "title": "가야 연맹의 완전 멸망 (562년)",
+      "title_en": "가야 연맹의 완전 멸망 (562년)",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "A",
+      "year_start": 532,
+      "year_end": 562,
+      "date_precision": "exact",
+      "summary": "신라 법흥왕에게 금관가야(532)가 항복하고 진흥왕의 이사부·사다함 군대에 의해 대가야(562)가 멸망함.",
+      "historical_significance": "500년 가야 역사의 종언 및 영남 전역이 신라 영토로 통합.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-ce6-goguryeo-ondal-pyongyang",
+      "title": "고구려 평양 장안성 축조와 온달 장군의 아단성 전사",
+      "title_en": "고구려 평양 장안성 축조와 온달 장군의 아단성 전사",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "B",
+      "year_start": 552,
+      "year_end": 590,
+      "date_precision": "exact",
+      "summary": "평양에 거대한 외성·중성·내성을 갖춘 장안성을 완공하고 평원왕의 사위 온달이 한강 회복을 위해 출정했다 전사.",
+      "historical_significance": "수·당의 대침공을 막아낼 불패의 평양 도성 완성.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-ce6-silla-hwarangdo-gukseon",
+      "title": "신라 화랑도(화랑·낭도) 공인과 원광의 세속오계",
+      "title_en": "신라 화랑도(화랑·낭도) 공인과 원광의 세속오계",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "INSTITUTION",
+      "importance": "B",
+      "year_start": 576,
+      "year_end": 600,
+      "date_precision": "exact",
+      "summary": "귀족 자제들의 청소년 수양 단체를 국가 군사·인재 양성 조직으로 개편하고 사군이충 등 5계 수여.",
+      "historical_significance": "삼국 통일의 주역 김유신, 관창 등을 배출한 인재의 요람.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-ce6-baekje-japan-buddhism-export",
+      "title": "백제 노리사치계의 일본 불교 및 선진 문물 전파 (552/538년)",
+      "title_en": "백제 노리사치계의 일본 불교 및 선진 문물 전파 (552/538년)",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "RELIGION",
+      "importance": "B",
+      "year_start": 538,
+      "year_end": 552,
+      "date_precision": "exact",
+      "summary": "성왕이 왜국 긴메이 천황에게 불상과 경전을 전하고 의박사, 역박사, 오경박사를 파견.",
+      "historical_significance": "일본 아스카(飛鳥) 문화 탄생의 결정적 산파 역할.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    }
+  ]
+}

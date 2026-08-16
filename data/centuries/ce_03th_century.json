@@ -1,0 +1,731 @@
+{
+  "centuryId": "ce_03th_century",
+  "centuryLabel": "서기 3세기 (AD 201 ~ AD 300)",
+  "period": {
+    "yearStart": 201,
+    "yearEnd": 300
+  },
+  "eventCount": 30,
+  "events": [
+    {
+      "id": "west-ce3-crisis-third-century",
+      "title": "로마 3세기의 위기 (군인 황제 시대)",
+      "title_en": "로마 3세기의 위기 (군인 황제 시대)",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "A",
+      "year_start": 235,
+      "year_end": 284,
+      "date_precision": "exact",
+      "summary": "50년간 26명의 황제가 군단에 의해 난립하고 살해당하며 제국이 갈리아·팔미라로 분열됨.",
+      "historical_significance": "로마 제국 역사상 최대의 정치적·군사적 붕괴 위기.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "west-ce3-caracalla-citizenship",
+      "title": "카라칼라 황제의 안토니누스 칙령 (전 제국민 시민권 부여)",
+      "title_en": "카라칼라 황제의 안토니누스 칙령 (전 제국민 시민권 부여)",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "INSTITUTION",
+      "importance": "A",
+      "year_start": 212,
+      "year_end": 212,
+      "date_precision": "exact",
+      "summary": "제국 영내의 모든 자유민에게 로마 시민권을 일괄 부여함.",
+      "historical_significance": "로마 시민과 속주민의 법적 경계를 철폐하고 세수 확충 도모.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "west-ce3-diocletian-tetrarchy",
+      "title": "디오클레티아누스의 사두정치(4분 통치제) 도입",
+      "title_en": "디오클레티아누스의 사두정치(4분 통치제) 도입",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "INSTITUTION",
+      "importance": "A",
+      "year_start": 284,
+      "year_end": 300,
+      "date_precision": "exact",
+      "summary": "제국을 동·서로 나누고 정제(아우구스투스)와 부제(카이사르) 4인이 분할 통치하며 전제군주정(도미나투스) 확립.",
+      "historical_significance": "3세기 위기를 종식시키고 제국의 수명을 200년 연장.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "west-ce3-aurelian-restorer",
+      "title": "아우렐리아누스의 제국 재통합과 로마 성벽 축조",
+      "title_en": "아우렐리아누스의 제국 재통합과 로마 성벽 축조",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "A",
+      "year_start": 270,
+      "year_end": 275,
+      "date_precision": "exact",
+      "summary": "분리 독립한 갈리아 제국과 팔미라 제국의 제노비아 여왕을 평정하고 로마 시를 방어하는 19km 아우렐리아누스 성벽 완공.",
+      "historical_significance": "'세계의 복원자(Restitutor Orbis)' 칭호 획득.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "west-ce3-sassanid-valerian-capture",
+      "title": "에데사 전투와 발레리아누스 황제 포로 사건",
+      "title_en": "에데사 전투와 발레리아누스 황제 포로 사건",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "A",
+      "year_start": 260,
+      "year_end": 260,
+      "date_precision": "exact",
+      "summary": "사산조 페르시아의 샤푸르 1세에게 로마 황제 발레리아누스가 사로잡히는 초유의 치욕 발생.",
+      "historical_significance": "사산조 페르시아의 초강대국 부상과 로마의 굴욕.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "west-ce3-plotinus-neoplatonism",
+      "title": "플로티노스의 신플라톤주의 철학과 일자(The One) 사상",
+      "title_en": "플로티노스의 신플라톤주의 철학과 일자(The One) 사상",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "RELIGION",
+      "importance": "B",
+      "year_start": 244,
+      "year_end": 270,
+      "date_precision": "exact",
+      "summary": "만물이 궁극적 근원인 '일자(To Hen)'로부터 유출된다는 영성적 형이상학 『엔네아데스』 저술.",
+      "historical_significance": "기독교 신학(아우구스티누스)과 이슬람 신비주의에 심대한 영향.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "west-ce3-great-persecution-diocletian",
+      "title": "디오클레티아누스의 대박해 칙령",
+      "title_en": "디오클레티아누스의 대박해 칙령",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "RELIGION",
+      "importance": "B",
+      "year_start": 303,
+      "year_end": 305,
+      "date_precision": "exact",
+      "summary": "기독교 교회를 파괴하고 성경을 소각하며 배교하지 않는 신자들을 처형하는 최후 최대의 박해.",
+      "historical_significance": "로마 제국 이교 신앙의 마지막 저항이자 기독교 공인의 직전 단계.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "west-ce3-sassanian-empire-rise",
+      "title": "아르다시르 1세의 사산조 페르시아 건국",
+      "title_en": "아르다시르 1세의 사산조 페르시아 건국",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "B",
+      "year_start": 224,
+      "year_end": 226,
+      "date_precision": "exact",
+      "summary": "파르티아를 멸망시키고 조로아스터교를 국교로 삼은 강력한 중앙집권 제국 건국.",
+      "historical_significance": "로마와 400년간 대적할 중동 패권국 등장.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "west-ce3-baths-of-caracalla",
+      "title": "카라칼라 대욕장 완공",
+      "title_en": "카라칼라 대욕장 완공",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "ART_CULTURE",
+      "importance": "C",
+      "year_start": 216,
+      "year_end": 216,
+      "date_precision": "exact",
+      "summary": "체육관, 도서관, 온탕·냉탕을 갖춘 1,600명 수용의 거대 복합 공공 레저 시설 완공.",
+      "historical_significance": "로마 제국의 고도 복지 인프라와 배관 공학의 집약체.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "west-ce3-manichaeism-origin",
+      "title": "예언자 마니의 마니교(Manichaeism) 창시",
+      "title_en": "예언자 마니의 마니교(Manichaeism) 창시",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "RELIGION",
+      "importance": "C",
+      "year_start": 240,
+      "year_end": 276,
+      "date_precision": "exact",
+      "summary": "빛과 어둠의 이원론을 바탕으로 조로아스터교, 기독교, 불교를 융합한 세계 종교 전파.",
+      "historical_significance": "지중해에서 중국 실크로드까지 널리 퍼진 이원론 종교.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-ce3-red-cliffs-battle",
+      "title": "적벽대전 (208년)",
+      "title_en": "적벽대전 (208년)",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "A",
+      "year_start": 208,
+      "year_end": 208,
+      "date_precision": "exact",
+      "summary": "손권·유비 연합군이 화공(火攻)으로 조조의 80만 대군을 양쯔강 적벽에서 격파함.",
+      "historical_significance": "조조의 천하 통일 좌절 및 위·촉·오 삼국 정립의 결정적 계기.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-ce3-three-kingdoms-period",
+      "title": "삼국시대 (위·촉·오 3국 정립)",
+      "title_en": "삼국시대 (위·촉·오 3국 정립)",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "A",
+      "year_start": 220,
+      "year_end": 280,
+      "date_precision": "exact",
+      "summary": "조비의 위 건국, 유비의 촉한 건국, 손권의 오 건국으로 중국이 세 나라로 분립하여 패권 다툼.",
+      "historical_significance": "동아시아 문학·전략·문화의 영원한 테마인 삼국지 시대.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-ce3-western-jin-unification",
+      "title": "사마염의 서진(西晉) 건국과 삼국 통일",
+      "title_en": "사마염의 서진(西晉) 건국과 삼국 통일",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "A",
+      "year_start": 265,
+      "year_end": 280,
+      "date_precision": "exact",
+      "summary": "사마염이 위나라를 찬탈하여 서진을 세우고 280년 오나라를 멸망시켜 천하를 재통일함.",
+      "historical_significance": "60년간의 삼국 분열 종식 및 잠시 동안의 평화 회복.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-ce3-eight-princes-war",
+      "title": "팔왕의 난(八王之亂)",
+      "title_en": "팔왕의 난(八王之亂)",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "A",
+      "year_start": 291,
+      "year_end": 306,
+      "date_precision": "exact",
+      "summary": "서진 황실 사마씨 8명의 제후왕들이 황권을 둘러싸고 16년간 골육상쟁 내전을 벌임.",
+      "historical_significance": "서진의 국력 완전 파탄 및 5호 16국 시대(이민족 남하)의 문을 연 비극.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-ce3-nine-rank-system",
+      "title": "구품관인법(구품중정제) 실시",
+      "title_en": "구품관인법(구품중정제) 실시",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "INSTITUTION",
+      "importance": "A",
+      "year_start": 220,
+      "year_end": 220,
+      "date_precision": "exact",
+      "summary": "진군의 건의로 중정관이 인재를 9등급으로 평가해 관직에 천거하는 제도 도입.",
+      "historical_significance": "문벌 귀족 가문이 고위 관직을 독점하는 '상품무한문 하품무세족' 사회 고착화.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-ce3-zhuge-liang-expeditions",
+      "title": "제갈량의 북벌과 출사표",
+      "title_en": "제갈량의 북벌과 출사표",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "B",
+      "year_start": 227,
+      "year_end": 234,
+      "date_precision": "exact",
+      "summary": "촉한의 승상 제갈량이 한실 부흥을 위해 5차례 기산 북벌을 감행하다 오장원에서 병사.",
+      "historical_significance": "충의와 헌신의 불멸의 상징이자 명문 『출사표』 탄생.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-ce3-seven-sages-bamboo",
+      "title": "죽림칠현(竹林七賢)과 청담사상(현학)",
+      "title_en": "죽림칠현(竹林七賢)과 청담사상(현학)",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "ART_CULTURE",
+      "importance": "B",
+      "year_start": 240,
+      "year_end": 280,
+      "date_precision": "exact",
+      "summary": "완적, 혜강 등 7명의 문인이 대나무 숲에 모여 부패한 정치를 비판하고 노장 사상과 거문고를 즐김.",
+      "historical_significance": "위진 현학(玄學)과 문인 예술의 최고봉.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-ce3-liu-hui-pi-calculation",
+      "title": "유휘의 원주율(할원술) 계산",
+      "title_en": "유휘의 원주율(할원술) 계산",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "SCIENCE",
+      "importance": "B",
+      "year_start": 263,
+      "year_end": 263,
+      "date_precision": "exact",
+      "summary": "원에 내접하는 3,072각형을 이용해 원주율을 3.1416으로 정밀 계산하고 『구장산술주』 저술.",
+      "historical_significance": "극한과 미적분 개념을 선취한 동양 수학의 쾌거.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-ce3-sanguozhi-chen-shou",
+      "title": "진수의 『삼국지(三國志)』 편찬",
+      "title_en": "진수의 『삼국지(三國志)』 편찬",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "ART_CULTURE",
+      "importance": "C",
+      "year_start": 285,
+      "year_end": 290,
+      "date_precision": "exact",
+      "summary": "위서, 촉서, 오서로 구성된 65권의 정사 역사서 완성(동이전 포함).",
+      "historical_significance": "고대 한국사(고구려·백제·부여·삼한) 연구의 가장 중요한 1차 사료.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-ce3-pei-xiu-cartography",
+      "title": "배수의 지도 제작 6체(제도육체) 정립",
+      "title_en": "배수의 지도 제작 6체(제도육체) 정립",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "SCIENCE",
+      "importance": "C",
+      "year_start": 267,
+      "year_end": 271,
+      "date_precision": "exact",
+      "summary": "축척, 방격(격자망), 방위, 고저, 경사, 곡직을 고려한 정밀 지도 제작 이론 확립.",
+      "historical_significance": "동양 과학 지도학의 아버지.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-ce3-baekje-goi-reforms",
+      "title": "백제 고이왕의 6좌평 16관등제 및 율령 반포",
+      "title_en": "백제 고이왕의 6좌평 16관등제 및 율령 반포",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "INSTITUTION",
+      "importance": "A",
+      "year_start": 260,
+      "year_end": 262,
+      "date_precision": "exact",
+      "summary": "6좌평과 16품 관등, 공복(자·비·청색)을 제정하고 뇌물을 받은 관리를 3배로 징벌하는 법령 반포.",
+      "historical_significance": "백제가 삼국 중 가장 먼저 체계적인 중앙집권 관료 국가 체제를 완성함.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-ce3-baekje-han-river-supremacy",
+      "title": "백제 고이왕의 한강 유역 완전 장악과 마한 병합 가속",
+      "title_en": "백제 고이왕의 한강 유역 완전 장악과 마한 병합 가속",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "A",
+      "year_start": 246,
+      "year_end": 280,
+      "date_precision": "exact",
+      "summary": "낙랑군과 대방군의 침입을 기리영 전투에서 격퇴하고 경기·충청 일대 마한 소국들을 흡수.",
+      "historical_significance": "백제가 한반도의 주도적 맹주국으로 도약.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-ce3-goguryeo-dongcheon-guanqiu",
+      "title": "고구려 동천왕과 위나라 관구검의 침략",
+      "title_en": "고구려 동천왕과 위나라 관구검의 침략",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "A",
+      "year_start": 244,
+      "year_end": 246,
+      "date_precision": "exact",
+      "summary": "위나라 유주자사 관구검이 환도성을 함락시켰으나 밀우와 유유의 결사대로 반격하여 격퇴.",
+      "historical_significance": "고구려가 국가적 존망의 위기를 극복하고 도성을 재건.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-ce3-silla-michu-kim-monarchy",
+      "title": "신라 미추이사금 즉위 (경주 김씨 최초의 국왕)",
+      "title_en": "신라 미추이사금 즉위 (경주 김씨 최초의 국왕)",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "A",
+      "year_start": 262,
+      "year_end": 284,
+      "date_precision": "exact",
+      "summary": "김알지의 후손 미추가 이사금으로 즉위하며 백성을 위무하고 농업을 장려(대릉원 미추왕릉).",
+      "historical_significance": "후대 신라 왕실을 독점하는 김씨 왕권의 첫 출발점.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-ce3-goguryeo-seocheon-sushen",
+      "title": "고구려 서천왕의 숙신 정벌과 달가 장군",
+      "title_en": "고구려 서천왕의 숙신 정벌과 달가 장군",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "B",
+      "year_start": 280,
+      "year_end": 280,
+      "date_precision": "exact",
+      "summary": "왕제 달가가 북방 만주의 숙신(말갈)을 정벌하여 단로성을 함락하고 600여 가구를 남쪽으로 사민.",
+      "historical_significance": "북방 유목 부족에 대한 고구려의 확고한 종주권 장악.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-ce3-baekje-daebang-marriage",
+      "title": "백제 책계왕과 대방군 공주의 정략결혼",
+      "title_en": "백제 책계왕과 대방군 공주의 정략결혼",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "B",
+      "year_start": 286,
+      "year_end": 298,
+      "date_precision": "exact",
+      "summary": "대방 태수의 딸 보과와 혼인하여 동맹을 맺고 고구려의 남진을 아차산성·사성에서 방어.",
+      "historical_significance": "삼국의 복잡한 국제 외교전 전개.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-ce3-silla-yurye-posang-war",
+      "title": "포상팔국의 난과 가야·신라의 공방",
+      "title_en": "포상팔국의 난과 가야·신라의 공방",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "B",
+      "year_start": 209,
+      "year_end": 212,
+      "date_precision": "exact",
+      "summary": "남해안 8개 소국(포상팔국)이 금관가야를 공격하자 신라 물계자 장군 등이 구원병을 파견해 격퇴.",
+      "historical_significance": "낙동강 하류 제철 무역권을 둘러싼 남부 연맹체들의 대전쟁.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-ce3-gaya-iron-export-peak",
+      "title": "김해 대성동 고분군 조성과 금관가야 번영",
+      "title_en": "김해 대성동 고분군 조성과 금관가야 번영",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "ART_CULTURE",
+      "importance": "C",
+      "year_start": 250,
+      "year_end": 300,
+      "date_precision": "exact",
+      "summary": "수십 자루의 덩이쇠, 오리모양 토기, 통형동기가 부장된 가야 왕족 고분군 축조.",
+      "historical_significance": "동북아 해상 철 무역의 중심지 금관가야의 위세 과시.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-ce3-goguryeo-gwannu-tomb",
+      "title": "고구려 안악 3호분 벽화의 기원 형성",
+      "title_en": "고구려 안악 3호분 벽화의 기원 형성",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "ART_CULTURE",
+      "importance": "C",
+      "year_start": 250,
+      "year_end": 300,
+      "date_precision": "exact",
+      "summary": "석실봉토분에 일상생활과 행렬도를 그리는 독창적 고분 벽화 미술 태동.",
+      "historical_significance": "고구려 귀족 문화와 복식의 귀중한 시각 사료.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-ce3-baekje-earthen-wall",
+      "title": "풍납토성 및 몽촌토성 대규모 축조",
+      "title_en": "풍납토성 및 몽촌토성 대규모 축조",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "INSTITUTION",
+      "importance": "C",
+      "year_start": 250,
+      "year_end": 300,
+      "date_precision": "exact",
+      "summary": "한강변에 수백만 명의 인력을 동원한 둘레 3.5km, 높이 11m의 거대한 판축 토성 축조.",
+      "historical_significance": "초기 백제 한성(위례성) 왕도의 웅장한 규모 실증.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    }
+  ]
+}

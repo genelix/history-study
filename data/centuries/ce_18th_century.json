@@ -1,0 +1,731 @@
+{
+  "centuryId": "ce_18th_century",
+  "centuryLabel": "서기 18세기 (AD 1701 ~ AD 1800)",
+  "period": {
+    "yearStart": 1701,
+    "yearEnd": 1800
+  },
+  "eventCount": 30,
+  "events": [
+    {
+      "id": "west-ce18-french-revolution",
+      "title": "프랑스 대혁명과 인권선언 (1789년)",
+      "title_en": "프랑스 대혁명과 인권선언 (1789년)",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "A",
+      "year_start": 1789,
+      "year_end": 1799,
+      "date_precision": "exact",
+      "summary": "바스티유 감옥 습격으로 시작되어 구제도(앙시앵 레짐)를 타파하고 '자유·평등·우애'의 인간과 시민의 권리선언 채택.",
+      "historical_significance": "근대 민주주의, 국민 국가, 인권 사상의 결정적 분수령.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "west-ce18-american-independence-1776",
+      "title": "미국 독립 혁명과 독립선언서 발표 (1776년)",
+      "title_en": "미국 독립 혁명과 독립선언서 발표 (1776년)",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "A",
+      "year_start": 1775,
+      "year_end": 1783,
+      "date_precision": "exact",
+      "summary": "토머스 제퍼슨이 기초한 독립선언서를 발표하고 조지 워싱턴이 요크타운 전투에서 승리하여 세계 최초의 근대 공화국 합중국 건국.",
+      "historical_significance": "근대 입헌 민주 공화국 모델의 탄생과 전 세계 민주화 혁명의 도화선.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "west-ce18-industrial-revolution-watt",
+      "title": "제임스 와트의 증기기관 개량과 산업혁명 개막 (1769년)",
+      "title_en": "제임스 와트의 증기기관 개량과 산업혁명 개막 (1769년)",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "SCIENCE",
+      "importance": "A",
+      "year_start": 1765,
+      "year_end": 1785,
+      "date_precision": "exact",
+      "summary": "증기기관의 효율을 혁신하여 방적기, 방직기, 제철소, 증기선에 동력을 공급함으로써 기계화 대량 생산 시대 개막.",
+      "historical_significance": "인류 경제·사회 구조를 농경 사회에서 산업 자본주의 사회로 완전히 전환시킨 대변혁.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "west-ce18-enlightenment-philosophes",
+      "title": "유럽 계몽주의의 전성기 (볼테르·루소·몽테스키외)",
+      "title_en": "유럽 계몽주의의 전성기 (볼테르·루소·몽테스키외)",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "RELIGION",
+      "importance": "A",
+      "year_start": 1748,
+      "year_end": 1778,
+      "date_precision": "exact",
+      "summary": "몽테스키외의 3권분립(『법의 정신』), 루소의 국민주권(『사회계약론』), 볼테르의 관용과 표현의 자유 주창.",
+      "historical_significance": "근대 민주 정치 제도의 철학적 청사진 완성.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "west-ce18-adam-smith-wealth-of-nations",
+      "title": "애덤 스미스의 『국부론(The Wealth of Nations)』 (1776년)",
+      "title_en": "애덤 스미스의 『국부론(The Wealth of Nations)』 (1776년)",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "ECONOMY",
+      "importance": "A",
+      "year_start": 1776,
+      "year_end": 1776,
+      "date_precision": "exact",
+      "summary": "시장 경제의 '보이지 않는 손(Invisible Hand)', 자유무역, 분업의 원리를 체계화하여 중상주의를 비판.",
+      "historical_significance": "근대 경제학의 탄생이자 자본주의 시장 경제의 바이블.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "west-ce18-diderot-encyclopedie",
+      "title": "디드로와 달랑베르의 『백과전서(Encyclopédie)』 편찬 (1751~1772년)",
+      "title_en": "디드로와 달랑베르의 『백과전서(Encyclopédie)』 편찬 (1751~1772년)",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "SCIENCE",
+      "importance": "B",
+      "year_start": 1751,
+      "year_end": 1772,
+      "date_precision": "exact",
+      "summary": "모든 과학, 예술, 기술, 철학 지식을 비판적 이성으로 집대성한 28권의 기념비적 계몽 저작.",
+      "historical_significance": "지식의 대중화와 프랑스 혁명의 사상적 인큐베이터.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "west-ce18-edward-jenner-smallpox-vaccine",
+      "title": "에드워드 제너의 종두법(천연두 백신) 발명 (1796년)",
+      "title_en": "에드워드 제너의 종두법(천연두 백신) 발명 (1796년)",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "SCIENCE",
+      "importance": "B",
+      "year_start": 1796,
+      "year_end": 1796,
+      "date_precision": "exact",
+      "summary": "우두 바이러스를 접종하여 인류 역사상 가장 치명적인 질병 천연두에 대한 면역력을 획득하는 백신 접종법 최초 개발.",
+      "historical_significance": "현대 면역학의 탄생과 수억 명의 생명을 구한 의학 혁신.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "west-ce18-seven-years-war-global",
+      "title": "7년 전쟁 (인류 최초의 글로벌 세계 대전, 1756~1763년)",
+      "title_en": "7년 전쟁 (인류 최초의 글로벌 세계 대전, 1756~1763년)",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "B",
+      "year_start": 1756,
+      "year_end": 1763,
+      "date_precision": "exact",
+      "summary": "유럽, 북미(프렌치-인디언 전쟁), 인도(플라시 전투)에서 영국-프로이센 vs 프랑스-오스트리아가 격돌하여 영국의 대승.",
+      "historical_significance": "대영제국이 전 세계 패권을 장악하고 프랑스는 북미 식민지 상실.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "west-ce18-mozart-beethoven-classical-music",
+      "title": "빈 고전파 음악의 황금기 (모차르트·하이든·베토벤)",
+      "title_en": "빈 고전파 음악의 황금기 (모차르트·하이든·베토벤)",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "ART_CULTURE",
+      "importance": "C",
+      "year_start": 1770,
+      "year_end": 1800,
+      "date_precision": "exact",
+      "summary": "소나타 형식과 교향곡, 오페라(피가로의 결혼, 마술피리)를 완성하여 서양 음악 예술의 영원한 규범 정립.",
+      "historical_significance": "서양 고전 음악의 최전성기.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "west-ce18-kant-critique-of-pure-reason",
+      "title": "임마누엘 칸트의 『순수이성비판』 (1781년)",
+      "title_en": "임마누엘 칸트의 『순수이성비판』 (1781년)",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "SCIENCE",
+      "importance": "C",
+      "year_start": 1781,
+      "year_end": 1788,
+      "date_precision": "exact",
+      "summary": "대륙 합리론과 영국 경험론을 종합하여 인식론의 코페르니쿠스적 전환과 정언명령(도덕 법칙) 확립.",
+      "historical_significance": "독일 관념론과 현대 철학의 최고 거장.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-ce18-qianlong-reign-zenith",
+      "title": "건륭제의 십전무공(十全武功)과 청 제국 최대 판도 완성",
+      "title_en": "건륭제의 십전무공(十全武功)과 청 제국 최대 판도 완성",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "A",
+      "year_start": 1735,
+      "year_end": 1796,
+      "date_precision": "exact",
+      "summary": "준가르, 신장(위구르), 티베트, 대만, 네팔(구르카)을 완전 복속시켜 1,300만 ㎢의 역사상 최대 판도 구축.",
+      "historical_significance": "오늘날 현대 중국 국경선의 기본 영토 확정.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-ce18-siku-quanshu-compilation",
+      "title": "『사고전서(四庫全書)』 편찬 (1773~1782년)",
+      "title_en": "『사고전서(四庫全書)』 편찬 (1773~1782년)",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "ART_CULTURE",
+      "importance": "A",
+      "year_start": 1773,
+      "year_end": 1782,
+      "date_precision": "exact",
+      "summary": "경(經)·사(史)·자(子)·집(集) 4부 3,503종 79,337권을 36,000책으로 필사하여 문연각 등 7대 장서각에 보관.",
+      "historical_significance": "중국 전통 문헌의 최대 집대성이자 반청 서적을 금서로 검열한 문화 통제.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-ce18-dream-of-the-red-chamber",
+      "title": "조설근의 『홍루몽(紅樓夢)』 편찬",
+      "title_en": "조설근의 『홍루몽(紅樓夢)』 편찬",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "ART_CULTURE",
+      "importance": "A",
+      "year_start": 1750,
+      "year_end": 1791,
+      "date_precision": "exact",
+      "summary": "가보옥과 임대옥의 비극적 사랑을 통해 청대 귀족 가문의 흥망성쇠를 섬세한 심리 묘사로 그린 중국 최고의 소설.",
+      "historical_significance": "홍학(紅學)이라는 전문 학문 분야를 낳은 중국 문학의 불멸의 금자탑.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-ce18-yongzheng-grand-council",
+      "title": "옹정제의 군기도(軍機處) 설치와 주필유지(비밀 상소제)",
+      "title_en": "옹정제의 군기도(軍機處) 설치와 주필유지(비밀 상소제)",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "INSTITUTION",
+      "importance": "A",
+      "year_start": 1729,
+      "year_end": 1735,
+      "date_precision": "exact",
+      "summary": "황제 직속 최고 비밀 군사·정치 의결 기구인 군기처를 두고 신하들의 주접(밀지)을 직접 붉은 먹물로 결재.",
+      "historical_significance": "황제 1인 독재 전제 통치 시스템의 완벽한 완성.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-ce18-canton-system-trade",
+      "title": "광주 1구 무역 체제(광둥 공행 제도, 1757년)",
+      "title_en": "광주 1구 무역 체제(광둥 공행 제도, 1757년)",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "ECONOMY",
+      "importance": "A",
+      "year_start": 1757,
+      "year_end": 1757,
+      "date_precision": "exact",
+      "summary": "서양 국가들과의 무역항을 광저우 1곳으로 제한하고 독점 상인 길드 공행(十三行)을 통해서만 교역 허용.",
+      "historical_significance": "아편전쟁(1840년)의 무역 불균형 갈등을 낳은 폐쇄적 무역 통제.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-ce18-macartney-embassy-1793",
+      "title": "영국 매카트니 사절단의 북경 방문 (1793년)",
+      "title_en": "영국 매카트니 사절단의 북경 방문 (1793년)",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "A",
+      "year_start": 1793,
+      "year_end": 1793,
+      "date_precision": "exact",
+      "summary": "영국 국왕 조지 3세의 친서를 가지고 온 매카트니가 삼궤구고두례를 거부하고 통상을 요구했으나 건륭제가 거절.",
+      "historical_significance": "산업화된 서구 열강과 중화 조공 질서의 최초의 문명 충돌.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-ce18-tian-fu-yong-ding",
+      "title": "지정은제(地丁銀制)의 전국적 완성",
+      "title_en": "지정은제(地丁銀制)의 전국적 완성",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "INSTITUTION",
+      "importance": "B",
+      "year_start": 1712,
+      "year_end": 1729,
+      "date_precision": "exact",
+      "summary": "강희제가 인두세(정세)를 동결한 후 옹정제가 정세를 토지세(지세)에 완전 통합하여 은으로 징수.",
+      "historical_significance": "인두세 완전 폐지로 인한 중국 인구의 폭발적 증가(1억 명→3억 명).",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-ce18-white-lotus-rebellion-1796",
+      "title": "백련교도의 난(白蓮敎之亂) 폭발 (1796~1804년)",
+      "title_en": "백련교도의 난(白蓮敎之亂) 폭발 (1796~1804년)",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "B",
+      "year_start": 1796,
+      "year_end": 1804,
+      "date_precision": "exact",
+      "summary": "사천·호북·섬서 산악 지대에서 빈농들이 종교 결사 백련교를 중심으로 9년간 게릴라 항전 전개.",
+      "historical_significance": "청나라 팔기군의 무능 폭로와 강건성세의 종말 및 청 제국 쇠퇴의 신호탄.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-ce18-peking-opera-origin",
+      "title": "휘반(徽班)의 북경 상경과 경극(京劇)의 탄생 (1790년)",
+      "title_en": "휘반(徽班)의 북경 상경과 경극(京劇)의 탄생 (1790년)",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "ART_CULTURE",
+      "importance": "C",
+      "year_start": 1790,
+      "year_end": 1790,
+      "date_precision": "exact",
+      "summary": "건륭제 팔순 잔치를 위해 안휘성의 삼경반 등 극단들이 북경에 들어와 피황희(경극)로 발전.",
+      "historical_significance": "중국 대표 전통 종합 공연 예술 경극의 정립.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-ce18-he-shen-corruption",
+      "title": "화신(和珅)의 천문학적 부정축재와 사사 (1799년)",
+      "title_en": "화신(和珅)의 천문학적 부정축재와 사사 (1799년)",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "C",
+      "year_start": 1780,
+      "year_end": 1799,
+      "date_precision": "exact",
+      "summary": "건륭제의 총신 화신이 국가 15년 치 예산에 달하는 8억 냥의 은을 축재했다가 가경제에게 처형당함.",
+      "historical_significance": "청나라 관료 부패의 극치와 쇠락의 원인.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-ce18-yeongjo-tangpyeong-gyunyeok",
+      "title": "영조의 탕평책(蕩平策)과 균역법(均役法) 실시 (1750년)",
+      "title_en": "영조의 탕평책(蕩平策)과 균역법(均役法) 실시 (1750년)",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "INSTITUTION",
+      "importance": "A",
+      "year_start": 1724,
+      "year_end": 1776,
+      "date_precision": "exact",
+      "summary": "붕당의 대립을 완화하기 위해 탕평비를 세워 고른 인재를 등용하고, 군포 부담을 2필에서 1필로 반감(결작·선무군관포 신설)한 균역법 시행.",
+      "historical_significance": "조선 후기 정치 안정과 농민 생활 안정의 위대한 민본 개혁.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-ce18-jeongjo-renaissance-suwon-hwaseong",
+      "title": "정조의 조선 르네상스 (규장각·초계문신제·수원화성 축조, 1794~1796년)",
+      "title_en": "정조의 조선 르네상스 (규장각·초계문신제·수원화성 축조, 1794~1796년)",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "A",
+      "year_start": 1776,
+      "year_end": 1800,
+      "date_precision": "exact",
+      "summary": "정약용의 거중기를 이용해 유네스코 세계유산 수원화성을 축조하고, 규장각과 장용영(친위대)을 통해 실학과 문예 부흥 완수.",
+      "historical_significance": "조선 후기 문화와 개혁의 최고 황금기.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-ce18-silhak-movement-jeong-yak-yong",
+      "title": "실학(實學)의 집대성 (다산 정약용·박지원·박제가)",
+      "title_en": "실학(實學)의 집대성 (다산 정약용·박지원·박제가)",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "SCIENCE",
+      "importance": "A",
+      "year_start": 1760,
+      "year_end": 1800,
+      "date_precision": "exact",
+      "summary": "중농학파(유형원·이익·정약용)의 토지 개혁과 중상학파(북학파 박지원 『열하일기』, 박제가 『북학의』)의 상공업 진흥 및 청 문물 수용 주장.",
+      "historical_significance": "조선 사회의 구조적 모순을 혁파하려 한 근대적 비판 지성.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-ce18-true-view-landscape-genre-painting",
+      "title": "진경산수화(겸재 정선)와 풍속화(단원 김홍도·혜원 신윤복)",
+      "title_en": "진경산수화(겸재 정선)와 풍속화(단원 김홍도·혜원 신윤복)",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "ART_CULTURE",
+      "importance": "A",
+      "year_start": 1730,
+      "year_end": 1800,
+      "date_precision": "exact",
+      "summary": "중국 산수화 모방을 탈피해 금강산·인왕산을 직접 사생한 진경산수화와 서민들의 일상(씨름·서당)과 양반 풍류를 그린 풍속화 만개.",
+      "historical_significance": "조선 고유의 미의식과 독자적 민족 회화의 절정.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-ce18-catholicism-western-learning-origin",
+      "title": "천주교(서학)의 자발적 수용과 이승훈의 세례 (1784년)",
+      "title_en": "천주교(서학)의 자발적 수용과 이승훈의 세례 (1784년)",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "RELIGION",
+      "importance": "A",
+      "year_start": 1777,
+      "year_end": 1784,
+      "date_precision": "exact",
+      "summary": "이벽, 권철신 등이 천진암 강학회에서 학문으로 서학을 연구한 후 이승훈이 북경에서 세례를 받고 돌아와 명동에 한국 천주교회 창립.",
+      "historical_significance": "외국 선교사의 파견 없이 자발적으로 교회를 설립한 세계 교회사상 유일한 기적.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-ce18-sinhae-tonggong-commercial-freedom",
+      "title": "신해통공(辛亥通共, 1791년) - 금난전권 폐지",
+      "title_en": "신해통공(辛亥通共, 1791년) - 금난전권 폐지",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "ECONOMY",
+      "importance": "A",
+      "year_start": 1791,
+      "year_end": 1791,
+      "date_precision": "exact",
+      "summary": "채제공의 건의로 육의전을 제외한 시전 상인들의 독점 판매권(금난전권)을 폐지하여 난전(자유 상인)의 자유로운 상업 활동 보장.",
+      "historical_significance": "조선 상업 자본주의의 획기적 발전과 자유 시장 경제 촉진.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-ce18-prince-sado-tragedy",
+      "title": "사도세자의 비극 (임오화변, 1762년)",
+      "title_en": "사도세자의 비극 (임오화변, 1762년)",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "B",
+      "year_start": 1762,
+      "year_end": 1762,
+      "date_precision": "exact",
+      "summary": "영조의 엄격한 훈육과 노론-소론 당쟁의 소용돌이 속에서 사도세자가 뒤주에 갇혀 8일 만에 비극적으로 사망함.",
+      "historical_significance": "혜경궁 홍씨의 『한중록』과 정조의 효심(수원 천도 구상)의 모태.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-ce18-pansori-chunhyangjeon",
+      "title": "판소리 12마당과 서민 문학의 대중화",
+      "title_en": "판소리 12마당과 서민 문학의 대중화",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "ART_CULTURE",
+      "importance": "B",
+      "year_start": 1750,
+      "year_end": 1800,
+      "date_precision": "exact",
+      "summary": "소리꾼과 고수가 어우러져 민중의 애환과 해학을 노래하는 『춘향가』, 『심청가』, 『흥보가』 등 판소리와 한글 소설 대유행.",
+      "historical_significance": "유네스코 인류무형문화유산으로 등재된 한국 전통 공연 예술의 백미.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-ce18-white-porcelain-moon-jar",
+      "title": "조선 백자 달항아리(백자대호)의 미학",
+      "title_en": "조선 백자 달항아리(백자대호)의 미학",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "ART_CULTURE",
+      "importance": "C",
+      "year_start": 1700,
+      "year_end": 1750,
+      "date_precision": "exact",
+      "summary": "상하 부분을 따로 빚어 이어 붙인 부정형의 둥근 곡선과 순백의 절제미를 담은 40cm 이상의 거대한 백자 항아리 제작.",
+      "historical_significance": "한국 고유의 무위자연과 순백의 아름다움을 상징하는 세계적 명품.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-ce18-hong-daeyong-astronomy-inquiry",
+      "title": "홍대용의 의산문답(醫山問答)과 지전설·무한우주론",
+      "title_en": "홍대용의 의산문답(醫山問答)과 지전설·무한우주론",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "SCIENCE",
+      "importance": "C",
+      "year_start": 1765,
+      "year_end": 1766,
+      "date_precision": "exact",
+      "summary": "북경 천주당을 견학하고 사설 천문대 농수각을 지어 지구의 자전(지전설)과 지구가 우주의 중심이 아니라는 탈중화주의 과학관 제시.",
+      "historical_significance": "동양 전통 우주관을 깬 조선 실학 천문학의 선구.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    }
+  ]
+}

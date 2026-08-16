@@ -1,0 +1,731 @@
+{
+  "centuryId": "ce_12th_century",
+  "centuryLabel": "서기 12세기 (AD 1101 ~ AD 1200)",
+  "period": {
+    "yearStart": 1101,
+    "yearEnd": 1200
+  },
+  "eventCount": 30,
+  "events": [
+    {
+      "id": "west-ce12-twelfth-century-renaissance",
+      "title": "12세기 르네상스와 파리 대학교·옥스퍼드 대학교 발전",
+      "title_en": "12세기 르네상스와 파리 대학교·옥스퍼드 대학교 발전",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "SCIENCE",
+      "importance": "A",
+      "year_start": 1150,
+      "year_end": 1200,
+      "date_precision": "exact",
+      "summary": "아랍어-라틴어 번역을 통해 아리스토텔레스와 로마법이 유입되며 파리대, 옥스퍼드대 등 종합대학 발흥.",
+      "historical_significance": "중세 서양 지성사의 획기적 전환점이자 스콜라 철학의 개화.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "west-ce12-gothic-architecture-st-denis",
+      "title": "고딕 양식의 탄생과 파리 노트르담 대성당 착공",
+      "title_en": "고딕 양식의 탄생과 파리 노트르담 대성당 착공",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "ART_CULTURE",
+      "importance": "A",
+      "year_start": 1144,
+      "year_end": 1163,
+      "date_precision": "exact",
+      "summary": "쉬제르 원장이 생드니 수도원에서 첨두아치, 리브볼트, 플라잉 버트레스, 스테인드글라스를 최초 적용하고 1163년 노트르담 착공.",
+      "historical_significance": "신에게 닿으려는 빛과 높이의 중세 고딕 건축 혁명.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "west-ce12-third-crusade-saladin-richard",
+      "title": "제3차 십자군 원정과 살라딘 vs 사자심왕 리처드",
+      "title_en": "제3차 십자군 원정과 살라딘 vs 사자심왕 리처드",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "A",
+      "year_start": 1187,
+      "year_end": 1192,
+      "date_precision": "exact",
+      "summary": "살라딘의 하틴 전투 승리로 예루살렘이 함락되자 리처드 1세 등이 출정하여 야파 조약으로 기독교 순례자 방문권 확보.",
+      "historical_significance": "중세 기사도 정신의 정수이자 이슬람-기독교 공존 협정.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "west-ce12-concordat-of-worms",
+      "title": "보름스 협약 (서임권 투쟁의 타협, 1122년)",
+      "title_en": "보름스 협약 (서임권 투쟁의 타협, 1122년)",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "INSTITUTION",
+      "importance": "A",
+      "year_start": 1122,
+      "year_end": 1122,
+      "date_precision": "exact",
+      "summary": "교황 갈리스토 2세와 황제 하인리히 5세가 성직 서임권(반지와 지팡이)은 교회가, 세속 영지 수여는 황제가 분리 담당하기로 합의.",
+      "historical_significance": "교회와 국가의 기능적 분리를 규정한 역사적 타협.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "west-ce12-plantagenet-angevin-empire",
+      "title": "헨리 2세의 플랜태저넷 왕조와 앙주 제국 수립 (1154년)",
+      "title_en": "헨리 2세의 플랜태저넷 왕조와 앙주 제국 수립 (1154년)",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "A",
+      "year_start": 1154,
+      "year_end": 1189,
+      "date_precision": "exact",
+      "summary": "엘레오노르와 혼인하여 잉글랜드와 프랑스 서부 절반(노르망디, 아키텐, 앙주)을 지배하고 배심원제·보통법(Common Law) 확립.",
+      "historical_significance": "영미 보통법 체계의 창시이자 영·프 백년전쟁의 영토적 모태.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "west-ce12-peter-abelard-scholasticism",
+      "title": "피에르 아벨라르의 『예와 아니오(Sic et Non)』",
+      "title_en": "피에르 아벨라르의 『예와 아니오(Sic et Non)』",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "RELIGION",
+      "importance": "B",
+      "year_start": 1121,
+      "year_end": 1142,
+      "date_precision": "exact",
+      "summary": "교부들의 모순된 158개 명제를 변증법적 의문과 이성적 비판으로 조화시키려 한 명목론(개념론) 철학자.",
+      "historical_significance": "비판적 질문과 논증을 중시하는 스콜라 학문 방법론 확립.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "west-ce12-hildegard-von-bingen",
+      "title": "힐데가르트 폰 빙엔의 신비주의 음악과 의학 저술",
+      "title_en": "힐데가르트 폰 빙엔의 신비주의 음악과 의학 저술",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "ART_CULTURE",
+      "importance": "B",
+      "year_start": 1140,
+      "year_end": 1179,
+      "date_precision": "exact",
+      "summary": "독일의 여성 수녀원장이 신비적 환시, 그레고리오 찬트 작곡, 자연 치유 식물학 저작 『피지카(Physica)』 집필.",
+      "historical_significance": "중세 여성 지식인의 독보적 거인이자 다방면의 천재.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "west-ce12-averroes-commentaries",
+      "title": "이븐 루슈드(아베로에스)의 아리스토텔레스 주석",
+      "title_en": "이븐 루슈드(아베로에스)의 아리스토텔레스 주석",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "SCIENCE",
+      "importance": "B",
+      "year_start": 1160,
+      "year_end": 1198,
+      "date_precision": "exact",
+      "summary": "코르도바의 철학자가 아리스토텔레스 철학 전편을 명료하게 주석하여 라틴 유럽에 이성주의 철학 전파.",
+      "historical_significance": "토마스 아퀴나스 스콜라 신학과 서양 르네상스 이성주의의 촉매.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "west-ce12-assassins-alamut",
+      "title": "하산 사바흐의 아사신파(니자리 이스마일파) 암살단",
+      "title_en": "하산 사바흐의 아사신파(니자리 이스마일파) 암살단",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "C",
+      "year_start": 1090,
+      "year_end": 1192,
+      "date_precision": "exact",
+      "summary": "알라무트 요새를 거점으로 십자군 군주와 이슬람 재상들을 표적 암살하며 공포를 조성.",
+      "historical_significance": "현대 영어 'Assassin(암살자)'의 어원이 된 비밀 결사.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "west-ce12-frederick-barbarossa-hrempire",
+      "title": "프리드리히 1세 바르바로사(붉은 수염)의 롬바르디아 원정",
+      "title_en": "프리드리히 1세 바르바로사(붉은 수염)의 롬바르디아 원정",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "C",
+      "year_start": 1152,
+      "year_end": 1190,
+      "date_precision": "exact",
+      "summary": "북이탈리아 자유도시 동맹(롬바르디아 동맹)과 레냐노 전투에서 격돌하고 신성로마제국의 법적 위상 강화.",
+      "historical_significance": "독일 기사도 황제의 전설적 상징.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-ce12-jurchen-jin-founding",
+      "title": "아골타의 여진족 금(金)나라 건국과 요 멸망 (1115/1125년)",
+      "title_en": "아골타의 여진족 금(金)나라 건국과 요 멸망 (1115/1125년)",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "A",
+      "year_start": 1115,
+      "year_end": 1125,
+      "date_precision": "exact",
+      "summary": "완안부 아골타가 맹안모극제를 바탕으로 금을 세우고 송과 연합하여 200년 거란 요나라를 멸망시킴.",
+      "historical_significance": "만주 여진족이 동아시아 최강의 패권국으로 부상.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-ce12-jingkang-incident-southern-song",
+      "title": "정강의 변(靖康之變, 1127년)과 조구의 남송(南宋) 건국",
+      "title_en": "정강의 변(靖康之變, 1127년)과 조구의 남송(南宋) 건국",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "A",
+      "year_start": 1127,
+      "year_end": 1127,
+      "date_precision": "exact",
+      "summary": "금나라 군대가 북송 수도 개봉을 함락하고 휘종·흠종 두 황제를 압송하자 고종 조구가 임안(항저우)에서 남송 건국.",
+      "historical_significance": "화북을 금에 상실하고 회수를 경계로 남북 대치하는 남송 시대 개막.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-ce12-zhu-xi-neo-confucianism",
+      "title": "주희(주자)의 성리학(주자학) 집대성",
+      "title_en": "주희(주자)의 성리학(주자학) 집대성",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "RELIGION",
+      "importance": "A",
+      "year_start": 1130,
+      "year_end": 1200,
+      "date_precision": "exact",
+      "summary": "이기이원론(理氣二元論), 성즉리(性卽理), 거경궁리를 정립하고 사서(대학·논어·맹자·중용)에 집주를 달아 『사서집주』 완성.",
+      "historical_significance": "이후 700년간 중국·한국·일본의 국가 관학이자 절대적 통치 철학.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-ce12-yue-fei-patriotism",
+      "title": "악비(岳飛)의 금나라 항전과 억울한 옥사 (1142년)",
+      "title_en": "악비(岳飛)의 금나라 항전과 억울한 옥사 (1142년)",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "A",
+      "year_start": 1130,
+      "year_end": 1142,
+      "date_precision": "exact",
+      "summary": "악가군을 이끌고 금나라 군대를 연전연파하여 중원 수복 직전까지 갔으나 화친파 진회의 모함으로 처형당함.",
+      "historical_significance": "중국 민족주의와 충의의 불멸의 군신(軍神)으로 추앙.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-ce12-along-the-river-qingming",
+      "title": "장택단의 『청명상하도(淸明上河圖)』",
+      "title_en": "장택단의 『청명상하도(淸明上河圖)』",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "ART_CULTURE",
+      "importance": "A",
+      "year_start": 1101,
+      "year_end": 1125,
+      "date_precision": "exact",
+      "summary": "북송 수도 변경(개봉)의 번화한 거리, 홍교 다리, 상점, 운하 배, 800여 명의 주민을 사실적으로 묘사한 5.28m 두루마리 걸작.",
+      "historical_significance": "송대 상업 자본주의와 도시 생활상의 국보급 시각 백과사전.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-ce12-shao-xing-treaty",
+      "title": "소흥화의(紹興和議, 1141년)",
+      "title_en": "소흥화의(紹興和議, 1141년)",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "B",
+      "year_start": 1141,
+      "year_end": 1141,
+      "date_precision": "exact",
+      "summary": "남송이 금나라에 신하의 예를 취하고 매년 세폐(은 25만 냥, 비단 25만 필)를 바치며 회수-대산관을 국경으로 확정.",
+      "historical_significance": "남송의 굴욕적 평화와 강남 경제 집중 개발.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-ce12-compass-ocean-navigation",
+      "title": "주욱의 『평주가담』과 나침반 해양 항해 공식 기록",
+      "title_en": "주욱의 『평주가담』과 나침반 해양 항해 공식 기록",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "SCIENCE",
+      "importance": "B",
+      "year_start": 1119,
+      "year_end": 1119,
+      "date_precision": "exact",
+      "summary": "광저우에서 출항하는 원양 무역선이 낮에는 태양, 밤에는 별, 흐린 날에는 나침반을 보고 항해한다고 명기.",
+      "historical_significance": "나침반을 이용한 대양 원양 항해술의 세계 최초 공식 문헌.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-ce12-jin-dynasty-sinicization",
+      "title": "금 세종의 '대정지치(大定之治)'와 소요순 칭호",
+      "title_en": "금 세종의 '대정지치(大定之治)'와 소요순 칭호",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "B",
+      "year_start": 1161,
+      "year_end": 1189,
+      "date_precision": "exact",
+      "summary": "금나라의 전성기로 여진 문화를 보존하면서도 유교적 덕치를 펴 화북 농업과 문화를 부흥시킴.",
+      "historical_significance": "여진 정복 왕조의 최고 번영기.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-ce12-southern-song-ceramics",
+      "title": "송대 5대 명요(관요·가요·여요·정요·균요) 도자기 만개",
+      "title_en": "송대 5대 명요(관요·가요·여요·정요·균요) 도자기 만개",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "ART_CULTURE",
+      "importance": "C",
+      "year_start": 1120,
+      "year_end": 1200,
+      "date_precision": "exact",
+      "summary": "절제된 형태미와 은은한 빙렬(크랙), 옥빛 유약으로 미니멀리즘 도예의 극치를 이룸.",
+      "historical_significance": "중국 고전 도자기 미학의 정점.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-ce12-lu-jiuyuan-heart-mind",
+      "title": "육구연의 심학(心學) 창시 (심즉리)",
+      "title_en": "육구연의 심학(心學) 창시 (심즉리)",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "RELIGION",
+      "importance": "C",
+      "year_start": 1175,
+      "year_end": 1192,
+      "date_precision": "exact",
+      "summary": "'내 마음이 곧 우주요 우주가 곧 내 마음이다'를 주장하며 주희의 성리학과 아호사 논쟁(鵝湖之會)을 벌임.",
+      "historical_significance": "명대 왕양명의 양명학으로 계승되는 심학의 원류.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-ce12-samguk-sagi-compilation",
+      "title": "김부식의 『삼국사기(三國史記)』 편찬 (1145년)",
+      "title_en": "김부식의 『삼국사기(三國史記)』 편찬 (1145년)",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "ART_CULTURE",
+      "importance": "A",
+      "year_start": 1145,
+      "year_end": 1145,
+      "date_precision": "exact",
+      "summary": "인종의 명을 받아 김부식 등이 삼국의 역사를 기전체(본기 28권, 열전 10권 등 총 50권)로 정리한 현존 최고(最古)의 정사 역사서.",
+      "historical_significance": "한국 고대사 연구의 절대적 기준이자 국보 제322호.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-ce12-military-revolt-1170",
+      "title": "무신정변(武臣政變) 발발 (1170년)과 무신정권 개막",
+      "title_en": "무신정변(武臣政變) 발발 (1170년)과 무신정권 개막",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "A",
+      "year_start": 1170,
+      "year_end": 1170,
+      "date_precision": "exact",
+      "summary": "문벌 귀족의 무신 차별과 보현원 횡포에 맞서 정중부, 이의방, 이고 등이 정변을 일으켜 문관들을 학살하고 정권 장악.",
+      "historical_significance": "100년간 지속된 무신 집권기(1170~1270)의 개막과 문벌 귀족 사회 붕괴.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-ce12-myocheong-seogyeong-rebellion",
+      "title": "묘청의 서경천도 운동과 칭제건원·금국정벌론 (1135년)",
+      "title_en": "묘청의 서경천도 운동과 칭제건원·금국정벌론 (1135년)",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "A",
+      "year_start": 1135,
+      "year_end": 1136,
+      "date_precision": "exact",
+      "summary": "풍수지리 승려 묘청이 서경(평양) 대화궁 천도와 황제 칭호, 금나라 정벌을 주장하다 김부식의 진압군에 평정됨.",
+      "historical_significance": "신채호가 '조선 역사상 1천 년 래 제일 대사건'으로 규정한 자주파 vs 사대파의 대결.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-ce12-yun-gwan-byeolmuban-nine-forts",
+      "title": "윤관의 별무반 창설과 동북 9성 개척 (1107년)",
+      "title_en": "윤관의 별무반 창설과 동북 9성 개척 (1107년)",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "A",
+      "year_start": 1104,
+      "year_end": 1109,
+      "date_precision": "exact",
+      "summary": "신기군(기병), 신보군(보병), 항마군(승병)의 17만 특수군 별무반을 이끌고 여진을 몰아낸 후 함흥 평야에 동북 9성을 축조함.",
+      "historical_significance": "고려의 영토 확장과 여진족 제압의 쾌거.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-ce12-inlay-celadon-sangam",
+      "title": "고려 상감청자(象嵌靑磁) 기법의 완성",
+      "title_en": "고려 상감청자(象嵌靑磁) 기법의 완성",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "ART_CULTURE",
+      "importance": "A",
+      "year_start": 1150,
+      "year_end": 1200,
+      "date_precision": "exact",
+      "summary": "흙 표면을 파내고 백토와 흑토를 메워 넣어 학, 구름, 국화 문양을 표현하는 독보적인 상감 기법(청자상감운학문매병) 완성.",
+      "historical_significance": "동양 도자기 역사상 오직 고려인만이 창안한 최고 독창적 도예 기술.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-ce12-lee-jagyeom-rebellion",
+      "title": "이자겸의 난과 인주 이씨 외척 세도정치 (1126년)",
+      "title_en": "이자겸의 난과 인주 이씨 외척 세도정치 (1126년)",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "B",
+      "year_start": 1126,
+      "year_end": 1126,
+      "date_precision": "exact",
+      "summary": "딸들을 3대에 걸쳐 왕비로 들인 최고 권력자 이자겸이 척준경과 결탁해 궁궐을 불태우고 왕위를 찬탈하려다 몰락.",
+      "historical_significance": "고려 문벌 귀족 사회의 부패와 내부 모순의 극치.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-ce12-manjeok-rebellion-slave",
+      "title": "만적(萬積)의 난 (노비 신분 해방 운동, 1198년)",
+      "title_en": "만적(萬積)의 난 (노비 신분 해방 운동, 1198년)",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "B",
+      "year_start": 1198,
+      "year_end": 1198,
+      "date_precision": "exact",
+      "summary": "최충헌의 사노비 만적이 '왕후장상의 씨가 따로 있는가! 우리도 공경대부가 될 수 있다'며 개경 노비 해방을 꾀하다 밀고로 체포됨.",
+      "historical_significance": "한국 역사상 최초의 계급 타파 및 인간 평등 노비 해방 봉기.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-ce12-choe-chungheon-dictatorship",
+      "title": "최충헌의 권력 장악과 최씨 무신정권 수립 (1196년)",
+      "title_en": "최충헌의 권력 장악과 최씨 무신정권 수립 (1196년)",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "B",
+      "year_start": 1196,
+      "year_end": 1200,
+      "date_precision": "exact",
+      "summary": "이의민을 제거하고 봉사 10조를 올린 최충헌이 도방(사병)과 교정도감을 설치하여 4대 60년간의 최씨 세습 독재 확립.",
+      "historical_significance": "무신 정권의 최고 안정기이자 권력 기구의 제도화.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-ce12-mangisi-mangsoi-rebellion",
+      "title": "망이·망소이의 난 (공주 명학소 천민 봉기, 1176년)",
+      "title_en": "망이·망소이의 난 (공주 명학소 천민 봉기, 1176년)",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "C",
+      "year_start": 1176,
+      "year_end": 1177,
+      "date_precision": "exact",
+      "summary": "특수 행정구역(향·소·부곡)의 차별과 가혹한 공납 수탈에 맞서 공주 명학소에서 충청도 일대를 휩쓴 민중 봉기.",
+      "historical_significance": "신분 차별 철폐와 충순현 승격을 이끌어낸 민중 저항.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-ce12-jinul-jogye-buddhism",
+      "title": "보조국사 지눌의 정혜결사(定慧結社)와 조계종 확립",
+      "title_en": "보조국사 지눌의 정혜결사(定慧結社)와 조계종 확립",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "RELIGION",
+      "importance": "B",
+      "year_start": 1190,
+      "year_end": 1200,
+      "date_precision": "exact",
+      "summary": "송광사(수선사)에서 승려들의 세속 타락을 비판하고 '돈오점수(頓悟漸修)'와 '정혜쌍수'를 주창하여 선종 중심 교선 통합.",
+      "historical_significance": "한국 불교의 최대 종파 대한불교 조계종의 사상적 종조.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    }
+  ]
+}

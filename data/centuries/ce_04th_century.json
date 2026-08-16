@@ -1,0 +1,731 @@
+{
+  "centuryId": "ce_04th_century",
+  "centuryLabel": "서기 4세기 (AD 301 ~ AD 400)",
+  "period": {
+    "yearStart": 301,
+    "yearEnd": 400
+  },
+  "eventCount": 30,
+  "events": [
+    {
+      "id": "west-ce4-edict-of-milan",
+      "title": "밀라노 칙령 (기독교 공인)",
+      "title_en": "밀라노 칙령 (기독교 공인)",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "RELIGION",
+      "importance": "A",
+      "year_start": 313,
+      "year_end": 313,
+      "date_precision": "exact",
+      "summary": "콘스탄티누스 1세와 리키니우스가 기독교 신앙의 자유를 보장하고 몰수된 교회 재산 반환.",
+      "historical_significance": "기독교가 로마 제국의 합법 종교로 승인받은 세계사적 분기점.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "west-ce4-council-of-nicaea",
+      "title": "제1차 니케아 공의회 (아타나시오스 삼위일체론 확립)",
+      "title_en": "제1차 니케아 공의회 (아타나시오스 삼위일체론 확립)",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "RELIGION",
+      "importance": "A",
+      "year_start": 325,
+      "year_end": 325,
+      "date_precision": "exact",
+      "summary": "300여 명의 주교가 모여 아리우스파(예수 피조물론)를 이단으로 규정하고 아타나시오스의 삼위일체 교리 채택.",
+      "historical_significance": "정통 기독교 신앙고백(니케아 신경)의 공식 제정.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "west-ce4-constantinople-capital",
+      "title": "콘스탄티노폴리스 천도",
+      "title_en": "콘스탄티노폴리스 천도",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "A",
+      "year_start": 330,
+      "year_end": 330,
+      "date_precision": "exact",
+      "summary": "콘스탄티누스 1세가 보스포루스 해협의 비잔티움으로 수도를 옮기고 '새로운 로마'로 선포.",
+      "historical_significance": "천년 비잔틴(동로마) 제국의 탄생과 지중해 동서 분열 가속.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "west-ce4-theodosius-state-religion",
+      "title": "테오도시우스 1세의 기독교 국교화 선포 (테살로니카 칙령)",
+      "title_en": "테오도시우스 1세의 기독교 국교화 선포 (테살로니카 칙령)",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "RELIGION",
+      "importance": "A",
+      "year_start": 380,
+      "year_end": 391,
+      "date_precision": "exact",
+      "summary": "기독교를 로마 제국의 유일한 국교로 선포하고 올림픽 경기와 모든 이교 제사를 전면 금지.",
+      "historical_significance": "서양 중세 기독교 세계(Christendom)의 제도적 완성.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "west-ce4-battle-of-adrianople",
+      "title": "하드리아노폴리스 전투 (발렌스 황제 전사)",
+      "title_en": "하드리아노폴리스 전투 (발렌스 황제 전사)",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "A",
+      "year_start": 378,
+      "year_end": 378,
+      "date_precision": "exact",
+      "summary": "서고트족 중기병이 로마 군단을 포위 섬멸하고 발렌스 황제가 전사함.",
+      "historical_significance": "게르만족 대이동의 본격화와 로마 군단 중심 군사 체제의 붕괴.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "west-ce4-huns-invasion-europe",
+      "title": "훈족의 유럽 침입과 게르만족 대이동 개막",
+      "title_en": "훈족의 유럽 침입과 게르만족 대이동 개막",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "A",
+      "year_start": 375,
+      "year_end": 375,
+      "date_precision": "exact",
+      "summary": "중앙아시아 유목민 훈족이 흑해 연안 동고트족을 굴복시키자 서고트족이 도나우강을 건너 로마 영내로 대탈출.",
+      "historical_significance": "서로마 제국 멸망과 서유럽 민족 지도 재편의 도화선.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "west-ce4-vulgate-bible-jerome",
+      "title": "히에로니무스(제롬)의 라틴어 성경(불가타) 번역",
+      "title_en": "히에로니무스(제롬)의 라틴어 성경(불가타) 번역",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "RELIGION",
+      "importance": "B",
+      "year_start": 382,
+      "year_end": 405,
+      "date_precision": "exact",
+      "summary": "히브리어와 그리스어 성경 원전을 대중 라틴어로 번역 완성.",
+      "historical_significance": "천 년간 가톨릭 교회의 공식 표준 성경.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "west-ce4-augustine-conversion",
+      "title": "아우구스티누스의 회심과 신학 정립",
+      "title_en": "아우구스티누스의 회심과 신학 정립",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "RELIGION",
+      "importance": "B",
+      "year_start": 386,
+      "year_end": 397,
+      "date_precision": "exact",
+      "summary": "마니교에서 기독교로 회심하고 『고백록(Confessions)』을 저술하여 은총론과 원죄론 확립.",
+      "historical_significance": "서양 기독교 사상의 최고 교부이자 서구 철학의 기둥.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "west-ce4-julian-apostate",
+      "title": "율리아누스 황제의 배교와 이교 부흥 시도",
+      "title_en": "율리아누스 황제의 배교와 이교 부흥 시도",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "C",
+      "year_start": 361,
+      "year_end": 363,
+      "date_precision": "exact",
+      "summary": "신플라톤주의를 신봉하며 로마 전통 다신교 부활을 꾀했으나 페르시아 원정 중 전사.",
+      "historical_significance": "고대 로마 전통 이교 문화의 마지막 불꽃.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "west-ce4-monasticism-anthony",
+      "title": "성 안토니우스와 이집트 사막 수도원 운동",
+      "title_en": "성 안토니우스와 이집트 사막 수도원 운동",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "RELIGION",
+      "importance": "C",
+      "year_start": 305,
+      "year_end": 356,
+      "date_precision": "exact",
+      "summary": "세속을 떠나 사막에서 금욕과 기도로 살아가는 은수자 수도 생활 창시.",
+      "historical_significance": "기독교 수도원 제도의 모태.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-ce4-uprising-five-barbarians",
+      "title": "영가의 난과 5호 16국 시대 개막",
+      "title_en": "영가의 난과 5호 16국 시대 개막",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "A",
+      "year_start": 311,
+      "year_end": 316,
+      "date_precision": "exact",
+      "summary": "흉노의 유연·유총이 낙양과 장안을 함락하고 서진을 멸망시킴.",
+      "historical_significance": "화북(중원)이 이민족의 지배하에 들어가고 동진(남조)이 강남으로 피난하는 남북조 분열의 시작.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-ce4-eastern-jin-founding",
+      "title": "사마예의 동진(東晉) 건국과 왕·사 가문 귀족 정치",
+      "title_en": "사마예의 동진(東晉) 건국과 왕·사 가문 귀족 정치",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "A",
+      "year_start": 317,
+      "year_end": 317,
+      "date_precision": "exact",
+      "summary": "건강(난징)에 도읍하고 왕도·사안 등 북방 한족 망명 귀족들의 협력으로 남방 왕조 유지.",
+      "historical_significance": "강남 경제 개발과 육조(六朝) 귀족 문화의 번영.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-ce4-battle-of-feishui",
+      "title": "비수대전(淝水之戰)",
+      "title_en": "비수대전(淝水之戰)",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "A",
+      "year_start": 383,
+      "year_end": 383,
+      "date_precision": "exact",
+      "summary": "전진(前秦) 부견의 80만 대군을 동진의 사현이 이끄는 8만 북부군이 비수에서 기적적으로 궤멸시킴.",
+      "historical_significance": "북방의 조기 통일 무산 및 남북 대치 구도 200년 연장.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-ce4-wang-xizhi-calligraphy",
+      "title": "왕희지의 난정서(蘭亭序)와 서예 예술의 최고봉",
+      "title_en": "왕희지의 난정서(蘭亭序)와 서예 예술의 최고봉",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "ART_CULTURE",
+      "importance": "A",
+      "year_start": 353,
+      "year_end": 353,
+      "date_precision": "exact",
+      "summary": "난정 모임에서 행서체로 즉흥 작성한 『난정집서』가 '천하제일행서'로 칭송받음.",
+      "historical_significance": "서성(書聖) 왕희지에 의한 동양 서예 미학의 완성.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-ce4-kumarajiva-translation",
+      "title": "구마라습(쿠마라지바)의 불경 번역 혁명",
+      "title_en": "구마라습(쿠마라지바)의 불경 번역 혁명",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "RELIGION",
+      "importance": "A",
+      "year_start": 385,
+      "year_end": 413,
+      "date_precision": "exact",
+      "summary": "서역 구자국 승려 구마라습이 장안에서 『금강경』, 『묘법연화경』, 『대지도론』 등 방대한 산스크리트 경전을 유려한 한문으로 번역.",
+      "historical_significance": "대승불교 사상이 동아시아 사상계의 주류로 정착하는 결정적 공헌.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-ce4-northern-wei-founding",
+      "title": "탁발규의 북위(北魏) 건국과 평성 천도",
+      "title_en": "탁발규의 북위(北魏) 건국과 평성 천도",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "B",
+      "year_start": 386,
+      "year_end": 398,
+      "date_precision": "exact",
+      "summary": "선비족 탁발규가 대나라를 재건하여 북위로 국호를 바꾸고 평성(다퉁)에 도읍.",
+      "historical_significance": "이후 화북을 통일하고 효문제 한화 개혁을 이끌 제국의 탄생.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-ce4-gu-kaizhi-painting",
+      "title": "고개지의 『여사잠도』와 중국 인물화의 개조",
+      "title_en": "고개지의 『여사잠도』와 중국 인물화의 개조",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "ART_CULTURE",
+      "importance": "B",
+      "year_start": 380,
+      "year_end": 405,
+      "date_precision": "exact",
+      "summary": "형상으로 정신을 전한다(이형전신)는 원리를 정립하고 유려한 선묘(춘잠토사)로 인물화 창작.",
+      "historical_significance": "중국 회화 이론과 고전 인물화의 원조.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-ce4-fa-xian-pilgrimage",
+      "title": "법현 스님의 인도 구법 순례 출발",
+      "title_en": "법현 스님의 인도 구법 순례 출발",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "RELIGION",
+      "importance": "B",
+      "year_start": 399,
+      "year_end": 412,
+      "date_precision": "exact",
+      "summary": "60세가 넘은 고령에 육로로 인도로 건너가 불경을 구하고 해로로 귀국하여 『불국기』 저술.",
+      "historical_significance": "중국 최초의 실크로드-인도양 횡단 여행기.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-ce4-ge-hong-baopuzi",
+      "title": "갈홍의 『포박자(抱朴子)』와 도교 연단술",
+      "title_en": "갈홍의 『포박자(抱朴子)』와 도교 연단술",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "SCIENCE",
+      "importance": "C",
+      "year_start": 317,
+      "year_end": 330,
+      "date_precision": "exact",
+      "summary": "불로장생의 외단(연단술) 제조법과 침술, 민간 의학 처방을 결합한 도교 백과사전.",
+      "historical_significance": "고대 동양 화학·약리학 지식의 보고.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-ce4-dunhuang-mogao-caves",
+      "title": "돈황 막고굴 개착 시작",
+      "title_en": "돈황 막고굴 개착 시작",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "ART_CULTURE",
+      "importance": "C",
+      "year_start": 366,
+      "year_end": 366,
+      "date_precision": "exact",
+      "summary": "낙준 스님이 명사산 절벽에 첫 석굴을 파고 불상을 모시기 시작함.",
+      "historical_significance": "천 년간 지속될 세계 최대의 불교 미술 보고 조성 시작.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-ce4-geunchogo-peak",
+      "title": "백제 근초고왕의 전성기 (마한 전역 복속·평양성 승리)",
+      "title_en": "백제 근초고왕의 전성기 (마한 전역 복속·평양성 승리)",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "A",
+      "year_start": 346,
+      "year_end": 375,
+      "date_precision": "exact",
+      "summary": "마한을 완전 병합하고 가야에 영향력을 행사하며, 평양성을 공격해 고국원왕을 전사시키고 황해도 일대 장악.",
+      "historical_significance": "백제의 최대 전성기이자 동아시아 해상 제국 구축.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-ce4-baekje-maritime-network",
+      "title": "백제의 요서 진출설과 왜(야마토) 칠지도 하사",
+      "title_en": "백제의 요서 진출설과 왜(야마토) 칠지도 하사",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "A",
+      "year_start": 369,
+      "year_end": 372,
+      "date_precision": "exact",
+      "summary": "중국 동진과 외교를 맺고 요서 분진설을 남겼으며 왜왕에게 상감 금상감의 칠지도(七支刀) 하사.",
+      "historical_significance": "백제-가야-왜-동진을 잇는 동아시아 해상 네트워크 구축.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-ce4-sosurim-reforms",
+      "title": "고구려 소수림왕의 3대 국가 개혁 (불교 공인·태학 설립·율령 반포)",
+      "title_en": "고구려 소수림왕의 3대 국가 개혁 (불교 공인·태학 설립·율령 반포)",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "INSTITUTION",
+      "importance": "A",
+      "year_start": 371,
+      "year_end": 384,
+      "date_precision": "exact",
+      "summary": "전진 순도로부터 불교 수용(372), 최고 국립 교육기관 태학 설립(372), 율령 반포(373).",
+      "historical_significance": "국가 위기를 수습하고 광개토대왕 전성기를 가능하게 한 체제 정비.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-ce4-gwanggaeto-ascension",
+      "title": "광개토대왕의 즉위와 독자 연호 '영락(永樂)' 선포",
+      "title_en": "광개토대왕의 즉위와 독자 연호 '영락(永樂)' 선포",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "A",
+      "year_start": 391,
+      "year_end": 400,
+      "date_precision": "exact",
+      "summary": "18세에 즉위하여 독자 연호 영락을 반포하고 백제를 굴복시키며 후연과 거란을 대토벌.",
+      "historical_significance": "자주적 천하관(천손 의식)을 선포하고 동방 대제국 건설 착수.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-ce4-gwanggaeto-rescue-silla",
+      "title": "광개토대왕의 신라 구원과 왜군 격퇴 (서기 400년)",
+      "title_en": "광개토대왕의 신라 구원과 왜군 격퇴 (서기 400년)",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "A",
+      "year_start": 400,
+      "year_end": 400,
+      "date_precision": "exact",
+      "summary": "신라 내물마립간의 요청으로 보병과 기병 5만을 파견하여 신라 영내와 금관가야 임나가라까지 진격해 왜군 섬멸.",
+      "historical_significance": "신라를 고구려의 영향력 아래 두고 전기 가야 연맹의 맹주권 해체 촉발.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-ce4-silla-naemul-maripgan",
+      "title": "신라 내물마립간의 김씨 왕위 세습과 마립간 칭호",
+      "title_en": "신라 내물마립간의 김씨 왕위 세습과 마립간 칭호",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "INSTITUTION",
+      "importance": "A",
+      "year_start": 356,
+      "year_end": 402,
+      "date_precision": "exact",
+      "summary": "'대군장'을 뜻하는 마립간 칭호를 사용하고 김씨의 왕위 독점 세습 체제 확립.",
+      "historical_significance": "이사금 시대의 연맹체를 넘어 중앙집권 고대 왕국으로 도약.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-ce4-micheon-lelang-expulsion",
+      "title": "고구려 미천왕의 낙랑군·대방군 완전 축출",
+      "title_en": "고구려 미천왕의 낙랑군·대방군 완전 축출",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "B",
+      "year_start": 313,
+      "year_end": 314,
+      "date_precision": "exact",
+      "summary": "한사군의 마지막 거점인 낙랑군(313)과 대방군(314)을 무력으로 소멸시키고 영토 회복.",
+      "historical_significance": "400여 년에 걸친 중국 한사군 세력을 한반도에서 완전히 몰아냄.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-ce4-baekje-buddhism-marananta",
+      "title": "백제 침류왕의 불교 공인 (마라난타 전래)",
+      "title_en": "백제 침류왕의 불교 공인 (마라난타 전래)",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "RELIGION",
+      "importance": "B",
+      "year_start": 384,
+      "year_end": 384,
+      "date_precision": "exact",
+      "summary": "동진에서 온 인도 승려 마라난타를 맞이하여 궁궐에서 불교를 공인하고 한산에 사찰 창건.",
+      "historical_significance": "백제 지배층의 사상적 통합과 세련된 불교 문화 형성.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-ce4-baekje-seogi-history",
+      "title": "백제 고흥의 역사서 『서기(書記)』 편찬",
+      "title_en": "백제 고흥의 역사서 『서기(書記)』 편찬",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "ART_CULTURE",
+      "importance": "C",
+      "year_start": 375,
+      "year_end": 375,
+      "date_precision": "exact",
+      "summary": "근초고왕의 명을 받아 박사 고흥이 백제 최초의 국사 편찬.",
+      "historical_significance": "전성기 백제 왕실의 정통성과 문화적 자부심 과시.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-ce4-daeseongdong-iron-cuirass",
+      "title": "김해 대성동·복천동 가야 중장기병 무덤군",
+      "title_en": "김해 대성동·복천동 가야 중장기병 무덤군",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "ART_CULTURE",
+      "importance": "C",
+      "year_start": 350,
+      "year_end": 400,
+      "date_precision": "exact",
+      "summary": "말투구, 말갑옷, 삼지창, 가야 토기가 부장된 거대한 덧널무덤 유적군 번성.",
+      "historical_significance": "가야 제철 문명의 찬란한 전성기 실증.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,731 @@
+{
+  "centuryId": "ce_16th_century",
+  "centuryLabel": "서기 16세기 (AD 1501 ~ AD 1600)",
+  "period": {
+    "yearStart": 1501,
+    "yearEnd": 1600
+  },
+  "eventCount": 30,
+  "events": [
+    {
+      "id": "west-ce16-martin-luther-reformation",
+      "title": "마르틴 루터의 95개조 반박문과 종교개혁 (1517년)",
+      "title_en": "마르틴 루터의 95개조 반박문과 종교개혁 (1517년)",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "RELIGION",
+      "importance": "A",
+      "year_start": 1517,
+      "year_end": 1517,
+      "date_precision": "exact",
+      "summary": "비텐베르크 성교회 문에 면벌부 판매를 비판하는 반박문을 게시하고 오직 믿음(Sola Fide), 오직 은혜, 오직 성경을 주창.",
+      "historical_significance": "중세 가톨릭 단일 세계 붕괴와 개신교(프로테스탄트)의 탄생, 근대 개인주의와 종교 자유의 기원.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "west-ce16-magellan-circumnavigation",
+      "title": "마젤란-엘카노 함대의 인류 최초 세계 일주 (1519~1522년)",
+      "title_en": "마젤란-엘카노 함대의 인류 최초 세계 일주 (1519~1522년)",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "SCIENCE",
+      "importance": "A",
+      "year_start": 1519,
+      "year_end": 1522,
+      "date_precision": "exact",
+      "summary": "스페인을 출항해 마젤란 해협을 지나 태평양을 횡단하고 빅토리아호가 귀환하여 지구가 둥글다는 것을 실증.",
+      "historical_significance": "지구 전 구역의 지리적 연결 완성 및 대항해 시대의 정점.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "west-ce16-copernicus-heliocentrism",
+      "title": "코페르니쿠스의 지동설 발표 (『천구의 회전에 관하여』, 1543년)",
+      "title_en": "코페르니쿠스의 지동설 발표 (『천구의 회전에 관하여』, 1543년)",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "SCIENCE",
+      "importance": "A",
+      "year_start": 1543,
+      "year_end": 1543,
+      "date_precision": "exact",
+      "summary": "지구가 우주의 중심이 아니라 태양 주위를 도는 행성 중 하나라는 태양 중심설(지동설) 수학적 제안.",
+      "historical_significance": "과학 혁명(Scientific Revolution)의 거대한 서막을 연 코페르니쿠스적 전환.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "west-ce16-spanish-conquest-americas",
+      "title": "스페인의 아즈텍·잉카 제국 정복 (코르테스·피사로)",
+      "title_en": "스페인의 아즈텍·잉카 제국 정복 (코르테스·피사로)",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "A",
+      "year_start": 1519,
+      "year_end": 1533,
+      "date_precision": "exact",
+      "summary": "코르테스가 멕시코 아즈텍을(1521), 피사로가 페루 잉카 제국을 멸망시키고 포토시 은광을 개발해 막대한 은을 유럽으로 수송.",
+      "historical_significance": "스페인 해가 지지 않는 제국의 건설과 유럽의 가격 혁명(인플레이션).",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "west-ce16-john-calvin-institutes",
+      "title": "장 칼뱅의 『기독교 강요』와 예정설 (제네바 종교개혁)",
+      "title_en": "장 칼뱅의 『기독교 강요』와 예정설 (제네바 종교개혁)",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "RELIGION",
+      "importance": "A",
+      "year_start": 1536,
+      "year_end": 1559,
+      "date_precision": "exact",
+      "summary": "구원은 오직 하나님의 절대 주권에 예정되어 있다는 교리와 직업소명설, 근면·절약을 강조.",
+      "historical_significance": "막스 베버가 분석한 자본주의 정신의 산실이자 장로교·청교도의 모태.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "west-ce16-spanish-armada-defeat",
+      "title": "영국의 스페인 무적함대(아르마다) 격파 (1588년)",
+      "title_en": "영국의 스페인 무적함대(아르마다) 격파 (1588년)",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "A",
+      "year_start": 1588,
+      "year_end": 1588,
+      "date_precision": "exact",
+      "summary": "엘리자베스 1세 치하 프랜시스 드레이크의 영국 함대가 화선과 장거리 함포로 펠리페 2세의 무적함대를 칼레 해전에서 궤멸시킴.",
+      "historical_significance": "스페인의 해상 패권 쇠퇴와 영국의 세계 해양 대제국 도약 출발점.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "west-ce16-machiavelli-the-prince",
+      "title": "니콜로 마키아벨리의 『군주론(Il Principe)』",
+      "title_en": "니콜로 마키아벨리의 『군주론(Il Principe)』",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "ART_CULTURE",
+      "importance": "B",
+      "year_start": 1513,
+      "year_end": 1532,
+      "date_precision": "exact",
+      "summary": "도덕과 정치를 분리하여 군주는 여우의 교활함과 사자의 용맹을 겸비해야 한다고 주장.",
+      "historical_significance": "근대 정치학의 출발점이자 현실주의 정치사상의 효시.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "west-ce16-michelangelo-sistine-chapel",
+      "title": "미켈란젤로의 시스티나 성당 천장화(천지창조) 및 최후의 심판",
+      "title_en": "미켈란젤로의 시스티나 성당 천장화(천지창조) 및 최후의 심판",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "ART_CULTURE",
+      "importance": "B",
+      "year_start": 1508,
+      "year_end": 1541,
+      "date_precision": "exact",
+      "summary": "교황 율리오 2세의 명으로 4년간 비계 위에 누워 프레스코로 완성한 서양 미술사상 최고의 기념비적 걸작.",
+      "historical_significance": "르네상스 성기 미술의 최고봉이자 인체 조형 미학의 정점.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "west-ce16-vesalius-human-anatomy",
+      "title": "안드레아스 베살리우스의 『인체의 구조에 관하여(De Fabrica)』",
+      "title_en": "안드레아스 베살리우스의 『인체의 구조에 관하여(De Fabrica)』",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "SCIENCE",
+      "importance": "B",
+      "year_start": 1543,
+      "year_end": 1543,
+      "date_precision": "exact",
+      "summary": "갈레노스의 오류를 직접 시체 해부를 통해 바로잡고 정밀한 목판 삽화로 뼈, 근육, 혈관을 해부학적으로 규명.",
+      "historical_significance": "근대 해부학 및 현대 의학의 탄생.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "west-ce16-peace-of-augsburg",
+      "title": "아우크스부르크 화의 (1555년)",
+      "title_en": "아우크스부르크 화의 (1555년)",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "RELIGION",
+      "importance": "C",
+      "year_start": 1555,
+      "year_end": 1555,
+      "date_precision": "exact",
+      "summary": "'영주의 종교가 그 영지의 종교를 결정한다(Cuius regio, eius religio)'는 원칙으로 루터교 공인.",
+      "historical_significance": "신성로마제국 내 루터파의 합법화와 종교 전쟁의 일시적 봉합.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-ce16-wang-yangming-mind-philosophy",
+      "title": "왕양명의 양명학(陽明學) 창시 (치양지·지행합일)",
+      "title_en": "왕양명의 양명학(陽明學) 창시 (치양지·지행합일)",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "RELIGION",
+      "importance": "A",
+      "year_start": 1508,
+      "year_end": 1528,
+      "date_precision": "exact",
+      "summary": "용장(귀주성)에서 깨달음을 얻어 '심즉리(마음이 곧 이치다)', 앎과 행함은 하나라는 '지행합일', 마음에 내재된 '치양지' 역설.",
+      "historical_significance": "주자학의 교조화를 타파하고 인간 주체성을 해방시킨 신유학의 혁명.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-ce16-zhang-juzheng-single-whip",
+      "title": "장거정의 일조편법(一條鞭法) 전국 개혁 (1581년)",
+      "title_en": "장거정의 일조편법(一條鞭法) 전국 개혁 (1581년)",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "INSTITUTION",
+      "importance": "A",
+      "year_start": 1572,
+      "year_end": 1582,
+      "date_precision": "exact",
+      "summary": "복잡한 전세, 요역, 잡세를 하나로 묶어 토지 1무당 은(銀)으로 납부하게 하는 전국 조세 혁신 단행.",
+      "historical_significance": "중국 조세 제도의 은본위 화폐화 및 국가 재정 건전화.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-ce16-li-shizhen-bencao-gangmu",
+      "title": "이시진의 『본초강목(本草綱目)』 편찬 (1578년)",
+      "title_en": "이시진의 『본초강목(本草綱目)』 편찬 (1578년)",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "SCIENCE",
+      "importance": "A",
+      "year_start": 1552,
+      "year_end": 1578,
+      "date_precision": "exact",
+      "summary": "27년간 1,892종의 약재와 11,096개의 처방, 1,100여 점의 삽화를 52권에 체계적으로 분류한 동양 최대의 약학 백과사전.",
+      "historical_significance": "유네스코 세계기록유산이자 식물학·광물학·의학의 세계적 고전.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-ce16-qi-jiguang-anti-piracy",
+      "title": "척계광의 척가군 창설과 왜구 완전 격퇴 (1561년)",
+      "title_en": "척계광의 척가군 창설과 왜구 완전 격퇴 (1561년)",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "A",
+      "year_start": 1555,
+      "year_end": 1568,
+      "date_precision": "exact",
+      "summary": "낭선과 등패, 조총을 유기적으로 결합한 원앙진(鴛鴦陣) 전술을 창안하고 『기효신서』를 지어 절강·복건 왜구를 소탕.",
+      "historical_significance": "동남 해안 안정화 및 후대 조선 임진왜란 무예도보통지에 전술 전파.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-ce16-matte-ricci-jesuit-mission",
+      "title": "마테오 리치의 중국 입국과 『천주실의』·『곤여만국전도』",
+      "title_en": "마테오 리치의 중국 입국과 『천주실의』·『곤여만국전도』",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "RELIGION",
+      "importance": "A",
+      "year_start": 1582,
+      "year_end": 1601,
+      "date_precision": "exact",
+      "summary": "예수회 선교사 마테오 리치가 유학자 복장을 하고 서양 천문학, 기하학(유클리드 원론), 세계지도를 소개하며 서광계 등과 교류.",
+      "historical_significance": "서학(西學)의 최초 중국 유입과 동서 문명 융합의 가교.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-ce16-silver-influx-global-trade",
+      "title": "스페인·일본 은(銀)의 중국 대량 유입과 글로벌 무역",
+      "title_en": "스페인·일본 은(銀)의 중국 대량 유입과 글로벌 무역",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "ECONOMY",
+      "importance": "B",
+      "year_start": 1570,
+      "year_end": 1600,
+      "date_precision": "exact",
+      "summary": "마닐라 갤리온 무역과 일본 이와미 은광의 은이 중국의 비단, 도자기, 차와 교환되며 전 세계 은의 3분의 1이 명나라로 집결.",
+      "historical_significance": "글로벌 조기 자본주의 경제망의 중심축으로 중국 번영.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-ce16-ming-aid-to-joseon-imjin",
+      "title": "명나라의 임진왜란 참전 (만력 3대정, 1592~1598년)",
+      "title_en": "명나라의 임진왜란 참전 (만력 3대정, 1592~1598년)",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "B",
+      "year_start": 1592,
+      "year_end": 1598,
+      "date_precision": "exact",
+      "summary": "만력제가 이여송의 군대를 파견하여 평양성을 탈환하는 등 조선을 구원했으나 명나라 재정의 치명적 고갈 초래.",
+      "historical_significance": "명나라 쇠퇴와 만주 여진족(누르하치) 발흥의 결정적 원인.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-ce16-donglin-academy-movement",
+      "title": "고헌성의 동림서원 재건과 동림당 운동 (1594년)",
+      "title_en": "고헌성의 동림서원 재건과 동림당 운동 (1594년)",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "B",
+      "year_start": 1594,
+      "year_end": 1600,
+      "date_precision": "exact",
+      "summary": "무석 동림서원에서 사대부들이 모여 환관 정치와 광세(세금)를 비판하며 도덕적 정치 개혁 운동 전개.",
+      "historical_significance": "명 말기 당쟁(동림당 vs 비동림당/엄당)의 발원지.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-ce16-nurgaci-unification-jurchen",
+      "title": "누르하치의 건주여진 통일과 8기군 창설 착수 (1583~1600년)",
+      "title_en": "누르하치의 건주여진 통일과 8기군 창설 착수 (1583~1600년)",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "C",
+      "year_start": 1583,
+      "year_end": 1600,
+      "date_precision": "exact",
+      "summary": "부친의 갑옷 13벌로 거병하여 건주여진을 통합하고 만주 문자 제정 및 후금(청) 건국 기반 구축.",
+      "historical_significance": "명청 교체의 주역인 만주 제국의 태동.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-ce16-journey-to-the-west-novel",
+      "title": "오승은의 『서유기(西遊記)』 출판",
+      "title_en": "오승은의 『서유기(西遊記)』 출판",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "ART_CULTURE",
+      "importance": "C",
+      "year_start": 1590,
+      "year_end": 1592,
+      "date_precision": "exact",
+      "summary": "손오공, 저팔계, 사오정이 삼장법사를 호위하여 서천으로 불경을 구하러 가는 100회 장편 판타지 소설.",
+      "historical_significance": "중국 낭만주의 환상 문학의 최고봉.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-ce16-imjin-war-outbreak",
+      "title": "임진왜란 발발 (1592년)과 한산도·명량·노량 해전",
+      "title_en": "임진왜란 발발 (1592년)과 한산도·명량·노량 해전",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "A",
+      "year_start": 1592,
+      "year_end": 1598,
+      "date_precision": "exact",
+      "summary": "도요토미 히데요시의 20만 왜군 침략에 맞서 이순신 장군이 거북선과 학익진으로 23전 23승 불패 신화를 쓰며 제해권을 장악하고 국가를 수호함.",
+      "historical_significance": "동아시아 3국의 국제 대전쟁이자 조선을 구한 성웅 이순신의 불멸의 해전 승리.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-ce16-righteous-armies-imjin",
+      "title": "전국 의병(義兵)의 궐기와 곽재우·조헌·사명대사",
+      "title_en": "전국 의병(義兵)의 궐기와 곽재우·조헌·사명대사",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "A",
+      "year_start": 1592,
+      "year_end": 1598,
+      "date_precision": "exact",
+      "summary": "홍의장군 곽재우, 고경명, 조헌(금산 전투), 서산대사·사명대사(승병) 등이 향토와 백성을 지키기 위해 자발적으로 무장 봉기.",
+      "historical_significance": "민중과 양반이 일치단결한 구국 저항 정신의 표상.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-ce16-toegye-yulgok-neo-confucianism",
+      "title": "퇴계 이황과 율곡 이이의 성리학 심화 (사단칠정 논쟁)",
+      "title_en": "퇴계 이황과 율곡 이이의 성리학 심화 (사단칠정 논쟁)",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "RELIGION",
+      "importance": "A",
+      "year_start": 1558,
+      "year_end": 1584,
+      "date_precision": "exact",
+      "summary": "이황의 주리론(『성학십도』, 일본 성리학에 지대한 영향)과 이이의 주기론·십만양병설(『성학집요』)로 조선 성리학의 세계적 이론 완성.",
+      "historical_significance": "한국 유학 사상의 최고 양대 산맥 형성.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-ce16-jo-gwangjo-gimyo-reforms",
+      "title": "조광조의 도학 정치 개혁과 기묘사화 (1519년)",
+      "title_en": "조광조의 도학 정치 개혁과 기묘사화 (1519년)",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "INSTITUTION",
+      "importance": "A",
+      "year_start": 1515,
+      "year_end": 1519,
+      "date_precision": "exact",
+      "summary": "중종 때 조광조가 현량과(추천제) 실시, 소격서 폐지, 향약 보급, 위훈삭제(훈구 공신 거짓 공신 삭탈)를 추진하다 주초위왕 모함으로 사사됨.",
+      "historical_significance": "조선 사림파의 도덕주의 개혁 운동의 상징적 사건.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-ce16-baekundong-seowon-first",
+      "title": "주세붕의 백운동서원(소수서원) 창건과 서원의 전국 확산 (1543년)",
+      "title_en": "주세붕의 백운동서원(소수서원) 창건과 서원의 전국 확산 (1543년)",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "INSTITUTION",
+      "importance": "A",
+      "year_start": 1543,
+      "year_end": 1550,
+      "date_precision": "exact",
+      "summary": "풍기군수 주세붕이 안향을 모시기 위해 최초의 사설 서원을 세우고, 이황의 건의로 명종이 '소수서원' 현판을 내린 최초의 사액서원 탄생.",
+      "historical_significance": "사림파의 향촌 결집 거점이자 유교 교육·선현 제향의 중심지.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-ce16-sarim-factional-split",
+      "title": "붕당 정치의 발생 (동인과 서인의 분당, 1575년)",
+      "title_en": "붕당 정치의 발생 (동인과 서인의 분당, 1575년)",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "A",
+      "year_start": 1575,
+      "year_end": 1575,
+      "date_precision": "exact",
+      "summary": "이조전랑 자리를 두고 김효원(동인)과 심의겸(서인)을 중심으로 사림파가 양분되어 학문과 정견에 따른 붕당 정치 시작.",
+      "historical_significance": "상호 비판과 견제를 통한 조선 중기 정치 질서의 틀 형성.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-ce16-jungjong-coup",
+      "title": "중종반정 (연산군 폐위, 1506년)",
+      "title_en": "중종반정 (연산군 폐위, 1506년)",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "B",
+      "year_start": 1506,
+      "year_end": 1506,
+      "date_precision": "exact",
+      "summary": "폭정을 일삼던 연산군을 박원종, 성희안 등이 폐위하고 진성대군(중종)을 옹립하여 왕도 정치 복원 도모.",
+      "historical_significance": "조선 최초의 신하에 의한 국왕 폐위와 사림 등용의 계기.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-ce16-lim-kkeokjeong-rebellion",
+      "title": "임꺽정의 구월산 도적 봉기 (명종 대, 1559~1562년)",
+      "title_en": "임꺽정의 구월산 도적 봉기 (명종 대, 1559~1562년)",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "B",
+      "year_start": 1559,
+      "year_end": 1562,
+      "date_precision": "exact",
+      "summary": "백정 출신 임꺽정이 황해도 구월산을 거점으로 의적 활동을 벌이며 탐관오리의 재물을 털어 빈민에게 구휼.",
+      "historical_significance": "16세기 훈구 척신 정치(을사사화·문정왕후)의 학정 속에서 분출된 민중 저항.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-ce16-shin-saimdang-art",
+      "title": "신사임당의 초충도와 예술적 성취",
+      "title_en": "신사임당의 초충도와 예술적 성취",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "ART_CULTURE",
+      "importance": "C",
+      "year_start": 1520,
+      "year_end": 1551,
+      "date_precision": "exact",
+      "summary": "수박, 가지, 오이, 나비, 방아깨비 등을 섬세한 필치로 묘사한 『초충도』와 시문학, 서예에 뛰어난 조선 최고의 여류 예술가.",
+      "historical_significance": "자연을 사랑한 고결한 예술혼과 율곡 이이의 어머니.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-ce16-gwon-yul-haengju-great-victory",
+      "title": "권율 장군의 행주대첩 (1593년)",
+      "title_en": "권율 장군의 행주대첩 (1593년)",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "B",
+      "year_start": 1593,
+      "year_end": 1593,
+      "date_precision": "exact",
+      "summary": "행주산성에서 권율의 2,300여 군관민과 부녀자들(행주치마 돌 나르기), 신기전과 변이중 화차로 왜군 3만을 대파함.",
+      "historical_significance": "임진왜란 3대 대첩의 하나로 한양 수복의 결정적 계기.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    }
+  ]
+}

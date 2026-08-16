@@ -1,0 +1,731 @@
+{
+  "centuryId": "ce_11th_century",
+  "centuryLabel": "서기 11세기 (AD 1001 ~ AD 1100)",
+  "period": {
+    "yearStart": 1001,
+    "yearEnd": 1100
+  },
+  "eventCount": 30,
+  "events": [
+    {
+      "id": "west-ce11-norman-conquest-hastings",
+      "title": "노르만 정복과 헤이스팅스 전투 (1066년)",
+      "title_en": "노르만 정복과 헤이스팅스 전투 (1066년)",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "A",
+      "year_start": 1066,
+      "year_end": 1066,
+      "date_precision": "exact",
+      "summary": "노르망디 공작 윌리엄(정복왕)이 해럴드 2세를 헤이스팅스에서 전사시키고 잉글랜드 국왕으로 즉위.",
+      "historical_significance": "프랑스-노르만 문화 유입, 현대 영어의 형성 및 둠즈데이 북(토지조사서) 편찬.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "west-ce11-first-crusade-jerusalem",
+      "title": "제1차 십자군 원정과 예루살렘 왕국 수립 (1095~1099년)",
+      "title_en": "제1차 십자군 원정과 예루살렘 왕국 수립 (1095~1099년)",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "A",
+      "year_start": 1095,
+      "year_end": 1099,
+      "date_precision": "exact",
+      "summary": "교황 우르바노 2세의 클레르몽 공의회 호소로 성지 탈환에 나선 십자군이 예루살렘을 점령함.",
+      "historical_significance": "200년간 지속될 동서 문명 충돌의 개막과 지중해 무역 부활.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "west-ce11-walk-to-canossa",
+      "title": "카노사의 굴욕 (교황 그레고리우스 7세 vs 하인리히 4세, 1077년)",
+      "title_en": "카노사의 굴욕 (교황 그레고리우스 7세 vs 하인리히 4세, 1077년)",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "A",
+      "year_start": 1077,
+      "year_end": 1077,
+      "date_precision": "exact",
+      "summary": "서임권 투쟁 중 파문당한 신성로마 황제 하인리히 4세가 눈 덮인 카노사 성문 밖에서 3일간 무릎 꿇고 용서를 빎.",
+      "historical_significance": "교황권이 세속 황제권을 압도한 중세 최고 권력의 상징적 사건.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "west-ce11-east-west-schism",
+      "title": "동서 교회의 대분열 (1054년 상호 파문)",
+      "title_en": "동서 교회의 대분열 (1054년 상호 파문)",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "RELIGION",
+      "importance": "A",
+      "year_start": 1054,
+      "year_end": 1054,
+      "date_precision": "exact",
+      "summary": "로마 교황의 사절 훔베르트 추기경과 콘스탄티노폴리스 총대주교 케룰라리오스가 성 소피아 성당 제단에 상호 파문장 투척.",
+      "historical_significance": "서방 로마 가톨릭과 동방 정교회(Eastern Orthodox)의 영구적 결별.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "west-ce11-battle-of-manzikert",
+      "title": "만지케르트 전투 (셀주크 튀르크의 비잔틴 대파, 1071년)",
+      "title_en": "만지케르트 전투 (셀주크 튀르크의 비잔틴 대파, 1071년)",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "A",
+      "year_start": 1071,
+      "year_end": 1071,
+      "date_precision": "exact",
+      "summary": "알프 아르슬란의 셀주크 튀르크군이 로마노스 4세 황제를 사로잡고 소아시아(아나톨리아) 전역을 장악함.",
+      "historical_significance": "비잔틴 제국의 치명적 쇠퇴와 십자군 원정 요청의 직접적 원인.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "west-ce11-university-of-bologna",
+      "title": "이탈리아 볼로냐 대학교 설립 (1088년)",
+      "title_en": "이탈리아 볼로냐 대학교 설립 (1088년)",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "SCIENCE",
+      "importance": "A",
+      "year_start": 1088,
+      "year_end": 1088,
+      "date_precision": "exact",
+      "summary": "학생 길드 중심으로 로마법(유스티니아누스 법전)을 연구하는 유럽 최초의 대학 개교.",
+      "historical_significance": "서양 고등 교육과 근대 법학의 모태.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "west-ce11-el-cid-reconquista",
+      "title": "엘 시드(로드리고 디아스)의 발렌시아 정복과 레콩키스타",
+      "title_en": "엘 시드(로드리고 디아스)의 발렌시아 정복과 레콩키스타",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "B",
+      "year_start": 1085,
+      "year_end": 1094,
+      "date_precision": "exact",
+      "summary": "카스티야의 국민 영웅 엘 시드가 무어인을 격파하고 발렌시아를 탈환하며 국토회복운동 주도.",
+      "historical_significance": "스페인 중세 기사도 문학 『엘 시드의 노래』 탄생.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "west-ce11-anselm-ontological-argument",
+      "title": "캔터베리의 안셀무스의 신 존재 증명과 스콜라 철학",
+      "title_en": "캔터베리의 안셀무스의 신 존재 증명과 스콜라 철학",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "RELIGION",
+      "importance": "B",
+      "year_start": 1078,
+      "year_end": 1093,
+      "date_precision": "exact",
+      "summary": "'이해하기 위해 믿는다(Credo ut intelligam)'를 선언하고 존재론적 신 증명 제시.",
+      "historical_significance": "스콜라 철학의 아버지.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "west-ce11-avicenna-canon-of-medicine",
+      "title": "이븐 시나(아비센나)의 『의학정전(The Canon of Medicine)』",
+      "title_en": "이븐 시나(아비센나)의 『의학정전(The Canon of Medicine)』",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "SCIENCE",
+      "importance": "B",
+      "year_start": 1012,
+      "year_end": 1025,
+      "date_precision": "exact",
+      "summary": "그리스 의학과 아랍 임상 경험을 융합한 14권의 의학 백과사전으로 전염병 격리, 암 수술법 기술.",
+      "historical_significance": "유럽 의과대학에서 600년간 표준 교재로 사용.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "west-ce11-bayeux-tapestry",
+      "title": "바이외 태피스트리(Bayeux Tapestry) 완성",
+      "title_en": "바이외 태피스트리(Bayeux Tapestry) 완성",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "ART_CULTURE",
+      "importance": "C",
+      "year_start": 1070,
+      "year_end": 1080,
+      "date_precision": "exact",
+      "summary": "노르만 정복과 핼리 혜성 출현, 중세 무기 장비를 70m 길이의 아마포에 자수로 수놓은 기록 예술.",
+      "historical_significance": "중세 시각 예술과 역사 기록의 최고 유물.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-ce11-chanyuan-treaty",
+      "title": "송·요의 전연의 맹(澶淵之盟, 1004년)",
+      "title_en": "송·요의 전연의 맹(澶淵之盟, 1004년)",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "A",
+      "year_start": 1004,
+      "year_end": 1005,
+      "date_precision": "exact",
+      "summary": "송진종과 요성종이 전주에서 맹약을 맺고 송이 매년 세폐(은 10만 냥, 비단 20만 필)를 지급하는 대가로 100년 평화 확보.",
+      "historical_significance": "경제력으로 평화를 사는 송대 실리 외교의 전형.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-ce11-wang-anshi-reforms",
+      "title": "왕안석의 신법(新法) 부국강병 개혁 (1069년)",
+      "title_en": "왕안석의 신법(新法) 부국강병 개혁 (1069년)",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "INSTITUTION",
+      "importance": "A",
+      "year_start": 1069,
+      "year_end": 1085,
+      "date_precision": "exact",
+      "summary": "청묘법(저리 대출), 시역법(중소상인 보호), 모역법, 보갑법을 추진하여 대지주·대상인을 억누르고 국가 재정 확충 시도.",
+      "historical_significance": "동양 역사상 가장 급진적이고 체계적인 국가 개혁 시도(신법파 vs 사마광의 구법파 대립).",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-ce11-movable-type-bi-sheng",
+      "title": "필승(畢昇)의 교니 활판 인쇄술 발명 (1040년대)",
+      "title_en": "필승(畢昇)의 교니 활판 인쇄술 발명 (1040년대)",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "SCIENCE",
+      "importance": "A",
+      "year_start": 1041,
+      "year_end": 1048,
+      "date_precision": "exact",
+      "summary": "점토를 구워 활자를 만들고 송진과 밀랍으로 조판하는 세계 최초의 가동 활판 인쇄 기술 개발.",
+      "historical_significance": "구텐베르크보다 400년 앞선 활판 인쇄 기술의 원류.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-ce11-sima-guang-zizhi-tongjian",
+      "title": "사마광의 『자치통감(資治通鑑)』 편찬 (1084년)",
+      "title_en": "사마광의 『자치통감(資治通鑑)』 편찬 (1084년)",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "ART_CULTURE",
+      "importance": "A",
+      "year_start": 1065,
+      "year_end": 1084,
+      "date_precision": "exact",
+      "summary": "전국시대부터 5대까지 1,362년의 역사를 편년체로 서술하여 군주의 통치 거울로 삼게 한 294권의 대작.",
+      "historical_significance": "사마천의 사기와 쌍벽을 이루는 편년체 역사학의 최고봉.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-ce11-shen-kuo-dream-pool",
+      "title": "심괄의 『몽계필담(夢溪筆談)』과 나침반 편각 발견",
+      "title_en": "심괄의 『몽계필담(夢溪筆談)』과 나침반 편각 발견",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "SCIENCE",
+      "importance": "A",
+      "year_start": 1086,
+      "year_end": 1093,
+      "date_precision": "exact",
+      "summary": "자침이 진북을 가리키지 않고 약간 기운다는 자편각(Magnetic Declination)을 인류 최초로 기록하고 석유, 지질학, 천문학 해설.",
+      "historical_significance": "중국 고대 과학 기술의 백과사전적 최고 저작.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-ce11-su-shi-su-dongpo",
+      "title": "소식(소동파)의 적벽부와 문인화 예술",
+      "title_en": "소식(소동파)의 적벽부와 문인화 예술",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "ART_CULTURE",
+      "importance": "B",
+      "year_start": 1080,
+      "year_end": 1101,
+      "date_precision": "exact",
+      "summary": "시, 서예, 그림, 산문에 모두 능통한 천재 문인으로 『전·후적벽부』를 짓고 동파육(요리) 등 풍류 만개.",
+      "historical_significance": "동양 사대부 예술의 최고 완성자.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-ce11-jiaozi-paper-money",
+      "title": "사천성 '교자(交子)' 발행 (세계 최초의 지폐, 1024년)",
+      "title_en": "사천성 '교자(交子)' 발행 (세계 최초의 지폐, 1024년)",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "ECONOMY",
+      "importance": "B",
+      "year_start": 1024,
+      "year_end": 1024,
+      "date_precision": "exact",
+      "summary": "무거운 철전의 불편을 해소하기 위해 사천 상인들이 발행하던 교자를 송나라 정부가 공인하여 국가 지폐로 발행.",
+      "historical_significance": "인류 경제사상 최초의 법정 지폐 탄생.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-ce11-western-xia-founding",
+      "title": "이원호의 서하(西夏) 건국과 서하문자 제정 (1038년)",
+      "title_en": "이원호의 서하(西夏) 건국과 서하문자 제정 (1038년)",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "B",
+      "year_start": 1038,
+      "year_end": 1038,
+      "date_precision": "exact",
+      "summary": "탕구트족 이원호가 황제를 칭하고 하서주랑을 장악하여 송과 요 사이에서 삼국 정립 구도 형성.",
+      "historical_significance": "실크로드 통제권을 둘러싼 다극 체제 형성.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-ce11-su-song-water-clock-tower",
+      "title": "수송의 수력 시계탑(수운의상대) 제작 (1092년)",
+      "title_en": "수송의 수력 시계탑(수운의상대) 제작 (1092년)",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "SCIENCE",
+      "importance": "C",
+      "year_start": 1088,
+      "year_end": 1092,
+      "date_precision": "exact",
+      "summary": "이스케이프먼트(탈속기) 기구와 혼천의, 시계바늘 인형을 갖춘 12m 높이의 수력 자동 천문 시계탑 완공.",
+      "historical_significance": "근대 기계식 시계 공학의 원형.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-ce11-zhou-dunyi-taiji",
+      "title": "주돈이의 『태극도설』과 신유학(성리학) 태동",
+      "title_en": "주돈이의 『태극도설』과 신유학(성리학) 태동",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "RELIGION",
+      "importance": "C",
+      "year_start": 1070,
+      "year_end": 1073,
+      "date_precision": "exact",
+      "summary": "무극이태극(無極而太極)의 우주론과 인간 본성의 도덕성을 결합하여 주희 성리학의 철학적 기초 제공.",
+      "historical_significance": "송학(성리학)의 비조.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-ce11-gang-gamchan-gwiju",
+      "title": "강감찬 장군의 귀주대첩 (고려-거란 전쟁 종결, 1019년)",
+      "title_en": "강감찬 장군의 귀주대첩 (고려-거란 전쟁 종결, 1019년)",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "A",
+      "year_start": 1018,
+      "year_end": 1019,
+      "date_precision": "exact",
+      "summary": "거란 소배압의 10만 정예 침략군을 흥화진 수공에 이어 귀주 벌판에서 배후 기병 협공으로 전멸시킴(수천 명만 생환).",
+      "historical_significance": "고려를 동북아 세력 균형의 중심 패권국으로 우뚝 세운 구국의 대승.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-ce11-cheollijangseong-wall",
+      "title": "고려 천리장성 축조 (압록강구~도련포, 1033~1044년)",
+      "title_en": "고려 천리장성 축조 (압록강구~도련포, 1033~1044년)",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "INSTITUTION",
+      "importance": "A",
+      "year_start": 1033,
+      "year_end": 1044,
+      "date_precision": "exact",
+      "summary": "덕종·정종 시기 유소의 지휘로 압록강 하구에서 동해안 정평 도련포까지 석조 장성을 쌓아 거란과 여진의 침입 완전 차단.",
+      "historical_significance": "고려의 확고한 북방 영토 방어선 확립.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-ce11-munjong-golden-age",
+      "title": "고려 문종의 황금기 (37년 태평성대와 12도 번영)",
+      "title_en": "고려 문종의 황금기 (37년 태평성대와 12도 번영)",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "A",
+      "year_start": 1046,
+      "year_end": 1083,
+      "date_precision": "exact",
+      "summary": "법률과 전시과를 정비하고, 중국 송·요·일본·아라비아 상인(벽란도)과 교류하며 사학 12도와 국자감이 공존하는 문화 번영 구가.",
+      "historical_significance": "고려 왕조 500년 역사상 최고의 평화와 문화적 융성기.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-ce11-uicheon-cheontae-buddhism",
+      "title": "대각국사 의천의 천태종 개창과 교장(속장경) 간행",
+      "title_en": "대각국사 의천의 천태종 개창과 교장(속장경) 간행",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "RELIGION",
+      "importance": "A",
+      "year_start": 1085,
+      "year_end": 1101,
+      "date_precision": "exact",
+      "summary": "문종의 왕자 의천이 송나라에 유학 후 교종 중심으로 선종을 포용하는 천태종을 개창하고 4천여 권의 『신편제종교장총록』(교장) 간행.",
+      "historical_significance": "고려 불교 종파 융합과 동아시아 불교 학술의 집대성.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-ce11-choe-chung-nine-studies",
+      "title": "해동공자 최충의 문헌공도(9재 학당) 설립",
+      "title_en": "해동공자 최충의 문헌공도(9재 학당) 설립",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "SCIENCE",
+      "importance": "A",
+      "year_start": 1055,
+      "year_end": 1055,
+      "date_precision": "exact",
+      "summary": "최고 관직을 사임한 최충이 사립 고등교육기관 9재 학당을 세워 9경과 삼사를 가르쳐 과거 합격자 대거 배출.",
+      "historical_significance": "고려 사학(私學) 12도의 전성기를 열고 유학 교육 진흥.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-ce11-hyeonjong-administrative-reform",
+      "title": "고려 현종의 5도 양계 및 주현·속현 지방 제도 확립",
+      "title_en": "고려 현종의 5도 양계 및 주현·속현 지방 제도 확립",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "INSTITUTION",
+      "importance": "B",
+      "year_start": 1009,
+      "year_end": 1031,
+      "date_precision": "exact",
+      "summary": "거란 침략 극복 후 전국을 일반 행정구역 5도와 군사 행정구역 양계(북계·동계)로 나누고 향리 정원제 제정.",
+      "historical_significance": "조선시대 8도 체제의 모태가 된 고려의 완벽한 지방 제도 완성.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-ce11-first-tripitaka-koreana",
+      "title": "고려 초조대장경(初雕大藏經) 조판 시작 (1011년)",
+      "title_en": "고려 초조대장경(初雕大藏經) 조판 시작 (1011년)",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "ART_CULTURE",
+      "importance": "B",
+      "year_start": 1011,
+      "year_end": 1087,
+      "date_precision": "exact",
+      "summary": "거란의 침략을 부처의 가호로 격퇴하고자 6천여 권에 달하는 거대한 대장경 목판 조판 착수.",
+      "historical_significance": "고려 목판 인쇄 기술의 집약체이자 팔만대장경의 원형.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-ce11-byeongnando-international-port",
+      "title": "국제 무역항 벽란도(碧瀾渡)와 'KOREA' 국호 전파",
+      "title_en": "국제 무역항 벽란도(碧瀾渡)와 'KOREA' 국호 전파",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "ECONOMY",
+      "importance": "B",
+      "year_start": 1020,
+      "year_end": 1100,
+      "date_precision": "exact",
+      "summary": "예성강 하구 벽란도에 송나라 상단뿐 아니라 이슬람 아라비아 상인(대식국인)들이 수은, 향료를 싣고 왕래하며 고려를 서방에 소개.",
+      "historical_significance": "세계 만방에 'Corea / Korea'라는 이름이 알려진 무역 중심지.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-ce11-yangsan-tongdosa-precepts",
+      "title": "양산 통도사와 금강계단 불사리 봉안",
+      "title_en": "양산 통도사와 금강계단 불사리 봉안",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "RELIGION",
+      "importance": "C",
+      "year_start": 1050,
+      "year_end": 1100,
+      "date_precision": "exact",
+      "summary": "자장율사가 가져온 진신사리를 모신 통도사 금강계단이 국가 최고의 계율 사찰로 정비됨.",
+      "historical_significance": "한국 삼보사찰(불보사찰)의 확고한 위상 정립.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-ce11-goryeo-coin-haedong-tongbo",
+      "title": "고려 주전도감 설치와 해동통보·삼한통보 주조",
+      "title_en": "고려 주전도감 설치와 해동통보·삼한통보 주조",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "ECONOMY",
+      "importance": "C",
+      "year_start": 1097,
+      "year_end": 1102,
+      "date_precision": "exact",
+      "summary": "의천의 건의로 숙종 때 화폐 주조 관청을 두고 동전(해동통보)과 은화(은병·활구) 주조.",
+      "historical_significance": "물품 화폐(쌀·포)를 넘어 금속 화폐 유통을 꾀한 경제 선진화 정책.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    }
+  ]
+}

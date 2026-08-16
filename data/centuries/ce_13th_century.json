@@ -1,0 +1,731 @@
+{
+  "centuryId": "ce_13th_century",
+  "centuryLabel": "서기 13세기 (AD 1201 ~ AD 1300)",
+  "period": {
+    "yearStart": 1201,
+    "yearEnd": 1300
+  },
+  "eventCount": 30,
+  "events": [
+    {
+      "id": "west-ce13-magna-carta-england",
+      "title": "영국 마그나 카르타(대헌장) 서명 (1215년)",
+      "title_en": "영국 마그나 카르타(대헌장) 서명 (1215년)",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "INSTITUTION",
+      "importance": "A",
+      "year_start": 1215,
+      "year_end": 1215,
+      "date_precision": "exact",
+      "summary": "존 왕이 러니미드 평원에서 귀족들의 압박으로 '왕도 법 아래에 있으며, 적법한 재판 없이 체포·과세할 수 없다'는 63개조 헌장에 서명.",
+      "historical_significance": "근대 입헌주의, 법치주의 및 인권 헌장의 영원한 초석.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "west-ce13-thomas-aquinas-summa",
+      "title": "토마스 아퀴나스의 『신학대전(Summa Theologiae)』",
+      "title_en": "토마스 아퀴나스의 『신학대전(Summa Theologiae)』",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "RELIGION",
+      "importance": "A",
+      "year_start": 1265,
+      "year_end": 1274,
+      "date_precision": "exact",
+      "summary": "신앙과 이성의 조화를 선언하며 아리스토텔레스 철학을 기독교 신학 체계와 완벽하게 융합.",
+      "historical_significance": "중세 가톨릭 스콜라 철학의 최고 금자탑.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "west-ce13-fourth-crusade-sack-constantinople",
+      "title": "제4차 십자군의 콘스탄티노폴리스 약탈과 라틴 제국 (1204년)",
+      "title_en": "제4차 십자군의 콘스탄티노폴리스 약탈과 라틴 제국 (1204년)",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "A",
+      "year_start": 1204,
+      "year_end": 1261,
+      "date_precision": "exact",
+      "summary": "베네치아 상인들의 사주로 십자군이 같은 기독교 도시인 비잔틴 수도 콘스탄티노폴리스를 함락·약탈하고 라틴 제국 수립.",
+      "historical_significance": "동서 교회의 완전한 치유 불가능한 균열 및 비잔틴 제국의 회복 불능 몰락.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "west-ce13-mongol-invasion-of-europe",
+      "title": "바투의 몽골군 유럽 침공과 레그니차 전투 (1241년)",
+      "title_en": "바투의 몽골군 유럽 침공과 레그니차 전투 (1241년)",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "A",
+      "year_start": 1237,
+      "year_end": 1242,
+      "date_precision": "exact",
+      "summary": "바투와 수부타이가 러시아 공국들을 멸망시키고 레그니차·모히 전투에서 폴란드·독일·헝가리 기사 연합군을 궤멸시킴.",
+      "historical_significance": "러시아의 240년 '타타르의 멍에' 시작과 서유럽 전역의 패닉.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "west-ce13-marco-polo-travels",
+      "title": "마르코 폴로의 동방 여행과 『동방견문록』 (1271~1295년)",
+      "title_en": "마르코 폴로의 동방 여행과 『동방견문록』 (1271~1295년)",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "SCIENCE",
+      "importance": "A",
+      "year_start": 1271,
+      "year_end": 1295,
+      "date_precision": "exact",
+      "summary": "베네치아 상인 마르코 폴로가 실크로드를 거쳐 대도(베이징)에서 쿠빌라이 칸을 섬긴 후 견문록을 남김.",
+      "historical_significance": "유럽인들에게 동양에 대한 폭발적 호기심과 대항해 시대를 자극한 기폭제.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "west-ce13-francis-of-assisi",
+      "title": "성 프란치스코의 탁발 수도회(프란치스코회) 창설",
+      "title_en": "성 프란치스코의 탁발 수도회(프란치스코회) 창설",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "RELIGION",
+      "importance": "B",
+      "year_start": 1209,
+      "year_end": 1226,
+      "date_precision": "exact",
+      "summary": "모든 부를 버리고 절대 청빈과 자연 만물에 대한 사랑(태양의 찬가)을 실천하며 민중 속으로 들어감.",
+      "historical_significance": "중세 교회의 타락을 정화한 탁발 수도 운동의 상징.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "west-ce13-simon-de-montfort-parliament",
+      "title": "시몽 드 몽포르의 의회 소집 (영국 의회의 기원, 1265년)",
+      "title_en": "시몽 드 몽포르의 의회 소집 (영국 의회의 기원, 1265년)",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "INSTITUTION",
+      "importance": "B",
+      "year_start": 1265,
+      "year_end": 1265,
+      "date_precision": "exact",
+      "summary": "헨리 3세에 맞서 귀족뿐 아니라 각 주(Shire)의 기사 2명과 도시(Borough)의 시민 대표 2명을 최초로 의회에 출석시킴.",
+      "historical_significance": "영국 하원(House of Commons)과 대의 민주주의 제도의 효시.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "west-ce13-roger-bacon-experimental-science",
+      "title": "로저 베이컨의 『대저작(Opus Majus)』과 실험 과학 제창",
+      "title_en": "로저 베이컨의 『대저작(Opus Majus)』과 실험 과학 제창",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "SCIENCE",
+      "importance": "B",
+      "year_start": 1267,
+      "year_end": 1267,
+      "date_precision": "exact",
+      "summary": "권위와 관습에 의존하는 스콜라 학풍을 비판하고 수학과 관찰, 실험을 통한 자연 탐구 강조.",
+      "historical_significance": "근대 경험 과학과 렌즈 광학의 선구자.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "west-ce13-hanseatic-league-founding",
+      "title": "한자 동맹(Hanseatic League)의 결성",
+      "title_en": "한자 동맹(Hanseatic League)의 결성",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "ECONOMY",
+      "importance": "C",
+      "year_start": 1241,
+      "year_end": 1300,
+      "date_precision": "exact",
+      "summary": "뤼베크, 함부르크 등 북독일 도시들이 북해와 발트해의 청어, 목재, 모피 무역을 독점하기 위한 상업 도시 동맹 구축.",
+      "historical_significance": "중세 북유럽 경제 번영과 도시 자치권의 성장.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "west-ce13-dante-alighieri-vita-nuova",
+      "title": "단테 알리기에리의 『신생(La Vita Nuova)』과 라틴어 탈피",
+      "title_en": "단테 알리기에리의 『신생(La Vita Nuova)』과 라틴어 탈피",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "ART_CULTURE",
+      "importance": "C",
+      "year_start": 1295,
+      "year_end": 1295,
+      "date_precision": "exact",
+      "summary": "피렌체의 단테가 베아트리체에 대한 사랑을 라틴어가 아닌 토스카나 속어(이탈리아어)로 노래함.",
+      "historical_significance": "이탈리아 국민 문학과 『신곡』으로 이어지는 르네상스 문학의 맹아.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-ce13-genghis-khan-unification",
+      "title": "칭기즈칸의 몽골 초원 통일과 대몽골 제국 수립 (1206년)",
+      "title_en": "칭기즈칸의 몽골 초원 통일과 대몽골 제국 수립 (1206년)",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "A",
+      "year_start": 1206,
+      "year_end": 1227,
+      "date_precision": "exact",
+      "summary": "테무친이 오논강 쿠릴타이에서 칭기즈칸으로 추대되어 십진법 군제와 대자사크(법전)로 유라시아 정복 개시.",
+      "historical_significance": "인류 역사상 가장 거대한 연속 영토 제국의 탄생.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-ce13-kublai-khan-yuan-founding",
+      "title": "쿠빌라이 칸의 원(元) 건국과 대도(베이징) 건설 (1271년)",
+      "title_en": "쿠빌라이 칸의 원(元) 건국과 대도(베이징) 건설 (1271년)",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "A",
+      "year_start": 1260,
+      "year_end": 1271,
+      "date_precision": "exact",
+      "summary": "주역의 '대재건원'에서 국호를 따 원나라를 건국하고 수도를 대도(현재의 베이징)로 정함.",
+      "historical_significance": "베이징이 중국의 수도로 확립된 역사적 출발점.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-ce13-fall-of-southern-song-yamen",
+      "title": "애산 전투와 남송의 완전 멸망 (1279년)",
+      "title_en": "애산 전투와 남송의 완전 멸망 (1279년)",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "A",
+      "year_start": 1279,
+      "year_end": 1279,
+      "date_precision": "exact",
+      "summary": "원나라 장홍범의 수군이 남송 함대를 애산에서 섬멸하자 육수부가 어린 황제를 안고 바다에 투신하여 송 319년 왕조 종언.",
+      "historical_significance": "중국 전역이 북방 유목 민족에 의해 최초로 완전 정복 통일됨.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-ce13-pax-mongolica-trade",
+      "title": "팍스 몽골리카(Pax Mongolica)와 역참제(잠치) 완성",
+      "title_en": "팍스 몽골리카(Pax Mongolica)와 역참제(잠치) 완성",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "ECONOMY",
+      "importance": "A",
+      "year_start": 1260,
+      "year_end": 1300,
+      "date_precision": "exact",
+      "summary": "패자(파이자)를 소지한 사신과 상인이 30km마다 설치된 역참을 이용해 유라시아 전역을 안전하게 횡단.",
+      "historical_significance": "동서양 간 기술, 종교, 농작물, 화약, 인쇄술의 전 지구적 교류 활성화.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-ce13-guo-shoujing-shoushi-calendar",
+      "title": "곽수경의 수시력(授時曆) 편찬 (1280년)",
+      "title_en": "곽수경의 수시력(授時曆) 편찬 (1280년)",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "SCIENCE",
+      "importance": "A",
+      "year_start": 1276,
+      "year_end": 1280,
+      "date_precision": "exact",
+      "summary": "간의(簡儀), 규표 등 정밀 관측기구를 제작하여 1년을 365.2425일(현대 그레고리력과 동일)로 오차 없이 계산.",
+      "historical_significance": "동양 역법사상 최고 정밀도의 역법 완성.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-ce13-four-class-system-yuan",
+      "title": "원나라의 4계급 신분제 (몽골인·색목인·한인·남인)",
+      "title_en": "원나라의 4계급 신분제 (몽골인·색목인·한인·남인)",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "INSTITUTION",
+      "importance": "B",
+      "year_start": 1279,
+      "year_end": 1300,
+      "date_precision": "exact",
+      "summary": "지배층 몽골인, 재정과 기술을 맡은 중앙아시아 색목인, 옛 금나라 한인, 최하층 남송 남인으로 차별 대우.",
+      "historical_significance": "한족 사대부들의 과거제 폐지와 반원 감정 축적.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-ce13-yuan-qu-drama-guan-hanqing",
+      "title": "원곡(元曲) 잡극의 번영과 관한경의 『두아원』",
+      "title_en": "원곡(元曲) 잡극의 번영과 관한경의 『두아원』",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "ART_CULTURE",
+      "importance": "B",
+      "year_start": 1260,
+      "year_end": 1300,
+      "date_precision": "exact",
+      "summary": "과거가 중단된 사대부들이 서민 극장에서 공연 대본을 쓰며 서사 희곡 잡극 문학의 황금기 창출.",
+      "historical_significance": "중국 전통 경극과 공연 예술의 모태.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-ce13-phags-pa-script",
+      "title": "파스파 문자의 창제와 제국 공용 문자 제정 (1269년)",
+      "title_en": "파스파 문자의 창제와 제국 공용 문자 제정 (1269년)",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "ART_CULTURE",
+      "importance": "B",
+      "year_start": 1269,
+      "year_end": 1269,
+      "date_precision": "exact",
+      "summary": "티베트 불교 사키아파 국사 파스파가 티베트 문자를 바탕으로 몽골어, 한어, 튀르크어를 표기하는 문자 제정.",
+      "historical_significance": "음소 문자 체계로서 조선 훈민정음 창제에도 학술적 영향.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-ce13-zaju-and-blue-white-porcelain",
+      "title": "경덕진 원청화(元靑花) 백자의 탄생과 페르시아 코발트 수입",
+      "title_en": "경덕진 원청화(元靑花) 백자의 탄생과 페르시아 코발트 수입",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "ART_CULTURE",
+      "importance": "C",
+      "year_start": 1278,
+      "year_end": 1300,
+      "date_precision": "exact",
+      "summary": "페르시아의 코발트 안료(스말트)를 수입하여 순백의 도자기에 푸른 문양을 그린 청화백자 대량 수출.",
+      "historical_significance": "글로벌 도자기 시장을 석권한 블루 앤 화이트 자기의 탄생.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-ce13-fall-of-jin-kaifeng",
+      "title": "몽골-송 연합군의 금나라 멸망 (채주 전투, 1234년)",
+      "title_en": "몽골-송 연합군의 금나라 멸망 (채주 전투, 1234년)",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "C",
+      "year_start": 1234,
+      "year_end": 1234,
+      "date_precision": "exact",
+      "summary": "오고타이 칸의 몽골군과 남송 연합군이 금나라 마지막 황제 애종을 자살케 하고 금 119년 왕조 멸망.",
+      "historical_significance": "송나라의 일시적 중원 회복 착각과 몽골의 남송 침공 서막.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-ce13-tripitaka-koreana-hapcheon",
+      "title": "고려 팔만대장경(재조대장경) 조판 완성 (국보·유네스코 세계기록유산, 1236~1251년)",
+      "title_en": "고려 팔만대장경(재조대장경) 조판 완성 (국보·유네스코 세계기록유산, 1236~1251년)",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "ART_CULTURE",
+      "importance": "A",
+      "year_start": 1236,
+      "year_end": 1251,
+      "date_precision": "exact",
+      "summary": "강화도 대장도감에서 몽골 침략 격퇴를 염원하며 81,258장의 자작나무 목판에 5,200만 자를 한 글자 쓸 때마다 절을 올리며 판각.",
+      "historical_significance": "오탈자 없는 완벽한 교정과 세계 최고(最高)의 목판 인쇄 예술품(해인사 장경판전).",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-ce13-samguk-yusa-ilyeon",
+      "title": "일연 승려의 『삼국유사(三國遺事)』 저술 (1281년)",
+      "title_en": "일연 승려의 『삼국유사(三國遺事)』 저술 (1281년)",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "ART_CULTURE",
+      "importance": "A",
+      "year_start": 1281,
+      "year_end": 1281,
+      "date_precision": "exact",
+      "summary": "단군왕검의 고조선 건국 신화(홍익인간), 가야사, 향가 14수, 설화, 야사를 집대성한 민족 자주 의식의 역사서.",
+      "historical_significance": "한민족 5천 년 역사의 뿌리(단군)를 복원한 가장 귀중한 보물 사료.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-ce13-goryeo-mongol-wars",
+      "title": "고려의 대몽항쟁과 처인성 전투·강화도 천도 (1231~1259년)",
+      "title_en": "고려의 대몽항쟁과 처인성 전투·강화도 천도 (1231~1259년)",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "A",
+      "year_start": 1231,
+      "year_end": 1259,
+      "date_precision": "exact",
+      "summary": "세계 최강 몽골 제국의 6차례 침략에 맞서 강화도로 도읍을 옮기고 처인성에서 승려 김윤후가 몽골 원수 살리타를 사살함.",
+      "historical_significance": "28년간 전 국토가 잿더미가 되면서도 굴복하지 않은 처절한 민중 항쟁.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-ce13-sambyeolcho-rebellion",
+      "title": "삼별초의 대몽 결사항전 (진도 용장산성~제주 항파두리, 1270~1273년)",
+      "title_en": "삼별초의 대몽 결사항전 (진도 용장산성~제주 항파두리, 1270~1273년)",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "A",
+      "year_start": 1270,
+      "year_end": 1273,
+      "date_precision": "exact",
+      "summary": "개경 환도에 반대하여 배중손·김통정이 온왕을 옹립하고 진도와 제주도에서 여몽 연합군에 맞서 최후의 1인까지 결사항전.",
+      "historical_significance": "자주적 무인 정권의 마지막 군사 저항이자 해양 요새전의 백미.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-ce13-sangjeong-gogeum-yemun",
+      "title": "이규보의 『상정고금예문』 금속활자 인쇄 기록 (1234년)",
+      "title_en": "이규보의 『상정고금예문』 금속활자 인쇄 기록 (1234년)",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "SCIENCE",
+      "importance": "A",
+      "year_start": 1234,
+      "year_end": 1241,
+      "date_precision": "exact",
+      "summary": "강화도 피난 중 최우의 명으로 의례 서적 『상정고금예문』 50권을 주자(금속활자)로 28부 인쇄했다고 『동국이상국집』에 명기.",
+      "historical_significance": "서양 구텐베르크(1455년)보다 200년 앞선 세계 최초의 금속활자 사용 공식 기록.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-ce13-an-hyang-neo-confucianism-import",
+      "title": "안향(안유)의 주자학(성리학) 고려 최초 도입 (1289년)",
+      "title_en": "안향(안유)의 주자학(성리학) 고려 최초 도입 (1289년)",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "RELIGION",
+      "importance": "A",
+      "year_start": 1289,
+      "year_end": 1290,
+      "date_precision": "exact",
+      "summary": "충렬왕을 수행하여 원나라 연경에 다녀오며 주희의 저작과 공자·주자 초상화를 가져와 국자감 부흥 기금(섬학전) 설치.",
+      "historical_significance": "고려 말 신진사대부 등장과 조선 건국의 사상적 씨앗.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-ce13-lee-gyubo-dongmyeongwang",
+      "title": "이규보의 서사시 『동명왕편(東明王篇)』",
+      "title_en": "이규보의 서사시 『동명왕편(東明王篇)』",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "ART_CULTURE",
+      "importance": "B",
+      "year_start": 1193,
+      "year_end": 1241,
+      "date_precision": "exact",
+      "summary": "고구려 시조 주몽의 건국 영웅담을 웅장한 282구의 한시로 노래하여 민족적 긍지와 고구려 계승 의식 고취.",
+      "historical_significance": "몽골 침략기 민족 자주 문학의 최고봉.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-ce13-cotton-plant-mun-ikjeom",
+      "title": "문익점의 목화씨 도입과 정천익의 물레 방적 기술 (1363년 예비 형성)",
+      "title_en": "문익점의 목화씨 도입과 정천익의 물레 방적 기술 (1363년 예비 형성)",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "SCIENCE",
+      "importance": "B",
+      "year_start": 1280,
+      "year_end": 1300,
+      "date_precision": "exact",
+      "summary": "원나라와의 빈번한 교류 속에서 남방의 면화 재배 정보가 유입되어 고려 의생활 혁명의 전조 형성.",
+      "historical_significance": "삼베와 모시에서 따뜻한 무명옷으로의 의복 혁명 준비.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-ce13-hyangyak-gugeupbang",
+      "title": "『향약구급방(鄕藥救急方)』 편찬 (현존 최고(最古) 의학서)",
+      "title_en": "『향약구급방(鄕藥救急方)』 편찬 (현존 최고(最古) 의학서)",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "SCIENCE",
+      "importance": "B",
+      "year_start": 1236,
+      "year_end": 1251,
+      "date_precision": "exact",
+      "summary": "비싼 중국 수입 약재 대신 산천에서 쉽게 구할 수 있는 180여 종의 국산 향약초와 응급 처방을 한글 이두로 기록.",
+      "historical_significance": "한국 자주적 향약 의학의 시초이자 보물.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-ce13-jewang-ungi-history",
+      "title": "이승휴의 서사 역사시 『제왕운기(帝王韻紀)』 (1287년)",
+      "title_en": "이승휴의 서사 역사시 『제왕운기(帝王韻紀)』 (1287년)",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "ART_CULTURE",
+      "importance": "C",
+      "year_start": 1287,
+      "year_end": 1287,
+      "date_precision": "exact",
+      "summary": "중국의 역사와 대등하게 단군조선부터 고려까지의 역사를 상·하권의 운문(시)으로 서술하고 발해사를 최초로 우리 역사로 편입.",
+      "historical_significance": "한국사의 독자적 정통성을 확립한 민족주의 역사관.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    }
+  ]
+}

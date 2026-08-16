@@ -1,0 +1,731 @@
+{
+  "centuryId": "ce_15th_century",
+  "centuryLabel": "서기 15세기 (AD 1401 ~ AD 1500)",
+  "period": {
+    "yearStart": 1401,
+    "yearEnd": 1500
+  },
+  "eventCount": 30,
+  "events": [
+    {
+      "id": "west-ce15-fall-of-constantinople",
+      "title": "오스만 제국의 콘스탄티노폴리스 정복과 동로마 멸망 (1453년)",
+      "title_en": "오스만 제국의 콘스탄티노폴리스 정복과 동로마 멸망 (1453년)",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "A",
+      "year_start": 1453,
+      "year_end": 1453,
+      "date_precision": "exact",
+      "summary": "술탄 메흐메트 2세가 우르반 거포와 함선 육지 운반으로 1,123년 역사의 비잔틴 제국을 멸망시키고 이스탄불로 개칭.",
+      "historical_significance": "중세의 공식 종말, 동방 무역로 차단으로 인한 대항해 시대 촉발, 그리스 학자들의 이탈리아 망명으로 르네상스 가속.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "west-ce15-columbus-discovery-americas",
+      "title": "콜럼버스의 신대륙 도착 (1492년)",
+      "title_en": "콜럼버스의 신대륙 도착 (1492년)",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "SCIENCE",
+      "importance": "A",
+      "year_start": 1492,
+      "year_end": 1492,
+      "date_precision": "exact",
+      "summary": "스페인 이사벨 여왕의 후원을 받은 크리스토퍼 콜럼버스가 산타마리아호를 타고 대서양을 건너 바하마 제도(산살바도르) 도착.",
+      "historical_significance": "아메리카 대륙과 구대륙 간 '콜럼버스의 교환(옥수수·감자·은·천연두)' 및 세계화의 시작.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "west-ce15-gutenberg-movable-type",
+      "title": "구텐베르크의 납 활판 인쇄술 혁명과 42행 성서 (1450~1455년)",
+      "title_en": "구텐베르크의 납 활판 인쇄술 혁명과 42행 성서 (1450~1455년)",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "SCIENCE",
+      "importance": "A",
+      "year_start": 1450,
+      "year_end": 1455,
+      "date_precision": "exact",
+      "summary": "독일 마인츠에서 납·주석 합금 활자, 유성 잉크, 포도주 압착기를 응용한 인쇄기로 42행 성서 대량 인쇄 성공.",
+      "historical_significance": "지식 혁명, 대중 문해력 폭발, 종교개혁과 과학 혁명을 가능하게 한 인류 최고 발명.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "west-ce15-italian-renaissance-art",
+      "title": "이탈리아 르네상스의 황금기 (레오나르도 다 빈치·보티첼리)",
+      "title_en": "이탈리아 르네상스의 황금기 (레오나르도 다 빈치·보티첼리)",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "ART_CULTURE",
+      "importance": "A",
+      "year_start": 1470,
+      "year_end": 1500,
+      "date_precision": "exact",
+      "summary": "메디치 가문의 후원 아래 보티첼리의 『비너스의 탄생』, 다 빈치의 『최후의 만찬』과 원근법, 해부학, 인문주의 예술 만개.",
+      "historical_significance": "서양 고전 미학과 근대 예술·과학적 탐구의 최고 절정.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "west-ce15-reconquista-completed-1492",
+      "title": "스페인의 그라나다 함락과 레콩키스타 완성 (1492년)",
+      "title_en": "스페인의 그라나다 함락과 레콩키스타 완성 (1492년)",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "A",
+      "year_start": 1492,
+      "year_end": 1492,
+      "date_precision": "exact",
+      "summary": "카스티야-아라곤 연합 왕국(페르난도·이사벨)이 나스르 왕조의 알람브라 궁전을 함락시켜 780년간의 이베리아 이슬람 통치 종결.",
+      "historical_significance": "통일 스페인 제국의 탄생과 세계 해상 제국으로의 도약.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "west-ce15-joan-of-arc-orleans",
+      "title": "잔 다르크의 오를레앙 해방과 백년전쟁 종결 (1429/1453년)",
+      "title_en": "잔 다르크의 오를레앙 해방과 백년전쟁 종결 (1429/1453년)",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "A",
+      "year_start": 1429,
+      "year_end": 1453,
+      "date_precision": "exact",
+      "summary": "17세 시골 처녀 잔 다르크가 신의 계시를 받아 오를레앙 포위를 풀고 샤를 7세 대관식을 성사시킨 후 프랑스가 최종 승리.",
+      "historical_significance": "프랑스 국민 영웅 탄생 및 봉건 영주 중심에서 왕권 중심 상비군 체제로 전환.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "west-ce15-vasco-da-gama-india-route",
+      "title": "바스쿠 다 가마의 인도 항로 개척 (희망봉 경유, 1497~1498년)",
+      "title_en": "바스쿠 다 가마의 인도 항로 개척 (희망봉 경유, 1497~1498년)",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "SCIENCE",
+      "importance": "B",
+      "year_start": 1497,
+      "year_end": 1498,
+      "date_precision": "exact",
+      "summary": "포르투갈 함대가 아프리카 남단 희망봉을 돌아 인도 서해안 캘리컷에 도달하여 직접 향신료 무역로 개척.",
+      "historical_significance": "지중해-베네치아 무역 독점 타파와 대서양-인도양 해양 패권 포르투갈 장악.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "west-ce15-treaty-of-tordesillas",
+      "title": "토르데시야스 조약 (스페인과 포르투갈의 세계 분할, 1494년)",
+      "title_en": "토르데시야스 조약 (스페인과 포르투갈의 세계 분할, 1494년)",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "B",
+      "year_start": 1494,
+      "year_end": 1494,
+      "date_precision": "exact",
+      "summary": "교황 알렉산데르 6세의 중재로 서경 46도 자오선을 기준으로 서쪽(아메리카)은 스페인이, 동쪽(아프리카·아시아·브라질)은 포르투갈이 분할 점령.",
+      "historical_significance": "유럽 열강의 전 지구적 식민지 쟁탈전의 공식 시작.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "west-ce15-wars-of-the-roses",
+      "title": "영국 장미전쟁(Wars of the Roses)과 튜더 왕조 성립 (1455~1485년)",
+      "title_en": "영국 장미전쟁(Wars of the Roses)과 튜더 왕조 성립 (1455~1485년)",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "B",
+      "year_start": 1455,
+      "year_end": 1485,
+      "date_precision": "exact",
+      "summary": "랭커스터 가문(붉은 장미)과 요크 가문(흰 장미)의 30년 내전 끝에 헨리 7세가 보스워스 전투에서 승리해 튜더 왕조 개창.",
+      "historical_significance": "봉건 귀족의 자멸과 강력한 절대 왕정(헨리 8세·엘리자베스 1세)의 기반 확립.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "west-ce15-florence-duomo-brunelleschi",
+      "title": "브루넬레스키의 피렌체 두오모(산타 마리아 델 피오레) 돔 완공",
+      "title_en": "브루넬레스키의 피렌체 두오모(산타 마리아 델 피오레) 돔 완공",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "ART_CULTURE",
+      "importance": "C",
+      "year_start": 1420,
+      "year_end": 1436,
+      "date_precision": "exact",
+      "summary": "비계(받침대) 없이 벽돌을 헤링본(생선뼈) 패턴으로 쌓아올린 45m 직경의 거대 8각형 르네상스 돔 완공.",
+      "historical_significance": "르네상스 건축 공학의 기적적 개가.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-ce15-zheng-he-voyages",
+      "title": "정화의 서역 남해 대원정 (7차례 항해, 1405~1433년)",
+      "title_en": "정화의 서역 남해 대원정 (7차례 항해, 1405~1433년)",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "SCIENCE",
+      "importance": "A",
+      "year_start": 1405,
+      "year_end": 1433,
+      "date_precision": "exact",
+      "summary": "환관 정화가 길이 130m의 거대한 보선(寶船) 60여 척과 2만 7천 명을 이끌고 동남아, 인도, 아라비아, 아프리카 동해안(케냐)까지 항해.",
+      "historical_significance": "콜럼버스보다 80년 앞선 세계 최대 규모의 평화적 해양 원정이자 조공 무역망 확장.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-ce15-yongle-capital-forbidden-city",
+      "title": "영락제의 베이징 천도와 자금성(Forbidden City) 완공 (1420년)",
+      "title_en": "영락제의 베이징 천도와 자금성(Forbidden City) 완공 (1420년)",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "A",
+      "year_start": 1406,
+      "year_end": 1420,
+      "date_precision": "exact",
+      "summary": "남경에서 북경으로 수도를 옮기고 100만 명의 인력을 동원하여 9,999칸의 웅장한 황궁 자금성과 천단을 완공함.",
+      "historical_significance": "명·청 500년간 제국의 정치적 심장부 완공.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-ce15-yongle-encyclopedia",
+      "title": "『영락대전(永樂大典)』 편찬 (1408년)",
+      "title_en": "『영락대전(永樂大典)』 편찬 (1408년)",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "ART_CULTURE",
+      "importance": "A",
+      "year_start": 1403,
+      "year_end": 1408,
+      "date_precision": "exact",
+      "summary": "해진 등 2천여 명의 학자가 참가하여 고대부터 명대까지의 서적 8천여 종을 집대성한 22,877권의 세계 최대 백과사전 완성.",
+      "historical_significance": "중국 고전문헌학의 최대 집대성.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-ce15-tumubao-crisis",
+      "title": "토목보의 변 (정통제 포로 사건, 1449년)",
+      "title_en": "토목보의 변 (정통제 포로 사건, 1449년)",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "A",
+      "year_start": 1449,
+      "year_end": 1449,
+      "date_precision": "exact",
+      "summary": "오이라트부 에센 타이시의 침공에 맞서 환관 왕진의 부추김으로 친정한 명 영종(정통제)이 토목보에서 50만 대군을 잃고 생포됨.",
+      "historical_significance": "명나라의 공세적 팽창 중단 및 수세적 만리장성 방어 체제로의 전환.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-ce15-beijing-defense-yu-qian",
+      "title": "우겸의 베이징 보위전과 명나라 사직 수호 (1449년)",
+      "title_en": "우겸의 베이징 보위전과 명나라 사직 수호 (1449년)",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "B",
+      "year_start": 1449,
+      "year_end": 1450,
+      "date_precision": "exact",
+      "summary": "황제가 사로잡힌 국가 비상사태에서 병부상서 우겸이 경태제를 옹립하고 베이징 9개 성문에서 결사 항전하여 오이라트군을 격퇴.",
+      "historical_significance": "제2의 정강의 변(남천)을 막아낸 명나라 구국의 승리.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-ce15-hai-jin-maritime-ban",
+      "title": "명나라 해금령(海禁令) 강화와 왜구의 발흥",
+      "title_en": "명나라 해금령(海禁令) 강화와 왜구의 발흥",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "ECONOMY",
+      "importance": "B",
+      "year_start": 1436,
+      "year_end": 1500,
+      "date_precision": "exact",
+      "summary": "정화 사후 원양 선박 건조를 금지하고 민간 해상 무역을 통제하자 밀무역업자와 왜구가 결합하여 동남 해안 약탈.",
+      "historical_significance": "중국의 자발적 해양 철수와 서세동점의 간접적 원인.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-ce15-silver-monetization-begins",
+      "title": "은(銀) 중심 화폐 경제로의 전환 시작",
+      "title_en": "은(銀) 중심 화폐 경제로의 전환 시작",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "ECONOMY",
+      "importance": "B",
+      "year_start": 1436,
+      "year_end": 1500,
+      "date_precision": "exact",
+      "summary": "명나라 지폐(대명보초)의 인플레이션 붕괴로 민간에서 은화 결제가 보편화되며 강남 상업 자본 축적.",
+      "historical_significance": "후대 일조편법 및 글로벌 은 유입의 경제적 기초.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-ce15-grand-canal-restoration-jining",
+      "title": "명나라 대운하 전면 준설과 회통하 개통 (1415년)",
+      "title_en": "명나라 대운하 전면 준설과 회통하 개통 (1415년)",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "INSTITUTION",
+      "importance": "C",
+      "year_start": 1411,
+      "year_end": 1415,
+      "date_precision": "exact",
+      "summary": "산둥 수문 30여 개를 설치하여 강남의 조운 400만 석을 북경으로 원활하게 운송하는 운하망 복원.",
+      "historical_significance": "북경 천도를 뒷받침한 경제 물류 동맥.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-ce15-zhengtong-ming-blue-white",
+      "title": "선덕·성화 연간 청화백자 및 투채(鬪彩) 자기 절정",
+      "title_en": "선덕·성화 연간 청화백자 및 투채(鬪彩) 자기 절정",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "ART_CULTURE",
+      "importance": "C",
+      "year_start": 1426,
+      "year_end": 1487,
+      "date_precision": "exact",
+      "summary": "유하청화와 유상채를 결합한 성화 투채 닭잔(계강배) 등 황실 전용 최고급 도자기 생산.",
+      "historical_significance": "중국 관요 도자기 경매 사상 최고가의 명품 탄생.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-ce15-tian-shun-restoration",
+      "title": "탈문의 변(奪門之變, 1457년)과 영종의 복위",
+      "title_en": "탈문의 변(奪門之變, 1457년)과 영종의 복위",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "C",
+      "year_start": 1457,
+      "year_end": 1457,
+      "date_precision": "exact",
+      "summary": "석형, 조길상 등이 정변을 일으켜 상황으로 있던 영종을 복위시키고 우겸을 억울하게 처형함.",
+      "historical_significance": "명나라 중기 환관과 장군들의 권력 투쟁 격화.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-ce15-hunminjeongeum-creation",
+      "title": "세종대왕의 훈민정음(한글) 창제 (1443년) 및 반포 (1446년)",
+      "title_en": "세종대왕의 훈민정음(한글) 창제 (1443년) 및 반포 (1446년)",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "ART_CULTURE",
+      "importance": "A",
+      "year_start": 1443,
+      "year_end": 1446,
+      "date_precision": "exact",
+      "summary": "백성을 사랑하는 애민정신으로 발음기관의 모양을 본떠 28자의 과학적 표음문자를 독창적으로 창제하고 집현전 학사들과 『훈민정음 해례본』 편찬(국보·유네스코 세계기록유산).",
+      "historical_significance": "세계 문자 역사상 가장 과학적이고 독창적인 인류 최고의 문화유산.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-ce15-sejong-science-revolution",
+      "title": "세종대왕·장영실의 과학기술 황금기 (측우기·자격루·혼천의·칠정산)",
+      "title_en": "세종대왕·장영실의 과학기술 황금기 (측우기·자격루·혼천의·칠정산)",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "SCIENCE",
+      "importance": "A",
+      "year_start": 1434,
+      "year_end": 1444,
+      "date_precision": "exact",
+      "summary": "세계 최초의 표준 우량계 측우기(1441), 자동 물시계 자격루(1434), 해시계 앙부일구, 한양 기준 독자 천문역법 『칠정산 내·외편』(1444) 완성.",
+      "historical_significance": "15세기 전반 세계 과학기술 연구의 30%를 차지한 경이로운 과학 르네상스.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-ce15-four-forts-six-posts",
+      "title": "4군 6진 개척과 압록강·두만강 국경선 확정",
+      "title_en": "4군 6진 개척과 압록강·두만강 국경선 확정",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "A",
+      "year_start": 1433,
+      "year_end": 1443,
+      "date_precision": "exact",
+      "summary": "최윤덕을 보내 압록강 상류 4군을, 김종서를 보내 두만강 하류 6진을 개척하고 사민정책으로 백성들을 이주시켜 오늘날의 압록강-두만강 국경 확정.",
+      "historical_significance": "대한민국 한반도 영토의 최종 경계선 확립.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-ce15-gyeongguk-daejeon-completion",
+      "title": "성종의 『경국대전(經國大典)』 완성 및 반포 (1485년)",
+      "title_en": "성종의 『경국대전(經國大典)』 완성 및 반포 (1485년)",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "INSTITUTION",
+      "importance": "A",
+      "year_start": 1455,
+      "year_end": 1485,
+      "date_precision": "exact",
+      "summary": "세조 때 착수하여 예종을 거쳐 성종 때 이전·호전·예전·병전·형전·공전 6전의 통치 법전을 완성하여 반포.",
+      "historical_significance": "조선 왕조 500년 통치 체제를 뒷받침한 불멸의 최고 성문 헌법.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-ce15-taejong-centralization-six-ministries",
+      "title": "태종 이방원의 6조 직계제와 호패법 실시",
+      "title_en": "태종 이방원의 6조 직계제와 호패법 실시",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "INSTITUTION",
+      "importance": "A",
+      "year_start": 1400,
+      "year_end": 1418,
+      "date_precision": "exact",
+      "summary": "사병을 완전 혁파하고, 의정부를 거치지 않고 6부가 왕에게 직접 보고하는 6조 직계제와 16세 이상 남성에게 신분증인 호패를 발급.",
+      "historical_significance": "세종대왕의 태평성대를 가능하게 한 강력한 중앙집권과 재정 기반 구축.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-ce15-sejo-gyeyujeongnan",
+      "title": "수양대군의 계유정난(1453년)과 사육신·생육신",
+      "title_en": "수양대군의 계유정난(1453년)과 사육신·생육신",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "A",
+      "year_start": 1453,
+      "year_end": 1456,
+      "date_precision": "exact",
+      "summary": "수양대군이 김종서·황보인을 살해하고 단종을 폐위하여 세조로 즉위하자 성삼문, 박팽년 등 사육신이 단종 복위를 꾀하다 참형당함.",
+      "historical_significance": "훈구파 공신 세력의 대두와 도덕적 절의를 중시하는 사림파의 태동.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-ce15-tsushima-expedition-gihae",
+      "title": "이종무 장군의 쓰시마섬(대마도) 정벌 (기해동정, 1419년)",
+      "title_en": "이종무 장군의 쓰시마섬(대마도) 정벌 (기해동정, 1419년)",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "B",
+      "year_start": 1419,
+      "year_end": 1419,
+      "date_precision": "exact",
+      "summary": "상왕 태종과 세종의 결단으로 227척의 군함과 1만 7천 군사를 파견해 왜구의 소굴 대마도를 소탕하고 항복을 받아냄.",
+      "historical_significance": "왜구의 근본적 위협 차단 및 3포 개항(계해약조)을 통한 통제 무역 질서 구축.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-ce15-nongsa-jikseol",
+      "title": "정초의 『농사직설(農事直說)』 편찬 (1429년)",
+      "title_en": "정초의 『농사직설(農事直說)』 편찬 (1429년)",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "SCIENCE",
+      "importance": "B",
+      "year_start": 1429,
+      "year_end": 1429,
+      "date_precision": "exact",
+      "summary": "중국 농서 베끼기를 벗어나 전국의 경험 많은 노농들의 실제 영농 경험을 조사하여 편찬한 한국 최초의 독자 농서.",
+      "historical_significance": "우리 풍토에 맞는 벼농사 직파법 및 이앙법 보급과 농업 생산력 증대.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-ce15-muo-sahwa-first-literati-purge",
+      "title": "무오사화(1498년) - 김종직의 조의제문과 사화의 시작",
+      "title_en": "무오사화(1498년) - 김종직의 조의제문과 사화의 시작",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "B",
+      "year_start": 1498,
+      "year_end": 1498,
+      "date_precision": "exact",
+      "summary": "연산군 때 훈구파 유자광·이극돈이 김일손의 사초에 실린 김종직의 『조의제문』(세조의 왕위 찬탈 비판)을 문제 삼아 사림파 대거 처형.",
+      "historical_significance": "조선 중기 4대 사화(무오·갑자·기묘·을사)의 피비린내 나는 서막.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-ce15-dongguk-tonggam-history",
+      "title": "서거정의 『동국통감(東國通鑑)』 편찬 (1485년)",
+      "title_en": "서거정의 『동국통감(東國通鑑)』 편찬 (1485년)",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "ART_CULTURE",
+      "importance": "C",
+      "year_start": 1485,
+      "year_end": 1485,
+      "date_precision": "exact",
+      "summary": "단군조선부터 삼국, 고려 말까지의 역사를 편년체로 서술한 57권의 관찬 통사 완성.",
+      "historical_significance": "조선 전기를 대표하는 통사 체계의 완성.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    }
+  ]
+}

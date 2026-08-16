@@ -1,0 +1,731 @@
+{
+  "centuryId": "bc_03th_century",
+  "centuryLabel": "기원전 3세기 (BC 300 ~ BC 201)",
+  "period": {
+    "yearStart": -300,
+    "yearEnd": -201
+  },
+  "eventCount": 30,
+  "events": [
+    {
+      "id": "west-bc3-punic-war-1",
+      "title": "제1차 포에니 전쟁",
+      "title_en": "제1차 포에니 전쟁",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "A",
+      "year_start": -264,
+      "year_end": -241,
+      "date_precision": "exact",
+      "summary": "시칠리아 주도권을 두고 로마와 카르타고가 격돌하여 로마가 최초의 속주를 획득함.",
+      "historical_significance": "로마가 육상 국가에서 지중해 해상 강국으로 도약.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "west-bc3-hannibal-punic-2",
+      "title": "제2차 포에니 전쟁과 한니발의 알프스 횡단",
+      "title_en": "제2차 포에니 전쟁과 한니발의 알프스 횡단",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "A",
+      "year_start": -218,
+      "year_end": -201,
+      "date_precision": "exact",
+      "summary": "한니발이 알프스를 넘어 칸나에에서 로마군을 전멸시켰으나 스키피오가 자마에서 승리함.",
+      "historical_significance": "서지중해의 완전한 패권을 로마가 장악.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "west-bc3-archimedes",
+      "title": "아르키메데스의 부력과 역학 원리 발견",
+      "title_en": "아르키메데스의 부력과 역학 원리 발견",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "SCIENCE",
+      "importance": "A",
+      "year_start": -287,
+      "year_end": -212,
+      "date_precision": "exact",
+      "summary": "시라쿠사의 아르키메데스가 부력, 지렛대, 원주율 계산 등 수학·물리학을 혁신함.",
+      "historical_significance": "고대 역학 및 수학의 최고봉이자 공학의 선구.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "west-bc3-alexandria-library",
+      "title": "알렉산드리아 도서관 설립",
+      "title_en": "알렉산드리아 도서관 설립",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "SCIENCE",
+      "importance": "A",
+      "year_start": -295,
+      "year_end": -280,
+      "date_precision": "exact",
+      "summary": "프톨레마이오스 왕조가 알렉산드리아에 수십만 권의 두루마리를 수집한 연구소 건립.",
+      "historical_significance": "고대 세계 최대의 학문과 지식 연구 거점.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "west-bc3-eratosthenes",
+      "title": "에라토스테네스의 지구 둘레 측정",
+      "title_en": "에라토스테네스의 지구 둘레 측정",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "SCIENCE",
+      "importance": "A",
+      "year_start": -240,
+      "year_end": -240,
+      "date_precision": "exact",
+      "summary": "시에네와 알렉산드리아의 하짓날 그림자 각도를 이용해 지구 둘레를 오차 2% 이내로 측정.",
+      "historical_significance": "인류 최초의 과학적 지구 크기 계산.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "west-bc3-euclid-elements",
+      "title": "유클리드의 기하학 원론 편찬",
+      "title_en": "유클리드의 기하학 원론 편찬",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "SCIENCE",
+      "importance": "A",
+      "year_start": -300,
+      "year_end": -275,
+      "date_precision": "exact",
+      "summary": "공리와 정리를 바탕으로 유클리드 기하학 체계를 완성함.",
+      "historical_significance": "2천 년간 서양 수학 교육과 논리적 사고의 표준 교과서.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "west-bc3-colossus-rhodes",
+      "title": "로도스의 거상 완성",
+      "title_en": "로도스의 거상 완성",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "ART_CULTURE",
+      "importance": "B",
+      "year_start": -280,
+      "year_end": -280,
+      "date_precision": "exact",
+      "summary": "로도스섬 입구에 세워진 33m 높이의 태양신 헬리오스 청동 거상.",
+      "historical_significance": "헬레니즘 청동 조각 기술의 기념비적 걸작.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "west-bc3-stoicism-zeno",
+      "title": "제논의 스토아 철학 창시",
+      "title_en": "제논의 스토아 철학 창시",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "RELIGION",
+      "importance": "B",
+      "year_start": -300,
+      "year_end": -260,
+      "date_precision": "exact",
+      "summary": "아테네 채색 주랑에서 이성(로고스)과 금욕, 평정심(아파테이아)을 가르침.",
+      "historical_significance": "로마 제국 지식인들의 핵심 통치·윤리 철학으로 발전.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "west-bc3-epicureanism",
+      "title": "에피쿠로스의 쾌락주의 철학",
+      "title_en": "에피쿠로스의 쾌락주의 철학",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "RELIGION",
+      "importance": "B",
+      "year_start": -300,
+      "year_end": -270,
+      "date_precision": "exact",
+      "summary": "마음의 동요가 없는 정신적 평정(아타락시아)과 원자론적 자연관 제시.",
+      "historical_significance": "근대 유물론과 자유주의 철학의 원류.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "west-bc3-scipio-africanus",
+      "title": "스키피오 아프리카누스의 전술 혁신",
+      "title_en": "스키피오 아프리카누스의 전술 혁신",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "C",
+      "year_start": -202,
+      "year_end": -202,
+      "date_precision": "exact",
+      "summary": "자마 전투에서 한니발의 전투 코끼리를 무력화하고 배후 기병 기습으로 카르타고 굴복.",
+      "historical_significance": "로마 지휘관의 지략과 전술적 유연성을 입증.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-bc3-qin-unification",
+      "title": "진시황의 중국 천하 통일",
+      "title_en": "진시황의 중국 천하 통일",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "A",
+      "year_start": -221,
+      "year_end": -221,
+      "date_precision": "exact",
+      "summary": "진나라 영정이 6국을 모두 멸망시키고 최초의 중앙집권 통일 황제국을 세움.",
+      "historical_significance": "2천 년간 이어질 중국 제국 통치 구조의 기틀 확립.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-bc3-standardization",
+      "title": "도량형·문자·화폐·차궤의 표준화",
+      "title_en": "도량형·문자·화폐·차궤의 표준화",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "INSTITUTION",
+      "importance": "A",
+      "year_start": -221,
+      "year_end": -210,
+      "date_precision": "exact",
+      "summary": "소전체 문자, 반량전, 통일 도량형을 전국에 강제하여 국가 단일화 완성.",
+      "historical_significance": "동일한 문화와 경제권을 형성하여 중국의 단일 정체성 형성.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-bc3-great-wall",
+      "title": "만리장성 연결 축조",
+      "title_en": "만리장성 연결 축조",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "A",
+      "year_start": -215,
+      "year_end": -210,
+      "date_precision": "exact",
+      "summary": "몽염 장군을 파견해 흉노를 격퇴하고 기존 전국 6국의 성벽을 연결하여 거대 장성을 완공.",
+      "historical_significance": "농경 문명과 북방 유목 문명의 경계선을 확정.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-bc3-burning-books",
+      "title": "분서갱유(焚書坑儒)",
+      "title_en": "분서갱유(焚書坑儒)",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "ART_CULTURE",
+      "importance": "A",
+      "year_start": -213,
+      "year_end": -212,
+      "date_precision": "exact",
+      "summary": "이사(李斯)의 건의로 민간의 사상 서적을 불태우고 비판 유학자들을 생매장함.",
+      "historical_significance": "극단적 사상 통제와 법가 독재의 상징적 사건.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-bc3-chen-sheng-wu-guang",
+      "title": "진승·오광의 난",
+      "title_en": "진승·오광의 난",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "A",
+      "year_start": -209,
+      "year_end": -208,
+      "date_precision": "exact",
+      "summary": "'왕후장상의 씨가 따로 있는가'를 외치며 일어난 중국 최초의 대규모 농민 봉기.",
+      "historical_significance": "진나라 붕괴의 도화선이자 신분 해방 의식의 효시.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-bc3-chu-han-contention",
+      "title": "초한전쟁과 한나라 건국",
+      "title_en": "초한전쟁과 한나라 건국",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "A",
+      "year_start": -206,
+      "year_end": -202,
+      "date_precision": "exact",
+      "summary": "항우와 유방의 패권 쟁탈전 끝에 해하 전투에서 유방이 승리하여 한나라를 건국함.",
+      "historical_significance": "400년 한나라 번영과 '한족(漢族)' 문화권 형성의 출발점.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-bc3-xunzi",
+      "title": "순자의 성악설과 예치 사상",
+      "title_en": "순자의 성악설과 예치 사상",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "RELIGION",
+      "importance": "B",
+      "year_start": -298,
+      "year_end": -238,
+      "date_precision": "exact",
+      "summary": "인간의 본성은 악하므로 인위적인 배움과 예(禮)로써 교화해야 한다고 주장.",
+      "historical_significance": "이사, 한비자 등 법가 사상가들을 배출한 현실주의 유학.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-bc3-han-feizi",
+      "title": "한비자의 법가 사상 집대성",
+      "title_en": "한비자의 법가 사상 집대성",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "INSTITUTION",
+      "importance": "B",
+      "year_start": -280,
+      "year_end": -233,
+      "date_precision": "exact",
+      "summary": "법(法), 술(術), 세(勢)를 결합하여 군주 전제 통치의 이론을 완성함.",
+      "historical_significance": "진시황의 통치 철학이자 중국 제국 통치술의 뼈대.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-bc3-dujiangyan",
+      "title": "이빙의 도강언 수리 시설",
+      "title_en": "이빙의 도강언 수리 시설",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "SCIENCE",
+      "importance": "B",
+      "year_start": -256,
+      "year_end": -256,
+      "date_precision": "exact",
+      "summary": "촉나라 민강에 댐 없이 물길을 나누는 자연 친화적 수리시설 축조.",
+      "historical_significance": "사천 분지를 '천부지국(풍요의 땅)'으로 탈바꿈시킴.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-bc3-terracotta",
+      "title": "진시황릉 병마용갱 조성",
+      "title_en": "진시황릉 병마용갱 조성",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "ART_CULTURE",
+      "importance": "C",
+      "year_start": -246,
+      "year_end": -208,
+      "date_precision": "exact",
+      "summary": "실물 크기의 정교한 도용 군단 수천 점을 지하 궁전에 매장.",
+      "historical_significance": "진나라의 군사 편제와 놀라운 사실주의 조각 예술 증명.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-bc3-yan-invasion",
+      "title": "연나라 진개의 침략과 만번한 경계",
+      "title_en": "연나라 진개의 침략과 만번한 경계",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "A",
+      "year_start": -280,
+      "year_end": -280,
+      "date_precision": "exact",
+      "summary": "연나라 장수 진개가 고조선 서방 2천여 리를 침략하여 만번한을 경계로 삼음.",
+      "historical_significance": "고조선의 중심지가 요하 유역에서 평양 대동강 유역으로 이동하는 계기.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-bc3-buwang-junwang",
+      "title": "고조선 부왕·준왕의 왕권 강화",
+      "title_en": "고조선 부왕·준왕의 왕권 강화",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "A",
+      "year_start": -250,
+      "year_end": -201,
+      "date_precision": "exact",
+      "summary": "부왕과 그의 아들 준왕으로 이어지는 확고한 왕위 부자상속제와 관직 체계 확립.",
+      "historical_significance": "고조선이 중앙집권적 고대 군주국가로 체제를 정비했음을 입증.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-bc3-iron-expansion",
+      "title": "철기 농기구의 전국적 보급과 대량 생산",
+      "title_en": "철기 농기구의 전국적 보급과 대량 생산",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "SCIENCE",
+      "importance": "B",
+      "year_start": -250,
+      "year_end": -201,
+      "date_precision": "exact",
+      "summary": "주조 철부(쇠도끼), 철겸(낫), 괭이 등이 대량 생산되어 농업 생산력 비약.",
+      "historical_significance": "청동기가 제기(祭器)로 물러나고 철기가 실용 도구로 완전 정착.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-bc3-jin-state",
+      "title": "한반도 남부 진국(辰國)의 대두",
+      "title_en": "한반도 남부 진국(辰國)의 대두",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "B",
+      "year_start": -250,
+      "year_end": -201,
+      "date_precision": "exact",
+      "summary": "한반도 남부 지역에 삼한의 모태가 되는 정치 연맹체 진국이 출현함.",
+      "historical_significance": "고조선과 함께 한반도 남북의 양대 정치 축 형성.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-bc3-refugees",
+      "title": "중국 전란민의 고조선 대규모 망명 유입",
+      "title_en": "중국 전란민의 고조선 대규모 망명 유입",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "INSTITUTION",
+      "importance": "B",
+      "year_start": -221,
+      "year_end": -201,
+      "date_precision": "exact",
+      "summary": "진나라의 통일 전쟁과 초한전쟁의 전란을 피해 연·제 유민들이 고조선 서부로 망명.",
+      "historical_significance": "선진 철기 기술과 제련술이 고조선에 급속도로 유입되는 계기.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-bc3-eight-prohibitions",
+      "title": "고조선 범금 8조의 사유재산·신분 질서",
+      "title_en": "고조선 범금 8조의 사유재산·신분 질서",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "INSTITUTION",
+      "importance": "B",
+      "year_start": -250,
+      "year_end": -201,
+      "date_precision": "exact",
+      "summary": "살인, 상해, 절도 등을 처벌하는 8조의 법을 통해 생명·사유재산·노비 신분 보장.",
+      "historical_significance": "고조선 사회의 성숙한 법률과 계급 사회 구조를 반영.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-bc3-black-pottery",
+      "title": "흑색마제토기(검은간토기)의 성행",
+      "title_en": "흑색마제토기(검은간토기)의 성행",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "ART_CULTURE",
+      "importance": "C",
+      "year_start": -300,
+      "year_end": -201,
+      "date_precision": "exact",
+      "summary": "표면을 곱게 문질러 광택을 낸 정교한 흑색 토기가 지배층 무덤에 부장됨.",
+      "historical_significance": "고급 토기 제작 기술과 지배층의 미적 취향 반영.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-bc3-mould-cast",
+      "title": "평양·영암 등지 활석제 거푸집 주조",
+      "title_en": "평양·영암 등지 활석제 거푸집 주조",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "SCIENCE",
+      "importance": "C",
+      "year_start": -280,
+      "year_end": -201,
+      "date_precision": "exact",
+      "summary": "세형동검, 동과(창)를 정밀하게 대량 생산하는 활석 거푸집 공방 운영.",
+      "historical_significance": "전문 장인 집단의 존재와 독자 생산 체계 완비.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-bc3-wooden-tomb",
+      "title": "목관묘(널무덤)의 보급",
+      "title_en": "목관묘(널무덤)의 보급",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "INSTITUTION",
+      "importance": "C",
+      "year_start": -250,
+      "year_end": -201,
+      "date_precision": "exact",
+      "summary": "고인돌 대신 나무 널을 땅에 묻는 널무덤이 주요 묘제로 확산됨.",
+      "historical_significance": "철기 문화의 보급과 묘제 양식의 일대 전환.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-bc3-furnace",
+      "title": "원초적 제철로와 단야구 발전",
+      "title_en": "원초적 제철로와 단야구 발전",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "SCIENCE",
+      "importance": "C",
+      "year_start": -230,
+      "year_end": -201,
+      "date_precision": "exact",
+      "summary": "사철과 철광석을 제련하여 철을 추출하는 초기 용해로 가동.",
+      "historical_significance": "철기 수입국에서 자체 제철 생산국으로의 진화 시작.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    }
+  ]
+}

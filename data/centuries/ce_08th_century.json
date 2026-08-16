@@ -1,0 +1,731 @@
+{
+  "centuryId": "ce_08th_century",
+  "centuryLabel": "서기 8세기 (AD 701 ~ AD 800)",
+  "period": {
+    "yearStart": 701,
+    "yearEnd": 800
+  },
+  "eventCount": 30,
+  "events": [
+    {
+      "id": "west-ce8-battle-of-tours",
+      "title": "투르-푸아티에 전투 (카를 마르텔의 이슬람 격퇴, 732년)",
+      "title_en": "투르-푸아티에 전투 (카를 마르텔의 이슬람 격퇴, 732년)",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "A",
+      "year_start": 732,
+      "year_end": 732,
+      "date_precision": "exact",
+      "summary": "프랑크 왕국의 궁재 카를 마르텔이 이베리아에서 피레네산맥을 넘어 침공한 우마이야 아랍 기병대를 격파함.",
+      "historical_significance": "서유럽 기독교 세계가 이슬람화되는 것을 막아낸 결정적 전투.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "west-ce8-charlemagne-coronation",
+      "title": "카롤루스 대왕(샤를마뉴)의 서로마 황제 대관 (800년)",
+      "title_en": "카롤루스 대왕(샤를마뉴)의 서로마 황제 대관 (800년)",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "A",
+      "year_start": 800,
+      "year_end": 800,
+      "date_precision": "exact",
+      "summary": "성탄절에 교황 레오 3세가 성 베드로 대성당에서 카롤루스 대왕에게 서로마 제국 황제관을 수여함.",
+      "historical_significance": "서유럽 중세의 3대 요소(로마 고전, 기독교, 게르만 전통)의 완전한 결합 및 유럽 연합의 원형.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "west-ce8-abbasid-revolution",
+      "title": "아바스 왕조의 건국과 바그다드 '평화의 도시' 건설 (750/762년)",
+      "title_en": "아바스 왕조의 건국과 바그다드 '평화의 도시' 건설 (750/762년)",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "A",
+      "year_start": 750,
+      "year_end": 762,
+      "date_precision": "exact",
+      "summary": "아부 알 아바스가 우마이야 왕조를 무너뜨리고 모든 무슬림이 평등한 보편 제국을 세워 바그다드로 천도.",
+      "historical_significance": "이슬람 문명의 황금시대(Islamic Golden Age) 개막.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "west-ce8-house-of-wisdom",
+      "title": "바그다드 '지혜의 집(Bayt al-Hikma)'과 번역 운동",
+      "title_en": "바그다드 '지혜의 집(Bayt al-Hikma)'과 번역 운동",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "SCIENCE",
+      "importance": "A",
+      "year_start": 786,
+      "year_end": 809,
+      "date_precision": "exact",
+      "summary": "칼리프 하룬 알 라시드가 설립하여 플라톤, 아리스토텔레스, 프톨레마이오스, 유클리드 등 그리스 고전을 아랍어로 번역·연구.",
+      "historical_significance": "서양 고전 지식을 보존하여 후대 12세기 르네상스에 환류.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "west-ce8-byzantine-iconoclasm",
+      "title": "비잔틴 제국의 성상 파괴 운동(Iconoclasm)",
+      "title_en": "비잔틴 제국의 성상 파괴 운동(Iconoclasm)",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "RELIGION",
+      "importance": "A",
+      "year_start": 726,
+      "year_end": 787,
+      "date_precision": "exact",
+      "summary": "레오 3세 황제가 우상숭배 금지를 명분으로 모든 이콘(성상·성화) 파괴를 명령함.",
+      "historical_significance": "로마 교황청과의 심각한 갈등 및 동서 교회의 완전한 분열 촉진.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "west-ce8-carolingian-renaissance",
+      "title": "카롤링거 르네상스와 알쿠인의 궁정 학교",
+      "title_en": "카롤링거 르네상스와 알쿠인의 궁정 학교",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "ART_CULTURE",
+      "importance": "B",
+      "year_start": 780,
+      "year_end": 800,
+      "date_precision": "exact",
+      "summary": "카롤루스 대왕이 아헨 궁정에 영국의 학자 알쿠인을 초빙하여 라틴어 교육과 카롤링거 소문자 서체 보급.",
+      "historical_significance": "중세 암흑기를 깬 학문과 도서 필사 문화의 부흥.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "west-ce8-al-andalus-cordoba",
+      "title": "후우마이야 왕조 건국과 코르도바 대모스크(메스키타) 착공",
+      "title_en": "후우마이야 왕조 건국과 코르도바 대모스크(메스키타) 착공",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "ART_CULTURE",
+      "importance": "B",
+      "year_start": 756,
+      "year_end": 784,
+      "date_precision": "exact",
+      "summary": "아브드 알 라흐만 1세가 스페인에 망명 왕조를 세우고 코르도바에 붉은색과 흰색 줄무늬 아치의 대사원 착공.",
+      "historical_significance": "이베리아 반도 이슬람-유대-기독교 융합 문화의 만개.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "west-ce8-viking-age-lindisfarne",
+      "title": "바이킹의 린디스판 수도원 습격 (바이킹 시대 개막, 793년)",
+      "title_en": "바이킹의 린디스판 수도원 습격 (바이킹 시대 개막, 793년)",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "B",
+      "year_start": 793,
+      "year_end": 793,
+      "date_precision": "exact",
+      "summary": "스칸디나비아 노르만 해적들이 잉글랜드 동북부 홀리 아일랜드의 린디스판 수도원을 기습 약탈함.",
+      "historical_significance": "300년간 전 유럽 해안과 강을 공포로 몰아넣은 바이킹 시대의 시작.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "west-ce8-pepin-donation-papal-states",
+      "title": "피핀의 기증과 교황령(Papal States)의 탄생 (754/756년)",
+      "title_en": "피핀의 기증과 교황령(Papal States)의 탄생 (754/756년)",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "INSTITUTION",
+      "importance": "B",
+      "year_start": 754,
+      "year_end": 756,
+      "date_precision": "exact",
+      "summary": "단신왕 피핀이 랑고바르드족을 격퇴하고 라벤나 일대 영토를 교황 스테파노 2세에게 기증함.",
+      "historical_significance": "교황이 독립된 세속 영토의 군주로 등극.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "west-ce8-arabian-nights-harun",
+      "title": "하룬 알 라시드의 통치와 『천일야화(아라비안 나이트)』의 배경",
+      "title_en": "하룬 알 라시드의 통치와 『천일야화(아라비안 나이트)』의 배경",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "ART_CULTURE",
+      "importance": "C",
+      "year_start": 786,
+      "year_end": 809,
+      "date_precision": "exact",
+      "summary": "아바스 제국의 최대 번영기로 샤흐라자드의 이야기로 유명한 설화 문학 형성.",
+      "historical_significance": "세계 문학사에 빛나는 환상적 아랍 민담의 원천.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-ce8-kaiyuan-prosperous-age",
+      "title": "당현종의 '개원의 치(開元之治)'와 성당(盛唐)의 번영",
+      "title_en": "당현종의 '개원의 치(開元之治)'와 성당(盛唐)의 번영",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "A",
+      "year_start": 713,
+      "year_end": 741,
+      "date_precision": "exact",
+      "summary": "당현종 초기 요숭, 송경 등 명재상을 등용해 국가 재정을 정비하고 당나라 문화의 최고 황금기 구가.",
+      "historical_significance": "중국 고대 제국의 물질적·문화적 최절정기.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-ce8-an-lushun-rebellion",
+      "title": "안사의 난(安史之亂) (755년)",
+      "title_en": "안사의 난(安史之亂) (755년)",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "A",
+      "year_start": 755,
+      "year_end": 763,
+      "date_precision": "exact",
+      "summary": "절도사 안록산과 사사명이 반란을 일으켜 낙양과 장안을 함락시키고 양귀비가 사사됨.",
+      "historical_significance": "당나라가 중앙집권에서 번진(藩鎭) 군벌 할거로 전락하고 쇠퇴하는 치명적 전환점.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-ce8-battle-of-talas",
+      "title": "탈라스 전투와 이슬람·유럽으로의 제지술 전파 (751년)",
+      "title_en": "탈라스 전투와 이슬람·유럽으로의 제지술 전파 (751년)",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "SCIENCE",
+      "importance": "A",
+      "year_start": 751,
+      "year_end": 751,
+      "date_precision": "exact",
+      "summary": "고구려 유민 출신 당나라 장수 고선지의 군대가 아바스 제국 군대와 중앙아시아 탈라스에서 격돌.",
+      "historical_significance": "중국의 제지 기술자 포로를 통해 사마르칸트와 바그다드를 거쳐 유럽으로 제지술이 전파된 세계사적 사건.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-ce8-li-bai-du-fu-poetry",
+      "title": "이백과 두보의 시문학 절정 (시선과 시성)",
+      "title_en": "이백과 두보의 시문학 절정 (시선과 시성)",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "ART_CULTURE",
+      "importance": "A",
+      "year_start": 740,
+      "year_end": 770,
+      "date_precision": "exact",
+      "summary": "낭만주의의 천재 이백(시선)과 전란의 고통을 사실주의로 읊은 두보(시성)의 불멸의 당시(唐詩) 창작.",
+      "historical_significance": "동양 한시 문학의 영원한 양대 산맥.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-ce8-liangshui-law-tax",
+      "title": "양염의 양세법(兩稅法) 제정 (780년)",
+      "title_en": "양염의 양세법(兩稅法) 제정 (780년)",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "INSTITUTION",
+      "importance": "A",
+      "year_start": 780,
+      "year_end": 780,
+      "date_precision": "exact",
+      "summary": "균전제 붕괴 후 인두세(조용조) 대신 자산과 토지 면적에 따라 여름과 가을 두 차례 화폐와 곡물로 징수.",
+      "historical_significance": "동아시아 조세 체계가 토지세 중심으로 대전환된 일대 개혁.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-ce8-lu-yu-classic-of-tea",
+      "title": "육우의 『다경(茶經)』 편찬과 차 문화의 확립",
+      "title_en": "육우의 『다경(茶經)』 편찬과 차 문화의 확립",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "ART_CULTURE",
+      "importance": "B",
+      "year_start": 760,
+      "year_end": 780,
+      "date_precision": "exact",
+      "summary": "차나무 재배, 찻잎 가공, 다기, 달이는 법, 음다 예절을 집대성한 세계 최초의 차 백과사전.",
+      "historical_significance": "동양 다도(茶道) 문화의 창시.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-ce8-yixing-prime-meridian",
+      "title": "승려 일행의 자오선 길이 측정과 『대연력』 편찬",
+      "title_en": "승려 일행의 자오선 길이 측정과 『대연력』 편찬",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "SCIENCE",
+      "importance": "B",
+      "year_start": 724,
+      "year_end": 728,
+      "date_precision": "exact",
+      "summary": "황도와 자오선을 실측하여 지구 표면의 위도 1도 거리를 세계 최초로 계산한 천문역법 개혁.",
+      "historical_significance": "동양 정밀 측지학과 천문학의 최고 성취.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-ce8-han-yu-ancient-prose",
+      "title": "한유의 고문운동(古文運動)과 원도(原道)",
+      "title_en": "한유의 고문운동(古文運動)과 원도(原道)",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "ART_CULTURE",
+      "importance": "B",
+      "year_start": 790,
+      "year_end": 805,
+      "date_precision": "exact",
+      "summary": "형식적인 변려문을 비판하고 자유롭고 명료한 진·한대 산문으로 돌아가자는 유학 부흥 문예 운동.",
+      "historical_significance": "송대 성리학과 당송 8대가 산문의 원류.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-ce8-tibet-tubo-invasion",
+      "title": "토번(티베트) 티송데첸의 장안 점령 (763년)",
+      "title_en": "토번(티베트) 티송데첸의 장안 점령 (763년)",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "C",
+      "year_start": 763,
+      "year_end": 763,
+      "date_precision": "exact",
+      "summary": "안사의 난으로 약화된 틈을 타 토번군이 당 수도 장안을 일시 점령함.",
+      "historical_significance": "티베트 제국의 전성기와 당나라의 서방 방어선 붕괴.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-ce8-sancai-pottery",
+      "title": "당삼채(唐三彩) 도자기의 대량 제작과 실크로드 수출",
+      "title_en": "당삼채(唐三彩) 도자기의 대량 제작과 실크로드 수출",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "ART_CULTURE",
+      "importance": "C",
+      "year_start": 710,
+      "year_end": 760,
+      "date_precision": "exact",
+      "summary": "갈색, 녹색, 백색 유약을 입힌 화려한 도용(서역 낙타상, 여인상)이 귀족 부장품으로 유행.",
+      "historical_significance": "당 제국의 활달한 다문화주의와 도예 기술 과시.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-ce8-bulguksa-seokguram",
+      "title": "통일신라 불국사와 석굴암 창건 (김대성, 751년)",
+      "title_en": "통일신라 불국사와 석굴암 창건 (김대성, 751년)",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "ART_CULTURE",
+      "importance": "A",
+      "year_start": 751,
+      "year_end": 774,
+      "date_precision": "exact",
+      "summary": "재상 김대성이 현생과 전생의 부모를 위해 화강암 돔 인공석굴 석굴암 본존불과 불국사 백운교·석가탑·다보탑 완공.",
+      "historical_significance": "유네스코 세계문화유산이자 세계 불교 미술과 석조 건축의 최고 걸작.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-ce8-mugu-jeonggwang-dharani",
+      "title": "무구정광대다라니경 목판 인쇄 (세계 최고(最古) 목판 인쇄본)",
+      "title_en": "무구정광대다라니경 목판 인쇄 (세계 최고(最古) 목판 인쇄본)",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "SCIENCE",
+      "importance": "A",
+      "year_start": 751,
+      "year_end": 751,
+      "date_precision": "exact",
+      "summary": "불국사 삼층석탑(석가탑) 사리함에서 발견된 닥종이 두루마리 목판 인쇄 다라니경.",
+      "historical_significance": "현존하는 세계에서 가장 오래된 목판 인쇄물로서 한국 인쇄 기술의 독보적 위상 입증.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-ce8-hyecho-pilgrimage",
+      "title": "혜초 스님의 5천축국 순례와 『왕오천축국전』 저술 (727년)",
+      "title_en": "혜초 스님의 5천축국 순례와 『왕오천축국전』 저술 (727년)",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "RELIGION",
+      "importance": "A",
+      "year_start": 723,
+      "year_end": 727,
+      "date_precision": "exact",
+      "summary": "해로로 인도(5천축국)를 순례하고 중앙아시아, 페르시아, 파미르고원을 거쳐 장안으로 귀환한 여행기.",
+      "historical_significance": "8세기 인도와 중앙아시아의 정치·종교·풍속을 기록한 세계 4대 여행기.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-ce8-balhae-munwang-peak",
+      "title": "발해 문왕 대흠무의 중흥과 상경용천부 천도",
+      "title_en": "발해 문왕 대흠무의 중흥과 상경용천부 천도",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "A",
+      "year_start": 737,
+      "year_end": 793,
+      "date_precision": "exact",
+      "summary": "56년간 재위하며 당나라 장안성을 모방한 거대한 상경용천부를 건설하고 3성 6부제 정비, 신라도·일본도 등 5대 대외 교통로 개척.",
+      "historical_significance": "'해동성국(海東盛國)'의 기틀을 완성한 발해의 황금기.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-ce8-balhae-muwang-dengzhou",
+      "title": "발해 무왕의 산둥반도 등주 공격 (장문휴 장군, 732년)",
+      "title_en": "발해 무왕의 산둥반도 등주 공격 (장문휴 장군, 732년)",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "A",
+      "year_start": 732,
+      "year_end": 732,
+      "date_precision": "exact",
+      "summary": "당나라의 흑수말갈 연합 포위망에 선제 타격으로 장문휴 장군이 해군을 이끌고 당나라 등주를 기습하여 자사 유준을 사살함.",
+      "historical_significance": "발해의 막강한 군사력과 독자적 패권 의지 과시.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-ce8-silla-sinmun-reforms",
+      "title": "신라 신문왕의 귀족 숙청(김흠돌의 난)과 관료전 지급",
+      "title_en": "신라 신문왕의 귀족 숙청(김흠돌의 난)과 관료전 지급",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "INSTITUTION",
+      "importance": "A",
+      "year_start": 681,
+      "year_end": 692,
+      "date_precision": "exact",
+      "summary": "진골 귀족의 경제 기반인 녹읍을 폐지하고 관료전을 지급하며 국학(대학)을 설립하고 9주 5소경 행정체제 완성.",
+      "historical_significance": "신라 중대 전제 왕권의 절정기 구축.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-ce8-emille-bell-casting",
+      "title": "성덕대왕신종(에밀레종) 주조 완성 (771년)",
+      "title_en": "성덕대왕신종(에밀레종) 주조 완성 (771년)",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "ART_CULTURE",
+      "importance": "B",
+      "year_start": 742,
+      "year_end": 771,
+      "date_precision": "exact",
+      "summary": "19톤에 달하는 거대한 청동 범종으로 비천상 부조와 음관(만파식적 원리)을 통해 수십 리 밖까지 울리는 맥놀이 소리 구현.",
+      "historical_significance": "한국 고대 금속 주조 공학 및 음향학의 최고 절정.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-ce8-silla-village-records",
+      "title": "신라 민정문서(신라 촌락문서) 작성",
+      "title_en": "신라 민정문서(신라 촌락문서) 작성",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "INSTITUTION",
+      "importance": "B",
+      "year_start": 755,
+      "year_end": 755,
+      "date_precision": "exact",
+      "summary": "서원경(청주) 부근 4개 촌락의 인구(남녀·연령별 6등급), 전답 면적, 소·말, 뽕나무·잣나무 수를 3년마다 정밀 조사.",
+      "historical_significance": "통일신라의 치밀한 촌락 지배와 조세 수취 행정을 보여주는 유일한 고문서.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-ce8-silla-hyangga-culture",
+      "title": "향가(鄕歌) 문학의 전성기와 월명사·충담사",
+      "title_en": "향가(鄕歌) 문학의 전성기와 월명사·충담사",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "ART_CULTURE",
+      "importance": "C",
+      "year_start": 750,
+      "year_end": 780,
+      "date_precision": "exact",
+      "summary": "향찰(한자의 음과 훈)로 지은 10구체 사뇌가 『제망매가』, 『안민가』, 『찬기파랑가』 창작.",
+      "historical_significance": "한국 고유어 서정시 문학의 최고의 백미.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-ce8-dokseo-sampumgwa",
+      "title": "신라 원성왕의 독서삼품과(讀書三品科) 실시 (788년)",
+      "title_en": "신라 원성왕의 독서삼품과(讀書三品科) 실시 (788년)",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "INSTITUTION",
+      "importance": "C",
+      "year_start": 788,
+      "year_end": 788,
+      "date_precision": "exact",
+      "summary": "유교 경전(효경, 논어, 예기 등) 독해 능력에 따라 인재를 상·중·하 3품으로 선발하려 시도함.",
+      "historical_significance": "골품제의 한계를 극복하려 한 학문 중심 관리 등용 시도.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    }
+  ]
+}

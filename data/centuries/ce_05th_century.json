@@ -1,0 +1,731 @@
+{
+  "centuryId": "ce_05th_century",
+  "centuryLabel": "서기 5세기 (AD 401 ~ AD 500)",
+  "period": {
+    "yearStart": 401,
+    "yearEnd": 500
+  },
+  "eventCount": 30,
+  "events": [
+    {
+      "id": "west-ce5-fall-of-western-rome",
+      "title": "서로마 제국의 멸망 (476년)",
+      "title_en": "서로마 제국의 멸망 (476년)",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "A",
+      "year_start": 476,
+      "year_end": 476,
+      "date_precision": "exact",
+      "summary": "게르만 용병대장 오도아케르가 마지막 서로마 황제 로물루스 아우구스툴루스를 폐위함.",
+      "historical_significance": "고대 서양사의 종말과 중세 암흑시대(Dark Ages)의 공식 개막.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "west-ce5-sack-of-rome-visigoths",
+      "title": "서고트족 알라리크의 로마 점령 및 약탈",
+      "title_en": "서고트족 알라리크의 로마 점령 및 약탈",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "A",
+      "year_start": 410,
+      "year_end": 410,
+      "date_precision": "exact",
+      "summary": "알라리크가 800년 만에 처음으로 '영원의 도시' 로마를 함락하고 3일간 약탈함.",
+      "historical_significance": "로마 제국의 불패 신화 완전 붕괴와 지식인들의 거대한 정신적 충격.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "west-ce5-attila-the-hun",
+      "title": "아틸라와 훈족의 서유럽 대침공 (카탈라우눔 전투)",
+      "title_en": "아틸라와 훈족의 서유럽 대침공 (카탈라우눔 전투)",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "A",
+      "year_start": 451,
+      "year_end": 452,
+      "date_precision": "exact",
+      "summary": "'신의 채찍' 아틸라가 갈리아를 침공했으나 아이티우스의 로마-서고트 연합군이 카탈라우눔 평원에서 저지.",
+      "historical_significance": "서유럽 문명의 절멸 위기 극복 및 훈 제국의 분열.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "west-ce5-clovis-frankish-catholic",
+      "title": "클로비스 1세의 프랑크 왕국 건국 및 가톨릭 개종",
+      "title_en": "클로비스 1세의 프랑크 왕국 건국 및 가톨릭 개종",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "A",
+      "year_start": 481,
+      "year_end": 496,
+      "date_precision": "exact",
+      "summary": "메로빙거 왕조 클로비스가 갈리아를 통일하고 아리우스파가 아닌 로마 가톨릭으로 개종.",
+      "historical_significance": "게르만 프랑크족과 로마 교회의 결합 및 현대 프랑스·독일의 모태 형성.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "west-ce5-augustine-city-of-god",
+      "title": "아우구스티누스의 『신국론(De Civitate Dei)』",
+      "title_en": "아우구스티누스의 『신국론(De Civitate Dei)』",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "RELIGION",
+      "importance": "A",
+      "year_start": 413,
+      "year_end": 426,
+      "date_precision": "exact",
+      "summary": "로마 약탈 후 이교도들의 비난에 답하여 세속의 국가(지상국)와 하나님의 나라(천상국)의 역사철학 정립.",
+      "historical_significance": "중세 천 년간 서양 기독교 정치사상과 역사관의 기초.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "west-ce5-vandal-sack-of-rome",
+      "title": "반달족 가이세리크의 로마 약탈 (반달리즘)",
+      "title_en": "반달족 가이세리크의 로마 약탈 (반달리즘)",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "B",
+      "year_start": 455,
+      "year_end": 455,
+      "date_precision": "exact",
+      "summary": "북아프리카의 반달족 함대가 티베르강을 거슬러 올라와 로마를 점령하고 2주간 철저히 문화재 약탈.",
+      "historical_significance": "문화재 파괴 행위를 뜻하는 '반달리즘(Vandalism)'의 유래.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "west-ce5-council-of-chalcedon",
+      "title": "칼케돈 공의회 (그리스도의 신성과 인성 양성론 확정)",
+      "title_en": "칼케돈 공의회 (그리스도의 신성과 인성 양성론 확정)",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "RELIGION",
+      "importance": "B",
+      "year_start": 451,
+      "year_end": 451,
+      "date_precision": "exact",
+      "summary": "단성론을 배격하고 그리스도는 참 하나님이자 참 사람으로서 신성과 인성이 혼합 없이 공존한다는 신조 확정.",
+      "historical_significance": "가톨릭·정교회 기독론의 확립과 오리엔트 정교회의 분리.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "west-ce5-patrick-ireland",
+      "title": "성 패트릭의 아일랜드 복음화",
+      "title_en": "성 패트릭의 아일랜드 복음화",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "RELIGION",
+      "importance": "B",
+      "year_start": 432,
+      "year_end": 461,
+      "date_precision": "exact",
+      "summary": "켈트 켈틱 드루이드 신앙이 지배하던 아일랜드에 기독교를 전파하고 독자적 켈트 수도원 설립.",
+      "historical_significance": "중세 서유럽 고전 필사본을 보존하는 학문의 도피처 아일랜드 수도원 형성.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "west-ce5-theodoric-ostrogoth",
+      "title": "테오도리쿠스 대왕의 동고트 왕국 수립",
+      "title_en": "테오도리쿠스 대왕의 동고트 왕국 수립",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "C",
+      "year_start": 493,
+      "year_end": 493,
+      "date_precision": "exact",
+      "summary": "오도아케르를 제거하고 라벤나에 도읍하여 이탈리아를 지배하며 로마 법과 문화를 계승.",
+      "historical_significance": "이탈리아에서 게르만 군주와 로마 귀족의 공존 모색.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "west-ce5-leo-the-great-papacy",
+      "title": "교황 레오 1세의 위상 강화",
+      "title_en": "교황 레오 1세의 위상 강화",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "RELIGION",
+      "importance": "C",
+      "year_start": 440,
+      "year_end": 461,
+      "date_precision": "exact",
+      "summary": "아틸라와 반달족을 직접 담판으로 설득하여 로마 파괴를 완화하고 베드로 수위권을 천명.",
+      "historical_significance": "서유럽의 정치적 공백을 메우는 교황청 권력의 대두.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-ce5-northern-wei-xiaowen",
+      "title": "북위 효문제의 전면적 한화(漢化) 개혁",
+      "title_en": "북위 효문제의 전면적 한화(漢化) 개혁",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "INSTITUTION",
+      "importance": "A",
+      "year_start": 490,
+      "year_end": 499,
+      "date_precision": "exact",
+      "summary": "선비족 복장·언어 금지, 한족과의 통혼 장려, 한족 성씨(탁발씨→원씨) 개명, 낙양 천도 단행.",
+      "historical_significance": "호한(胡漢) 융합을 완성하여 수·당 통일 제국의 민족적 기반 구축.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-ce5-equal-field-system",
+      "title": "북위 균전제(均田制)와 삼장제 실시",
+      "title_en": "북위 균전제(均田制)와 삼장제 실시",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "INSTITUTION",
+      "importance": "A",
+      "year_start": 485,
+      "year_end": 486,
+      "date_precision": "exact",
+      "summary": "국가가 농민(노비·소 포함)에게 토지를 지급하고 조세를 거두는 균전제와 호적 관리 삼장제 시행.",
+      "historical_significance": "수·당 시대까지 이어질 동아시아 토지·조세 제도의 기본 골격 완성.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-ce5-yungang-longmen-grottoes",
+      "title": "운강석굴 및 용문석굴의 대규모 불교 조각",
+      "title_en": "운강석굴 및 용문석굴의 대규모 불교 조각",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "ART_CULTURE",
+      "importance": "A",
+      "year_start": 460,
+      "year_end": 500,
+      "date_precision": "exact",
+      "summary": "북위 황실의 주도로 평성 운강과 낙양 용문에 수만 구의 거대한 마애 석굴 불상군 조성.",
+      "historical_significance": "간다라 양식과 중국 고유의 사실주의가 결합된 불교 미술의 금자탑.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-ce5-zu-chongzhi-pi",
+      "title": "조충지의 초정밀 원주율(밀률) 계산",
+      "title_en": "조충지의 초정밀 원주율(밀률) 계산",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "SCIENCE",
+      "importance": "A",
+      "year_start": 480,
+      "year_end": 480,
+      "date_precision": "exact",
+      "summary": "원주율을 3.1415926과 3.1415927 사이로 정확히 계산(유럽보다 1천 년 앞섬)하고 『대명력』 제정.",
+      "historical_significance": "고대 세계 수학과 천문학의 가장 경이로운 성취.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-ce5-liu-song-founding",
+      "title": "유유의 유송(劉宋) 건국과 남조 4왕조 개막",
+      "title_en": "유유의 유송(劉宋) 건국과 남조 4왕조 개막",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "B",
+      "year_start": 420,
+      "year_end": 420,
+      "date_precision": "exact",
+      "summary": "평민 군인 출신 유유가 동진을 멸망시키고 송나라를 건국함(송-제-양-진으로 이어지는 남조).",
+      "historical_significance": "남방 한족 왕조의 군사력 강화와 문벌 귀족 견제.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-ce5-tao-yuanming-poetry",
+      "title": "도연명의 귀거래사와 전원문학",
+      "title_en": "도연명의 귀거래사와 전원문학",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "ART_CULTURE",
+      "importance": "B",
+      "year_start": 405,
+      "year_end": 427,
+      "date_precision": "exact",
+      "summary": "'오두미 쌀 때문에 허리를 굽힐 수 없다'며 낙향하여 『귀거래사』와 『도화원기(무릉도원)』 저술.",
+      "historical_significance": "동양 은일 문학과 자연주의 서정시의 최고봉.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-ce5-fan-zhen-mortality",
+      "title": "범진의 『신멸론(神滅論)』과 무신론 논쟁",
+      "title_en": "범진의 『신멸론(神滅論)』과 무신론 논쟁",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "RELIGION",
+      "importance": "B",
+      "year_start": 489,
+      "year_end": 489,
+      "date_precision": "exact",
+      "summary": "육체가 칼날이면 정신은 칼의 날카로움과 같아 육체가 죽으면 영혼도 멸한다는 유물론 주장.",
+      "historical_significance": "남조 불교의 윤회설에 맞선 사상계 최대의 철학 논쟁.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-ce5-northern-wei-unification",
+      "title": "북위 태무제의 화북 통일",
+      "title_en": "북위 태무제의 화북 통일",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "B",
+      "year_start": 439,
+      "year_end": 439,
+      "date_precision": "exact",
+      "summary": "하, 북연, 북량을 차례로 멸망시키고 135년간 이어진 5호 16국의 대혼란을 종식.",
+      "historical_significance": "북조와 남조의 대치라는 완전한 남북조 시대 정립.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-ce5-taowuhong-daoism",
+      "title": "도홍경의 도교 모산파 확립과 본초경 집주",
+      "title_en": "도홍경의 도교 모산파 확립과 본초경 집주",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "RELIGION",
+      "importance": "C",
+      "year_start": 492,
+      "year_end": 500,
+      "date_precision": "exact",
+      "summary": "상청파 도교 교단을 정비하고 730종의 약재를 분류한 『본초경집주』 저술.",
+      "historical_significance": "도교의 체계화와 중국 본초학 발전.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-ce5-shishuo-xinyu",
+      "title": "유의경의 『세설신어(世說新語)』 편찬",
+      "title_en": "유의경의 『세설신어(世說新語)』 편찬",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "ART_CULTURE",
+      "importance": "C",
+      "year_start": 430,
+      "year_end": 444,
+      "date_precision": "exact",
+      "summary": "후한 말부터 동진까지 명사들의 기발한 언행, 일화, 풍류를 기록한 필기소설의 걸작.",
+      "historical_significance": "위진남북조 귀족들의 미의식과 생활상 복원.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-ce5-jangsu-pyongyang-capital",
+      "title": "고구려 장수왕의 평양 천도와 남진 정책 (427년)",
+      "title_en": "고구려 장수왕의 평양 천도와 남진 정책 (427년)",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "A",
+      "year_start": 427,
+      "year_end": 427,
+      "date_precision": "exact",
+      "summary": "국내성에서 대동강 평양성으로 도읍을 옮겨 대륙과 해양을 잇는 남진 정책 본격화.",
+      "historical_significance": "고구려의 중심지를 한반도로 이동시키며 삼국 간 영토 대전쟁 격화.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-ce5-gwanggaeto-stele-erection",
+      "title": "광개토대왕릉비 건립 (414년)",
+      "title_en": "광개토대왕릉비 건립 (414년)",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "ART_CULTURE",
+      "importance": "A",
+      "year_start": 414,
+      "year_end": 414,
+      "date_precision": "exact",
+      "summary": "장수왕이 부왕의 업적을 기리기 위해 국내성에 6.39m 거대한 비석에 1,775자를 새겨 건립.",
+      "historical_significance": "고구려 건국 신화와 웅장한 정복 사업을 기록한 국보급 금석문.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-ce5-hanseong-fall-gaero",
+      "title": "고구려의 한성 함락과 백제 개로왕 전사 (475년)",
+      "title_en": "고구려의 한성 함락과 백제 개로왕 전사 (475년)",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "A",
+      "year_start": 475,
+      "year_end": 475,
+      "date_precision": "exact",
+      "summary": "장수왕의 3만 대군이 백제 한성을 포위 함락하고 개로왕을 아차산성에서 처형함.",
+      "historical_significance": "500년 백제 한성 시대 종말 및 고구려의 한강 유역 완전 장악.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-ce5-baekje-ungjin-capital",
+      "title": "백제 문주왕의 웅진(공주) 천도",
+      "title_en": "백제 문주왕의 웅진(공주) 천도",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "A",
+      "year_start": 475,
+      "year_end": 475,
+      "date_precision": "exact",
+      "summary": "한성이 함락되자 문주왕이 공주 공산성(웅진)으로 도읍을 옮겨 국가 재건에 착수.",
+      "historical_significance": "백제의 생존과 중흥을 모색하는 웅진 시대 개막.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-ce5-naje-alliance",
+      "title": "나제동맹(羅濟同盟) 체결과 혼인 동맹",
+      "title_en": "나제동맹(羅濟同盟) 체결과 혼인 동맹",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "A",
+      "year_start": 433,
+      "year_end": 493,
+      "date_precision": "exact",
+      "summary": "고구려의 남진에 맞서 백제 비유왕-신라 눌지왕이 동맹(433)을 맺고, 동성왕-소지왕이 혼인 동맹(493)으로 격상.",
+      "historical_significance": "120년간 이어진 삼국 간 세력 균형과 군사적 공조.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-ce5-silla-maripgan-reforms",
+      "title": "신라 눌지·소지마립간의 우역 설치와 시비(시장) 개설",
+      "title_en": "신라 눌지·소지마립간의 우역 설치와 시비(시장) 개설",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "INSTITUTION",
+      "importance": "B",
+      "year_start": 487,
+      "year_end": 490,
+      "date_precision": "exact",
+      "summary": "전국에 우편·교통망인 우역(郵驛)을 설치하고 수도 경주에 시장(경시)을 열어 상업 진흥.",
+      "historical_significance": "신라의 광역 유통망과 행정 통제력 비약적 성장.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-ce5-chungju-goguryeo-stele",
+      "title": "충주 고구려비(중원 고구려비) 건립",
+      "title_en": "충주 고구려비(중원 고구려비) 건립",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "ART_CULTURE",
+      "importance": "B",
+      "year_start": 475,
+      "year_end": 490,
+      "date_precision": "exact",
+      "summary": "남한강 상류 충주에 세워진 유일한 한반도 내 고구려 석비로 신라왕을 '매금'이라 칭함.",
+      "historical_significance": "고구려 영토가 충청도·영남 북부까지 확장되었음을 실증.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-ce5-daegaya-federation-rise",
+      "title": "고령 대가야 중심의 후기 가야 연맹 결성",
+      "title_en": "고령 대가야 중심의 후기 가야 연맹 결성",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "B",
+      "year_start": 450,
+      "year_end": 500,
+      "date_precision": "exact",
+      "summary": "금관가야 쇠퇴 후 고령 대가야가 지산동 고분군을 축조하며 중국 남제에 사신을 파견(하지왕).",
+      "historical_significance": "호남 동부와 영남 서부를 아우르는 대가야의 번영.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-ce5-baekje-dongseong-revival",
+      "title": "백제 동성왕의 국력 회복과 탐라 복속",
+      "title_en": "백제 동성왕의 국력 회복과 탐라 복속",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "C",
+      "year_start": 479,
+      "year_end": 501,
+      "date_precision": "exact",
+      "summary": "신진 세력을 등용하고 금강 유역 방어망을 정비하며 제주도 탐라국을 조공국으로 복속.",
+      "historical_significance": "웅진 천도 후 혼란을 극복하고 백제 중흥의 기틀 마련.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-ce5-goguryeo-tomb-murals-peak",
+      "title": "고구려 무용총·쌍영총 벽화 전성기",
+      "title_en": "고구려 무용총·쌍영총 벽화 전성기",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "ART_CULTURE",
+      "importance": "C",
+      "year_start": 450,
+      "year_end": 500,
+      "date_precision": "exact",
+      "summary": "수렵도, 무용도, 사신도, 천문 별자리도를 회반죽 벽에 프레스코 기법으로 화려하게 묘사.",
+      "historical_significance": "고구려의 호방한 기상과 세계관을 담은 유네스코 세계유산.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    }
+  ]
+}

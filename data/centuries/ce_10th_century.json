@@ -1,0 +1,731 @@
+{
+  "centuryId": "ce_10th_century",
+  "centuryLabel": "서기 10세기 (AD 901 ~ AD 1000)",
+  "period": {
+    "yearStart": 901,
+    "yearEnd": 1000
+  },
+  "eventCount": 30,
+  "events": [
+    {
+      "id": "west-ce10-otto-holy-roman-empire",
+      "title": "오토 1세의 레히펠트 전투 승리와 신성로마제국 성립 (962년)",
+      "title_en": "오토 1세의 레히펠트 전투 승리와 신성로마제국 성립 (962년)",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "A",
+      "year_start": 955,
+      "year_end": 962,
+      "date_precision": "exact",
+      "summary": "마자르족(헝가리)을 레히펠트에서 섬멸하고 교황 요한 12세로부터 로마 황제관을 받아 신성로마제국 개창.",
+      "historical_significance": "1806년까지 840년간 지속될 중유럽 제국 체제의 탄생.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "west-ce10-hugh-capet-france",
+      "title": "위그 카페의 즉위와 카페 왕조 성립 (987년)",
+      "title_en": "위그 카페의 즉위와 카페 왕조 성립 (987년)",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "A",
+      "year_start": 987,
+      "year_end": 987,
+      "date_precision": "exact",
+      "summary": "카롤링거 왕조 단절 후 파리 백작 위그 카페가 프랑스 국왕으로 선출되어 세습 왕조 개창.",
+      "historical_significance": "프랑스 왕국의 영속적 기틀 마련(프랑스 혁명기까지 카페 가문 지배).",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "west-ce10-vladimir-christianization-rus",
+      "title": "블라디미르 1세의 키예프 루스 기독교(동방정교회) 수용 (988년)",
+      "title_en": "블라디미르 1세의 키예프 루스 기독교(동방정교회) 수용 (988년)",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "RELIGION",
+      "importance": "A",
+      "year_start": 988,
+      "year_end": 988,
+      "date_precision": "exact",
+      "summary": "비잔틴 제국의 안나 공주와 혼인하고 드네프르강에서 전 주민에게 집단 세례를 베풀어 정교회 국교화.",
+      "historical_significance": "러시아·동슬라브 문명이 비잔틴 정교회 문화권에 편입된 역사적 분기점.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "west-ce10-cluny-reform-movement",
+      "title": "클뤼니 수도원 창설과 교회 개혁 운동 (910년)",
+      "title_en": "클뤼니 수도원 창설과 교회 개혁 운동 (910년)",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "RELIGION",
+      "importance": "A",
+      "year_start": 910,
+      "year_end": 999,
+      "date_precision": "exact",
+      "summary": "교황에게 직속된 아키텐 클뤼니 수도원이 성직매매(시모니)와 세속 군주의 성직 임명권에 맞서 영적 쇄신 주도.",
+      "historical_significance": "중세 가톨릭 교회의 도덕적 독립과 그레고리우스 개혁의 모태.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "west-ce10-normandy-duchy-rollo",
+      "title": "생클레르쉬렙트 조약과 노르망디 공국 성립 (911년)",
+      "title_en": "생클레르쉬렙트 조약과 노르망디 공국 성립 (911년)",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "B",
+      "year_start": 911,
+      "year_end": 911,
+      "date_precision": "exact",
+      "summary": "서프랑크 샤를 3세가 바이킹 수장 롤로에게 노르망디 영토를 봉토로 주고 기독교로 개종시킴.",
+      "historical_significance": "노르만족의 프랑스 정착 및 후대 영국 정복(1066)과 시칠리아 왕국 건설의 주역 탄생.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "west-ce10-fatimid-caliphate-cairo",
+      "title": "파티마 왕조의 카이로 건설과 알 아즈하르 모스크 설립 (969/970년)",
+      "title_en": "파티마 왕조의 카이로 건설과 알 아즈하르 모스크 설립 (969/970년)",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "B",
+      "year_start": 969,
+      "year_end": 970,
+      "date_precision": "exact",
+      "summary": "시아파 파티마 왕조가 이집트를 정복하고 '승리의 도시' 카이로를 건설하여 세계적인 알 아즈하르 이슬람 대학 설립.",
+      "historical_significance": "이슬람 세계의 3대 칼리프(바그다드·코르도바·카이로) 분립 시대.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "west-ce10-athelstan-first-king-england",
+      "title": "애설스탠의 브루난버 전투 승리와 잉글랜드 최초 국왕 (937년)",
+      "title_en": "애설스탠의 브루난버 전투 승리와 잉글랜드 최초 국왕 (937년)",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "B",
+      "year_start": 927,
+      "year_end": 939,
+      "date_precision": "exact",
+      "summary": "바이킹-스코트 연합군을 격파하고 앵글로색슨 7왕국을 완전 통합하여 스스로 '전 브리튼의 왕' 선포.",
+      "historical_significance": "단일 잉글랜드 왕국의 완성.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "west-ce10-al-hakam-cordoba-library",
+      "title": "코르도바 알 하캄 2세 도서관 (40만 권 장서)",
+      "title_en": "코르도바 알 하캄 2세 도서관 (40만 권 장서)",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "SCIENCE",
+      "importance": "C",
+      "year_start": 961,
+      "year_end": 976,
+      "date_precision": "exact",
+      "summary": "유럽에서 가장 큰 도서관을 세우고 의학, 천문학, 수학 서적을 수집하여 서유럽 지식인들이 유학 옴.",
+      "historical_significance": "이베리아 반도가 유럽 르네상스의 지식 전달 파이프라인 역할 수행.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "west-ce10-erik-the-red-greenland",
+      "title": "붉은 에리크의 그린란드 발견과 바이킹 정착 (982년)",
+      "title_en": "붉은 에리크의 그린란드 발견과 바이킹 정착 (982년)",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "SCIENCE",
+      "importance": "C",
+      "year_start": 982,
+      "year_end": 986,
+      "date_precision": "exact",
+      "summary": "아이슬란드에서 추방된 에리크가 서쪽으로 항해하여 그린란드를 발견하고 정착촌 건설.",
+      "historical_significance": "북미 대륙 탐험(레이프 에릭손 빈란드 발견)의 징검다리.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "west-ce10-al-zahrawi-surgery",
+      "title": "알 자흐라위의 『알 타스리프(의학 집대성)』",
+      "title_en": "알 자흐라위의 『알 타스리프(의학 집대성)』",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "SCIENCE",
+      "importance": "C",
+      "year_start": 960,
+      "year_end": 1000,
+      "date_precision": "exact",
+      "summary": "코르도바의 궁정 의사가 200여 종의 외과 수술 도구(메스, 겸자, 녹는 실)를 고안하고 외과학의 기초를 닦음.",
+      "historical_significance": "근대 외과학의 아버지.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-ce10-five-dynasties-ten-kingdoms",
+      "title": "주전충의 당 멸망과 5대 10국 시대 개막 (907년)",
+      "title_en": "주전충의 당 멸망과 5대 10국 시대 개막 (907년)",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "A",
+      "year_start": 907,
+      "year_end": 960,
+      "date_precision": "exact",
+      "summary": "절도사 주전충이 당 애제를 폐위하고 후량을 세우며 50여 년간 군벌들이 황제를 참칭하는 혼란기 돌입.",
+      "historical_significance": "당나라 귀족 계급의 완전한 몰락과 서민 사대부 사회로의 이행기.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-ce10-song-dynasty-founding",
+      "title": "조광윤의 송(宋)나라 건국과 진교변병 (960년)",
+      "title_en": "조광윤의 송(宋)나라 건국과 진교변병 (960년)",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "A",
+      "year_start": 960,
+      "year_end": 979,
+      "date_precision": "exact",
+      "summary": "후주의 근위대장 조광윤이 부하들의 황포를 입고 추대되어 송을 건국하고 배주석병권으로 군벌 무장해제.",
+      "historical_significance": "300년 송나라 번영과 과거 중심 문치주의(文治主義) 국가 완성.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-ce10-khitan-liao-founding",
+      "title": "야율아보기의 거란(요) 건국과 연운 16주 차지 (916/936년)",
+      "title_en": "야율아보기의 거란(요) 건국과 연운 16주 차지 (916/936년)",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "A",
+      "year_start": 916,
+      "year_end": 947,
+      "date_precision": "exact",
+      "summary": "거란 8부를 통합해 요나라를 세우고 후진 석경당으로부터 만리장성 이남의 연운 16주를 할양받음.",
+      "historical_significance": "북방 유목 민족이 농경지를 직접 지배하는 이중 통치 체제(북면관·남면관) 정립.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-ce10-song-civil-bureaucracy",
+      "title": "송나라 전시(殿試) 제도와 사대부 관료제 확립",
+      "title_en": "송나라 전시(殿試) 제도와 사대부 관료제 확립",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "INSTITUTION",
+      "importance": "A",
+      "year_start": 973,
+      "year_end": 973,
+      "date_precision": "exact",
+      "summary": "황제가 직접 주재하는 최종 시험인 전시를 도입하여 황제 독재권을 강화하고 사대부 계층을 지배층으로 육성.",
+      "historical_significance": "무인 통치를 종식시키고 유교 지식인 중심의 합리적 관료제 완성.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-ce10-woodblock-printing-classics",
+      "title": "풍도의 9경 목판 대량 인쇄 (932~953년)",
+      "title_en": "풍도의 9경 목판 대량 인쇄 (932~953년)",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "SCIENCE",
+      "importance": "A",
+      "year_start": 932,
+      "year_end": 953,
+      "date_precision": "exact",
+      "summary": "후당 재상 풍도의 주도로 유교 130권 경전을 목판 인쇄하여 전국 서원과 학교에 보급.",
+      "historical_significance": "지식의 민주화와 서적 출판 혁명 촉진.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-ce10-taiping-yulan",
+      "title": "송태종의 1천 권 백과사전 『태평어람(太平御覽)』 편찬",
+      "title_en": "송태종의 1천 권 백과사전 『태평어람(太平御覽)』 편찬",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "ART_CULTURE",
+      "importance": "B",
+      "year_start": 977,
+      "year_end": 983,
+      "date_precision": "exact",
+      "summary": "이방 등이 고대 서적 1,690종을 인용하여 1,000권에 달하는 방대한 유서(類書) 완성.",
+      "historical_significance": "송대 문화적 자신감과 실전된 고서들의 보존.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-ce10-mariner-compass-navigation",
+      "title": "인공 자화 지남침(나침반)의 항해술 적용 시작",
+      "title_en": "인공 자화 지남침(나침반)의 항해술 적용 시작",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "SCIENCE",
+      "importance": "B",
+      "year_start": 980,
+      "year_end": 1000,
+      "date_precision": "exact",
+      "summary": "자철석 천연 나침반에서 인공 자화 쇠바늘(수남침)을 만들어 안개 낀 바다 항해에 사용.",
+      "historical_significance": "세계 해양 대항해 시대를 연 핵심 원천 기술.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-ce10-southern-tang-li-yu",
+      "title": "남당 이욱의 사(詞) 문학 절정",
+      "title_en": "남당 이욱의 사(詞) 문학 절정",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "ART_CULTURE",
+      "importance": "B",
+      "year_start": 961,
+      "year_end": 978,
+      "date_precision": "exact",
+      "summary": "망국의 군주 이욱이 『우미인』, 『상견환』 등 애절한 망국의 한을 노래하여 사(詞)를 최고의 문학 장르로 격상.",
+      "historical_significance": "송사(宋詞) 문학의 찬란한 서막.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-ce10-khitan-scripts",
+      "title": "거란 대자·거란 소자 문자 창제",
+      "title_en": "거란 대자·거란 소자 문자 창제",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "ART_CULTURE",
+      "importance": "C",
+      "year_start": 920,
+      "year_end": 925,
+      "date_precision": "exact",
+      "summary": "한자의 붓질을 응용하여 독자적인 거란어 표기 문자 제정.",
+      "historical_significance": "북방 정복 왕조들의 독자적 민족 문자 창제 유행 촉발(여진문자·서하문자).",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-ce10-champa-rice-spread",
+      "title": "베트남 참파 조생종 벼(점성도)의 강남 도입",
+      "title_en": "베트남 참파 조생종 벼(점성도)의 강남 도입",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "SCIENCE",
+      "importance": "C",
+      "year_start": 990,
+      "year_end": 1000,
+      "date_precision": "exact",
+      "summary": "가뭄에 강하고 생육 기간이 60일에 불과한 참파 벼를 도입하여 이모작 가능화.",
+      "historical_significance": "송대 강남 인구 폭발과 농업 혁명의 원동력.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-ce10-wanggeon-goryeo-founding",
+      "title": "태조 왕건의 고려 건국 (918년) 및 훈요 10조",
+      "title_en": "태조 왕건의 고려 건국 (918년) 및 훈요 10조",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "A",
+      "year_start": 918,
+      "year_end": 943,
+      "date_precision": "exact",
+      "summary": "궁예를 축출하고 송악에서 고려를 건국(918)하여 북진 정책, 융합 정책, 불교 숭상을 담은 『훈요 10조』 반포.",
+      "historical_significance": "500년 고려 왕조의 개막과 민족 재통일의 중심축.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-ce10-unification-later-three",
+      "title": "고려의 후삼국 통일 (936년)과 발해 유민 포용 (926년)",
+      "title_en": "고려의 후삼국 통일 (936년)과 발해 유민 포용 (926년)",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "A",
+      "year_start": 926,
+      "year_end": 936,
+      "date_precision": "exact",
+      "summary": "신라 경순왕의 자진 투항(935)과 일리천 전투에서 후백제 신검을 격파(936)하고, 거란에 멸망한 발해 세자 대광현 등 10만 유민을 포용.",
+      "historical_significance": "고구려·백제·신라·발해를 아우른 진정한 민족의 완전한 재통합 완성.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-ce10-gwangjong-reforms",
+      "title": "고려 광종의 노비안검법(956)과 과거제 실시(958)",
+      "title_en": "고려 광종의 노비안검법(956)과 과거제 실시(958)",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "INSTITUTION",
+      "importance": "A",
+      "year_start": 956,
+      "year_end": 958,
+      "date_precision": "exact",
+      "summary": "호족들이 불법으로 차지한 노비를 해방(노비안검법)하고 쌍기의 건의로 능력 본위 과거제 도입 및 독자 연호 '광덕·준풍' 사용.",
+      "historical_significance": "호족 세력을 억누르고 강력한 황제권과 관료 국가 체제 확립.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-ce10-seongjong-choe-seungno",
+      "title": "고려 성종의 유교적 통치 개혁 (최승로 시무 28조·12목 설치)",
+      "title_en": "고려 성종의 유교적 통치 개혁 (최승로 시무 28조·12목 설치)",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "INSTITUTION",
+      "importance": "A",
+      "year_start": 981,
+      "year_end": 997,
+      "date_precision": "exact",
+      "summary": "유학자 최승로의 시무 28조를 수용하여 2성 6부제, 전국 12목에 지방관 파견, 국자감 정비, 의창·상평창 설치.",
+      "historical_significance": "고려의 유교적 중앙집권 관제와 지방 행정망의 완성.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-ce10-seo-hui-diplomacy",
+      "title": "서희의 외교 담판과 강동 6주 획득 (993년)",
+      "title_en": "서희의 외교 담판과 강동 6주 획득 (993년)",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "A",
+      "year_start": 993,
+      "year_end": 993,
+      "date_precision": "exact",
+      "summary": "거란 소손녕의 80만 침략군에 맞서 서희가 고구려 계승권을 당당히 주장하며 피 한 방울 흘리지 않고 압록강변 강동 6주를 획득.",
+      "historical_significance": "한국 외교사상 가장 위대한 담판이자 압록강 국경선 확보.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-ce10-fall-of-balhae",
+      "title": "발해의 멸망 (거란 침공, 926년)과 만부교 사건 (942년)",
+      "title_en": "발해의 멸망 (거란 침공, 926년)과 만부교 사건 (942년)",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "A",
+      "year_start": 926,
+      "year_end": 942,
+      "date_precision": "exact",
+      "summary": "거란 야율아보기의 기습으로 228년 만에 홀한성이 함락되고, 왕건은 거란의 낙타 50필을 만부교에 굶겨 죽이며 단교.",
+      "historical_significance": "동북아 북방 제국의 비극적 해체와 고려의 대거란 적대시 정책 확정.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-ce10-gyeon-hwon-goryeo-submission",
+      "title": "견훤의 고려 투항과 후백제의 최후",
+      "title_en": "견훤의 고려 투항과 후백제의 최후",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "B",
+      "year_start": 935,
+      "year_end": 936,
+      "date_precision": "exact",
+      "summary": "아들 신검에게 금산사에 유폐된 견훤이 탈출하여 왕건에게 투항하고 친히 군대를 이끌고 후백제를 멸망시킴.",
+      "historical_significance": "후삼국 통일의 극적인 전환점.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-ce10-jeonsigwa-land-system",
+      "title": "고려 경종의 시정 전시과(田柴科) 제정 (976년)",
+      "title_en": "고려 경종의 시정 전시과(田柴科) 제정 (976년)",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "INSTITUTION",
+      "importance": "B",
+      "year_start": 976,
+      "year_end": 976,
+      "date_precision": "exact",
+      "summary": "전·현직 관리에게 인품과 관직에 따라 전지(곡물 수취)와 시지(땔감 채취지)를 차등 지급하는 토지 제도 확립.",
+      "historical_significance": "고려 관료층의 경제적 생활 기반 보장.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-ce10-palgwanhoe-yeondeunghoe",
+      "title": "팔관회와 연등회의 국가적 정례화",
+      "title_en": "팔관회와 연등회의 국가적 정례화",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "RELIGION",
+      "importance": "B",
+      "year_start": 918,
+      "year_end": 990,
+      "date_precision": "exact",
+      "summary": "부처를 기리는 연등회와 토속 천지신명·명산대천을 위무하고 국제 무역을 겸하는 팔관회를 국경일로 거행.",
+      "historical_significance": "고려 고유의 다원적 종교·문화 정체성 형성.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-ce10-goryeo-celadon-origin",
+      "title": "고려 초기 초기청자(녹청자·햇무리굽 청자) 가마 번영",
+      "title_en": "고려 초기 초기청자(녹청자·햇무리굽 청자) 가마 번영",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "ART_CULTURE",
+      "importance": "C",
+      "year_start": 950,
+      "year_end": 1000,
+      "date_precision": "exact",
+      "summary": "강진과 부안 일대 벽돌가마에서 중국 월주요 기술을 수용하여 고려 비색 순청자의 토대 구축.",
+      "historical_significance": "세계 최고 수준의 고려청자 예술 탄생의 서막.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    }
+  ]
+}

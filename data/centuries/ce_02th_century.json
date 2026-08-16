@@ -1,0 +1,731 @@
+{
+  "centuryId": "ce_02th_century",
+  "centuryLabel": "서기 2세기 (AD 101 ~ AD 200)",
+  "period": {
+    "yearStart": 101,
+    "yearEnd": 200
+  },
+  "eventCount": 30,
+  "events": [
+    {
+      "id": "west-ce2-five-good-emperors",
+      "title": "오현제 시대와 로마 제국의 최대 판도",
+      "title_en": "오현제 시대와 로마 제국의 최대 판도",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "A",
+      "year_start": 96,
+      "year_end": 180,
+      "date_precision": "exact",
+      "summary": "네르바, 트라야누스, 하드리아누스, 안토니누스 피우스, 마르쿠스 아우렐리우스로 이어지는 로마의 황금기.",
+      "historical_significance": "팍스 로마나의 정점이자 다키아·메소포타미아 정복으로 역사상 최대 판도 달성.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "west-ce2-hadrian-wall",
+      "title": "하드리아누스 성벽 축조",
+      "title_en": "하드리아누스 성벽 축조",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "INSTITUTION",
+      "importance": "A",
+      "year_start": 122,
+      "year_end": 128,
+      "date_precision": "exact",
+      "summary": "브리타니아 북부에 117km 길이의 석조 방어벽을 쌓아 픽트족 등 켈트 부족의 침입 차단.",
+      "historical_significance": "공세적 팽창에서 제국 국경선 안정화(리메스)로의 전략 대전환.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "west-ce2-marcus-aurelius-meditations",
+      "title": "마르쿠스 아우렐리우스의 『명상록』",
+      "title_en": "마르쿠스 아우렐리우스의 『명상록』",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "RELIGION",
+      "importance": "A",
+      "year_start": 170,
+      "year_end": 180,
+      "date_precision": "exact",
+      "summary": "게르마니아 전선 막사에서 황제이자 철학자가 기록한 스토아 철학의 자기 성찰록.",
+      "historical_significance": "서양 철인 통치자의 이상과 인간 내면 수양의 최고 고전.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "west-ce2-galen-medicine",
+      "title": "갈레노스의 의학 체계 집대성",
+      "title_en": "갈레노스의 의학 체계 집대성",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "SCIENCE",
+      "importance": "A",
+      "year_start": 160,
+      "year_end": 200,
+      "date_precision": "exact",
+      "summary": "동물 해부와 4체액설을 바탕으로 해부학, 생리학, 약리학의 거대한 체계를 수립.",
+      "historical_significance": "1500년간 중세 유럽과 이슬람 의학의 절대적 표준.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "west-ce2-ptolemy-almagest",
+      "title": "프톨레마이오스의 『알마게스트』와 천동설",
+      "title_en": "프톨레마이오스의 『알마게스트』와 천동설",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "SCIENCE",
+      "importance": "A",
+      "year_start": 150,
+      "year_end": 150,
+      "date_precision": "exact",
+      "summary": "주전원과 이심원 모델을 이용해 지구 중심의 지구 중심 천문학 체계 완성.",
+      "historical_significance": "코페르니쿠스 이전까지 서양 천문관의 확고부동한 기준.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "west-ce2-pantheon-rebuilt",
+      "title": "로마 판테온(Pantheon) 신전 재건",
+      "title_en": "로마 판테온(Pantheon) 신전 재건",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "ART_CULTURE",
+      "importance": "B",
+      "year_start": 125,
+      "year_end": 128,
+      "date_precision": "exact",
+      "summary": "하드리아누스 황제가 직경 43.3m의 거대한 무근 콘크리트 돔과 오쿨루스(천창)를 가진 만신전 완공.",
+      "historical_significance": "고대 로마 건축 공학의 최고봉이자 돔 건축의 원형.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "west-ce2-antonine-plague",
+      "title": "안토니누스 역병(로마 천연두 대유행)",
+      "title_en": "안토니누스 역병(로마 천연두 대유행)",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "CLIMATE_ENVIRONMENT",
+      "importance": "B",
+      "year_start": 165,
+      "year_end": 180,
+      "date_precision": "exact",
+      "summary": "동방 원정군을 통해 유입된 천연두 역병으로 제국 인구의 10~20%가 사망하고 경제 마비.",
+      "historical_significance": "로마 제국 번영의 종말과 3세기 위기의 인구학적 전조.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "west-ce2-plutarch-parallel-lives",
+      "title": "플루타르코스의 『영웅전(비교열전)』 편찬",
+      "title_en": "플루타르코스의 『영웅전(비교열전)』 편찬",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "ART_CULTURE",
+      "importance": "B",
+      "year_start": 100,
+      "year_end": 120,
+      "date_precision": "exact",
+      "summary": "그리스와 로마의 위인 48명을 짝지어 그들의 성품과 도덕적 결단을 입체적으로 비교 서술.",
+      "historical_significance": "서양 전기 문학과 셰익스피어 희곡의 핵심 원천.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "west-ce2-trajan-column",
+      "title": "트라야누스 원주 축조",
+      "title_en": "트라야누스 원주 축조",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "ART_CULTURE",
+      "importance": "C",
+      "year_start": 113,
+      "year_end": 113,
+      "date_precision": "exact",
+      "summary": "다키아 전쟁 승리를 기념하여 30m 높이의 대리석 원주 표면에 2,500명의 인물이 등장하는 나선형 부조 조각.",
+      "historical_significance": "로마 군사 장비와 전쟁사의 생생한 시각적 기록.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "west-ce2-marcomannic-wars",
+      "title": "마르코만니 전쟁과 게르만족 압박",
+      "title_en": "마르코만니 전쟁과 게르만족 압박",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "C",
+      "year_start": 166,
+      "year_end": 180,
+      "date_precision": "exact",
+      "summary": "다뉴브강을 건너 침입한 마르코만니족, 콰디족에 맞서 마르쿠스 아우렐리우스가 친정하여 격퇴.",
+      "historical_significance": "게르만족 대이동의 최초의 거대한 경고음.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-ce2-yellow-turban-rebellion",
+      "title": "황건적의 난 (태평도 봉기)",
+      "title_en": "황건적의 난 (태평도 봉기)",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "A",
+      "year_start": 184,
+      "year_end": 184,
+      "date_precision": "exact",
+      "summary": "장각이 '창천이사 황천당립'을 외치며 수십만 농민을 규합해 일으킨 종교적 대봉기.",
+      "historical_significance": "후한 조정의 통제력 붕괴 및 삼국시대 군웅할거 개막.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-ce2-partisans-disaster",
+      "title": "당고의 화(黨錮之禍)",
+      "title_en": "당고의 화(黨錮之禍)",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "A",
+      "year_start": 166,
+      "year_end": 169,
+      "date_precision": "exact",
+      "summary": "십상시 등 환관 세력이 정권을 비판하던 이응 등 청류파 관료와 태학생 수천 명을 투옥·학살.",
+      "historical_significance": "후한 중앙 정치의 치명적 부패와 지식인-환관 파벌 갈등 극대화.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-ce2-dong-zhuo-luoyang",
+      "title": "동탁의 권력 장악과 낙양 방화",
+      "title_en": "동탁의 권력 장악과 낙양 방화",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "A",
+      "year_start": 189,
+      "year_end": 190,
+      "date_precision": "exact",
+      "summary": "서량 군벌 동탁이 소제를 폐위하고 헌제를 옹립하며 낙양을 불태우고 장안으로 강제 천도.",
+      "historical_significance": "400년 한 왕조의 실질적 멸망과 전국적 내전 돌입.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-ce2-zhang-heng-seismoscope",
+      "title": "장형의 지진계(지동의)와 혼천의 발명",
+      "title_en": "장형의 지진계(지동의)와 혼천의 발명",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "SCIENCE",
+      "importance": "A",
+      "year_start": 132,
+      "year_end": 132,
+      "date_precision": "exact",
+      "summary": "용의 입에서 구슬이 떨어져 지진 발생 방향을 감지하는 세계 최초의 후풍지동의 제작.",
+      "historical_significance": "고대 정밀 기계 공학과 지진 관측의 기적적 성취.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-ce2-hua-tuo-surgery",
+      "title": "화타의 마취약 마비산과 외과 수술",
+      "title_en": "화타의 마취약 마비산과 외과 수술",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "SCIENCE",
+      "importance": "B",
+      "year_start": 180,
+      "year_end": 208,
+      "date_precision": "exact",
+      "summary": "약초 마취제 마비산을 복용시키고 복부 절개 수술을 집도하였으며 오금희(체조) 창안.",
+      "historical_significance": "동양 외과의 시조이자 예방 의학의 선구.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-ce2-zhang-zhongjing-shanghan",
+      "title": "장중경의 『상한잡병론』 편찬",
+      "title_en": "장중경의 『상한잡병론』 편찬",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "SCIENCE",
+      "importance": "B",
+      "year_start": 195,
+      "year_end": 200,
+      "date_precision": "exact",
+      "summary": "전염병과 내과 질환을 변증론치(체계적 진단과 처방)로 정리한 의성(醫聖)의 명저.",
+      "historical_significance": "한의학 임상 처방학의 영원한 바이블.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-ce2-xiping-stone-classics",
+      "title": "희평석경(熹平石經) 음각과 경전 표준화",
+      "title_en": "희평석경(熹平石經) 음각과 경전 표준화",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "ART_CULTURE",
+      "importance": "B",
+      "year_start": 175,
+      "year_end": 183,
+      "date_precision": "exact",
+      "summary": "채옹의 글씨로 유교 7대 경전을 46개의 거대한 석판에 새겨 낙양 태학 앞에 전시.",
+      "historical_significance": "문자 왜곡을 방지한 국가 공인 정본 표준화와 서예 예술 발전.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-ce2-cao-cao-warlord",
+      "title": "조조의 연주 장악과 관도대전 준비",
+      "title_en": "조조의 연주 장악과 관도대전 준비",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "B",
+      "year_start": 192,
+      "year_end": 200,
+      "date_precision": "exact",
+      "summary": "조조가 둔전제를 실시하여 경제력을 확보하고 헌제를 영립하여 '협천자이령제후' 명분 확립.",
+      "historical_significance": "조위 정권 수립과 중원 통일의 초석.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-ce2-shuowen-jiezi",
+      "title": "허신의 『설문해자(說文解字)』 완성",
+      "title_en": "허신의 『설문해자(說文解字)』 완성",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "ART_CULTURE",
+      "importance": "C",
+      "year_start": 100,
+      "year_end": 121,
+      "date_precision": "exact",
+      "summary": "9,353자의 한자를 540개 부수로 분류하고 육서(상형·지사·회의·형성·전주·가차) 원리 규명.",
+      "historical_significance": "동양 최초의 체계적 한자 자전(字典)이자 문자학의 기초.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-ce2-tuntian-system",
+      "title": "조조의 민둔·군둔(둔전제) 창설",
+      "title_en": "조조의 민둔·군둔(둔전제) 창설",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "INSTITUTION",
+      "importance": "C",
+      "year_start": 196,
+      "year_end": 196,
+      "date_precision": "exact",
+      "summary": "유민과 군인들을 조직하여 황폐화된 농토를 개간하고 수확량의 50~60%를 군량으로 확보.",
+      "historical_significance": "전란기 농업 재건과 군벌 생존의 획기적 제도.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-ce2-gogukcheon-jindae",
+      "title": "고구려 고국천왕의 진대법(춘궁기 춘대추납) 실시",
+      "title_en": "고구려 고국천왕의 진대법(춘궁기 춘대추납) 실시",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "INSTITUTION",
+      "importance": "A",
+      "year_start": 194,
+      "year_end": 194,
+      "date_precision": "exact",
+      "summary": "국상 을파소의 건의로 봄에 관곡을 빌려주고 가을에 갚게 하는 빈민 구제 제도 시행.",
+      "historical_significance": "세계 역사상 가장 이른 시기의 국가적 사회복지 제도로 자영농 몰락 방지.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-ce2-gogukcheon-patrilineal",
+      "title": "고구려 왕위 부자상속제 확립 및 5부 행정구역화",
+      "title_en": "고구려 왕위 부자상속제 확립 및 5부 행정구역화",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "INSTITUTION",
+      "importance": "A",
+      "year_start": 180,
+      "year_end": 197,
+      "date_precision": "exact",
+      "summary": "형제상속에서 부자상속으로 왕위를 안정화하고 전통 5부족(소노부·계루부 등)을 동·서·남·북·중 5방위 행정구로 개편.",
+      "historical_significance": "부족적 색채 탈피와 강력한 중앙집권 관료 국가 완성.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-ce2-baekje-chogo-campaign",
+      "title": "백제 개루왕·초고왕의 한강 유역 패권 강화",
+      "title_en": "백제 개루왕·초고왕의 한강 유역 패권 강화",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "A",
+      "year_start": 128,
+      "year_end": 200,
+      "date_precision": "exact",
+      "summary": "북한산성을 축조하고 말갈의 침입을 격퇴하며 신라와 소백산맥 국경에서 치열하게 공방전 전개.",
+      "historical_significance": "백제의 군사적 전성기 진입을 위한 북방·남방 방어선 구축.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-ce2-silla-adalla-expansion",
+      "title": "신라 아달라이사금의 소백산맥 도로 개척 (죽령·계립령)",
+      "title_en": "신라 아달라이사금의 소백산맥 도로 개척 (죽령·계립령)",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "INSTITUTION",
+      "importance": "A",
+      "year_start": 156,
+      "year_end": 158,
+      "date_precision": "exact",
+      "summary": "경북과 충북을 연결하는 험준한 산악 관문 죽령(158)과 계립령(156)을 개척하여 교통로 확보.",
+      "historical_significance": "신라의 북방 진출 및 소백산맥 방어선 구축의 핵심 통로 마련.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-ce2-eulpaso-prime-minister",
+      "title": "을파소 등용과 고구려 능력 중심 인재 선발",
+      "title_en": "을파소 등용과 고구려 능력 중심 인재 선발",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "B",
+      "year_start": 191,
+      "year_end": 191,
+      "date_precision": "exact",
+      "summary": "농사짓던 평민 출신 을파소를 국상(총리)에 전격 발탁하여 귀족 연좌 반발을 누르고 개혁 단행.",
+      "historical_significance": "귀족 귀족제 극복과 능력주의 인사 행정의 귀감.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-ce2-silla-wa-conflict",
+      "title": "신라의 왜구 침입 격퇴와 연오랑 세오녀 전승",
+      "title_en": "신라의 왜구 침입 격퇴와 연오랑 세오녀 전승",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "B",
+      "year_start": 157,
+      "year_end": 193,
+      "date_precision": "exact",
+      "summary": "영일만에서 일본으로 건너간 연오랑 세오녀 설화와 왜인의 동해안 침략에 맞선 수비전.",
+      "historical_significance": "고대 한일 해상 교류와 일월신화의 역사적 반영.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-ce2-iron-armor-gaya",
+      "title": "가야 판갑(종장판판갑)과 말투구의 정교한 제작",
+      "title_en": "가야 판갑(종장판판갑)과 말투구의 정교한 제작",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "SCIENCE",
+      "importance": "B",
+      "year_start": 150,
+      "year_end": 200,
+      "date_precision": "exact",
+      "summary": "통철판을 인체 곡선에 맞게 두드려 만든 판갑옷과 마구(말갑옷)를 생산.",
+      "historical_significance": "고대 동아시아 최고의 중장기병 무구 제작 기술 과시.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-ce2-chadae-tyranny",
+      "title": "고구려 차대왕의 폭정과 신대왕의 옹립",
+      "title_en": "고구려 차대왕의 폭정과 신대왕의 옹립",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "C",
+      "year_start": 146,
+      "year_end": 165,
+      "date_precision": "exact",
+      "summary": "차대왕이 신하들을 숙청하고 폭정을 펴다 명림답부에게 시해되고 신대왕이 즉위.",
+      "historical_significance": "고구려 최초의 귀족 정변이자 국상 직제 신설 계기.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-ce2-baekje-dogang-trade",
+      "title": "백제의 대중국(후한) 및 서해 해상 교역",
+      "title_en": "백제의 대중국(후한) 및 서해 해상 교역",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "ECONOMY",
+      "importance": "C",
+      "year_start": 113,
+      "year_end": 170,
+      "date_precision": "exact",
+      "summary": "남양만 한성 포구를 통해 후한과 사신을 교환하고 도자기와 견직물 수입.",
+      "historical_significance": "서해안 해양 국가로서 백제의 대외 통교망 발전.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-ce2-silla-gold-crown-origin",
+      "title": "신라 적석목곽분(돌무지덧널무덤)의 태동",
+      "title_en": "신라 적석목곽분(돌무지덧널무덤)의 태동",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "ART_CULTURE",
+      "importance": "C",
+      "year_start": 150,
+      "year_end": 200,
+      "date_precision": "exact",
+      "summary": "경주 평야에 목관 주위에 냇돌을 높이 쌓고 흙을 덮는 거대한 봉토분 축조 시작.",
+      "historical_significance": "도굴이 불가능한 구조로 신라 황금 유물의 온전한 보존 바탕.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    }
+  ]
+}

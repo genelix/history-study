@@ -1,0 +1,731 @@
+{
+  "centuryId": "ce_17th_century",
+  "centuryLabel": "서기 17세기 (AD 1601 ~ AD 1700)",
+  "period": {
+    "yearStart": 1601,
+    "yearEnd": 1700
+  },
+  "eventCount": 30,
+  "events": [
+    {
+      "id": "west-ce17-peace-of-westphalia",
+      "title": "30년 전쟁 종결과 베스트팔렌 조약 (1648년)",
+      "title_en": "30년 전쟁 종결과 베스트팔렌 조약 (1648년)",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "A",
+      "year_start": 1618,
+      "year_end": 1648,
+      "date_precision": "exact",
+      "summary": "유럽 전역을 초토화한 최후의 종교 전쟁을 끝내며 국가 주권, 영토 보전, 내정 불간섭 원칙 확립.",
+      "historical_significance": "근대 국제법 및 주권 국가 체제(Westphalian System)의 탄생.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "west-ce17-isaac-newton-principia",
+      "title": "아이작 뉴턴의 『자연철학의 수학적 원리(프린키피아)』 (1687년)",
+      "title_en": "아이작 뉴턴의 『자연철학의 수학적 원리(프린키피아)』 (1687년)",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "SCIENCE",
+      "importance": "A",
+      "year_start": 1687,
+      "year_end": 1687,
+      "date_precision": "exact",
+      "summary": "만유인력의 법칙과 3대 운동 법칙(관성, 가속도, 작용·반작용), 미적분학으로 고전 물리학 완성.",
+      "historical_significance": "과학 혁명의 최고 절정이자 근대 기계론적 우주관 확립.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "west-ce17-galileo-telescope-dialogue",
+      "title": "갈릴레오 갈릴레이의 망원경 천체 관측과 지동설 옹호",
+      "title_en": "갈릴레오 갈릴레이의 망원경 천체 관측과 지동설 옹호",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "SCIENCE",
+      "importance": "A",
+      "year_start": 1609,
+      "year_end": 1633,
+      "date_precision": "exact",
+      "summary": "목성의 4대 위성, 달의 크레이터, 금성의 위상을 관측하고 『두 우주 체계에 관한 대화』를 썼다가 종교재판에서 '그래도 지구는 돈다' 남김.",
+      "historical_significance": "근대 관측 천문학과 실험 물리학의 창시.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "west-ce17-english-glorious-revolution",
+      "title": "영국의 명예혁명과 권리장전(Bill of Rights) 승인 (1688~1689년)",
+      "title_en": "영국의 명예혁명과 권리장전(Bill of Rights) 승인 (1688~1689년)",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "INSTITUTION",
+      "importance": "A",
+      "year_start": 1688,
+      "year_end": 1689,
+      "date_precision": "exact",
+      "summary": "제임스 2세를 피 한 방울 흘리지 않고 축출하고 윌리엄 3세와 메리 2세가 '의회의 승인 없이 과세·입법할 수 없다'는 권리장전에 서명.",
+      "historical_significance": "세계 최초의 입헌군주제 및 의회 민주주의 확립.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "west-ce17-descartes-discourse-on-method",
+      "title": "르네 데카르트의 『방법서설』 ('나는 생각한다, 고로 존재한다')",
+      "title_en": "르네 데카르트의 『방법서설』 ('나는 생각한다, 고로 존재한다')",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "SCIENCE",
+      "importance": "A",
+      "year_start": 1637,
+      "year_end": 1637,
+      "date_precision": "exact",
+      "summary": "방법적 회의를 통해 확실한 철학의 제1원리(Cogito, ergo sum)를 도출하고 해석기하학(직교좌표계) 창안.",
+      "historical_significance": "근대 서양 합리론 철학과 수학의 아버지.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "west-ce17-louis-xiv-versailles-absolutism",
+      "title": "루이 14세의 베르사유 궁전과 프랑스 절대왕정 ('짐은 곧 국가다')",
+      "title_en": "루이 14세의 베르사유 궁전과 프랑스 절대왕정 ('짐은 곧 국가다')",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "A",
+      "year_start": 1661,
+      "year_end": 1700,
+      "date_precision": "exact",
+      "summary": "'태양왕' 루이 14세가 베르사유 궁전을 지어 귀족을 복종시키고 콜베르의 중상주의로 유럽 최강국 군림.",
+      "historical_significance": "서유럽 절대왕정의 최고 화려한 절정.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "west-ce17-dutch-east-india-voc",
+      "title": "네덜란드 동인도회사(VOC) 설립과 암스테르담 증권거래소 (1602년)",
+      "title_en": "네덜란드 동인도회사(VOC) 설립과 암스테르담 증권거래소 (1602년)",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "ECONOMY",
+      "importance": "B",
+      "year_start": 1602,
+      "year_end": 1602,
+      "date_precision": "exact",
+      "summary": "인류 최초의 주식회사이자 유한책임제, 세계 최초의 공설 증권거래소를 세워 향신료 무역 독점.",
+      "historical_significance": "근대 금융 자본주의와 주식회사 제도의 효시.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "west-ce17-john-locke-two-treatises",
+      "title": "존 로크의 『정치통치론(시민정부론)』과 사회계약설 (1689년)",
+      "title_en": "존 로크의 『정치통치론(시민정부론)』과 사회계약설 (1689년)",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "INSTITUTION",
+      "importance": "B",
+      "year_start": 1689,
+      "year_end": 1689,
+      "date_precision": "exact",
+      "summary": "인간의 자연권(생명·자유·재산)을 보호하기 위해 정부를 위임했으며 권력을 남용할 때 '저항권'이 있음을 천명.",
+      "historical_significance": "미국 독립선언서와 근대 자유민주주의 헌정의 사상적 모태.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "west-ce17-william-harvey-blood-circulation",
+      "title": "윌리엄 하비의 혈액 순환 이론 발견 (1628년)",
+      "title_en": "윌리엄 하비의 혈액 순환 이론 발견 (1628년)",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "SCIENCE",
+      "importance": "B",
+      "year_start": 1628,
+      "year_end": 1628,
+      "date_precision": "exact",
+      "summary": "심장이 펌프 작용을 하여 동맥과 정맥을 통해 온몸을 순환한다는 사실을 정량적 실험으로 규명.",
+      "historical_significance": "근대 생리학과 심혈관 의학의 기초.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "west-ce17-rembrandt-night-watch",
+      "title": "렘브란트의 명암법과 『야간 순찰(The Night Watch)』 (1642년)",
+      "title_en": "렘브란트의 명암법과 『야간 순찰(The Night Watch)』 (1642년)",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "ART_CULTURE",
+      "importance": "C",
+      "year_start": 1642,
+      "year_end": 1642,
+      "date_precision": "exact",
+      "summary": "키아로스쿠로(빛과 어둠의 대조) 기법으로 민병대 시민들의 역동적인 움직임을 담은 바로크 미술의 최고봉.",
+      "historical_significance": "네덜란드 황금시대 회화 예술의 대표작.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-ce17-manchu-conquest-beijing",
+      "title": "이자성의 북경 점령과 청나라의 산해관 입관 (1644년)",
+      "title_en": "이자성의 북경 점령과 청나라의 산해관 입관 (1644년)",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "A",
+      "year_start": 1644,
+      "year_end": 1644,
+      "date_precision": "exact",
+      "summary": "이자성의 농민군이 북경을 함락해 숭정제가 자살하고 명 멸망 후, 오삼계가 산해관 문을 열어 다이곤의 청군이 중원 장악.",
+      "historical_significance": "명청 교체와 만주족에 의한 중국 전역 통치(268년 청 제국) 시작.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-ce17-kangxi-emperor-reign",
+      "title": "강희제의 즉위와 61년 통치 (삼번의 난 평정·대만 복속)",
+      "title_en": "강희제의 즉위와 61년 통치 (삼번의 난 평정·대만 복속)",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "A",
+      "year_start": 1661,
+      "year_end": 1700,
+      "date_precision": "exact",
+      "summary": "오삼계 등 3번의 난을 평정(1681), 정성공의 대만을 복속(1683), 몽골 갈단을 친정하여 준가르 격파.",
+      "historical_significance": "강건성세(강희·옹정·건륭 130년 황금기)의 위대한 기틀 완성.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-ce17-treaty-of-nerchinsk",
+      "title": "청·러 네르친스크 조약 체결 (1689년)",
+      "title_en": "청·러 네르친스크 조약 체결 (1689년)",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "A",
+      "year_start": 1689,
+      "year_end": 1689,
+      "date_precision": "exact",
+      "summary": "스타노보이 산맥과 아르군강을 국경으로 확정하고 라틴어·만주어·러시아어로 조약문 작성.",
+      "historical_significance": "중국 역사상 서양 국가(러시아)와 맺은 최초의 근대적 대등 조약.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-ce17-tiangong-kaiwu",
+      "title": "송응성의 산업기술 백과사전 『천공개물(天工開物)』 편찬 (1637년)",
+      "title_en": "송응성의 산업기술 백과사전 『천공개물(天工開物)』 편찬 (1637년)",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "SCIENCE",
+      "importance": "A",
+      "year_start": 1637,
+      "year_end": 1637,
+      "date_precision": "exact",
+      "summary": "농업, 방직, 제련, 도자기, 주조, 화약, 제지 등 전통 산업 제조 공정을 123점의 정밀 삽화와 함께 기술.",
+      "historical_significance": "동양의 디드로 백과사전으로 평가받는 실용 기술학의 최고봉.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-ce17-huang-zongxi-waiting-for-the-dawn",
+      "title": "황종희의 『명이대방록(明夷待訪錄)』과 반전제주의 사상",
+      "title_en": "황종희의 『명이대방록(明夷待訪錄)』과 반전제주의 사상",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "INSTITUTION",
+      "importance": "A",
+      "year_start": 1662,
+      "year_end": 1663,
+      "date_precision": "exact",
+      "summary": "'천하의 주인은 백성이고 군주는 손님이다'를 선언하며 군주 전제정과 법률 독점을 맹렬히 비판.",
+      "historical_significance": "중국 근대 계몽주의 사상과 민주적 헌정론의 선구.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-ce17-xu-guangqi-nongzheng-quanshu",
+      "title": "서광계의 『농정전서(農政全書)』 편찬 (1639년)",
+      "title_en": "서광계의 『농정전서(農政全書)』 편찬 (1639년)",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "SCIENCE",
+      "importance": "B",
+      "year_start": 1625,
+      "year_end": 1639,
+      "date_precision": "exact",
+      "summary": "전통 농업 기술에 서양의 수리 공학(아르키메데스 나선 펌프 등)을 접목한 60권의 종합 농업 기술서 완성.",
+      "historical_significance": "서양 과학과 결합한 명 말기 실학의 걸작.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-ce17-eight-banners-system-peak",
+      "title": "청나라 팔기제(八旗制)와 녹영병 군사 체제 완성",
+      "title_en": "청나라 팔기제(八旗制)와 녹영병 군사 체제 완성",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "INSTITUTION",
+      "importance": "B",
+      "year_start": 1644,
+      "year_end": 1690,
+      "date_precision": "exact",
+      "summary": "만주 8기, 몽골 8기, 한군 8기의 군정일치 조직과 한족 중심의 녹영군으로 광대한 제국 방어.",
+      "historical_significance": "소수 만주족이 다수 한족을 지배할 수 있었던 군사적 핵심.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-ce17-gu-yanwu-evidential-scholarship",
+      "title": "고염무의 고증학(考證學) 제창 ('천하흥망 필부유책')",
+      "title_en": "고염무의 고증학(考證學) 제창 ('천하흥망 필부유책')",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "SCIENCE",
+      "importance": "B",
+      "year_start": 1650,
+      "year_end": 1682,
+      "date_precision": "exact",
+      "summary": "공리공담의 양명학을 배격하고 문헌의 철저한 실증과 음운학, 지리학을 강조한 『일지록』 저술.",
+      "historical_significance": "청대 학문의 주류가 된 실사구시 고증학의 창시.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-ce17-queuing-order-manchu",
+      "title": "변발령(剃髮令) 시행 ('머리를 남기면 목을 자른다')",
+      "title_en": "변발령(剃髮令) 시행 ('머리를 남기면 목을 자른다')",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "INSTITUTION",
+      "importance": "C",
+      "year_start": 1645,
+      "year_end": 1645,
+      "date_precision": "exact",
+      "summary": "만주족 복장과 앞머리를 깎고 뒤로 땋는 변발을 강제하여 한족의 신체적 복종을 요구.",
+      "historical_significance": "강남 강음·가정 학살 등 거센 반발과 청 제국 복식의 통일.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-ce17-pu-songling-liaozhai",
+      "title": "포송령의 기이한 요괴 소설 『요재지이(聊齋志異)』",
+      "title_en": "포송령의 기이한 요괴 소설 『요재지이(聊齋志異)』",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "ART_CULTURE",
+      "importance": "C",
+      "year_start": 1679,
+      "year_end": 1700,
+      "date_precision": "exact",
+      "summary": "여우 귀신, 유령, 신선 이야기를 통해 관료의 부패와 과거 제도의 부조리를 풍자한 500여 편의 단편소설.",
+      "historical_significance": "중국 문언 단편소설의 최고봉.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-ce17-donguibogam-heojun",
+      "title": "허준의 『동의보감(東醫寶鑑)』 완성 (유네스코 세계기록유산, 1610년/1613년)",
+      "title_en": "허준의 『동의보감(東醫寶鑑)』 완성 (유네스코 세계기록유산, 1610년/1613년)",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "SCIENCE",
+      "importance": "A",
+      "year_start": 1610,
+      "year_end": 1613,
+      "date_precision": "exact",
+      "summary": "광해군의 명으로 내경·외형·잡병·탕액·침구 5편 25권으로 동양 의학 지식을 집대성하고 한글 약초 이름을 병기.",
+      "historical_significance": "동양 의학사상 독보적인 예방의학 백과사전이자 의학서 최초의 유네스코 세계기록유산.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-ce17-daedongbeop-tax-reform",
+      "title": "대동법(大同法) 실시 (이원익·김육, 1608~1708년)",
+      "title_en": "대동법(大同法) 실시 (이원익·김육, 1608~1708년)",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "INSTITUTION",
+      "importance": "A",
+      "year_start": 1608,
+      "year_end": 1708,
+      "date_precision": "exact",
+      "summary": "가호마다 부과하던 가혹한 특산물 공납을 토지 결수에 따라 쌀(1결당 12두)·동전으로 통일 납부하게 하고 공인(貢人) 육성.",
+      "historical_significance": "농민 부담을 덜고 상품 화폐 경제 및 장시 발달을 촉진한 조선 최고의 세제 개혁.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-ce17-byeongjahoran-samjeondo",
+      "title": "병자호란(1636년)과 남한산성 결사항전·삼전도의 굴욕 (1637년)",
+      "title_en": "병자호란(1636년)과 남한산성 결사항전·삼전도의 굴욕 (1637년)",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "A",
+      "year_start": 1636,
+      "year_end": 1637,
+      "date_precision": "exact",
+      "summary": "청 태종 12만 군대의 침략으로 인조가 남한산성에서 47일간 혹한 속에 저항하다 삼전도에서 삼궤구고두례를 행하며 항복.",
+      "historical_significance": "명청 교체의 소용돌이 속에서 겪은 국가적 치욕과 효종의 북벌론, 소현세자의 서양 문물 수용 촉발.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-ce17-gwanghaegun-neutral-diplomacy",
+      "title": "광해군의 실리적 중립 외교와 강홍립 파견 (1619년)",
+      "title_en": "광해군의 실리적 중립 외교와 강홍립 파견 (1619년)",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "A",
+      "year_start": 1608,
+      "year_end": 1623,
+      "date_precision": "exact",
+      "summary": "명나라의 원병 요청에 강홍립에게 1만 3천 군사를 주어 사르후 전투에 출정시킨 후 상황을 보아 후금(청)에 투항케 하여 조선 침략을 방지.",
+      "historical_significance": "명분보다 실리를 중시한 탁월한 자주적 외교 정책.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-ce17-injo-coup-1623",
+      "title": "인조반정 (1623년)과 친명배금 정책",
+      "title_en": "인조반정 (1623년)과 친명배금 정책",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "A",
+      "year_start": 1623,
+      "year_end": 1623,
+      "date_precision": "exact",
+      "summary": "서인 세력(이귀·김류)이 광해군의 폐모살제와 중립외교를 비판하며 무력으로 정권을 탈취하고 능양군(인조)을 옹립.",
+      "historical_significance": "친명배금 노선으로 정묘호란과 병자호란의 참화를 자초한 정치적 분기점.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-ce17-hwanguk-politics-sukjong",
+      "title": "숙종 대의 환국 정치 (경신·기사·갑술환국과 장희빈)",
+      "title_en": "숙종 대의 환국 정치 (경신·기사·갑술환국과 장희빈)",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "A",
+      "year_start": 1680,
+      "year_end": 1694,
+      "date_precision": "exact",
+      "summary": "숙종이 왕권 강화를 위해 서인과 남인을 번갈아 일거에 실각·사사시키는 환국(換局)을 단행하여 붕당의 상호 공존 붕괴.",
+      "historical_significance": "붕당 정치가 일당 전제화 및 사생결단식 권력 투쟁으로 변질.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-ce17-sangpyeong-tongbo-coin",
+      "title": "상평통보(常平通寶) 전국 유통 개시 (1678년)",
+      "title_en": "상평통보(常平通寶) 전국 유통 개시 (1678년)",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "ECONOMY",
+      "importance": "A",
+      "year_start": 1678,
+      "year_end": 1678,
+      "date_precision": "exact",
+      "summary": "숙종 4년 영의정 허적 등의 건의로 상평통보를 대량 주조하여 조세, 매매, 임금 지불에 사용하여 화폐 경제 전면 정착.",
+      "historical_significance": "조선 후기 전국적 상품 유통과 금속 화폐 유통의 완성.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-ce17-ahn-yongbok-dokdo",
+      "title": "안용복의 도일(渡日)과 독도·울릉도 조선 영유권 일본 막부 공인 (1693/1696년)",
+      "title_en": "안용복의 도일(渡日)과 독도·울릉도 조선 영유권 일본 막부 공인 (1693/1696년)",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "B",
+      "year_start": 1693,
+      "year_end": 1696,
+      "date_precision": "exact",
+      "summary": "부산 동래 어민 안용복이 일본 돗토리번에 건너가 항의하여 에도 막부로부터 '울릉도와 독도는 조선의 영토'라는 서계를 받아냄.",
+      "historical_significance": "독도가 역사적·국제법적으로 명백한 대한민국의 영토임을 입증하는 결정적 사료.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-ce17-sohyeon-crown-prince-western",
+      "title": "소현세자의 심양 볼모와 아담 샬과의 교류 (서양 과학 도입)",
+      "title_en": "소현세자의 심양 볼모와 아담 샬과의 교류 (서양 과학 도입)",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "SCIENCE",
+      "importance": "B",
+      "year_start": 1637,
+      "year_end": 1645,
+      "date_precision": "exact",
+      "summary": "청나라 심양에 볼모로 잡혀간 소현세자가 독일 예수회 선교사 아담 샬에게 망원경, 천문역법(시헌력), 천주교 서적을 수용하여 귀국.",
+      "historical_significance": "조선에 서구 근대 과학 문물이 최초로 도입된 역사적 사건.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-ce17-hong-gildong-jeon-novel",
+      "title": "허균의 한글 소설 『홍길동전(洪吉童傳)』",
+      "title_en": "허균의 한글 소설 『홍길동전(洪吉童傳)』",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "ART_CULTURE",
+      "importance": "B",
+      "year_start": 1610,
+      "year_end": 1618,
+      "date_precision": "exact",
+      "summary": "적서 차별(호부호형 불가)을 타파하고 활빈당을 이끌어 탐관오리를 징벌한 후 이상향 율도국을 세우는 최초의 한글 소설.",
+      "historical_significance": "한국 한글 문학의 효시이자 신분제 비판 사회 개혁 소설.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    }
+  ]
+}

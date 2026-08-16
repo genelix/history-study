@@ -1,0 +1,731 @@
+{
+  "centuryId": "bc_01th_century",
+  "centuryLabel": "기원전 1세기 (BC 100 ~ BC 1)",
+  "period": {
+    "yearStart": -100,
+    "yearEnd": -1
+  },
+  "eventCount": 30,
+  "events": [
+    {
+      "id": "west-bc1-caesar-gaul",
+      "title": "율리우스 카이사르의 갈리아 원정",
+      "title_en": "율리우스 카이사르의 갈리아 원정",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "A",
+      "year_start": -58,
+      "year_end": -50,
+      "date_precision": "exact",
+      "summary": "카이사르가 갈리아 전역을 정복하고 알레시아 공방전에서 베르킨게토리크스를 굴복시킴.",
+      "historical_significance": "프랑스·서유럽이 로마 문명권에 완전 편입되는 계기.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "west-bc1-rubicon-civil-war",
+      "title": "카이사르의 루비콘강 도하와 로마 내전",
+      "title_en": "카이사르의 루비콘강 도하와 로마 내전",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "A",
+      "year_start": -49,
+      "year_end": -45,
+      "date_precision": "exact",
+      "summary": "'주사위는 던져졌다'를 외치며 루비콘강을 건너 폼페이우스와 원로원파를 파르살로스에서 격파.",
+      "historical_significance": "500년 로마 공화정의 종말과 1인 독재관 체제 수립.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "west-bc1-ides-of-march",
+      "title": "카이사르 암살 (3월 15일의 변)",
+      "title_en": "카이사르 암살 (3월 15일의 변)",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "A",
+      "year_start": -44,
+      "year_end": -44,
+      "date_precision": "exact",
+      "summary": "브루투스와 카시우스 등 공화파 원로원 의원들이 폼페이우스 극장에서 카이사르를 암살함.",
+      "historical_significance": "공화정 복고 실패와 옥타비아누스·안토니우스의 후계 내전 촉발.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "west-bc1-actium-battle",
+      "title": "악티움 해전과 로마 제정 성립",
+      "title_en": "악티움 해전과 로마 제정 성립",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "A",
+      "year_start": -31,
+      "year_end": -27,
+      "date_precision": "exact",
+      "summary": "옥타비아누스가 안토니우스와 클레오파트라 연합 함대를 격파하고 아우구스투스 황제로 등극.",
+      "historical_significance": "로마 제국(팍스 로마나)의 공식 출범.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "west-bc1-julian-calendar",
+      "title": "율리우스력(태양력) 도입",
+      "title_en": "율리우스력(태양력) 도입",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "SCIENCE",
+      "importance": "A",
+      "year_start": -45,
+      "year_end": -45,
+      "date_precision": "exact",
+      "summary": "알렉산드리아 천문학자 소시게네스의 자문을 받아 1년을 365.25일로 정한 태양력 반포.",
+      "historical_significance": "현대 그레고리력의 모태가 된 서양 표준 달력.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "west-bc1-cicero-eloquence",
+      "title": "키케로의 수사학·철학 저술과 공화정 수호",
+      "title_en": "키케로의 수사학·철학 저술과 공화정 수호",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "ART_CULTURE",
+      "importance": "B",
+      "year_start": -70,
+      "year_end": -43,
+      "date_precision": "exact",
+      "summary": "카틸리나 탄핵 등 명연설과 『의무론』, 『국가론』을 통해 라틴 문학의 황금기를 엶.",
+      "historical_significance": "서양 인문주의와 자연법 사상의 원천.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "west-bc1-spartacus-revolt",
+      "title": "스파르타쿠스 검투사 노예 봉기",
+      "title_en": "스파르타쿠스 검투사 노예 봉기",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "B",
+      "year_start": -73,
+      "year_end": -71,
+      "date_precision": "exact",
+      "summary": "카푸아 검투사 스파르타쿠스가 이끄는 10만 노예군이 로마 군단에 맞서 이탈리아를 뒤흔듦.",
+      "historical_significance": "고대 노예제 사회의 구조적 모순을 폭로한 자유 투쟁의 상징.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "west-bc1-virgil-aeneid",
+      "title": "베르길리우스의 서사시 『아이네이스』",
+      "title_en": "베르길리우스의 서사시 『아이네이스』",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "ART_CULTURE",
+      "importance": "B",
+      "year_start": -29,
+      "year_end": -19,
+      "date_precision": "exact",
+      "summary": "트로이 영웅 아이네아스가 이탈리아로 건너와 로마를 건국하는 로마의 민족 대서사시.",
+      "historical_significance": "아우구스투스 황제 통치의 정당성을 부여한 라틴 문학 최고 걸작.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "west-bc1-vitruvius-architecture",
+      "title": "비트루비우스의 『건축십서(De Architectura)』",
+      "title_en": "비트루비우스의 『건축십서(De Architectura)』",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "SCIENCE",
+      "importance": "C",
+      "year_start": -30,
+      "year_end": -20,
+      "date_precision": "exact",
+      "summary": "건축의 3대 요소로 구조적 안정(Firmitas), 기능성(Utilitas), 미(Venustas)를 제시.",
+      "historical_significance": "르네상스 건축(레오나르도 다 빈치의 비트루비우스 인간)의 핵심 교본.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "west-bc1-lucretius-nature",
+      "title": "루크레티우스의 『사물의 본성에 관하여』",
+      "title_en": "루크레티우스의 『사물의 본성에 관하여』",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "SCIENCE",
+      "importance": "C",
+      "year_start": -60,
+      "year_end": -55,
+      "date_precision": "exact",
+      "summary": "신화적 공포를 배격하고 데모크리토스와 에피쿠로스의 고대 원자론을 시적 언어로 해설.",
+      "historical_significance": "근대 과학 혁명기 원자론 부활의 불씨.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-bc1-salt-iron-debate",
+      "title": "염철회의(鹽鐵會議)와 염철론 편찬",
+      "title_en": "염철회의(鹽鐵會議)와 염철론 편찬",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "INSTITUTION",
+      "importance": "A",
+      "year_start": -81,
+      "year_end": -81,
+      "date_precision": "exact",
+      "summary": "한소제 시기 관료파(상홍양)와 민간 유학자들이 국가 전매제와 시장 경제를 두고 대토론.",
+      "historical_significance": "국가 개입주의와 유교적 자유방임주의 간의 동양 최초 경제 정책 논쟁.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-bc1-zhaodi-xuandi-renaissance",
+      "title": "소제·선제의 소선중흥(昭宣中興)",
+      "title_en": "소제·선제의 소선중흥(昭宣中興)",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "A",
+      "year_start": -87,
+      "year_end": -49,
+      "date_precision": "exact",
+      "summary": "곽광의 보필과 선제의 유법양용(儒法兩用) 통치로 한무제 시기 피폐해진 민생을 회복함.",
+      "historical_significance": "한나라의 정치·사회적 안정과 태평성대 구가.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-bc1-western-regions-protectorate",
+      "title": "서역도호부(西域都護府) 설치",
+      "title_en": "서역도호부(西域都護府) 설치",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "A",
+      "year_start": -60,
+      "year_end": -60,
+      "date_precision": "exact",
+      "summary": "한선제가 정길을 초대 서역도호로 임명하여 타림 분지 36개 도시국가를 직접 관할.",
+      "historical_significance": "신장(서역) 지역이 중국 제국의 행정 통제 하에 편입된 기원.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-bc1-xiongnu-submission",
+      "title": "흉노 호한야 선우의 한나라 입조와 화친",
+      "title_en": "흉노 호한야 선우의 한나라 입조와 화친",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "A",
+      "year_start": -51,
+      "year_end": -33,
+      "date_precision": "exact",
+      "summary": "흉노의 호한야 선우가 장안을 방문해 한나라에 칭신하고 왕소군과의 화번공주 혼인 성사.",
+      "historical_significance": "한-흉노 150년 전쟁 종식과 장기 평화 구축.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-bc1-wang-mang-rise",
+      "title": "왕망의 권력 장악과 신(新) 왕조 준비",
+      "title_en": "왕망의 권력 장악과 신(新) 왕조 준비",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "B",
+      "year_start": -8,
+      "year_end": -1,
+      "date_precision": "exact",
+      "summary": "외척 왕망이 유교적 성인 행세를 하며 대사마에 오르고 왕실을 찬탈할 기반 구축.",
+      "historical_significance": "전한 말기 호족 발흥과 왕조 교체의 서막.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-bc1-sima-xiangru-fu",
+      "title": "사마상여의 한부(漢賦) 문학 절정",
+      "title_en": "사마상여의 한부(漢賦) 문학 절정",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "ART_CULTURE",
+      "importance": "B",
+      "year_start": -70,
+      "year_end": -40,
+      "date_precision": "exact",
+      "summary": "자허부, 상림부 등 제국의 웅장함과 황제의 권위를 화려한 수사로 노래한 산문시 발전.",
+      "historical_significance": "한대 고전문학의 대표 장르 확립.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-bc1-jiuzhang-suanshu",
+      "title": "『구장산술(九章算術)』 기초 형성",
+      "title_en": "『구장산술(九章算術)』 기초 형성",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "SCIENCE",
+      "importance": "B",
+      "year_start": -100,
+      "year_end": -1,
+      "date_precision": "exact",
+      "summary": "분수 계산, 연립방정식(방정론), 피타고라스 정리(구고현), 면적·부피 계산법 집대성.",
+      "historical_significance": "동양 수학의 체계적 기틀을 세운 불후의 고전.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-bc1-shiyuan-reign",
+      "title": "한대 호족(豪族) 세력의 대토지 겸병 심화",
+      "title_en": "한대 호족(豪族) 세력의 대토지 겸병 심화",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "INSTITUTION",
+      "importance": "C",
+      "year_start": -80,
+      "year_end": -1,
+      "date_precision": "exact",
+      "summary": "지방 유력 가문들이 장원을 형성하고 농민을 소작농·노비로 전락시킴.",
+      "historical_significance": "후한 및 위진남북조 시대를 지배할 호족 계층의 태동.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-bc1-liu-xiang-bibliography",
+      "title": "유향의 『별록』과 황실 장서 분류",
+      "title_en": "유향의 『별록』과 황실 장서 분류",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "SCIENCE",
+      "importance": "C",
+      "year_start": -26,
+      "year_end": -10,
+      "date_precision": "exact",
+      "summary": "황실 도서관의 경서, 제자백가 서적을 교정하고 중국 최초의 도서 분류 목록 편찬.",
+      "historical_significance": "동양 서지학과 도서관학의 효시.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-bc1-silk-monopoly-trade",
+      "title": "비단·칠기 공방의 관영 생산 체제",
+      "title_en": "비단·칠기 공방의 관영 생산 체제",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "ECONOMY",
+      "importance": "C",
+      "year_start": -50,
+      "year_end": -1,
+      "date_precision": "exact",
+      "summary": "장안과 낙양의 관영 공방에서 최고급 견직물과 정교한 칠기를 제작해 서역에 수출.",
+      "historical_significance": "실크로드를 통한 글로벌 사치품 교역의 주도권 확보.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-bc1-silla-founding",
+      "title": "신라 건국 (박혁거세의 서라벌 건국)",
+      "title_en": "신라 건국 (박혁거세의 서라벌 건국)",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "A",
+      "year_start": -57,
+      "year_end": -57,
+      "date_precision": "exact",
+      "summary": "경주 분지 6촌 촌장들의 추대로 박혁거세가 거서간으로 즉위하여 사로국(신라)을 개창함.",
+      "historical_significance": "천년 왕조 신라의 출발점이자 삼국시대의 서막.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-bc1-goguryeo-founding",
+      "title": "고구려 건국 (동명성왕 주몽)",
+      "title_en": "고구려 건국 (동명성왕 주몽)",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "A",
+      "year_start": -37,
+      "year_end": -37,
+      "date_precision": "exact",
+      "summary": "부여에서 남하한 주몽이 졸본에 도읍을 정하고 압록강 지류 일대를 통합하여 고구려를 건국.",
+      "historical_significance": "동북아의 패자로 군림할 강력한 기마 군사 국가의 출범.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-bc1-baekje-founding",
+      "title": "백제 건국 (온조왕의 위례성 건국)",
+      "title_en": "백제 건국 (온조왕의 위례성 건국)",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "A",
+      "year_start": -18,
+      "year_end": -18,
+      "date_precision": "exact",
+      "summary": "주몽의 아들 온조가 남하하여 한강 유역 한남 위례성에 도읍하고 십제(백제)를 건국함.",
+      "historical_significance": "비옥한 한강 유역을 장악한 해상 해양 강국의 태동.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-bc1-buyeo-confederacy",
+      "title": "부여 5가(마가·우가·저가·구가) 연맹 왕국의 발전",
+      "title_en": "부여 5가(마가·우가·저가·구가) 연맹 왕국의 발전",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "A",
+      "year_start": -100,
+      "year_end": -1,
+      "date_precision": "exact",
+      "summary": "송화강 유역의 평야 지대에서 가축 이름을 딴 4출도를 다스리는 5부족 연맹체 부여 번영.",
+      "historical_significance": "고구려와 백제의 지배층이 모두 부여 계통임을 표방한 한민족 고대사의 주요 뿌리.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-bc1-dongye-cheongun",
+      "title": "동예의 무천(舞天)과 책화(責禍) 풍습",
+      "title_en": "동예의 무천(舞天)과 책화(責禍) 풍습",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "INSTITUTION",
+      "importance": "B",
+      "year_start": -100,
+      "year_end": -1,
+      "date_precision": "exact",
+      "summary": "10월 제천 행사 무천을 열고, 다른 부족의 경계를 침범하면 노비나 소·말로 변상하는 책화 엄수.",
+      "historical_significance": "초기 읍락 사회의 독자적 경계 질서와 제천 의례 증명.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-bc1-okjeo-minmyeoneuri",
+      "title": "옥저의 민며느리제와 골장제(가족공동묘)",
+      "title_en": "옥저의 민며느리제와 골장제(가족공동묘)",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "INSTITUTION",
+      "importance": "B",
+      "year_start": -100,
+      "year_end": -1,
+      "date_precision": "exact",
+      "summary": "어린 신부를 미리 데려와 키운 후 혼인시키는 매매혼 풍습과 거대한 목곽에 뼈를 모으는 골장제.",
+      "historical_significance": "함경도 동해안 초기 부족 국가의 독특한 가족·사회 구조.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-bc1-iron-armors-weapons",
+      "title": "고구려·신라 초기 비늘갑옷(찰갑)과 철제 무기",
+      "title_en": "고구려·신라 초기 비늘갑옷(찰갑)과 철제 무기",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "SCIENCE",
+      "importance": "B",
+      "year_start": -50,
+      "year_end": -1,
+      "date_precision": "exact",
+      "summary": "작은 철판을 가죽 끈으로 엮은 찰갑과 강력한 복합궁(맥궁)을 장비한 기병 양성.",
+      "historical_significance": "주변 읍락 정복과 고대 국가 성장의 군사적 원동력.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-bc1-lelang-trade",
+      "title": "낙랑군과의 교역 및 칠기·옥기 문화 유입",
+      "title_en": "낙랑군과의 교역 및 칠기·옥기 문화 유입",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "ECONOMY",
+      "importance": "C",
+      "year_start": -100,
+      "year_end": -1,
+      "date_precision": "exact",
+      "summary": "평양의 낙랑군을 매개로 한나라의 칠기, 거울, 비단과 삼한의 철, 곡물 교환.",
+      "historical_significance": "선진 문화 수용과 토착 지배층의 위세품 축적.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-bc1-stone-mound-tomb",
+      "title": "고구려 적석총(돌무지무덤)의 축조",
+      "title_en": "고구려 적석총(돌무지무덤)의 축조",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "ART_CULTURE",
+      "importance": "C",
+      "year_start": -37,
+      "year_end": -1,
+      "date_precision": "exact",
+      "summary": "압록강과 독로강 유역에 강돌을 계단식으로 쌓아 올린 웅장한 지배자 무덤 축조.",
+      "historical_significance": "고구려 초기 지배 권력의 성장과 독자적 석조 건축 기술.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-bc1-eupcha-sinji",
+      "title": "삼한 지배층의 신지·견지·읍차 칭호 분화",
+      "title_en": "삼한 지배층의 신지·견지·읍차 칭호 분화",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "INSTITUTION",
+      "importance": "C",
+      "year_start": -50,
+      "year_end": -1,
+      "date_precision": "exact",
+      "summary": "세력 크기에 따라 군장들의 칭호가 차등화되며 계층화 진전.",
+      "historical_significance": "소국 연맹에서 연맹 왕국으로 발전하는 중간 단계.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    }
+  ]
+}

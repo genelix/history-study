@@ -1,0 +1,731 @@
+{
+  "centuryId": "ce_07th_century",
+  "centuryLabel": "서기 7세기 (AD 601 ~ AD 700)",
+  "period": {
+    "yearStart": 601,
+    "yearEnd": 700
+  },
+  "eventCount": 30,
+  "events": [
+    {
+      "id": "west-ce7-rise-of-islam-hegira",
+      "title": "무함마드의 이슬람교 창시와 헤지라 (622년)",
+      "title_en": "무함마드의 이슬람교 창시와 헤지라 (622년)",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "RELIGION",
+      "importance": "A",
+      "year_start": 610,
+      "year_end": 622,
+      "date_precision": "exact",
+      "summary": "메카에서 유일신 알라의 계시를 받은 무함마드가 박해를 피해 메디나로 이주(헤지라)하고 움마(이슬람 공동체) 수립.",
+      "historical_significance": "이슬람 세계 제국의 탄생과 세계 3대 종교의 출현.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "west-ce7-rashidun-conquests",
+      "title": "정통 칼리프 시대의 대정복과 사산조 페르시아 멸망",
+      "title_en": "정통 칼리프 시대의 대정복과 사산조 페르시아 멸망",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "A",
+      "year_start": 632,
+      "year_end": 661,
+      "date_precision": "exact",
+      "summary": "야르무크 전투에서 비잔틴군을 격파하고 시리아, 이집트를 정복하며 니하반드 전투(642)로 400년 사산조 페르시아를 완전 멸망시킴.",
+      "historical_significance": "중동과 북아프리카가 기독교 권역에서 이슬람 아랍 문명권으로 전면 재편.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "west-ce7-umayyad-caliphate-damascus",
+      "title": "우마이야 왕조의 성립과 다마스쿠스 천도",
+      "title_en": "우마이야 왕조의 성립과 다마스쿠스 천도",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "A",
+      "year_start": 661,
+      "year_end": 661,
+      "date_precision": "exact",
+      "summary": "무아위야 1세가 알리를 제치고 세습 칼리프 왕조를 창건하여 시리아 다마스쿠스에 도읍함.",
+      "historical_significance": "아랍 제국이 중앙아시아에서 이베리아 반도(스페인)까지 팽창하는 전초기지.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "west-ce7-byzantine-heraclius-defense",
+      "title": "헤라클리우스 황제의 비잔틴 제국 재건과 테마(군관구) 제도",
+      "title_en": "헤라클리우스 황제의 비잔틴 제국 재건과 테마(군관구) 제도",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "INSTITUTION",
+      "importance": "A",
+      "year_start": 610,
+      "year_end": 641,
+      "date_precision": "exact",
+      "summary": "페르시아의 침공을 격퇴하고 참십자가를 탈환한 후 제국을 테마(Thema)로 나누고 자영농 군인(스트라티오테스) 육성.",
+      "historical_significance": "중세 비잔틴 제국의 생존을 보장한 군사·행정 방어 시스템 확립.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "west-ce7-greek-fire-constantinople-siege",
+      "title": "그리스의 불(Greek Fire)과 제1차 콘스탄티노폴리스 공방전",
+      "title_en": "그리스의 불(Greek Fire)과 제1차 콘스탄티노폴리스 공방전",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "SCIENCE",
+      "importance": "A",
+      "year_start": 674,
+      "year_end": 678,
+      "date_precision": "exact",
+      "summary": "물 위에서도 불타는 화학 무기 그리스의 불을 개발하여 우마이야 아랍 함대의 콘스탄티노폴리스 포위를 완파함.",
+      "historical_significance": "서유럽으로의 이슬람 확장을 동쪽 관문에서 결정적으로 저지.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "west-ce7-quran-compilation",
+      "title": "칼리프 우스만의 『쿠란(Quran)』 정본 집대성",
+      "title_en": "칼리프 우스만의 『쿠란(Quran)』 정본 집대성",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "RELIGION",
+      "importance": "B",
+      "year_start": 650,
+      "year_end": 653,
+      "date_precision": "exact",
+      "summary": "구전되던 무함마드의 계시를 단일한 아랍어 표준 문자로 정리하고 다른 이본들을 파기함.",
+      "historical_significance": "이슬람 신앙과 아랍 문학·법률(샤리아)의 영구적 절대 표준.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "west-ce7-dome-of-the-rock",
+      "title": "예루살렘 바위의 돔(Dome of the Rock) 완공",
+      "title_en": "예루살렘 바위의 돔(Dome of the Rock) 완공",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "ART_CULTURE",
+      "importance": "B",
+      "year_start": 691,
+      "year_end": 692,
+      "date_precision": "exact",
+      "summary": "칼리프 압드 알 말리크가 솔로몬 성전 터에 웅장한 금빛 돔과 팔각형 이슬람 모자이크 성전 건립.",
+      "historical_significance": "현존 최고(最古)의 기념비적 이슬람 건축물.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "west-ce7-synod-of-whitby",
+      "title": "휘트비 종교회의 (잉글랜드 교회의 로마 가톨릭 전례 수용)",
+      "title_en": "휘트비 종교회의 (잉글랜드 교회의 로마 가톨릭 전례 수용)",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "RELIGION",
+      "importance": "C",
+      "year_start": 664,
+      "year_end": 664,
+      "date_precision": "exact",
+      "summary": "잉글랜드 노섬브리아 왕국에서 켈트 교회와 로마 교회의 부활절 계산법 논쟁 끝에 로마 가톨릭 전례 채택.",
+      "historical_significance": "영국 제도가 서유럽 가톨릭 단일 질서로 통합.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "west-ce7-shia-sunni-split-karbala",
+      "title": "카르발라 전투와 수니파·시아파의 분열 (680년)",
+      "title_en": "카르발라 전투와 수니파·시아파의 분열 (680년)",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "RELIGION",
+      "importance": "B",
+      "year_start": 680,
+      "year_end": 680,
+      "date_precision": "exact",
+      "summary": "무함마드의 손자 후세인 이븐 알리가 카르발라에서 우마이야 군에 순교당함.",
+      "historical_significance": "이슬람 역사상 가장 깊은 수니파와 시아파 간 영구적 종파 분열.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "west-ce7-isidore-of-seville",
+      "title": "세비야의 이시도루스의 『어원학(Etymologiae)』",
+      "title_en": "세비야의 이시도루스의 『어원학(Etymologiae)』",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "SCIENCE",
+      "importance": "C",
+      "year_start": 600,
+      "year_end": 636,
+      "date_precision": "exact",
+      "summary": "고대 그리스·로마의 7자유학(3학4과) 지식을 총집대성한 20권의 중세 초기 백과사전.",
+      "historical_significance": "중세 서유럽 스콜라 학문의 기초 교재.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-ce7-sui-goguryeo-wars",
+      "title": "수양제의 113만 대군 고구려 침공과 살수대첩 (612년)",
+      "title_en": "수양제의 113만 대군 고구려 침공과 살수대첩 (612년)",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "A",
+      "year_start": 612,
+      "year_end": 614,
+      "date_precision": "exact",
+      "summary": "수양제가 역사상 유례없는 대군을 동원했으나 요동성에서 막히고 을지문덕의 살수대첩에 전멸.",
+      "historical_significance": "수나라의 치명적 국력 소모 및 멸망의 결정적 원인.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-ce7-tang-dynasty-founding",
+      "title": "이연·이세민의 당(唐)나라 건국과 정관의 치 (618년)",
+      "title_en": "이연·이세민의 당(唐)나라 건국과 정관의 치 (618년)",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "A",
+      "year_start": 618,
+      "year_end": 649,
+      "date_precision": "exact",
+      "summary": "당고조 이연이 장안에서 건국하고 당태종 이세민이 율령제(3성6부·조용조)와 신하들의 간언을 수용해 태평성대 이룩.",
+      "historical_significance": "동아시아 문화권의 표준이 된 300년 당 제국의 황금기.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-ce7-xuanzang-journey-west",
+      "title": "현장법사의 서역·인도 구법 여행과 『대당서역기』",
+      "title_en": "현장법사의 서역·인도 구법 여행과 『대당서역기』",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "RELIGION",
+      "importance": "A",
+      "year_start": 629,
+      "year_end": 645,
+      "date_precision": "exact",
+      "summary": "16년간 나란다 사원 등 인도를 순례하고 657부의 산스크리트 불경을 가져와 번역함(『서유기』의 모태).",
+      "historical_significance": "유식학 발전 및 고대 중앙아시아·인도 지리학의 최고 보고.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-ce7-wu-zetian-reign",
+      "title": "측천무후의 무주(武周) 개창과 여성 황제 등극",
+      "title_en": "측천무후의 무주(武周) 개창과 여성 황제 등극",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "A",
+      "year_start": 690,
+      "year_end": 705,
+      "date_precision": "exact",
+      "summary": "중국 역사상 유일무이한 여성 황제로 즉위하여 관롱 귀족을 누르고 과거 출신 신진 관료 대거 발탁.",
+      "historical_significance": "신분제 타파와 당 현종 '개원의 치'를 잇는 번영의 징검다리.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-ce7-tang-code-lu",
+      "title": "장손무기 등의 『당률소의(唐律疏議)』 편찬",
+      "title_en": "장손무기 등의 『당률소의(唐律疏議)』 편찬",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "INSTITUTION",
+      "importance": "A",
+      "year_start": 653,
+      "year_end": 653,
+      "date_precision": "exact",
+      "summary": "율(형법)·령(행정법)·격(보완규정)·식(시행세칙)의 율령 격식 체제를 법률 주석과 함께 완벽 집대성.",
+      "historical_significance": "한국, 일본, 베트남 등 동아시아 율령 문화권의 공통 법률 모태.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-ce7-tang-tian-kehan",
+      "title": "당태종의 동돌궐 정벌과 '천가한(天可汗)' 추대",
+      "title_en": "당태종의 동돌궐 정벌과 '천가한(天可汗)' 추대",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "B",
+      "year_start": 630,
+      "year_end": 630,
+      "date_precision": "exact",
+      "summary": "이정이 이끄는 당군이 동돌궐 힐리가한을 생포하자 유목 부족들이 당태종을 천상의 군주로 추대.",
+      "historical_significance": "농경 민족과 유목 민족을 아우르는 유라시아 대제국 건설.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-ce7-changan-cosmopolitan",
+      "title": "수도 장안의 100만 국제 코스모폴리탄 도시 번영",
+      "title_en": "수도 장안의 100만 국제 코스모폴리탄 도시 번영",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "ART_CULTURE",
+      "importance": "B",
+      "year_start": 650,
+      "year_end": 700,
+      "date_precision": "exact",
+      "summary": "바둑판형 도시 장안(동서 시장)에 신라, 일본, 페르시아, 아랍 상인과 사절들이 모여 호풍(胡風) 문화 유행.",
+      "historical_significance": "고대 세계 최대의 국제 교류 수도.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-ce7-grand-canal-completion",
+      "title": "수양제의 대운하 전면 개통 (항저우~베이징 2,700km)",
+      "title_en": "수양제의 대운하 전면 개통 (항저우~베이징 2,700km)",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "INSTITUTION",
+      "importance": "B",
+      "year_start": 605,
+      "year_end": 610,
+      "date_precision": "exact",
+      "summary": "통제거, 영제거, 강남하를 완공하여 황하, 회수, 장강, 전당강을 하나로 연결.",
+      "historical_significance": "중국 남방의 쌀과 물자를 북방으로 수송하는 국가 대동맥 완성.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-ce7-zhaozhou-bridge",
+      "title": "이춘의 조주교(안제교) 석조 개방형 아치교 완공",
+      "title_en": "이춘의 조주교(안제교) 석조 개방형 아치교 완공",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "SCIENCE",
+      "importance": "C",
+      "year_start": 605,
+      "year_end": 618,
+      "date_precision": "exact",
+      "summary": "스팬 37m의 완만한 단일 세그멘탈 아치와 홍수 분출구 4개를 뚫은 현존 최고 석교.",
+      "historical_significance": "세계 교량 공학사상 1천 년을 앞선 개방형 아치 기술.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-ce7-nestorian-monument-changan",
+      "title": "경교(기독교 네스토리우스파)의 장안 전래",
+      "title_en": "경교(기독교 네스토리우스파)의 장안 전래",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "RELIGION",
+      "importance": "C",
+      "year_start": 635,
+      "year_end": 635,
+      "date_precision": "exact",
+      "summary": "페르시아 사제 아라본이 장안에 도착하자 당태종이 경교 사원(대진사) 건립을 허가함.",
+      "historical_significance": "기독교의 최초 중국 전래와 다종교 융합.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-ce7-salsu-great-victory",
+      "title": "고구려 을지문덕의 살수대첩 (612년)",
+      "title_en": "고구려 을지문덕의 살수대첩 (612년)",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "A",
+      "year_start": 612,
+      "year_end": 612,
+      "date_precision": "exact",
+      "summary": "우중문에게 여수장우중문시를 보내 유인한 후 살수(청천강)를 건너는 수나라 30만 5천 별동대를 수공과 매복으로 섬멸(2,700명만 생환).",
+      "historical_significance": "민족사 최대의 빛나는 승리이자 수나라 멸망의 결정타.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-ce7-ansiseong-great-victory",
+      "title": "고구려 안시성 전투 (645년)",
+      "title_en": "고구려 안시성 전투 (645년)",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "A",
+      "year_start": 645,
+      "year_end": 645,
+      "date_precision": "exact",
+      "summary": "당태종 이세민의 친정 대군에 맞서 안시성 성주(양만춘 전승)와 백성들이 토산을 무너뜨리며 88일간 결사항전 끝에 격퇴.",
+      "historical_significance": "동북아 최강대국 당나라 황제의 군대를 꺾은 불패의 방어전.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-ce7-silla-tripartite-unification",
+      "title": "신라의 삼국 통일 완수 (백제·고구려 멸망 및 나당전쟁 승리)",
+      "title_en": "신라의 삼국 통일 완수 (백제·고구려 멸망 및 나당전쟁 승리)",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "A",
+      "year_start": 660,
+      "year_end": 676,
+      "date_precision": "exact",
+      "summary": "김유신·문무왕이 백제 멸망(660, 황산벌), 고구려 멸망(668) 후 당나라의 침략 야욕에 맞서 매소성·기벌포 전투(676)에서 대승하여 당군 축출.",
+      "historical_significance": "한민족 최초의 단일 국가적 통합 달성과 자주적 영토(대동강~원산만) 확보.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-ce7-balhae-founding",
+      "title": "대조영의 발해 건국 (698년)",
+      "title_en": "대조영의 발해 건국 (698년)",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "A",
+      "year_start": 698,
+      "year_end": 698,
+      "date_precision": "exact",
+      "summary": "고구려 장수 대조영이 고구려 유민과 말갈족을 이끌고 천문령 전투에서 당군을 격파한 후 동모산에서 진국(발해) 건국.",
+      "historical_significance": "고구려 계승국으로서 남북국 시대(통일신라-발해) 개막.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-ce7-yeon-gaesomun-coup",
+      "title": "고구려 연개소문의 정변과 대막리지 집권 (642년)",
+      "title_en": "고구려 연개소문의 정변과 대막리지 집권 (642년)",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "A",
+      "year_start": 642,
+      "year_end": 666,
+      "date_precision": "exact",
+      "summary": "영류왕과 온건파 귀족 100여 명을 숙청하고 보장왕을 옹립한 후 천리장성을 완공하며 당나라에 초강경 대결 노선 고수.",
+      "historical_significance": "고구려 말기 강력한 군사독재 체제와 당과의 총력전 돌입.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-ce7-baekje-uija-fall",
+      "title": "백제 멸망과 계백의 5천 결사대 (황산벌 전투)",
+      "title_en": "백제 멸망과 계백의 5천 결사대 (황산벌 전투)",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "A",
+      "year_start": 660,
+      "year_end": 660,
+      "date_precision": "exact",
+      "summary": "신라 5만-당 13만 나당연합군의 협공에 맞서 계백 장군이 황산벌에서 4차례 승리했으나 중과부적으로 패하고 사비성 함락.",
+      "historical_significance": "700년 백제 왕국의 비극적 종언과 백제 부흥운동(흑치상지·복신·도침) 촉발.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-ce7-wonhyo-buddhism-integration",
+      "title": "원효대사의 화쟁사상(和諍思想)과 불교 대중화",
+      "title_en": "원효대사의 화쟁사상(和諍思想)과 불교 대중화",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "RELIGION",
+      "importance": "A",
+      "year_start": 661,
+      "year_end": 686,
+      "date_precision": "exact",
+      "summary": "해골물 일체유심조 깨달음 후 무애가를 부르며 서민에게 정토신앙을 전파하고 모든 종파 갈등을 하나로 융합한 『십문화쟁론』, 『대승기신론소』 저술.",
+      "historical_significance": "한국 불교 철학의 최고봉이자 '원융회통' 민족 사상 정립.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-ce7-uissang-hwayeom",
+      "title": "의상대사의 화엄종 개창과 부석사 창건",
+      "title_en": "의상대사의 화엄종 개창과 부석사 창건",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "RELIGION",
+      "importance": "B",
+      "year_start": 670,
+      "year_end": 700,
+      "date_precision": "exact",
+      "summary": "당나라 지엄에게 화엄학을 배우고 귀국하여 『화엄일승법계도』를 짓고 영주 부석사 등 화엄 10찰 창건.",
+      "historical_significance": "신라 교종 불교의 중심 축 형성.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-ce7-cheomseongdae-astronomy",
+      "title": "신라 선덕여왕의 첨성대(국보) 건립",
+      "title_en": "신라 선덕여왕의 첨성대(국보) 건립",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "SCIENCE",
+      "importance": "B",
+      "year_start": 634,
+      "year_end": 647,
+      "date_precision": "exact",
+      "summary": "362개의 화강암 돌을 27단으로 쌓아 1년 일수와 24절기, 천문 관측을 상징하는 세계 최고 수준의 천문대 완공.",
+      "historical_significance": "동양에 현존하는 가장 오래된 천문대.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-ce7-hwangnyongsa-pagoda",
+      "title": "자장율사의 건의와 황룡사 9층 목탑 건립",
+      "title_en": "자장율사의 건의와 황룡사 9층 목탑 건립",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "ART_CULTURE",
+      "importance": "B",
+      "year_start": 645,
+      "year_end": 645,
+      "date_precision": "exact",
+      "summary": "주변 9개국의 침략을 부처의 힘으로 물리치고자 백제 장인 아비지를 초빙하여 80m 높이의 거대 목탑 완공.",
+      "historical_significance": "호국불교 신앙과 삼국 최고 수준의 목조 건축 공학 과시.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    }
+  ]
+}

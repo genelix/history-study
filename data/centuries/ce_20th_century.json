@@ -1,0 +1,731 @@
+{
+  "centuryId": "ce_20th_century",
+  "centuryLabel": "서기 20세기 (AD 1901 ~ AD 2000)",
+  "period": {
+    "yearStart": 1901,
+    "yearEnd": 2000
+  },
+  "eventCount": 30,
+  "events": [
+    {
+      "id": "west-ce20-world-war-one-versailles",
+      "title": "제1차 세계대전(1914~1918)과 베르사유 조약·국제연맹 창설",
+      "title_en": "제1차 세계대전(1914~1918)과 베르사유 조약·국제연맹 창설",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "A",
+      "year_start": 1914,
+      "year_end": 1919,
+      "date_precision": "exact",
+      "summary": "사라예보 사건으로 촉발되어 참호전, 기관총, 독가스, 탱크가 등장한 총력전으로 4대 제국(독일·오스트리아·러시아·오스만)이 붕괴됨.",
+      "historical_significance": "20세기 세계 질서의 근본적 재편과 윌슨의 민족자결주의 선언.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "west-ce20-russian-revolution-lenin",
+      "title": "러시아 볼셰비키 혁명(1917년)과 소련(소비에트 연방) 수립",
+      "title_en": "러시아 볼셰비키 혁명(1917년)과 소련(소비에트 연방) 수립",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "A",
+      "year_start": 1917,
+      "year_end": 1922,
+      "date_precision": "exact",
+      "summary": "블라디미르 레닌과 트로츠키가 '빵·평화·토지'를 외치며 10월 혁명으로 차르 체제를 타도하고 인류 최초의 사회주의 국가 소련 건국.",
+      "historical_significance": "70년간 지속될 전 세계 냉전 이데올로기 대립의 탄생.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "west-ce20-great-depression-new-deal",
+      "title": "세계 대공황(1929년)과 루스벨트 대통령의 뉴딜 정책",
+      "title_en": "세계 대공황(1929년)과 루스벨트 대통령의 뉴딜 정책",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "ECONOMY",
+      "importance": "A",
+      "year_start": 1929,
+      "year_end": 1939,
+      "date_precision": "exact",
+      "summary": "뉴욕 월스트리트 주가 대폭락으로 촉발된 글로벌 경제 공황에 맞서 케인스주의 수정자본주의와 TVA 공공사업, 사회보장법 도입.",
+      "historical_significance": "자유방임주의 종말과 복지 국가 정부 개입 모델의 확립.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "west-ce20-world-war-two-un",
+      "title": "제2차 세계대전(1939~1945)과 홀로코스트·유엔(UN) 창설",
+      "title_en": "제2차 세계대전(1939~1945)과 홀로코스트·유엔(UN) 창설",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "A",
+      "year_start": 1939,
+      "year_end": 1945,
+      "date_precision": "exact",
+      "summary": "히틀러 나치즘과 일본 군국주의의 파시즘에 맞서 연합국이 노르망디 상륙작전과 원자폭탄 투하로 승리하고 1945년 국제연합(UN) 창설.",
+      "historical_significance": "인류 역사상 최대의 전쟁(8천만 명 사망)과 전후 미·소 양극 냉전 체제 출범.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "west-ce20-einstein-relativity-quantum",
+      "title": "알베르트 아인슈타인의 상대성이론과 양자역학 혁명",
+      "title_en": "알베르트 아인슈타인의 상대성이론과 양자역학 혁명",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "SCIENCE",
+      "importance": "A",
+      "year_start": 1905,
+      "year_end": 1927,
+      "date_precision": "exact",
+      "summary": "특수·일반상대성이론(E=mc²)과 보어, 하이젠베르크, 슈뢰딩거의 양자역학으로 시간, 공간, 물질의 본질을 완전히 재정의.",
+      "historical_significance": "원자력, 반도체, 레이저, 컴퓨터를 가능하게 한 현대 물리학의 혁명.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "west-ce20-apollo-11-moon-landing",
+      "title": "아폴로 11호의 인류 최초 달 착륙 (닐 암스트롱, 1969년)",
+      "title_en": "아폴로 11호의 인류 최초 달 착륙 (닐 암스트롱, 1969년)",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "SCIENCE",
+      "importance": "A",
+      "year_start": 1969,
+      "year_end": 1969,
+      "date_precision": "exact",
+      "summary": "'이것은 한 인간에게는 작은 한 걸음이지만, 인류에게는 위대한 도약이다'를 남기며 새턴 V 로켓으로 달 표면 고요의 바다에 착륙.",
+      "historical_significance": "인류가 지구를 벗어나 우주 시대를 개막한 역사상 최고의 성취.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "west-ce20-fall-of-berlin-wall-soviet-collapse",
+      "title": "베를린 장벽 붕괴(1989년)와 소련 해체(1991년) - 냉전 종식",
+      "title_en": "베를린 장벽 붕괴(1989년)와 소련 해체(1991년) - 냉전 종식",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "A",
+      "year_start": 1989,
+      "year_end": 1991,
+      "date_precision": "exact",
+      "summary": "고르바초프의 페레스트로이카와 동유럽 민주화 혁명으로 베를린 장벽이 무너지고 소련이 공식 해체되며 자유주의 민주주의 승리 선언.",
+      "historical_significance": "45년 동서 냉전의 종식과 단극 미국 주도 글로벌화 개막.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "west-ce20-invention-of-internet-www",
+      "title": "팀 버너스리의 월드 와이드 웹(WWW) 발명과 인터넷 혁명 (1989/1990년)",
+      "title_en": "팀 버너스리의 월드 와이드 웹(WWW) 발명과 인터넷 혁명 (1989/1990년)",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "SCIENCE",
+      "importance": "A",
+      "year_start": 1989,
+      "year_end": 1995,
+      "date_precision": "exact",
+      "summary": "CERN에서 HTML, HTTP, URL 기반의 월드 와이드 웹을 개발하여 무료 공개함으로써 전 인류를 초연결 정보망으로 통합.",
+      "historical_significance": "3차 산업혁명인 정보통신(IT) 디지털 시대의 폭발적 개막.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "west-ce20-dna-double-helix-discovery",
+      "title": "왓슨과 크릭의 DNA 이중나선 구조 규명 (1953년)",
+      "title_en": "왓슨과 크릭의 DNA 이중나선 구조 규명 (1953년)",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "SCIENCE",
+      "importance": "B",
+      "year_start": 1953,
+      "year_end": 1953,
+      "date_precision": "exact",
+      "summary": "로잘린드 프랭클린의 X선 회절 사진을 바탕으로 유전 정보가 저장·복제되는 분자 생물학적 구조 규명.",
+      "historical_significance": "생명공학, 유전자 치료, 인간 게놈 프로젝트의 출발점.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "west-ce20-european-union-maastricht",
+      "title": "마스트리히트 조약과 유럽 연합(EU) 공식 출범 (1993년)",
+      "title_en": "마스트리히트 조약과 유럽 연합(EU) 공식 출범 (1993년)",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "INSTITUTION",
+      "importance": "B",
+      "year_start": 1993,
+      "year_end": 1999,
+      "date_precision": "exact",
+      "summary": "단일 통화 유로(Euro) 도입과 국경 철폐(솅겐 조약)를 합의하며 단일 경제·정치 공동체 유럽연합 출범.",
+      "historical_significance": "수백 년간 전쟁을 벌이던 유럽 국가들의 평화적 초국가 통합 모델.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-ce20-xinhai-revolution-1911",
+      "title": "신해혁명(1911년)과 중화민국 건국 (쑨원의 삼민주의)",
+      "title_en": "신해혁명(1911년)과 중화민국 건국 (쑨원의 삼민주의)",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "A",
+      "year_start": 1911,
+      "year_end": 1912,
+      "date_precision": "exact",
+      "summary": "무창 봉기로 청나라가 멸망(마지막 황제 푸이 퇴위)하고 쑨원이 아시아 최초의 민주 공화국인 중화민국 임시 대총통으로 취임.",
+      "historical_significance": "2,132년간 지속된 중국 전제 황제정의 영구 종말.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-ce20-may-fourth-movement-1919",
+      "title": "5·4 운동(1919년)과 신문화운동 (민주와 과학)",
+      "title_en": "5·4 운동(1919년)과 신문화운동 (민주와 과학)",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "ART_CULTURE",
+      "importance": "A",
+      "year_start": 1919,
+      "year_end": 1919,
+      "date_precision": "exact",
+      "summary": "파리강화회의 산둥반도 일본 양도에 분노한 북경 대학생들이 천안문에서 총궐기하고 진독수·노신 등이 유교 봉건 타파 외침.",
+      "historical_significance": "중국 현대 반제국주의·반봉건 민중 계몽 운동의 출발점이자 중국 공산당 창당(1921)의 모태.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-ce20-peoples-republic-founding-1949",
+      "title": "중화인민공화국 건국 선포 (마오쩌둥, 1949년 10월 1일)",
+      "title_en": "중화인민공화국 건국 선포 (마오쩌둥, 1949년 10월 1일)",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "A",
+      "year_start": 1949,
+      "year_end": 1949,
+      "date_precision": "exact",
+      "summary": "국공내전에서 장제스의 국민당을 대만으로 축출하고 마오쩌둥이 천안문 망루에서 '중국 인민이 일어섰다'고 선포.",
+      "historical_significance": "사회주의 신중국 탄생과 양안 분단 체제 형성.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-ce20-reform-and-opening-deng",
+      "title": "덩샤오핑의 개혁개방(改革開放) 선포 (11기 3중전회, 1978년)",
+      "title_en": "덩샤오핑의 개혁개방(改革開放) 선포 (11기 3중전회, 1978년)",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "ECONOMY",
+      "importance": "A",
+      "year_start": 1978,
+      "year_end": 1992,
+      "date_precision": "exact",
+      "summary": "'흑묘백묘론'과 실사구시를 바탕으로 심천 등 경제특구를 설치하고 사회주의 시장경제 도입 및 1992년 남순강화 단행.",
+      "historical_significance": "중국을 세계의 공장이자 G2 초강대국으로 탈바꿈시킨 역사적 경제 대도약.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-ce20-cultural-revolution-disaster",
+      "title": "문화대혁명(1966~1976년)의 광기와 참극",
+      "title_en": "문화대혁명(1966~1976년)의 광기와 참극",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "A",
+      "year_start": 1966,
+      "year_end": 1976,
+      "date_precision": "exact",
+      "summary": "마오쩌둥의 주도로 홍위병들이 구사상·구문화를 파괴하고 지식인, 류사오치, 덩샤오핑을 숙청하며 수백만 명이 희생된 10년 동란.",
+      "historical_significance": "중국 전통 문화와 경제의 궤멸적 타격.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-ce20-tiananmen-square-massacre-1989",
+      "title": "천안문 6·4 민주화 운동과 유혈 진압 (1989년)",
+      "title_en": "천안문 6·4 민주화 운동과 유혈 진압 (1989년)",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "A",
+      "year_start": 1989,
+      "year_end": 1989,
+      "date_precision": "exact",
+      "summary": "호요방 사망 후 대학생과 시민들이 천안문 광장에서 자유와 민주화를 요구했으나 당국이 탱크와 군대로 유혈 진압.",
+      "historical_significance": "정치적 민주화 요구의 전면 억압과 경제 개혁 중심의 독자 노선 고착화.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-ce20-hong-kong-handover-1997",
+      "title": "홍콩의 중국 반환과 '일국양제(一國兩制)' 출범 (1997년 7월 1일)",
+      "title_en": "홍콩의 중국 반환과 '일국양제(一國兩制)' 출범 (1997년 7월 1일)",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "A",
+      "year_start": 1997,
+      "year_end": 1997,
+      "date_precision": "exact",
+      "summary": "156년간의 영국 통치를 끝내고 홍콩 주권이 중국으로 반환되었으며 '한 국가 두 체제(50년 불변)' 약속.",
+      "historical_significance": "식민지 시대의 완전한 종식과 대중화권 통합 가속.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-ce20-great-leap-forward-famine",
+      "title": "대약진 운동(1958~1962)과 3년 대기근",
+      "title_en": "대약진 운동(1958~1962)과 3년 대기근",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "ECONOMY",
+      "importance": "B",
+      "year_start": 1958,
+      "year_end": 1962,
+      "date_precision": "exact",
+      "summary": "인민공사와 토법고로(철강 증산), 제사해 운동(참새 잡기) 등 비과학적 정책으로 수천만 명이 아사한 비극.",
+      "historical_significance": "극좌 모험주의의 참담한 실패.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-ce20-sino-american-rapprochement",
+      "title": "닉슨 대통령의 방중과 미·중 수교 (핑퐁 외교, 1972/1979년)",
+      "title_en": "닉슨 대통령의 방중과 미·중 수교 (핑퐁 외교, 1972/1979년)",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "B",
+      "year_start": 1971,
+      "year_end": 1979,
+      "date_precision": "exact",
+      "summary": "핑퐁 외교를 거쳐 리처드 닉슨이 베이징을 방문해 상하이 코뮈니케를 발표하고 1979년 공식 외교 수교 체결.",
+      "historical_significance": "중·소 분열 속에서 소련을 견제하고 중국이 국제 사회 무대로 복귀한 전략적 대전환.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-ce20-lu-xun-true-story-ah-q",
+      "title": "노신의 소설 『아Q정전(阿Q正傳)』과 『광인일기』",
+      "title_en": "노신의 소설 『아Q정전(阿Q正傳)』과 『광인일기』",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "ART_CULTURE",
+      "importance": "C",
+      "year_start": 1918,
+      "year_end": 1921,
+      "date_precision": "exact",
+      "summary": "봉건적 유교 도덕을 '사람을 잡아먹는 예교'로 고발하고 아Q의 '정신승리법'을 통해 중국인들의 노예근성을 날카롭게 해부.",
+      "historical_significance": "중국 현대 문학의 아버지.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-ce20-march-first-movement-1919",
+      "title": "3·1 만세운동 (1919년)과 대한민국 임시정부 수립 (4월 11일)",
+      "title_en": "3·1 만세운동 (1919년)과 대한민국 임시정부 수립 (4월 11일)",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "A",
+      "year_start": 1919,
+      "year_end": 1919,
+      "date_precision": "exact",
+      "summary": "태화관 기미독립선언서 낭독과 탑골공원 만세 시위로 시작되어 200만 명이 참가한 전 민족 비폭력 평화 만세 시위, 그리고 상하이에 대한민국 임시정부(대한민국 국호·민주공화제 채택) 수립.",
+      "historical_significance": "대한민국 헌법 전문에 명시된 법통이자 아시아 민족 해방 운동(중국 5·4 운동, 인도 비폭력 운동)의 도화선.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-ce20-korean-liberation-division-1945",
+      "title": "8·15 광복과 남북 분단 (1945년)",
+      "title_en": "8·15 광복과 남북 분단 (1945년)",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "A",
+      "year_start": 1945,
+      "year_end": 1945,
+      "date_precision": "exact",
+      "summary": "일제의 무조건 항복으로 35년 식민 지배에서 해방되었으나 38도선을 경계로 미·소 양군이 진주하여 국토 분단.",
+      "historical_significance": "민족 해방의 기쁨과 비극적 분단 냉전 체제의 시작.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-ce20-korean-war-1950",
+      "title": "6·25 전쟁(한국전쟁, 1950~1953년)과 휴전협정",
+      "title_en": "6·25 전쟁(한국전쟁, 1950~1953년)과 휴전협정",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "A",
+      "year_start": 1950,
+      "year_end": 1953,
+      "date_precision": "exact",
+      "summary": "북한의 불법 기습 남침으로 발발하여 유엔군(인천상륙작전)과 중공군 참전 끝에 1953년 7월 27일 휴전협정 체결.",
+      "historical_significance": "수백만 명의 사상자와 한반도 분단 고착화, 한미상호방위조약 체결.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-ce20-april-nineteenth-revolution-1960",
+      "title": "4·19 혁명 (1960년) - 아시아 최초의 민주주의 시민 혁명",
+      "title_en": "4·19 혁명 (1960년) - 아시아 최초의 민주주의 시민 혁명",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "A",
+      "year_start": 1960,
+      "year_end": 1960,
+      "date_precision": "exact",
+      "summary": "이승만 정권의 3·15 부정선거와 김주열 열사 최루탄 사망에 분노한 중고생·대학생과 시민들이 총궐기하여 독재 정권을 퇴진시킴.",
+      "historical_significance": "대한민국 민주주의의 불굴의 뿌리이자 헌법 전문에 수록된 민주 혁명.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-ce20-miracle-on-the-han-river",
+      "title": "한강의 기적 (초고속 산업화와 포항제철·경부고속도로, 1960~1980년대)",
+      "title_en": "한강의 기적 (초고속 산업화와 포항제철·경부고속도로, 1960~1980년대)",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "ECONOMY",
+      "importance": "A",
+      "year_start": 1962,
+      "year_end": 1988,
+      "date_precision": "exact",
+      "summary": "세계 최빈국에서 경제개발 5개년 계획, 포항제철, 경부고속도로 완공, 반도체·자동차·조선·IT 중화학공업 육성으로 1인당 GDP 수백 배 도약.",
+      "historical_significance": "2차 대전 이후 최빈국에서 선진 공업국으로 진입한 인류 역사상 유일무이한 경제 성공 신화.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-ce20-may-eighteenth-gwangju-uprising",
+      "title": "5·18 광주 민주화 운동 (유네스코 세계기록유산, 1980년)",
+      "title_en": "5·18 광주 민주화 운동 (유네스코 세계기록유산, 1980년)",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "A",
+      "year_start": 1980,
+      "year_end": 1980,
+      "date_precision": "exact",
+      "summary": "전두환 신군부의 5·17 비상계엄 확대와 계엄군의 무자비한 유혈 진압에 맞서 광주 시민들이 시민군을 결성하고 계엄군을 몰아내며 열흘간 자치 공동체 수호.",
+      "historical_significance": "대한민국 민주화 운동의 숭고한 성지이자 세계 민주주의의 교과서.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-ce20-june-democratic-uprising-1987",
+      "title": "6월 민주항쟁(1987년)과 대통령 직선제 개헌 (현행 87년 체제)",
+      "title_en": "6월 민주항쟁(1987년)과 대통령 직선제 개헌 (현행 87년 체제)",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "A",
+      "year_start": 1987,
+      "year_end": 1987,
+      "date_precision": "exact",
+      "summary": "박종철 열사 고문치사 사건과 이한열 열사 최루탄 피격 후 전 국민이 '호헌철폐 독재타도'를 외치며 6·29 선언(대통령 5년 단임 직선제) 쟁취.",
+      "historical_significance": "대한민국 평화적 민주화 완성 및 현행 제6공화국 체제 출범.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-ce20-seoul-olympics-1988",
+      "title": "1988 서울 올림픽 개최 ('손에 손잡고')",
+      "title_en": "1988 서울 올림픽 개최 ('손에 손잡고')",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "ART_CULTURE",
+      "importance": "A",
+      "year_start": 1988,
+      "year_end": 1988,
+      "date_precision": "exact",
+      "summary": "동서 냉전 12년 만에 동구권과 서구권 160개국이 모두 참가한 화합의 대제전으로 한국의 발전상을 세계에 각인시키고 북방외교(소련·동유럽 수교) 촉진.",
+      "historical_significance": "대한민국이 세계 무대의 중심 국가로 당당히 우뚝 선 순간.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-ce20-eulsa-treaty-annexation-tragedy",
+      "title": "을사늑약(1905년)과 경술국치(한일강제병합, 1910년)",
+      "title_en": "을사늑약(1905년)과 경술국치(한일강제병합, 1910년)",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "A",
+      "year_start": 1905,
+      "year_end": 1910,
+      "date_precision": "exact",
+      "summary": "러일전쟁 승리 후 일본이 군대를 동원해 외교권을 강탈(을사늑약, 안중근의 이토 히로부미 처단)하고 1910년 대한제국을 강제 병합하여 국권 피탈.",
+      "historical_significance": "35년간의 일제 식민 통치라는 민족사 최대의 국난 시작.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-ce20-inter-korean-summit-2000",
+      "title": "최초의 남북 정상회담과 6·15 남북공동선언 (2000년)",
+      "title_en": "최초의 남북 정상회담과 6·15 남북공동선언 (2000년)",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "A",
+      "year_start": 2000,
+      "year_end": 2000,
+      "date_precision": "exact",
+      "summary": "김대중 대통령과 김정일 국방위원장이 평양에서 만나 분단 55년 만에 최초의 정상회담을 갖고 자주적 평화 통일과 이산가족 상봉, 개성공단 등에 합의.",
+      "historical_significance": "한반도 평화 공존과 화해 협력의 새 시대 개막(김대중 대통령 노벨평화상 수상).",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    }
+  ]
+}

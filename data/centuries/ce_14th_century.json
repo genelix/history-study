@@ -1,0 +1,731 @@
+{
+  "centuryId": "ce_14th_century",
+  "centuryLabel": "서기 14세기 (AD 1301 ~ AD 1400)",
+  "period": {
+    "yearStart": 1301,
+    "yearEnd": 1400
+  },
+  "eventCount": 30,
+  "events": [
+    {
+      "id": "west-ce14-black-death-europe",
+      "title": "흑사병(Black Death) 대유행 (유럽 인구 1/3 사망, 1347~1351년)",
+      "title_en": "흑사병(Black Death) 대유행 (유럽 인구 1/3 사망, 1347~1351년)",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "CLIMATE_ENVIRONMENT",
+      "importance": "A",
+      "year_start": 1347,
+      "year_end": 1351,
+      "date_precision": "exact",
+      "summary": "크림반도 카파에서 제노바 상선을 통해 전파된 페스트균으로 유럽 전역에서 2,500만~5,000만 명이 사망함.",
+      "historical_significance": "노동력 부족으로 농노제 붕괴, 교회의 권위 실추 및 중세 봉건 사회의 총체적 해체 가속.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "west-ce14-hundred-years-war-begins",
+      "title": "영·프 백년전쟁 발발 (크레시 전투 장궁 승리, 1337~1453년)",
+      "title_en": "영·프 백년전쟁 발발 (크레시 전투 장궁 승리, 1337~1453년)",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "A",
+      "year_start": 1337,
+      "year_end": 1346,
+      "date_precision": "exact",
+      "summary": "에드워드 3세가 프랑스 왕위 계승권을 주장하며 침공하여 크레시 전투(1346)에서 영국 장궁병이 프랑스 중장기사를 궤멸시킴.",
+      "historical_significance": "중세 기사 계급의 몰락과 영국·프랑스 근대 민족 국가로의 전환.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "west-ce14-avignon-papacy-schism",
+      "title": "아비뇽 유수(1309~1377)와 서구 대분열(1378~1417)",
+      "title_en": "아비뇽 유수(1309~1377)와 서구 대분열(1378~1417)",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "RELIGION",
+      "importance": "A",
+      "year_start": 1309,
+      "year_end": 1378,
+      "date_precision": "exact",
+      "summary": "프랑스 필리프 4세가 교황청을 아비뇽으로 강제 이전시키고, 이후 로마와 아비뇽에서 두 명의 교황이 난립하며 상호 파문.",
+      "historical_significance": "교황권의 처참한 추락과 위클리프·후스의 종교개혁 선구 운동 촉발.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "west-ce14-petrarch-renaissance-humanism",
+      "title": "페트라르카와 인문주의(Humanism)의 태동",
+      "title_en": "페트라르카와 인문주의(Humanism)의 태동",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "ART_CULTURE",
+      "importance": "A",
+      "year_start": 1341,
+      "year_end": 1374,
+      "date_precision": "exact",
+      "summary": "중세를 '암흑시대'로 규정하고 고대 키케로의 라틴 고전 필사본을 발굴하며 인간 중심의 르네상스 휴머니즘 주창.",
+      "historical_significance": "이탈리아 르네상스 인문주의의 아버지.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "west-ce14-boccaccio-decameron",
+      "title": "보카치오의 『데카메론(Decameron)』",
+      "title_en": "보카치오의 『데카메론(Decameron)』",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "ART_CULTURE",
+      "importance": "B",
+      "year_start": 1348,
+      "year_end": 1353,
+      "date_precision": "exact",
+      "summary": "피렌체의 흑사병을 피해 교외 별장에 모인 10명의 남녀가 10일간 나눈 100편의 재치와 인간적 욕망을 담은 소설.",
+      "historical_significance": "서양 근대 산문 소설과 사실주의 문학의 효시.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "west-ce14-wat-tyler-rebellion",
+      "title": "영국 와트 타일러의 난 (1381년)",
+      "title_en": "영국 와트 타일러의 난 (1381년)",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "B",
+      "year_start": 1381,
+      "year_end": 1381,
+      "date_precision": "exact",
+      "summary": "인두세 부과에 맞서 와트 타일러와 존 볼(사제)이 '아담이 밭 갈고 하와가 길쌈할 때 귀족이 어디 있었는가'를 외치며 런던 점령.",
+      "historical_significance": "영국 농노제의 실질적 폐지를 이끈 민중 혁명.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "west-ce14-dante-divine-comedy-completion",
+      "title": "단테의 대서사시 『신곡(Divina Commedia)』 완성 (1320년)",
+      "title_en": "단테의 대서사시 『신곡(Divina Commedia)』 완성 (1320년)",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "ART_CULTURE",
+      "importance": "B",
+      "year_start": 1308,
+      "year_end": 1320,
+      "date_precision": "exact",
+      "summary": "베르길리우스와 베아트리체의 인도로 지옥, 연옥, 천국을 순례하는 3부작 14,233행의 이탈리아 운문 서사시.",
+      "historical_significance": "중세 기독교 세계관의 총결산이자 르네상스를 여는 문학의 정점.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "west-ce14-john-wycliffe-bible",
+      "title": "존 위클리프의 최초 영어 성경 번역과 롤라드파",
+      "title_en": "존 위클리프의 최초 영어 성경 번역과 롤라드파",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "RELIGION",
+      "importance": "B",
+      "year_start": 1382,
+      "year_end": 1384,
+      "date_precision": "exact",
+      "summary": "교황 무오설과 성직 매매를 비판하고 라틴어 성경을 대중 영어로 완역하여 '성경 유일주의' 선언.",
+      "historical_significance": "종교개혁의 샛별(The Morning Star of the Reformation).",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "west-ce14-ottoman-battle-of-kosovo",
+      "title": "코소보 전투와 오스만 제국의 발칸반도 제패 (1389년)",
+      "title_en": "코소보 전투와 오스만 제국의 발칸반도 제패 (1389년)",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "C",
+      "year_start": 1389,
+      "year_end": 1389,
+      "date_precision": "exact",
+      "summary": "술탄 무라트 1세의 오스만 튀르크군이 세르비아 라자르 공작의 발칸 기독교 연합군을 섬멸함.",
+      "historical_significance": "오스만 제국이 동유럽의 지배자로 군림하고 비잔틴 제국을 고립시킴.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "west-ce14-golden-bull-1356",
+      "title": "카를 4세의 금인칙서 (신성로마제국 7선제후 선출제 확립, 1356년)",
+      "title_en": "카를 4세의 금인칙서 (신성로마제국 7선제후 선출제 확립, 1356년)",
+      "region_id": "WEST",
+      "sub_region": "",
+      "category_id": "INSTITUTION",
+      "importance": "C",
+      "year_start": 1356,
+      "year_end": 1356,
+      "date_precision": "exact",
+      "summary": "교황의 간섭을 배제하고 3명의 성직 선제후와 4명의 세속 선제후가 다수결로 독일 국왕을 선출하는 헌법 제정.",
+      "historical_significance": "독일의 분권적 영방 국가 체제 고착화.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-ce14-ming-dynasty-founding",
+      "title": "주원장의 명(明)나라 건국과 한족 왕조 부흥 (1368년)",
+      "title_en": "주원장의 명(明)나라 건국과 한족 왕조 부흥 (1368년)",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "A",
+      "year_start": 1368,
+      "year_end": 1368,
+      "date_precision": "exact",
+      "summary": "소작농·탁발승 출신 주원장(홍무제)이 홍건적을 이끌고 난징에서 건국한 후 북벌군으로 원을 몽골 초원으로 몰아냄(북원).",
+      "historical_significance": "이민족 지배 100년 만에 한족 전통 왕조의 복원.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-ce14-hongwu-autocracy",
+      "title": "홍무제의 승상제 폐지와 황제 독재권 강화",
+      "title_en": "홍무제의 승상제 폐지와 황제 독재권 강화",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "INSTITUTION",
+      "importance": "A",
+      "year_start": 1380,
+      "year_end": 1380,
+      "date_precision": "exact",
+      "summary": "호유용의 옥사를 계기로 1500년간 이어온 승상(총리) 제도를 영구 폐지하고 6부를 황제에게 직속시킴.",
+      "historical_significance": "중국 역사상 가장 극단적인 황제 1인 전제 독재 체제 완성.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-ce14-red-turban-rebellions",
+      "title": "백련교도와 홍건적의 난 (1351년)",
+      "title_en": "백련교도와 홍건적의 난 (1351년)",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "A",
+      "year_start": 1351,
+      "year_end": 1368,
+      "date_precision": "exact",
+      "summary": "황하 치수 공사 중 한산유, 유복통 등이 '미륵불 하생'을 외치며 붉은 두건을 두르고 전국적 무장 봉기.",
+      "historical_significance": "원나라 멸망의 결정타.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-ce14-yellow-registers-fish-scale",
+      "title": "부역황책(호적)과 어린도책(토지대장) 편찬",
+      "title_en": "부역황책(호적)과 어린도책(토지대장) 편찬",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "INSTITUTION",
+      "importance": "A",
+      "year_start": 1381,
+      "year_end": 1387,
+      "date_precision": "exact",
+      "summary": "전국의 인구와 호구를 정밀 조사한 부역황책과 물고기 비늘처럼 토지 구획을 그린 어린도책을 완성하고 이갑제 실시.",
+      "historical_significance": "명나라 국가 재정과 징세 행정의 완벽한 전산망 구축.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-ce14-water-margin-romance-three-kingdoms",
+      "title": "나관중의 『삼국지연의』와 시내암의 『수호지』 집필",
+      "title_en": "나관중의 『삼국지연의』와 시내암의 『수호지』 집필",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "ART_CULTURE",
+      "importance": "A",
+      "year_start": 1360,
+      "year_end": 1390,
+      "date_precision": "exact",
+      "summary": "민간 구전문학을 장편 장회소설로 재창작하여 동양 최고의 대중 문학 걸작 탄생.",
+      "historical_significance": "중국 4대 기서 중 2대 걸작의 완성.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-ce14-great-ming-code",
+      "title": "『대명률(大明律)』 반포 (1397년)",
+      "title_en": "『대명률(大明律)』 반포 (1397년)",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "INSTITUTION",
+      "importance": "B",
+      "year_start": 1397,
+      "year_end": 1397,
+      "date_precision": "exact",
+      "summary": "당률을 바탕으로 명확하고 간결하게 정비한 명나라 표준 종합 법전.",
+      "historical_significance": "조선 경국대전 형전 및 청률의 기초가 된 동아시아 근세 법전의 표준.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-ce14-jingnan-campaign",
+      "title": "정난의 변(靖難之變, 1399~1402년)",
+      "title_en": "정난의 변(靖難之變, 1399~1402년)",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "B",
+      "year_start": 1399,
+      "year_end": 1402,
+      "date_precision": "exact",
+      "summary": "연왕 주체(영락제)가 건문제의 삭번책에 맞서 '간신을 제거하여 나라의 난을 바로잡는다'며 거병하여 황위 찬탈.",
+      "historical_significance": "명나라의 수도가 난징에서 북경으로 이전되는 결정적 계기.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-ce14-six-maxims-shengyu",
+      "title": "홍무제의 육유(六諭) 반포와 향촌 교화",
+      "title_en": "홍무제의 육유(六諭) 반포와 향촌 교화",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "INSTITUTION",
+      "importance": "C",
+      "year_start": 1397,
+      "year_end": 1397,
+      "date_precision": "exact",
+      "summary": "부모 효도, 어른 공경, 화목, 자손 교육, 생업 충실, 죄 짓지 말라는 6대 유교 도덕을 전국 마을에 낭독시킴.",
+      "historical_significance": "국가 권력이 촌락 단위까지 도덕 규범을 침투시킨 유교적 향촌 지배.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-ce14-ming-great-wall-reinforcement",
+      "title": "북방 방어를 위한 명나라 장성 축조 시작",
+      "title_en": "북방 방어를 위한 명나라 장성 축조 시작",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "C",
+      "year_start": 1368,
+      "year_end": 1400,
+      "date_precision": "exact",
+      "summary": "북원의 몽골 기병 재침입을 막기 위해 서달 등이 험준한 산악 지대에 벽돌과 석회로 견고한 장성 개축 착수.",
+      "historical_significance": "오늘날 우리가 보는 웅장한 만리장성의 대부분이 이 시기 축조.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "china-ce14-blue-and-white-underglaze-red",
+      "title": "경덕진 유리홍(釉裏紅) 도자기 제작",
+      "title_en": "경덕진 유리홍(釉裏紅) 도자기 제작",
+      "region_id": "CHINA",
+      "sub_region": "",
+      "category_id": "ART_CULTURE",
+      "importance": "C",
+      "year_start": 1368,
+      "year_end": 1398,
+      "date_precision": "exact",
+      "summary": "구리 안료를 환원염으로 소성하여 선명한 붉은 문양을 내는 고난도 도자기 생산.",
+      "historical_significance": "명나라 황실 도자기 기술의 독보적 도약.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-ce14-joseon-founding-1392",
+      "title": "조선 건국 (태조 이성계·정도전, 1392년)",
+      "title_en": "조선 건국 (태조 이성계·정도전, 1392년)",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "A",
+      "year_start": 1392,
+      "year_end": 1392,
+      "date_precision": "exact",
+      "summary": "신흥 무인 세력 이성계와 신진사대부 정도전·조준이 공양왕의 선양을 받아 수창궁에서 즉위하고 국호를 '조선'으로 선포.",
+      "historical_significance": "500년 유교 입국 조선 왕조의 탄생이자 한국사의 근세 개막.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-ce14-wihwado-retreat",
+      "title": "이성계의 위화도 회군 (4대 불가론, 1388년)",
+      "title_en": "이성계의 위화도 회군 (4대 불가론, 1388년)",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "A",
+      "year_start": 1388,
+      "year_end": 1388,
+      "date_precision": "exact",
+      "summary": "우왕과 최영의 명나라 요동 정벌 명령에 맞서 '작은 나라가 큰 나라를 칠 수 없다' 등 4불가론을 내세우며 압록강 위화도에서 회군하여 정권 장악.",
+      "historical_significance": "고려 왕조 멸망과 조선 건국의 결정적 군사 정변.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-ce14-gongmin-anti-yuan-reforms",
+      "title": "고려 공민왕의 반원 자주 개혁과 쌍성총관부 수복 (1356년)",
+      "title_en": "고려 공민왕의 반원 자주 개혁과 쌍성총관부 수복 (1356년)",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "A",
+      "year_start": 1351,
+      "year_end": 1374,
+      "date_precision": "exact",
+      "summary": "변발과 호복 폐지, 기철 등 친원파 숙청, 정동행성 이문소 폐지, 유인우·이자춘을 보내 쌍성총관부(철령 이북 영토)를 99년 만에 무력 수복.",
+      "historical_significance": "고려의 자주권 회복과 북방 영토 수복의 영웅적 개혁.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-ce14-jikji-movable-metal-type",
+      "title": "『직지심체요절(백운화상초록직지심체요절)』 금속활자 인쇄 (유네스코 세계기록유산, 1377년)",
+      "title_en": "『직지심체요절(백운화상초록직지심체요절)』 금속활자 인쇄 (유네스코 세계기록유산, 1377년)",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "SCIENCE",
+      "importance": "A",
+      "year_start": 1377,
+      "year_end": 1377,
+      "date_precision": "exact",
+      "summary": "청주 흥덕사에서 백운화상의 어록을 주자(금속활자)로 인쇄한 현존하는 세계에서 가장 오래된 금속활자본.",
+      "historical_significance": "서양 구텐베르크 성경(1455년)보다 78년 앞선 인류 인쇄 문화사의 불멸의 금자탑(프랑스 국립도서관 소장).",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-ce14-gwajeonbeop-land-reform",
+      "title": "조준의 과전법(科田法) 실시 (1391년)",
+      "title_en": "조준의 과전법(科田法) 실시 (1391년)",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "INSTITUTION",
+      "importance": "A",
+      "year_start": 1391,
+      "year_end": 1391,
+      "date_precision": "exact",
+      "summary": "권문세족의 불법 농장 문서를 개경 시가지에서 불태우고 경기 지방의 토지를 신진 관료들에게 과전으로 재분배.",
+      "historical_significance": "구 귀족 세력의 경제 기반을 해체하고 조선 왕조 창업의 경제적 토대 완성.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-ce14-choe-museon-jinpo-gunpowder",
+      "title": "최무선의 화통도감 설치와 진포대첩 화포 승리 (1377/1380년)",
+      "title_en": "최무선의 화통도감 설치와 진포대첩 화포 승리 (1377/1380년)",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "SCIENCE",
+      "importance": "A",
+      "year_start": 1377,
+      "year_end": 1380,
+      "date_precision": "exact",
+      "summary": "염초 제조법을 습득해 화통도감을 세우고 화포, 화통, 주화(로켓)를 개발하여 진포 해전에서 왜선 500척을 화포로 격침.",
+      "historical_significance": "세계 해전사상 최초의 함포 해전 승리이자 왜구 격퇴의 주역.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-ce14-jeong-dojeon-hanyang-planning",
+      "title": "정도전의 한양 천도(1394)와 경복궁·종묘·사직 설계",
+      "title_en": "정도전의 한양 천도(1394)와 경복궁·종묘·사직 설계",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "INSTITUTION",
+      "importance": "A",
+      "year_start": 1394,
+      "year_end": 1398,
+      "date_precision": "exact",
+      "summary": "수도를 한양(서울)으로 옮기고 주례 고공기에 입각해 경복궁, 근정전, 종묘, 사직단, 한양도성(흥인지문·숭례문)을 명명하고 도시 계획 완성.",
+      "historical_significance": "600년 수도 서울의 탄생과 유교적 이상 국가의 도시화.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-ce14-shin-don-reforms",
+      "title": "승려 신돈의 전민변정도감(田民辨整都監) 개혁 (1366년)",
+      "title_en": "승려 신돈의 전민변정도감(田民辨整都監) 개혁 (1366년)",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "INSTITUTION",
+      "importance": "B",
+      "year_start": 1365,
+      "year_end": 1371,
+      "date_precision": "exact",
+      "summary": "공민왕의 전폭적 신임 아래 권세가들이 빼앗은 토지를 본주인에게 돌려주고 억울하게 노비가 된 양인을 해방시킴.",
+      "historical_significance": "민중의 열렬한 지지를 받은 개혁이자 권문세족의 격렬한 반발로 좌절.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-ce14-jeong-mongju-loyalty",
+      "title": "포은 정몽주의 『단심가』와 선죽교 피살 (1392년)",
+      "title_en": "포은 정몽주의 『단심가』와 선죽교 피살 (1392년)",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "ART_CULTURE",
+      "importance": "B",
+      "year_start": 1392,
+      "year_end": 1392,
+      "date_precision": "exact",
+      "summary": "이방원의 하여가에 맞서 '이 몸이 죽고 죽어 일백 번 고쳐 죽어'로 고려 충절을 지키다 개경 선죽교에서 조영규 등에게 피살됨.",
+      "historical_significance": "동방 이학(성리학)의 시조이자 만고 충절의 상징.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    },
+    {
+      "id": "korea-ce14-princes-strife-first",
+      "title": "제1차 왕자의 난 (무인정사, 1398년)",
+      "title_en": "제1차 왕자의 난 (무인정사, 1398년)",
+      "region_id": "KOREA",
+      "sub_region": "",
+      "category_id": "POLITICS",
+      "importance": "B",
+      "year_start": 1398,
+      "year_end": 1398,
+      "date_precision": "exact",
+      "summary": "사병 혁파와 세자 이방석 책봉에 반발한 정안대군 이방원이 사병을 동원해 정도전, 남은, 심효생을 살해하고 권력 장악.",
+      "historical_significance": "재상 중심제(정도전)와 국왕 중심제(이방원)의 유혈 충돌 및 태종 집권의 서막.",
+      "cause": "",
+      "consequence": "",
+      "confidence": "HIGH",
+      "related_people": [],
+      "related_events": [],
+      "sources": [
+        {
+          "title": "글로벌 역사 데이터베이스 (HistoryGrid)"
+        }
+      ]
+    }
+  ]
+}
