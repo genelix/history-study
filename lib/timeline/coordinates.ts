@@ -9,6 +9,7 @@ export interface TimelineDimensions {
 export interface PlacedEvent extends HistoricalEvent {
   leftPx: number;
   widthPx: number;
+  rawSpanPx: number;   // 실제 연도 기간에 해당하는 픽셀 너비
   lane: number;        // 서브 레인 번호 (0, 1, 2...)
   isPoint: boolean;    // 단일 연도 점 이벤트 여부
 }
@@ -125,7 +126,8 @@ export function calculateEventLanes(
     placed.push({
       ...event,
       leftPx,
-      widthPx: isPoint ? visualWidth : Math.max(36, rawWidth),
+      widthPx: isPoint ? visualWidth : Math.max(visualWidth, rawWidth),
+      rawSpanPx: rawWidth,
       lane: assignedLane,
       isPoint,
     });
