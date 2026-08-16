@@ -30,7 +30,7 @@ export const KoreanKingsTrack: React.FC<KoreanKingsTrackProps> = ({ dimensions }
   });
 
   return (
-    <div className="relative border-b border-indigo-900/50 bg-slate-950/60 py-1.5 px-0 select-none">
+    <div className="relative border-b border-sky-900/40 bg-gradient-to-r from-sky-950/40 via-slate-950/50 to-sky-950/20 py-1.5 px-0 select-none">
       {/* 고정 타이틀 뱃지 */}
       <div className="sticky left-4 z-20 top-1 inline-flex items-center gap-1.5 rounded-md border border-amber-500/30 bg-slate-900/90 px-2 py-0.5 text-[11px] font-bold text-amber-300 shadow-sm backdrop-blur-md mb-1 pointer-events-none">
         <Crown className="h-3 w-3 text-amber-400" />
