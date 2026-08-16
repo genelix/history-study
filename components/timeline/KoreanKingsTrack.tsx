@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useState } from 'react';
+import React, { useState, useRef } from 'react';
 import { TimelineDimensions, yearToPixel } from '@/lib/timeline/coordinates';
 import { KOREAN_KINGS, KoreanKing } from '@/lib/timeline/koreanKings';
 import { Crown } from 'lucide-react';
@@ -22,6 +22,7 @@ const DYNASTY_STYLES: Record<string, { bg: string; border: string; text: string;
 
 export const KoreanKingsTrack: React.FC<KoreanKingsTrackProps> = ({ dimensions }) => {
   const [hoveredKing, setHoveredKing] = useState<KoreanKing | null>(null);
+  const [cursorX, setCursorX] = useState<number>(0);
 
   // 현재 뷰포트 범위 내에 걸치는 왕들만 필터링
   const visibleKings = KOREAN_KINGS.filter((king) => {
@@ -41,13 +42,13 @@ export const KoreanKingsTrack: React.FC<KoreanKingsTrackProps> = ({ dimensions }
 
       {/* 왕 재위 바 배치 캔버스 */}
       <div
-        style={{ width: `${dimensions.widthPx}px`, height: '30px' }}
+        style={{ width: `${dimensions.widthPx}px`, height: '32px' }}
         className="relative overflow-visible"
       >
         {visibleKings.map((king) => {
           const leftPx = yearToPixel(king.startYear, dimensions);
           const rightPx = yearToPixel(king.endYear, dimensions);
-          const widthPx = Math.max(20, rightPx - leftPx);
+          const widthPx = Math.max(24, rightPx - leftPx);
           const style = DYNASTY_STYLES[king.dynasty] || DYNASTY_STYLES.JOSEON;
 
           return (
@@ -58,27 +59,43 @@ export const KoreanKingsTrack: React.FC<KoreanKingsTrackProps> = ({ dimensions }
                 width: `${widthPx}px`,
                 top: '2px',
               }}
-              className="absolute group z-10 cursor-pointer transition-transform hover:z-50 hover:scale-[1.03]"
-              onMouseEnter={() => setHoveredKing(king)}
+              className="absolute group z-10 cursor-pointer transition-all hover:z-[80] hover:scale-[1.02]"
+              onMouseEnter={(e) => {
+                const rect = e.currentTarget.getBoundingClientRect();
+                setCursorX(Math.max(10, Math.min(widthPx - 10, e.clientX - rect.left)));
+                setHoveredKing(king);
+              }}
+              onMouseMove={(e) => {
+                const rect = e.currentTarget.getBoundingClientRect();
+                setCursorX(Math.max(10, Math.min(widthPx - 10, e.clientX - rect.left)));
+              }}
               onMouseLeave={() => setHoveredKing(null)}
             >
               {/* 왕 재위 블록 바 */}
               <div
                 className={`h-6 rounded border ${style.border} ${style.bg} px-1.5 py-0.5 flex items-center justify-between text-[11px] font-bold text-slate-100 shadow-sm overflow-hidden whitespace-nowrap`}
               >
-                <span className="truncate">{king.name}</span>
-                {widthPx > 60 && (
-                  <span className="text-[9.5px] font-mono text-slate-300/80 ml-1 shrink-0">
+                <span className="sticky left-1 truncate bg-slate-950/60 backdrop-blur-[2px] px-1 rounded">
+                  {king.name}
+                </span>
+                {widthPx > 70 && (
+                  <span className="sticky right-1 text-[9.5px] font-mono text-slate-300/90 ml-1 shrink-0 bg-slate-950/60 backdrop-blur-[2px] px-0.5 rounded">
                     {king.startYear < 0 ? `BC${Math.abs(king.startYear)}` : king.startYear}~
                     {king.endYear < 0 ? `BC${Math.abs(king.endYear)}` : king.endYear}
                   </span>
                 )}
               </div>
 
-              {/* 국왕 상세 호버 툴팁 */}
+              {/* 국왕 상세 호버 툴팁 (마우스 위치 스마트 앵커링) */}
               {hoveredKing?.id === king.id && (
-                <div className="absolute left-0 top-full mt-1.5 z-[80] pointer-events-none min-w-[260px] max-w-sm rounded-xl border border-slate-600/90 bg-slate-950/98 p-3 text-xs text-slate-100 shadow-2xl backdrop-blur-xl animate-in fade-in zoom-in-95 duration-100">
-                  <div className="flex items-center justify-between gap-2 border-b border-slate-800 pb-1.5 mb-1.5">
+                <div
+                  style={{
+                    left: `${cursorX}px`,
+                    transform: 'translateX(-50%)',
+                  }}
+                  className="absolute top-full mt-2 z-[90] pointer-events-none min-w-[280px] max-w-sm rounded-xl border border-slate-600/90 bg-slate-950/98 p-3 text-xs text-slate-100 shadow-2xl backdrop-blur-2xl animate-in fade-in zoom-in-95 duration-100"
+                >
+                  <div className="flex items-center justify-between gap-2 border-b border-slate-800/90 pb-1.5 mb-1.5">
                     <div className="flex items-center gap-1.5">
                       <span className={`text-[10px] font-bold px-1.5 py-0.5 rounded ${style.badgeBg}`}>
                         {king.dynastyLabel}
@@ -94,7 +111,7 @@ export const KoreanKingsTrack: React.FC<KoreanKingsTrackProps> = ({ dimensions }
                     {king.achievements}
                   </p>
                   {/* 말풍선 위쪽 화살표 */}
-                  <div className="absolute left-4 -top-1.5 w-3 h-3 bg-slate-950 border-l border-t border-slate-600/90 transform rotate-45" />
+                  <div className="absolute left-1/2 -translate-x-1/2 -top-1.5 w-3 h-3 bg-slate-950 border-l border-t border-slate-600/90 transform rotate-45" />
                 </div>
               )}
             </div>

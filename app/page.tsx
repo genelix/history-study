@@ -132,10 +132,13 @@ export default function ChronoScopeHome() {
         currentCenterYear={filterState.currentYearCenter}
         zoomLevel={filterState.zoomLevel}
         searchQuery={filterState.searchQuery}
+        isFilterOpen={isFilterOpen}
+        totalFilteredCount={filteredEvents.length}
         onZoomChange={handleZoomChange}
         onSearchChange={handleSearchChange}
         onJumpToYear={handleJumpToYear}
         onOpenSyncModal={() => setIsSyncModalOpen(true)}
+        onToggleFilter={() => setIsFilterOpen(!isFilterOpen)}
       />
 
       {/* 메인 작업 영역: 필터 사이드바 + 타임라인 뷰포트 */}
@@ -149,18 +152,32 @@ export default function ChronoScopeHome() {
           onToggle={() => setIsFilterOpen(false)}
         />
 
-        {/* 사이드바가 닫혔을 때 표시되는 플로팅 필터 열기 버튼 */}
+        {/* 사이드바가 닫혔을 때 표시되는 좌측 상단 플로팅 필터 열기 버튼 */}
         {!isFilterOpen && (
-          <button
-            onClick={() => setIsFilterOpen(true)}
-            title="필터 패널 열기"
-            className="absolute left-4 top-4 z-30 flex items-center gap-1.5 rounded-lg border border-indigo-500/40 bg-slate-900/95 px-3 py-1.5 text-xs font-semibold text-indigo-200 shadow-xl backdrop-blur-md hover:bg-slate-800 hover:text-white hover:border-indigo-400 transition-all animate-in fade-in"
-          >
-            <span>🎛️ 필터 열기</span>
-            <span className="rounded bg-indigo-950 px-1.5 py-0.5 text-[10px] text-indigo-300 font-mono">
-              {filteredEvents.length}
-            </span>
-          </button>
+          <>
+            <button
+              onClick={() => setIsFilterOpen(true)}
+              title="통섭 필터 패널 열기"
+              className="absolute left-3 top-3 z-30 flex items-center gap-2 rounded-xl border border-indigo-500/50 bg-slate-900/95 px-3 py-2 text-xs font-bold text-indigo-100 shadow-2xl backdrop-blur-md hover:bg-indigo-950 hover:text-white hover:border-indigo-400 transition-all hover:scale-105 animate-in fade-in"
+            >
+              <span>🎛️ 필터 패널 열기</span>
+              <span className="rounded-md bg-indigo-600/80 px-2 py-0.5 text-[11px] text-white font-mono font-semibold shadow-inner">
+                {filteredEvents.length}
+              </span>
+            </button>
+
+            {/* 좌측 중앙 고정 도킹 탭 핸들 */}
+            <button
+              onClick={() => setIsFilterOpen(true)}
+              title="필터 패널 펼치기"
+              className="absolute left-0 top-1/3 -translate-y-1/2 z-30 hidden sm:flex flex-col items-center gap-1.5 rounded-r-xl border-y border-r border-indigo-400/60 bg-gradient-to-b from-indigo-600 to-indigo-800 py-3.5 px-1.5 text-[11px] font-bold text-white shadow-2xl hover:from-indigo-500 hover:to-indigo-700 hover:pl-2.5 transition-all cursor-pointer group"
+            >
+              <span className="text-xs transition-transform group-hover:translate-x-0.5">▶</span>
+              <span className="[writing-mode:vertical-lr] tracking-widest text-[10px] text-indigo-100 font-semibold">
+                필터 열기
+              </span>
+            </button>
+          </>
         )}
 
         <main className="relative flex flex-1 flex-col overflow-hidden">

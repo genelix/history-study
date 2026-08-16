@@ -1,7 +1,7 @@
 'use client';
 
 import React, { useState } from 'react';
-import { Search, Compass, ZoomIn, ZoomOut, Sparkles, Clock, Layers, ArrowLeft, ArrowRight, Sun, Moon } from 'lucide-react';
+import { Search, Compass, ZoomIn, ZoomOut, Sparkles, Clock, Layers, ArrowLeft, ArrowRight, Sun, Moon, Filter, SlidersHorizontal } from 'lucide-react';
 import { formatYear } from '@/lib/dates/yearFormatter';
 import { useTheme } from '@/lib/theme/ThemeContext';
 
@@ -9,10 +9,13 @@ interface HeaderNavProps {
   currentCenterYear: number;
   zoomLevel: '1000' | '100' | '10';
   searchQuery: string;
+  isFilterOpen?: boolean;
+  totalFilteredCount?: number;
   onZoomChange: (level: '1000' | '100' | '10') => void;
   onSearchChange: (query: string) => void;
   onJumpToYear: (year: number) => void;
   onOpenSyncModal: () => void;
+  onToggleFilter?: () => void;
 }
 
 const ERA_PRESETS = [
@@ -28,10 +31,13 @@ export const HeaderNav: React.FC<HeaderNavProps> = ({
   currentCenterYear,
   zoomLevel,
   searchQuery,
+  isFilterOpen = true,
+  totalFilteredCount,
   onZoomChange,
   onSearchChange,
   onJumpToYear,
   onOpenSyncModal,
+  onToggleFilter,
 }) => {
   const [yearInput, setYearInput] = useState<string>('');
 
@@ -76,8 +82,32 @@ export const HeaderNav: React.FC<HeaderNavProps> = ({
 
         {/* 중앙: 검색 및 연도 이동 네비게이션 */}
         <div className="flex flex-wrap items-center gap-2">
+          {/* 좌측 필터 토글 버튼 */}
+          {onToggleFilter && (
+            <button
+              onClick={onToggleFilter}
+              title={isFilterOpen ? '필터 사이드바 숨기기' : '필터 사이드바 열기'}
+              className={`flex items-center gap-1.5 rounded-lg border px-2.5 py-1.5 text-xs font-semibold transition-all shadow-sm ${
+                isFilterOpen
+                  ? 'border-indigo-500/50 bg-indigo-950/50 text-indigo-200 hover:bg-indigo-900/60'
+                  : 'border-slate-700 bg-slate-900 text-slate-300 hover:bg-slate-800 hover:text-white hover:border-slate-600'
+              }`}
+            >
+              <SlidersHorizontal className="h-3.5 w-3.5 text-indigo-400" />
+              <span className="hidden sm:inline">필터</span>
+              <span className="text-[11px] font-normal text-slate-400">
+                {isFilterOpen ? '숨김' : '열기'}
+              </span>
+              {typeof totalFilteredCount === 'number' && (
+                <span className="rounded bg-indigo-900/80 px-1.5 py-0.2 text-[10px] font-mono text-indigo-300 border border-indigo-700/50">
+                  {totalFilteredCount}
+                </span>
+              )}
+            </button>
+          )}
+
           {/* 검색창 */}
-          <div className="relative w-48 md:w-64">
+          <div className="relative w-48 md:w-60">
             <Search className="absolute left-2.5 top-1/2 -translate-y-1/2 h-4 w-4 text-slate-400" />
             <input
               type="text"
