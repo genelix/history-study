@@ -3,7 +3,21 @@
 import React from 'react';
 import { HistoricalEvent } from '@/types/database.types';
 import { formatYearRange } from '@/lib/dates/yearFormatter';
-import { X, Calendar, Globe, Bookmark, Award, User, Link2, BookOpen, CheckCircle2, Navigation, Sparkles } from 'lucide-react';
+import {
+  X,
+  Calendar,
+  Globe,
+  Bookmark,
+  Award,
+  User,
+  Link2,
+  BookOpen,
+  CheckCircle2,
+  Navigation,
+  Sparkles,
+  Search,
+  ExternalLink
+} from 'lucide-react';
 
 interface EventDetailPanelProps {
   event: HistoricalEvent | null;
@@ -32,6 +46,7 @@ export const EventDetailPanel: React.FC<EventDetailPanelProps> = ({
   if (!event) return null;
 
   const categoryLabel = CATEGORY_LABELS[event.category_id] || event.category_id;
+  const googleSearchUrl = `https://www.google.com/search?q=${encodeURIComponent(event.title)}`;
 
   return (
     <aside className="fixed inset-y-0 right-0 z-50 w-full sm:w-[480px] md:w-[540px] bg-slate-950/98 border-l border-slate-800/90 text-slate-100 shadow-2xl backdrop-blur-2xl flex flex-col overflow-hidden transition-all duration-300 animate-slide-left">
@@ -55,7 +70,7 @@ export const EventDetailPanel: React.FC<EventDetailPanelProps> = ({
       </div>
 
       {/* 패널 바디 (스크롤) */}
-      <div className="flex-1 overflow-y-auto p-6 space-y-6">
+      <div className="flex-1 overflow-y-auto p-6 space-y-6 custom-scrollbar">
         {/* 사건 타이틀 및 기간 */}
         <div className="border-b border-slate-800/80 pb-5">
           <h2 className="text-2xl font-extrabold text-white tracking-tight leading-snug">
@@ -80,13 +95,28 @@ export const EventDetailPanel: React.FC<EventDetailPanelProps> = ({
               <span>{event.region_id} {event.sub_region ? `· ${event.sub_region}` : ''}</span>
             </div>
 
-            <button
-              onClick={() => onJumpToEventYear(event.year_start)}
-              className="flex items-center gap-1 rounded-md bg-indigo-600/30 border border-indigo-500/40 px-3 py-1 text-indigo-300 hover:bg-indigo-600/50 transition-colors font-medium ml-auto"
-            >
-              <Navigation className="h-3.5 w-3.5" />
-              <span>시간축 이동</span>
-            </button>
+            <div className="flex items-center gap-2 ml-auto">
+              {/* 상단 빠른 구글 검색 버튼 */}
+              <a
+                href={googleSearchUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-1.5 rounded-md bg-blue-600/20 border border-blue-500/40 px-2.5 py-1 text-xs text-blue-300 hover:bg-blue-600/40 hover:text-white transition-all font-medium shadow-sm"
+                title={`구글에서 '${event.title}' 검색 (새 창)`}
+              >
+                <Search className="h-3.5 w-3.5 text-blue-400" />
+                <span>구글 검색</span>
+                <ExternalLink className="h-3 w-3 opacity-70" />
+              </a>
+
+              <button
+                onClick={() => onJumpToEventYear(event.year_start)}
+                className="flex items-center gap-1 rounded-md bg-indigo-600/30 border border-indigo-500/40 px-3 py-1 text-indigo-300 hover:bg-indigo-600/50 transition-colors font-medium"
+              >
+                <Navigation className="h-3.5 w-3.5" />
+                <span>시간축 이동</span>
+              </button>
+            </div>
           </div>
         </div>
 
@@ -220,6 +250,31 @@ export const EventDetailPanel: React.FC<EventDetailPanelProps> = ({
             </div>
           </div>
         )}
+
+        {/* 🔍 외부 지식 백과 & 구글 심층 탐색 카드 */}
+        <div className="rounded-xl border border-blue-900/40 bg-gradient-to-r from-blue-950/40 via-slate-900/80 to-indigo-950/40 p-4 shadow-lg flex flex-col gap-3">
+          <div className="flex items-center gap-2.5">
+            <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-blue-500/20 text-blue-300 border border-blue-500/30 shrink-0">
+              <Search className="h-4 w-4" />
+            </div>
+            <div>
+              <h4 className="text-xs font-bold text-slate-200">외부 지식 & 학술 자료 심층 탐색</h4>
+              <p className="text-[11px] text-slate-400">
+                구글(Google)에서 &apos;{event.title}&apos;에 대한 최신 학술 논문, 백과사전, 관련 사료를 새 탭에서 확인합니다.
+              </p>
+            </div>
+          </div>
+          <a
+            href={googleSearchUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="w-full inline-flex items-center justify-center gap-2 rounded-lg bg-gradient-to-r from-blue-600 via-indigo-600 to-blue-700 px-4 py-2.5 text-xs font-bold text-white shadow-lg shadow-blue-500/20 hover:from-blue-500 hover:to-indigo-500 hover:shadow-blue-500/30 transition-all active:scale-[0.99]"
+          >
+            <Search className="h-3.5 w-3.5" />
+            <span>&apos;{event.title}&apos; 구글에서 검색하기</span>
+            <ExternalLink className="h-3.5 w-3.5 opacity-80" />
+          </a>
+        </div>
 
         {/* 출처 & 신뢰도 */}
         <div className="border-t border-slate-800/80 pt-4 flex items-center justify-between text-xs text-slate-500">
