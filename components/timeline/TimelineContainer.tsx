@@ -64,6 +64,11 @@ export const TimelineContainer: React.FC<TimelineContainerProps> = ({
     };
   }, [currentCenterYear, spanYears, containerWidth]);
 
+  const MIN_YEAR = -3000;
+  const MAX_YEAR = 2050;
+
+  const clampYear = (y: number) => Math.max(MIN_YEAR, Math.min(MAX_YEAR, y));
+
   // 마우스 드래그 패닝 핸들러
   const handleMouseDown = (e: React.MouseEvent) => {
     if ((e.target as HTMLElement).closest('.cursor-pointer')) return; // 이벤트 카드 클릭 시 드래그 방지
@@ -76,7 +81,7 @@ export const TimelineContainer: React.FC<TimelineContainerProps> = ({
     if (!isDragging) return;
     const deltaX = e.clientX - dragStartX;
     const deltaYears = (deltaX / containerWidth) * spanYears;
-    onCenterYearChange(Math.round(dragStartYear - deltaYears));
+    onCenterYearChange(clampYear(Math.round(dragStartYear - deltaYears)));
   };
 
   const handleMouseUp = () => {
@@ -87,10 +92,10 @@ export const TimelineContainer: React.FC<TimelineContainerProps> = ({
   const handleWheel = (e: React.WheelEvent) => {
     if (Math.abs(e.deltaX) > Math.abs(e.deltaY)) {
       const step = (e.deltaX / containerWidth) * spanYears * 0.5;
-      onCenterYearChange(Math.round(currentCenterYear + step));
+      onCenterYearChange(clampYear(Math.round(currentCenterYear + step)));
     } else if (e.shiftKey) {
       const step = (e.deltaY / containerWidth) * spanYears * 0.5;
-      onCenterYearChange(Math.round(currentCenterYear + step));
+      onCenterYearChange(clampYear(Math.round(currentCenterYear + step)));
     }
   };
 

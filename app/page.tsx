@@ -30,6 +30,7 @@ export default function ChronoScopeHome() {
   });
 
   const [allEvents, setAllEvents] = useState<HistoricalEvent[]>([]);
+  const [isFilterOpen, setIsFilterOpen] = useState(true);
   const [selectedEvent, setSelectedEvent] = useState<HistoricalEvent | null>(null);
   const [isSyncModalOpen, setIsSyncModalOpen] = useState(false);
   const [isLoading, setIsLoading] = useState(true);
@@ -76,11 +77,12 @@ export default function ChronoScopeHome() {
     }));
   };
 
-  // 연도 직접 점프
+  // 연도 직접 점프 (최소 BC 3000년 ~ 최대 AD 2050년 바운딩)
   const handleJumpToYear = (year: number) => {
+    const bounded = Math.max(-3000, Math.min(2050, year));
     setFilterState((prev) => ({
       ...prev,
-      currentYearCenter: year,
+      currentYearCenter: bounded,
     }));
   };
 
@@ -95,7 +97,7 @@ export default function ChronoScopeHome() {
       const firstMatch = filteredEvents[0];
       setFilterState((prev) => ({
         ...prev,
-        currentYearCenter: firstMatch.year_start,
+        currentYearCenter: Math.max(-3000, Math.min(2050, firstMatch.year_start)),
       }));
     }
   }, [filterState.searchQuery, filteredEvents]);
@@ -138,11 +140,28 @@ export default function ChronoScopeHome() {
 
       {/* 메인 작업 영역: 필터 사이드바 + 타임라인 뷰포트 */}
       <div className="relative flex flex-1 overflow-hidden">
+        {/* 접이식 필터 사이드바 */}
         <FilterSidebar
           filterState={filterState}
           onFilterChange={setFilterState}
           totalFilteredCount={filteredEvents.length}
+          isOpen={isFilterOpen}
+          onToggle={() => setIsFilterOpen(false)}
         />
+
+        {/* 사이드바가 닫혔을 때 표시되는 플로팅 필터 열기 버튼 */}
+        {!isFilterOpen && (
+          <button
+            onClick={() => setIsFilterOpen(true)}
+            title="필터 패널 열기"
+            className="absolute left-4 top-4 z-30 flex items-center gap-1.5 rounded-lg border border-indigo-500/40 bg-slate-900/95 px-3 py-1.5 text-xs font-semibold text-indigo-200 shadow-xl backdrop-blur-md hover:bg-slate-800 hover:text-white hover:border-indigo-400 transition-all animate-in fade-in"
+          >
+            <span>🎛️ 필터 열기</span>
+            <span className="rounded bg-indigo-950 px-1.5 py-0.5 text-[10px] text-indigo-300 font-mono">
+              {filteredEvents.length}
+            </span>
+          </button>
+        )}
 
         <main className="relative flex flex-1 flex-col overflow-hidden">
           <TimelineContainer

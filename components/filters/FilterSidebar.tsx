@@ -2,12 +2,14 @@
 
 import React from 'react';
 import { RegionId, CategoryId, ImportanceLevel, TimelineFilterState } from '@/types/database.types';
-import { Filter, Globe, Bookmark, Award, RotateCcw, CheckSquare, Square } from 'lucide-react';
+import { Filter, Globe, Bookmark, Award, RotateCcw, CheckSquare, Square, ChevronLeft } from 'lucide-react';
 
 interface FilterSidebarProps {
   filterState: TimelineFilterState;
   onFilterChange: (newState: TimelineFilterState) => void;
   totalFilteredCount: number;
+  isOpen: boolean;
+  onToggle: () => void;
 }
 
 const REGION_OPTIONS: { id: RegionId; label: string; flag: string }[] = [
@@ -38,6 +40,8 @@ export const FilterSidebar: React.FC<FilterSidebarProps> = ({
   filterState,
   onFilterChange,
   totalFilteredCount,
+  isOpen,
+  onToggle,
 }) => {
   const toggleRegion = (regionId: RegionId) => {
     const exists = filterState.regions.includes(regionId);
@@ -83,22 +87,35 @@ export const FilterSidebar: React.FC<FilterSidebarProps> = ({
     return levels.every((l) => filterState.importanceLevels.includes(l));
   };
 
+  if (!isOpen) {
+    return null;
+  }
+
   return (
-    <aside className="w-full lg:w-64 shrink-0 border-r border-slate-800 bg-slate-950/70 p-4 text-slate-200 overflow-y-auto max-h-screen">
-      {/* 상단 타이틀 및 리셋 */}
+    <aside className="w-full lg:w-64 shrink-0 border-r border-slate-800 bg-slate-950/90 p-4 text-slate-200 overflow-y-auto max-h-screen transition-all duration-300 animate-in fade-in slide-in-from-left-4 z-30 shadow-xl backdrop-blur-md">
+      {/* 상단 타이틀, 리셋 및 접기 버튼 */}
       <div className="flex items-center justify-between pb-3 border-b border-slate-800/80">
         <div className="flex items-center gap-2 font-semibold text-sm text-slate-100">
           <Filter className="h-4 w-4 text-indigo-400" />
           <span>통섭 다차원 필터</span>
         </div>
-        <button
-          onClick={handleReset}
-          title="필터 초기화"
-          className="flex items-center gap-1 text-[11px] text-slate-400 hover:text-indigo-300 transition-colors"
-        >
-          <RotateCcw className="h-3 w-3" />
-          초기화
-        </button>
+        <div className="flex items-center gap-2">
+          <button
+            onClick={handleReset}
+            title="필터 초기화"
+            className="flex items-center gap-1 text-[11px] text-slate-400 hover:text-indigo-300 transition-colors"
+          >
+            <RotateCcw className="h-3 w-3" />
+            초기화
+          </button>
+          <button
+            onClick={onToggle}
+            title="필터 패널 접기"
+            className="rounded p-1 text-slate-400 hover:bg-slate-800 hover:text-slate-100 transition-colors"
+          >
+            <ChevronLeft className="h-4 w-4" />
+          </button>
+        </div>
       </div>
 
       {/* 이벤트 수 뱃지 */}

@@ -4,6 +4,7 @@ import React from 'react';
 import { RegionId, HistoricalEvent } from '@/types/database.types';
 import { TimelineDimensions, calculateEventLanes, PlacedEvent } from '@/lib/timeline/coordinates';
 import { EventItem } from './EventItem';
+import { KoreanKingsTrack } from './KoreanKingsTrack';
 
 interface TimelineTrackProps {
   regionId: RegionId;
@@ -33,7 +34,7 @@ export const TimelineTrack: React.FC<TimelineTrackProps> = ({
 }) => {
   const placedEvents = calculateEventLanes(events, dimensions);
   
-  // 최대 레인 수에 따라 트랙 높이 동적 계산 (기본 최소 120px)
+  // 최대 레인 수에 따라 트랙 높이 동적 계산 (기본 최소 130px)
   const maxLane = placedEvents.reduce((max, e) => Math.max(max, e.lane), 0);
   const trackHeight = Math.max(130, (maxLane + 1) * 38 + 24);
 
@@ -41,6 +42,9 @@ export const TimelineTrack: React.FC<TimelineTrackProps> = ({
 
   return (
     <div className="relative border-b border-slate-800/80 bg-slate-950/40 transition-all hover:bg-slate-900/20">
+      {/* 한국사 트랙인 경우 상단에 역대 국왕 재위 연표 전용 레인 렌더링 */}
+      {regionId === 'KOREA' && <KoreanKingsTrack dimensions={dimensions} />}
+
       {/* 트랙 고정 좌측 헤더 */}
       <div className="sticky left-4 z-20 top-2 inline-flex items-center gap-2 rounded-lg border px-2.5 py-1 text-xs font-bold shadow-md backdrop-blur-md mb-2 mt-2 pointer-events-none select-none bg-slate-900/90 border-slate-800">
         <span className="text-sm">{flag}</span>
