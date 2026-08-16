@@ -1,0 +1,567 @@
+{
+  "period": {
+    "yearStart": -500,
+    "yearEnd": -401,
+    "label": "BC 500–BC 401"
+  },
+  "events": [
+    {
+      "id": "korea-iron-culture-formation",
+      "title": "한반도 철기문화의 형성",
+      "yearStart": -500,
+      "yearEnd": -401,
+      "region": "KOREA",
+      "category": "SCIENCE",
+      "importance": "A",
+      "precision": "approximate",
+      "evidenceLevel": "archaeological",
+      "summary": "기원전 5~4세기경 중국 및 주변 지역과의 교류를 통해 철기문화가 한반도에 확산되기 시작하였다.",
+      "historicalSignificance": "청동기 중심의 사회에서 철기 생산과 사용이 확대되는 장기적인 기술·사회 변화의 출발점으로, 농업 생산과 무기체계 및 사회구조 변화와 연결된다.",
+      "cause": "중국 및 요동 지역과의 교류와 철기 기술의 확산",
+      "consequence": "철제 농기구와 무기의 사용이 확대되고 이후 초기 국가 및 지역 정치체의 발전에 영향을 주었다.",
+      "relatedPeople": [],
+      "relatedEvents": [
+        "korea-sword-culture",
+        "korea-early-state-development"
+      ],
+      "sources": [
+        "국사편찬위원회",
+        "한국민족문화대백과"
+      ]
+    },
+    {
+      "id": "korea-dettit-band-pottery",
+      "title": "한반도 덧띠무늬토기 문화의 확산",
+      "yearStart": -500,
+      "yearEnd": -401,
+      "region": "KOREA",
+      "category": "ART_CULTURE",
+      "importance": "B",
+      "precision": "approximate",
+      "evidenceLevel": "archaeological",
+      "summary": "기원전 5~4세기경 한반도 중남부 지역에서 덧띠무늬토기 계통의 토기문화가 나타나고 확산되었다.",
+      "historicalSignificance": "청동기시대 말기와 초기 철기시대의 문화적 변화를 이해하는 중요한 고고학적 자료이다.",
+      "cause": "지역 간 교류와 토기 제작기술 및 생활문화의 변화",
+      "consequence": "한반도 중남부 지역의 새로운 생활문화와 사회적 변화가 나타났다.",
+      "relatedPeople": [],
+      "relatedEvents": [
+        "korea-iron-culture-formation"
+      ],
+      "sources": [
+        "국립중앙박물관"
+      ]
+    },
+    {
+      "id": "korea-lute-shaped-bronze-dagger",
+      "title": "비파형 동검 문화의 확산",
+      "yearStart": -1000,
+      "yearEnd": -500,
+      "region": "KOREA",
+      "category": "ART_CULTURE",
+      "importance": "B",
+      "precision": "range",
+      "evidenceLevel": "archaeological",
+      "summary": "비파형 동검이 한반도와 만주 및 요동 일대에서 확인되며 청동기문화권 사이의 교류를 보여준다.",
+      "historicalSignificance": "초기 정치체의 권력 상징과 요동·한반도 사이의 문화적 관계를 연구하는 핵심 고고학 자료이다.",
+      "cause": "요동과 한반도 사이의 문화적 교류",
+      "consequence": "청동 무기와 의례용품을 중심으로 한 지배층 문화가 발전하였다.",
+      "relatedPeople": [],
+      "relatedEvents": [],
+      "sources": [
+        "국사편찬위원회",
+        "우리역사넷"
+      ]
+    },
+    {
+      "id": "korea-narrow-blade-bronze-dagger",
+      "title": "세형동검의 등장",
+      "yearStart": -400,
+      "yearEnd": -401,
+      "region": "KOREA",
+      "category": "SCIENCE",
+      "importance": "B",
+      "precision": "approximate",
+      "evidenceLevel": "archaeological",
+      "summary": "기원전 4세기경 한반도에서 한국식 세형동검이 나타나기 시작하였다.",
+      "historicalSignificance": "기존 비파형동검 문화에서 한반도 지역의 독자적인 청동기 문화가 발전하는 과정을 보여준다.",
+      "cause": "지역적 청동기 제작기술의 발전",
+      "consequence": "한반도 청동기문화의 지역적 특성이 더욱 뚜렷해졌다.",
+      "relatedPeople": [],
+      "relatedEvents": [
+        "korea-lute-shaped-bronze-dagger"
+      ],
+      "sources": [
+        "우리역사넷"
+      ]
+    },
+    {
+      "id": "korea-dolmen-culture",
+      "title": "한반도 고인돌 문화",
+      "yearStart": -1000,
+      "yearEnd": -401,
+      "region": "KOREA",
+      "category": "ART_CULTURE",
+      "importance": "B",
+      "precision": "range",
+      "evidenceLevel": "archaeological",
+      "summary": "한반도 전역에 대규모 고인돌이 조성되었으며 사회적 위계와 장례·제의 문화를 보여준다.",
+      "historicalSignificance": "한반도 청동기시대 사회구조와 장례 및 제사 문화를 이해하는 대표적인 고고학 자료이다.",
+      "cause": "농경사회 발전과 사회적 위계 형성",
+      "consequence": "지배층의 권력과 사회적 위계를 보여주는 대형 묘제가 발전하였다.",
+      "relatedPeople": [],
+      "relatedEvents": [],
+      "sources": [
+        "UNESCO",
+        "국립중앙박물관"
+      ]
+    },
+    {
+      "id": "korea-gojoseon-development",
+      "title": "고조선의 정치체 발전",
+      "yearStart": -500,
+      "yearEnd": -401,
+      "region": "KOREA",
+      "category": "POLITICS",
+      "importance": "A",
+      "precision": "approximate",
+      "evidenceLevel": "archaeological_and_textual",
+      "summary": "기원전 5~4세기경 한반도 및 요동 지역에서 고조선과 연결되는 정치체의 발전을 추정할 수 있다.",
+      "historicalSignificance": "한국 고대 국가 형성 과정을 이해하는 핵심 주제이다.",
+      "cause": "농경사회 발전, 청동기문화의 정치적 통합, 지역 간 교류",
+      "consequence": "한반도와 요동 지역에서 보다 복합적인 정치체가 발전하였다.",
+      "relatedPeople": [],
+      "relatedEvents": [
+        "korea-iron-culture-formation"
+      ],
+      "sources": [
+        "국립중앙박물관",
+        "국사편찬위원회"
+      ]
+    },
+    {
+      "id": "korea-dangun-tradition",
+      "title": "단군조선 건국 전설",
+      "yearStart": -2333,
+      "yearEnd": -2333,
+      "region": "KOREA",
+      "category": "RELIGION",
+      "importance": "C",
+      "precision": "traditional",
+      "evidenceLevel": "traditional",
+      "summary": "단군 왕검이 고조선을 건국했다는 건국신화가 후대 문헌에 전승되었다.",
+      "historicalSignificance": "한국의 건국신화와 역사적 정체성 형성을 이해하는 중요한 문화적 자료이다.",
+      "cause": "고대 건국신화의 형성과 후대 기록",
+      "consequence": "한국의 기원과 정체성을 설명하는 대표적인 전승으로 자리잡았다.",
+      "relatedPeople": [
+        "단군왕검"
+      ],
+      "relatedEvents": [
+        "korea-godoseon-development"
+      ],
+      "sources": [
+        "삼국유사",
+        "국사편찬위원회"
+      ]
+    },
+    {
+      "id": "korea-gojoseon-royal-strengthening",
+      "title": "고조선 왕정 강화",
+      "yearStart": -300,
+      "yearEnd": -201,
+      "region": "KOREA",
+      "category": "POLITICS",
+      "importance": "C",
+      "precision": "approximate",
+      "evidenceLevel": "textual",
+      "summary": "부왕과 준왕 등의 존재가 전하는 고조선 후기 정치체제의 변화가 나타난다.",
+      "historicalSignificance": "초기 국가의 왕권과 지배체제 발전을 이해하는 자료이다.",
+      "cause": "지역 정치체의 성장과 중국 및 주변 세력과의 관계 변화",
+      "consequence": "고조선의 정치적 조직과 지배층 구조가 발전하였다.",
+      "relatedPeople": [
+        "부왕",
+        "준왕"
+      ],
+      "relatedEvents": [
+        "korea-gojoseon-development"
+      ],
+      "sources": [
+        "사기",
+        "한서"
+      ]
+    },
+    {
+      "id": "china-confucius",
+      "title": "공자와 유학의 형성",
+      "yearStart": -551,
+      "yearEnd": -479,
+      "region": "CHINA",
+      "category": "RELIGION",
+      "importance": "A",
+      "precision": "exact",
+      "evidenceLevel": "textual",
+      "summary": "공자는 인과 예를 중심으로 인간관계와 정치질서에 대한 사상을 발전시켰다.",
+      "historicalSignificance": "후대 유학 및 동아시아 정치·윤리·교육사상의 핵심적 기반을 형성하였다.",
+      "cause": "춘추시대 정치질서의 붕괴와 사회적 혼란",
+      "consequence": "유학이라는 장기적인 사상 전통이 형성되었다.",
+      "relatedPeople": [
+        "공자"
+      ],
+      "relatedEvents": [
+        "china-hundred-schools"
+      ],
+      "sources": [
+        "논어",
+        "사기"
+      ]
+    },
+    {
+      "id": "china-laozi-daoism",
+      "title": "노자와 도가 사상의 형성",
+      "yearStart": -500,
+      "yearEnd": -400,
+      "region": "CHINA",
+      "category": "RELIGION",
+      "importance": "C",
+      "precision": "approximate",
+      "evidenceLevel": "traditional",
+      "summary": "노자와 도가 전통은 자연과 무위의 원리를 강조하는 중국 철학의 중요한 흐름을 형성하였다.",
+      "historicalSignificance": "후대 도가 철학과 중국 종교문화 발전에 큰 영향을 미쳤다.",
+      "cause": "춘추전국시대의 정치·사회적 혼란",
+      "consequence": "유가와 다른 자연주의적 사상 전통이 발전하였다.",
+      "relatedPeople": [
+        "노자"
+      ],
+      "relatedEvents": [
+        "china-hundred-schools"
+      ],
+      "sources": [
+        "도덕경",
+        "사기"
+      ]
+    },
+    {
+      "id": "china-sun-tzu",
+      "title": "손자와 병법 전통",
+      "yearStart": -500,
+      "yearEnd": -400,
+      "region": "CHINA",
+      "category": "SCIENCE",
+      "importance": "B",
+      "precision": "approximate",
+      "evidenceLevel": "textual",
+      "summary": "손자병법으로 대표되는 전략·전술 사상이 춘추전국시대 전쟁 경험을 바탕으로 발전하였다.",
+      "historicalSignificance": "동아시아 병법사뿐 아니라 세계 군사사에서 장기적인 영향을 끼친 전략 사상의 대표적 사례이다.",
+      "cause": "제후국 간 지속적인 전쟁과 군사 경쟁",
+      "consequence": "전쟁을 체계적으로 분석하는 병법 전통이 발전하였다.",
+      "relatedPeople": [
+        "손무"
+      ],
+      "relatedEvents": [
+        "china-warring-states-transition"
+      ],
+      "sources": [
+        "손자병법",
+        "사기"
+      ]
+    },
+    {
+      "id": "china-mozi",
+      "title": "묵자와 묵가 사상",
+      "yearStart": -470,
+      "yearEnd": -391,
+      "region": "CHINA",
+      "category": "RELIGION",
+      "importance": "B",
+      "precision": "approximate",
+      "evidenceLevel": "textual",
+      "summary": "묵자는 겸애·절용·비공 등의 사상을 주장하며 유가와 다른 사회·윤리적 관점을 제시하였다.",
+      "historicalSignificance": "제자백가의 다양성과 전국시대 사회·정치사상의 발전을 보여주는 핵심 사례이다.",
+      "cause": "전국시대 사회질서와 전쟁에 대한 비판",
+      "consequence": "묵가라는 독자적인 사상 학파가 형성되었다.",
+      "relatedPeople": [
+        "묵자"
+      ],
+      "relatedEvents": [
+        "china-hundred-schools"
+      ],
+      "sources": [
+        "묵자",
+        "Internet Encyclopedia of Philosophy"
+      ]
+    },
+    {
+      "id": "china-jin-partition",
+      "title": "진의 분열과 전국시대의 시작",
+      "yearStart": -453,
+      "yearEnd": -403,
+      "region": "CHINA",
+      "category": "POLITICS",
+      "importance": "A",
+      "precision": "range",
+      "evidenceLevel": "textual",
+      "summary": "진의 실질적 권력이 한·조·위 세 가문으로 넘어가고 이후 세 나라가 독립적인 정치세력으로 자리잡으면서 전국시대의 정치질서가 형성되었다.",
+      "historicalSignificance": "춘추시대에서 전국시대로 넘어가는 중국 정치질서의 핵심적인 전환이다.",
+      "cause": "귀족 가문의 권력 성장과 진나라 왕실 권력 약화",
+      "consequence": "전국시대의 국가 경쟁과 중앙집권적 국가 발전이 본격화되었다.",
+      "relatedPeople": [
+        "위사",
+        "한강자",
+        "조양자"
+      ],
+      "relatedEvents": [
+        "china-warring-states-transition"
+      ],
+      "sources": [
+        "사기",
+        "자치통감"
+      ]
+    },
+    {
+      "id": "china-crossbow",
+      "title": "석궁 기술의 발전",
+      "yearStart": -600,
+      "yearEnd": -400,
+      "region": "CHINA",
+      "category": "SCIENCE",
+      "importance": "C",
+      "precision": "approximate",
+      "evidenceLevel": "textual_and_archaeological",
+      "summary": "춘추시대부터 석궁 기술이 발전하고 전국시대에 군사적으로 널리 활용되었다.",
+      "historicalSignificance": "중국 고대 군사기술의 발전과 보병 전술 변화의 중요한 사례이다.",
+      "cause": "제후국 간 군사 경쟁과 무기 기술 발전",
+      "consequence": "원거리 무기 운용과 군사조직의 변화에 영향을 주었다.",
+      "relatedPeople": [],
+      "relatedEvents": [
+        "china-warring-states-transition"
+      ],
+      "sources": [
+        "중국 고대 군사사 연구자료"
+      ]
+    },
+    {
+      "id": "west-ionian-revolt",
+      "title": "이오니아 반란",
+      "yearStart": -499,
+      "yearEnd": -493,
+      "region": "WEST",
+      "category": "POLITICS",
+      "importance": "A",
+      "precision": "exact",
+      "evidenceLevel": "textual",
+      "summary": "소아시아의 이오니아 그리스 도시들이 페르시아 제국에 반란을 일으켰다.",
+      "historicalSignificance": "그리스-페르시아 전쟁으로 이어지는 직접적인 계기 가운데 하나이다.",
+      "cause": "페르시아의 지배와 이오니아 도시들의 정치적 갈등",
+      "consequence": "페르시아와 본토 그리스 세계의 갈등이 확대되었다.",
+      "relatedPeople": [
+        "다리우스 1세"
+      ],
+      "relatedEvents": [
+        "west-marathon"
+      ],
+      "sources": [
+        "헤로도토스, 역사"
+      ]
+    },
+    {
+      "id": "west-marathon",
+      "title": "마라톤 전투",
+      "yearStart": -490,
+      "yearEnd": -490,
+      "region": "WEST",
+      "category": "POLITICS",
+      "importance": "A",
+      "precision": "exact",
+      "evidenceLevel": "textual_and_archaeological",
+      "summary": "아테네와 플라타이아 연합군이 마라톤에서 페르시아군을 격퇴하였다.",
+      "historicalSignificance": "그리스-페르시아 전쟁의 대표적 전투이며 아테네의 군사적 위상을 높였다.",
+      "cause": "페르시아의 그리스 원정과 이오니아 반란 이후의 갈등",
+      "consequence": "아테네의 군사적 자신감과 정치적 영향력이 확대되었다.",
+      "relatedPeople": [
+        "밀티아데스",
+        "다리우스 1세"
+      ],
+      "relatedEvents": [
+        "west-ionian-revolt",
+        "west-salamis"
+      ],
+      "sources": [
+        "헤로도토스, 역사"
+      ]
+    },
+    {
+      "id": "west-thermopylae",
+      "title": "테르모필레 전투",
+      "yearStart": -480,
+      "yearEnd": -480,
+      "region": "WEST",
+      "category": "POLITICS",
+      "importance": "B",
+      "precision": "exact",
+      "evidenceLevel": "textual_and_archaeological",
+      "summary": "그리스 연합군이 테르모필레 협곡에서 페르시아군의 진격을 저지하려 했으며 결국 패배하였다.",
+      "historicalSignificance": "그리스-페르시아 전쟁의 상징적인 전투이자 스파르타 군사문화의 대표적 사례이다.",
+      "cause": "크세르크세스 1세의 그리스 침공",
+      "consequence": "페르시아군이 중부 그리스로 진격했지만 그리스 해군은 살라미스에서 반격하였다.",
+      "relatedPeople": [
+        "레오니다스",
+        "크세르크세스 1세"
+      ],
+      "relatedEvents": [
+        "west-salamis"
+      ],
+      "sources": [
+        "헤로도토스, 역사"
+      ]
+    },
+    {
+      "id": "west-salamis",
+      "title": "살라미스 해전",
+      "yearStart": -480,
+      "yearEnd": -480,
+      "region": "WEST",
+      "category": "POLITICS",
+      "importance": "A",
+      "precision": "exact",
+      "evidenceLevel": "textual_and_archaeological",
+      "summary": "그리스 연합 함대가 살라미스 해협에서 페르시아 함대를 격파하였다.",
+      "historicalSignificance": "제2차 페르시아 전쟁의 결정적인 전환점이며 아테네의 해군력과 그리스 연합의 중요성을 보여준다.",
+      "cause": "페르시아의 그리스 본토 침공",
+      "consequence": "페르시아의 해상전략이 약화되고 그리스 측의 반격이 가능해졌다.",
+      "relatedPeople": [
+        "테미스토클레스",
+        "크세르크세스 1세"
+      ],
+      "relatedEvents": [
+        "west-thermopylae",
+        "west-plataea"
+      ],
+      "sources": [
+        "헤로도토스, 역사"
+      ]
+    },
+    {
+      "id": "west-plataea",
+      "title": "플라타이아 전투",
+      "yearStart": -479,
+      "yearEnd": -479,
+      "region": "WEST",
+      "category": "POLITICS",
+      "importance": "A",
+      "precision": "exact",
+      "evidenceLevel": "textual_and_archaeological",
+      "summary": "그리스 연합군이 플라타이아에서 페르시아 지상군을 격파하였다.",
+      "historicalSignificance": "제2차 페르시아 전쟁의 육상전에서 결정적인 승리를 거둔 사건이다.",
+      "cause": "페르시아의 그리스 본토 침공",
+      "consequence": "페르시아의 그리스 본토 지배 시도가 좌절되었다.",
+      "relatedPeople": [
+        "파우사니아스",
+        "마르도니오스"
+      ],
+      "relatedEvents": [
+        "west-salamis"
+      ],
+      "sources": [
+        "헤로도토스, 역사"
+      ]
+    },
+    {
+      "id": "west-socrates",
+      "title": "소크라테스의 활동",
+      "yearStart": -470,
+      "yearEnd": -399,
+      "region": "WEST",
+      "category": "RELIGION",
+      "importance": "B",
+      "precision": "approximate",
+      "evidenceLevel": "textual",
+      "summary": "소크라테스는 아테네에서 대화와 논박을 통해 윤리·지식·정의의 문제를 탐구하였다.",
+      "historicalSignificance": "플라톤과 이후 서양 철학에 결정적인 영향을 준 철학적 전환을 대표한다.",
+      "cause": "고전기 아테네의 정치·사회적 변화와 철학적 논쟁",
+      "consequence": "윤리와 인식론 중심의 철학적 탐구가 발전하였다.",
+      "relatedPeople": [
+        "소크라테스",
+        "플라톤"
+      ],
+      "relatedEvents": [],
+      "sources": [
+        "플라톤의 대화편",
+        "크세노폰"
+      ]
+    },
+    {
+      "id": "west-hippocrates",
+      "title": "히포크라테스 의학 전통",
+      "yearStart": -460,
+      "yearEnd": -400,
+      "region": "WEST",
+      "category": "SCIENCE",
+      "importance": "B",
+      "precision": "approximate",
+      "evidenceLevel": "textual",
+      "summary": "질병을 초자연적 원인보다 자연적 원인으로 설명하려는 의학적 전통이 발전하였다.",
+      "historicalSignificance": "서양 의학에서 관찰과 합리적 설명을 강조하는 전통의 중요한 기반이 되었다.",
+      "cause": "자연철학과 경험적 관찰의 발전",
+      "consequence": "의학을 독립적인 지식체계로 발전시키는 데 영향을 주었다.",
+      "relatedPeople": [
+        "히포크라테스"
+      ],
+      "relatedEvents": [],
+      "sources": [
+        "히포크라테스 전집"
+      ]
+    },
+    {
+      "id": "west-parthenon",
+      "title": "파르테논 신전 건립",
+      "yearStart": -447,
+      "yearEnd": -432,
+      "region": "WEST",
+      "category": "ART_CULTURE",
+      "importance": "B",
+      "precision": "exact",
+      "evidenceLevel": "archaeological_and_textual",
+      "summary": "아테네 아크로폴리스에 아테나에게 봉헌된 파르테논 신전이 건립되었다.",
+      "historicalSignificance": "고전기 그리스 건축과 조각의 대표적 성취이며 아테네의 정치·문화적 위상을 상징한다.",
+      "cause": "페르시아 전쟁 이후 아테네의 부흥과 재건",
+      "consequence": "고전 그리스 예술의 대표적인 기념물이 되었다.",
+      "relatedPeople": [
+        "페이디아스",
+        "페리클레스"
+      ],
+      "relatedEvents": [
+        "west-athenian-empire"
+      ],
+      "sources": [
+        "아테네 아크로폴리스 박물관",
+        "Encyclopaedia Britannica"
+      ]
+    },
+    {
+      "id": "west-peloponnesian-war",
+      "title": "펠로폰네소스 전쟁",
+      "yearStart": -431,
+      "yearEnd": -404,
+      "region": "WEST",
+      "category": "POLITICS",
+      "importance": "A",
+      "precision": "exact",
+      "evidenceLevel": "textual_and_archaeological",
+      "summary": "아테네와 스파르타를 중심으로 한 그리스 세계의 장기적인 전쟁이 벌어졌다.",
+      "historicalSignificance": "고전기 그리스의 세력 균형을 근본적으로 변화시키고 아테네의 패권을 종식시켰다.",
+      "cause": "아테네 제국의 확대와 스파르타 및 동맹국들의 위협 인식",
+      "consequence": "아테네가 패배하고 스파르타가 그리스 세계의 우세한 세력으로 부상하였다.",
+      "relatedPeople": [
+        "페리클레스",
+        "알키비아데스",
+        "리산드로스"
+      ],
+      "relatedEvents": [
+        "west-athenian-empire"
+      ],
+      "sources": [
+        "투키디데스, 펠로폰네소스 전쟁사",
+        "크세노폰, 헬레니카"
+      ]
+    }
+  ]
+}

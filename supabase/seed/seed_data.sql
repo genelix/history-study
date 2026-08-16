@@ -42,6 +42,11 @@ ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summar
 
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('korea-dangun-tradition', '단군조선 건국 전설', '', 'KOREA', '', 'RELIGION', 'C', -2333, -2333, 'approximate', '단군 왕검이 고조선을 건국했다는 건국신화가 후대 문헌에 전승되었다.', '한국의 건국신화와 역사적 정체성 형성을 이해하는 중요한 문화적 자료이다.', '고대 건국신화의 형성과 후대 기록', '한국의 기원과 정체성을 설명하는 대표적인 전승으로 자리잡았다.', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, updated_at = NOW();
+
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
 VALUES ('gojoseon-founding', '고조선 성립 및 청동기 문화', 'Establishment of Gojoseon & Bronze Age', 'KOREA', '고조선', 'POLITICS', 'A', -2333, -108, 'approximate', '한반도 및 요동 일대에 성립된 한민족 최초의 고대 국가이자 청동기·철기 문화의 중심.', '동북아시아 독자적 청동기 문화(비파형동검, 탁자식 고인돌)를 발전시키며 고대 국가 체제로 성장함.', '신석기 농경 발달과 청동기 무기 보급으로 족장 사회 형성 및 연맹 왕국 발전.', '위만조선으로 이어져 한나라와 대립하다 기원전 108년 멸망 후 여러 소국(부여, 고구려, 옥저, 동예, 삼한)으로 분화.', 'HIGH', 'APPROVED')
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, updated_at = NOW();
 
@@ -93,6 +98,16 @@ ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summar
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
 VALUES ('korea-bronze-age', '한반도 청동기문화의 등장', '', 'KOREA', '', 'SCIENCE', 'A', -1000, -700, 'approximate', '한반도에 청동기 기술과 청동 무기·의례용품이 등장하고 농경과 사회적 계층화가 진전되었다.', '고대 한반도 정치체 형성의 사회·기술적 기반을 보여주는 핵심 변화이다.', '대륙 북방지역과의 기술·문화 교류', '무기·의례품을 소유한 지배층이 등장하고 사회적 위계가 강화되었다.', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, updated_at = NOW();
+
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('korea-lute-shaped-bronze-dagger', '비파형 동검 문화의 확산', '', 'KOREA', '', 'ART_CULTURE', 'B', -1000, -500, 'range', '비파형 동검이 한반도와 만주 및 요동 일대에서 확인되며 청동기문화권 사이의 교류를 보여준다.', '초기 정치체의 권력 상징과 요동·한반도 사이의 문화적 관계를 연구하는 핵심 고고학 자료이다.', '요동과 한반도 사이의 문화적 교류', '청동 무기와 의례용품을 중심으로 한 지배층 문화가 발전하였다.', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, updated_at = NOW();
+
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('korea-dolmen-culture', '한반도 고인돌 문화', '', 'KOREA', '', 'ART_CULTURE', 'B', -1000, -401, 'range', '한반도 전역에 대규모 고인돌이 조성되었으며 사회적 위계와 장례·제의 문화를 보여준다.', '한반도 청동기시대 사회구조와 장례 및 제사 문화를 이해하는 대표적인 고고학 자료이다.', '농경사회 발전과 사회적 위계 형성', '지배층의 권력과 사회적 위계를 보여주는 대형 묘제가 발전하였다.', 'HIGH', 'APPROVED')
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, updated_at = NOW();
 
 
@@ -157,12 +172,17 @@ ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summar
 
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('china-crossbow', '석궁 기술의 발전', '', 'CHINA', '', 'SCIENCE', 'C', -600, -400, 'approximate', '춘추시대부터 석궁 기술이 발전하고 전국시대에 군사적으로 널리 활용되었다.', '중국 고대 군사기술의 발전과 보병 전술 변화의 중요한 사례이다.', '제후국 간 군사 경쟁과 무기 기술 발전', '원거리 무기 운용과 군사조직의 변화에 영향을 주었다.', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, updated_at = NOW();
+
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
 VALUES ('west-athens-solon', '솔론의 아테네 개혁', '', 'WEST', '', 'POLITICS', 'A', -594, -590, 'approximate', '솔론이 아테네의 사회적 갈등을 완화하기 위한 정치·경제 개혁을 실시하였다.', '아테네 민주정으로 이어지는 제도적 발전의 중요한 단계이다.', '귀족과 평민 사이의 사회경제적 갈등', '시민 정치 참여의 기반이 확대되고 이후 민주정 발전의 토대가 마련되었다.', 'HIGH', 'APPROVED')
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, updated_at = NOW();
 
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
-VALUES ('china-confucius', '공자의 활동과 유교 사상의 형성', '', 'CHINA', '', 'RELIGION', 'A', -551, -479, 'exact', '공자가 인·예·덕을 중심으로 인간과 사회의 질서에 관한 사상을 발전시켰다.', '동아시아의 정치·교육·윤리·사회질서에 장기적인 영향을 준 유교 전통의 핵심 출발점이다.', '춘추시대 정치적 혼란과 사회질서의 재정립 요구', '유교적 정치·교육·윤리사상이 발전하였다.', 'HIGH', 'APPROVED')
+VALUES ('china-confucius', '공자와 유학의 형성', '', 'CHINA', '', 'RELIGION', 'A', -551, -479, 'exact', '공자는 인과 예를 중심으로 인간관계와 정치질서에 대한 사상을 발전시켰다.', '후대 유학 및 동아시아 정치·윤리·교육사상의 핵심적 기반을 형성하였다.', '춘추시대 정치질서의 붕괴와 사회적 혼란', '유학이라는 장기적인 사상 전통이 형성되었다.', 'HIGH', 'APPROVED')
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, updated_at = NOW();
 
 
@@ -192,7 +212,97 @@ ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summar
 
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('korea-iron-culture-formation', '한반도 철기문화의 형성', '', 'KOREA', '', 'SCIENCE', 'A', -500, -401, 'approximate', '기원전 5~4세기경 중국 및 주변 지역과의 교류를 통해 철기문화가 한반도에 확산되기 시작하였다.', '청동기 중심의 사회에서 철기 생산과 사용이 확대되는 장기적인 기술·사회 변화의 출발점으로, 농업 생산과 무기체계 및 사회구조 변화와 연결된다.', '중국 및 요동 지역과의 교류와 철기 기술의 확산', '철제 농기구와 무기의 사용이 확대되고 이후 초기 국가 및 지역 정치체의 발전에 영향을 주었다.', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, updated_at = NOW();
+
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('korea-dettit-band-pottery', '한반도 덧띠무늬토기 문화의 확산', '', 'KOREA', '', 'ART_CULTURE', 'B', -500, -401, 'approximate', '기원전 5~4세기경 한반도 중남부 지역에서 덧띠무늬토기 계통의 토기문화가 나타나고 확산되었다.', '청동기시대 말기와 초기 철기시대의 문화적 변화를 이해하는 중요한 고고학적 자료이다.', '지역 간 교류와 토기 제작기술 및 생활문화의 변화', '한반도 중남부 지역의 새로운 생활문화와 사회적 변화가 나타났다.', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, updated_at = NOW();
+
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('korea-gojoseon-development', '고조선의 정치체 발전', '', 'KOREA', '', 'POLITICS', 'A', -500, -401, 'approximate', '기원전 5~4세기경 한반도 및 요동 지역에서 고조선과 연결되는 정치체의 발전을 추정할 수 있다.', '한국 고대 국가 형성 과정을 이해하는 핵심 주제이다.', '농경사회 발전, 청동기문화의 정치적 통합, 지역 간 교류', '한반도와 요동 지역에서 보다 복합적인 정치체가 발전하였다.', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, updated_at = NOW();
+
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('china-laozi-daoism', '노자와 도가 사상의 형성', '', 'CHINA', '', 'RELIGION', 'C', -500, -400, 'approximate', '노자와 도가 전통은 자연과 무위의 원리를 강조하는 중국 철학의 중요한 흐름을 형성하였다.', '후대 도가 철학과 중국 종교문화 발전에 큰 영향을 미쳤다.', '춘추전국시대의 정치·사회적 혼란', '유가와 다른 자연주의적 사상 전통이 발전하였다.', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, updated_at = NOW();
+
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('china-sun-tzu', '손자와 병법 전통', '', 'CHINA', '', 'SCIENCE', 'B', -500, -400, 'approximate', '손자병법으로 대표되는 전략·전술 사상이 춘추전국시대 전쟁 경험을 바탕으로 발전하였다.', '동아시아 병법사뿐 아니라 세계 군사사에서 장기적인 영향을 끼친 전략 사상의 대표적 사례이다.', '제후국 간 지속적인 전쟁과 군사 경쟁', '전쟁을 체계적으로 분석하는 병법 전통이 발전하였다.', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, updated_at = NOW();
+
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('west-ionian-revolt', '이오니아 반란', '', 'WEST', '', 'POLITICS', 'A', -499, -493, 'exact', '소아시아의 이오니아 그리스 도시들이 페르시아 제국에 반란을 일으켰다.', '그리스-페르시아 전쟁으로 이어지는 직접적인 계기 가운데 하나이다.', '페르시아의 지배와 이오니아 도시들의 정치적 갈등', '페르시아와 본토 그리스 세계의 갈등이 확대되었다.', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, updated_at = NOW();
+
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('west-marathon', '마라톤 전투', '', 'WEST', '', 'POLITICS', 'A', -490, -490, 'exact', '아테네와 플라타이아 연합군이 마라톤에서 페르시아군을 격퇴하였다.', '그리스-페르시아 전쟁의 대표적 전투이며 아테네의 군사적 위상을 높였다.', '페르시아의 그리스 원정과 이오니아 반란 이후의 갈등', '아테네의 군사적 자신감과 정치적 영향력이 확대되었다.', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, updated_at = NOW();
+
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('west-thermopylae', '테르모필레 전투', '', 'WEST', '', 'POLITICS', 'B', -480, -480, 'exact', '그리스 연합군이 테르모필레 협곡에서 페르시아군의 진격을 저지하려 했으며 결국 패배하였다.', '그리스-페르시아 전쟁의 상징적인 전투이자 스파르타 군사문화의 대표적 사례이다.', '크세르크세스 1세의 그리스 침공', '페르시아군이 중부 그리스로 진격했지만 그리스 해군은 살라미스에서 반격하였다.', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, updated_at = NOW();
+
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('west-salamis', '살라미스 해전', '', 'WEST', '', 'POLITICS', 'A', -480, -480, 'exact', '그리스 연합 함대가 살라미스 해협에서 페르시아 함대를 격파하였다.', '제2차 페르시아 전쟁의 결정적인 전환점이며 아테네의 해군력과 그리스 연합의 중요성을 보여준다.', '페르시아의 그리스 본토 침공', '페르시아의 해상전략이 약화되고 그리스 측의 반격이 가능해졌다.', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, updated_at = NOW();
+
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('west-plataea', '플라타이아 전투', '', 'WEST', '', 'POLITICS', 'A', -479, -479, 'exact', '그리스 연합군이 플라타이아에서 페르시아 지상군을 격파하였다.', '제2차 페르시아 전쟁의 육상전에서 결정적인 승리를 거둔 사건이다.', '페르시아의 그리스 본토 침공', '페르시아의 그리스 본토 지배 시도가 좌절되었다.', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, updated_at = NOW();
+
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('west-socrates', '소크라테스의 활동', '', 'WEST', '', 'RELIGION', 'B', -470, -399, 'approximate', '소크라테스는 아테네에서 대화와 논박을 통해 윤리·지식·정의의 문제를 탐구하였다.', '플라톤과 이후 서양 철학에 결정적인 영향을 준 철학적 전환을 대표한다.', '고전기 아테네의 정치·사회적 변화와 철학적 논쟁', '윤리와 인식론 중심의 철학적 탐구가 발전하였다.', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, updated_at = NOW();
+
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('china-mozi', '묵자와 묵가 사상', '', 'CHINA', '', 'RELIGION', 'B', -470, -391, 'approximate', '묵자는 겸애·절용·비공 등의 사상을 주장하며 유가와 다른 사회·윤리적 관점을 제시하였다.', '제자백가의 다양성과 전국시대 사회·정치사상의 발전을 보여주는 핵심 사례이다.', '전국시대 사회질서와 전쟁에 대한 비판', '묵가라는 독자적인 사상 학파가 형성되었다.', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, updated_at = NOW();
+
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('west-hippocrates', '히포크라테스 의학 전통', '', 'WEST', '', 'SCIENCE', 'B', -460, -400, 'approximate', '질병을 초자연적 원인보다 자연적 원인으로 설명하려는 의학적 전통이 발전하였다.', '서양 의학에서 관찰과 합리적 설명을 강조하는 전통의 중요한 기반이 되었다.', '자연철학과 경험적 관찰의 발전', '의학을 독립적인 지식체계로 발전시키는 데 영향을 주었다.', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, updated_at = NOW();
+
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('china-jin-partition', '진의 분열과 전국시대의 시작', '', 'CHINA', '', 'POLITICS', 'A', -453, -403, 'range', '진의 실질적 권력이 한·조·위 세 가문으로 넘어가고 이후 세 나라가 독립적인 정치세력으로 자리잡으면서 전국시대의 정치질서가 형성되었다.', '춘추시대에서 전국시대로 넘어가는 중국 정치질서의 핵심적인 전환이다.', '귀족 가문의 권력 성장과 진나라 왕실 권력 약화', '전국시대의 국가 경쟁과 중앙집권적 국가 발전이 본격화되었다.', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, updated_at = NOW();
+
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('west-parthenon', '파르테논 신전 건립', '', 'WEST', '', 'ART_CULTURE', 'B', -447, -432, 'exact', '아테네 아크로폴리스에 아테나에게 봉헌된 파르테논 신전이 건립되었다.', '고전기 그리스 건축과 조각의 대표적 성취이며 아테네의 정치·문화적 위상을 상징한다.', '페르시아 전쟁 이후 아테네의 부흥과 재건', '고전 그리스 예술의 대표적인 기념물이 되었다.', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, updated_at = NOW();
+
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('west-peloponnesian-war', '펠로폰네소스 전쟁', '', 'WEST', '', 'POLITICS', 'A', -431, -404, 'exact', '아테네와 스파르타를 중심으로 한 그리스 세계의 장기적인 전쟁이 벌어졌다.', '고전기 그리스의 세력 균형을 근본적으로 변화시키고 아테네의 패권을 종식시켰다.', '아테네 제국의 확대와 스파르타 및 동맹국들의 위협 인식', '아테네가 패배하고 스파르타가 그리스 세계의 우세한 세력으로 부상하였다.', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, updated_at = NOW();
+
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('korea-narrow-blade-bronze-dagger', '세형동검의 등장', '', 'KOREA', '', 'SCIENCE', 'B', -401, -400, 'approximate', '기원전 4세기경 한반도에서 한국식 세형동검이 나타나기 시작하였다.', '기존 비파형동검 문화에서 한반도 지역의 독자적인 청동기 문화가 발전하는 과정을 보여준다.', '지역적 청동기 제작기술의 발전', '한반도 청동기문화의 지역적 특성이 더욱 뚜렷해졌다.', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, updated_at = NOW();
+
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
 VALUES ('alexander-hellenism', '알렉산드로스 제국과 헬레니즘 문화', 'Alexander''s Empire & Hellenism', 'WEST', '지중해/오리엔트', 'ART_CULTURE', 'A', -336, -323, 'exact', '알렉산드로스 대왕의 동방 원정으로 그리스 문화와 오리엔트 문화가 융합되어 헬레니즘 세계가 형성됨.', '동서 문화 교류를 촉진하고 이후 로마 문화와 간다라 불교 미술에 지대한 영향을 미침.', '마케도니아의 그리스 통일과 페르시아 정복 야망.', '알렉산드로스 사후 제국 분열 및 간다라 미술(동서 융합) 태동.', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, updated_at = NOW();
+
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('korea-gojoseon-royal-strengthening', '고조선 왕정 강화', '', 'KOREA', '', 'POLITICS', 'C', -300, -201, 'approximate', '부왕과 준왕 등의 존재가 전하는 고조선 후기 정치체제의 변화가 나타난다.', '초기 국가의 왕권과 지배체제 발전을 이해하는 자료이다.', '지역 정치체의 성장과 중국 및 주변 세력과의 관계 변화', '고조선의 정치적 조직과 지배층 구조가 발전하였다.', 'HIGH', 'APPROVED')
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, updated_at = NOW();
 
 

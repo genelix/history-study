@@ -15,7 +15,7 @@ interface IncomingEvent {
   category?: string;
   category_id?: string;
   importance: 'A' | 'B' | 'C';
-  precision?: 'exact' | 'approximate' | 'range' | 'unknown';
+  precision?: string;
   date_precision?: 'exact' | 'approximate' | 'range' | 'unknown';
   summary: string;
   historicalSignificance?: string;
@@ -31,15 +31,47 @@ interface IncomingEvent {
 }
 
 export function convertAndMergeIncomingData(incomingJsonPath: string) {
-  console.log(`🚀 [ChronoScope/HistoryGrid] Processing incoming data from: ${incomingJsonPath}`);
+  console.log(`🚀 [HistoryGrid] Processing incoming data from: ${incomingJsonPath}`);
 
   if (!fs.existsSync(incomingJsonPath)) {
     console.error(`❌ File not found: ${incomingJsonPath}`);
     return;
   }
 
-  const raw = fs.readFileSync(incomingJsonPath, 'utf-8');
-  const incomingList: IncomingEvent[] = JSON.parse(raw);
+  let raw = fs.readFileSync(incomingJsonPath, 'utf-8').trim();
+
+  // HTML 태그 등이 섞여있는 경우 순수 JSON 블록 추출
+  if (raw.startsWith('<') || raw.includes('<html>')) {
+    const jsonMatch = raw.match(/(\{[\s\S]*\}|\[[\s\S]*\])/);
+    if (jsonMatch) {
+      raw = jsonMatch[0];
+    }
+  }
+
+  let parsed: any;
+  try {
+    parsed = JSON.parse(raw);
+  } catch (err) {
+    console.error('❌ Failed to parse JSON:', err);
+    return;
+  }
+
+  // 배열 추출 (최상위가 배열이거나, { events: [] }, { data: [] } 등 객체인 경우)
+  let incomingList: IncomingEvent[] = [];
+  if (Array.isArray(parsed)) {
+    incomingList = parsed;
+  } else if (parsed && typeof parsed === 'object') {
+    if (Array.isArray(parsed.events)) {
+      incomingList = parsed.events;
+    } else if (Array.isArray(parsed.data)) {
+      incomingList = parsed.data;
+    } else if (parsed.id && parsed.title) {
+      incomingList = [parsed];
+    } else {
+      console.error('❌ Could not find events array in JSON object.');
+      return;
+    }
+  }
 
   const seedPath = path.join(process.cwd(), 'data/seed/historical_events.json');
   let existingList: any[] = [];
@@ -70,14 +102,17 @@ export function convertAndMergeIncomingData(incomingJsonPath: string) {
 
     const region = item.region_id ?? item.region ?? 'WEST';
     const category = item.category_id ?? item.category ?? 'POLITICS';
-    const precision = item.date_precision ?? item.precision ?? 'exact';
+    
+    const rawPrecision = item.date_precision ?? item.precision ?? 'exact';
+    const validPrecisions = ['exact', 'approximate', 'range', 'unknown'];
+    const precision = validPrecisions.includes(rawPrecision) ? rawPrecision : 'approximate';
     const significance = item.historical_significance ?? item.historicalSignificance;
 
     // related_people 변환
     const rawPeople = item.related_people ?? item.relatedPeople ?? [];
     const people = rawPeople.map((p) => {
       if (typeof p === 'string') {
-        const id = p.toLowerCase().replace(/[^a-z0-9]/g, '-');
+        const id = p.toLowerCase().replace(/[^a-z0-9가-힣]/g, '-');
         return { id, name_ko: p, role_title: '주요 인물' };
       }
       return p;
