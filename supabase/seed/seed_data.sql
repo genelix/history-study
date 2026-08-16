@@ -1,8 +1,143 @@
--- ChronoScope Seed Data SQL
+-- HistoryGrid Seed Data SQL
 BEGIN;
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('west-agriculture-neolithic-revolution', '농경과 정착생활의 확산', '', 'WEST', '', 'INSTITUTION', 'A', -10000, -3000, 'range', '서아시아를 중심으로 농경과 가축 사육이 확산되면서 수렵채집 중심의 생활에서 정착 농경사회로 전환하였다.', '잉여생산, 인구 증가, 정착촌, 사회계층, 국가와 도시의 장기적 형성을 가능하게 한 문명사의 근본적 전환이다.', '기후 변화와 야생 동식물의 이용 확대 및 인간의 환경 적응', '정착촌과 사회적 분업이 발달하고 이후 도시와 국가 형성의 기반이 마련되었다.', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, updated_at = NOW();
+
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('china-neolithic-agriculture', '황허·양쯔강 유역 농경문화의 발전', '', 'CHINA', '', 'INSTITUTION', 'A', -7000, -3000, 'range', '중국 각지에서 조·벼농사를 기반으로 한 정착 농경사회가 발전하였다.', '후대 중국 문명의 인구·정착·사회조직 형성의 기반이 되었다.', '농경기술 발전과 지역 환경에 대한 적응', '대규모 정착지와 복잡한 사회조직이 출현하였다.', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, updated_at = NOW();
+
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('korea-neolithic-settlement', '한반도 신석기 정착농경의 발전', '', 'KOREA', '', 'INSTITUTION', 'B', -5000, -2000, 'range', '한반도에서 정착생활과 농경이 점차 확대되면서 복합적인 취락사회가 발전하였다.', '후대 한반도 사회의 인구·경제·정착 기반을 이해하는 중요한 출발점이다.', '농경기술과 정착생활의 확산', '취락 규모와 사회조직이 점차 복잡해졌다.', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, updated_at = NOW();
+
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('west-first-cities', '메소포타미아 도시문명의 형성', '', 'WEST', '', 'INSTITUTION', 'A', -4000, -3000, 'range', '티그리스·유프라테스 유역에서 대규모 정착지와 도시가 성장하고 복잡한 행정·사회조직이 등장하였다.', '도시, 국가, 관료제, 계층사회가 결합하는 초기 문명 형태를 보여준다.', '관개농업과 생산력 증가', '도시국가와 중앙집권적 정치조직의 발전으로 이어졌다.', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, updated_at = NOW();
+
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('china-neolithic-complex-societies', '신석기 복합사회와 계층화', '', 'CHINA', '', 'INSTITUTION', 'A', -3500, -2000, 'range', '중국의 여러 신석기 문화에서 대규모 취락, 전문 생산, 의례시설과 차등적인 무덤이 나타났다.', '국가 형성 이전의 사회적 계층화와 정치권력 출현 과정을 보여준다.', '농업생산력 증가와 지역 간 교류', '초기 도시·정치체의 형성 기반이 마련되었다.', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, updated_at = NOW();
+
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('west-writing-emergence', '메소포타미아 문자와 기록 행정의 등장', '', 'WEST', '', 'SCIENCE', 'A', -3400, -3000, 'approximate', '메소포타미아에서 초기 문자체계가 등장하여 물자·노동·행정 정보를 기록하기 시작하였다.', '역사시대와 선사시대를 구분하는 핵심적 전환이며 국가 행정과 지식 축적의 기반이 되었다.', '도시와 경제활동의 복잡화', '행정 기록과 법·종교·문학의 문자화가 가능해졌다.', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, updated_at = NOW();
+
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('west-egypt-unification', '이집트 상·하 이집트 통일', '', 'WEST', '', 'POLITICS', 'A', -3100, -3000, 'approximate', '나일강 유역의 여러 정치체가 통합되면서 초기 이집트 왕국이 형성되었다.', '고대 세계에서 장기간 지속된 중앙집권적 국가문명의 대표적 사례가 형성되었다.', '나일강 유역 농업과 정치적 통합', '파라오 중심의 중앙집권 국가와 관료체제가 발전하였다.', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, updated_at = NOW();
+
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('west-akkadian-empire', '아카드 제국의 형성', '', 'WEST', '', 'POLITICS', 'A', -2334, -2154, 'approximate', '사르곤을 중심으로 메소포타미아의 여러 도시국가가 광범위하게 통합되었다.', '대규모 영토제국이라는 정치 형태의 초기 대표 사례이다.', '메소포타미아 도시국가 간 경쟁과 사르곤의 군사적 통합', '후대 메소포타미아 제국들의 정치적 모델에 영향을 주었다.', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, updated_at = NOW();
+
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
 VALUES ('gojoseon-founding', '고조선 성립 및 청동기 문화', 'Establishment of Gojoseon & Bronze Age', 'KOREA', '고조선', 'POLITICS', 'A', -2333, -108, 'approximate', '한반도 및 요동 일대에 성립된 한민족 최초의 고대 국가이자 청동기·철기 문화의 중심.', '동북아시아 독자적 청동기 문화(비파형동검, 탁자식 고인돌)를 발전시키며 고대 국가 체제로 성장함.', '신석기 농경 발달과 청동기 무기 보급으로 족장 사회 형성 및 연맹 왕국 발전.', '위만조선으로 이어져 한나라와 대립하다 기원전 108년 멸망 후 여러 소국(부여, 고구려, 옥저, 동예, 삼한)으로 분화.', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, updated_at = NOW();
+
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('china-bronze-age', '중국 청동기문화의 발전', '', 'CHINA', '', 'SCIENCE', 'A', -2000, -1000, 'range', '청동 주조기술이 발전하면서 무기·도구뿐 아니라 제례용 청동기가 정치권력과 결합하였다.', '중국 고대 국가의 권력·제례·기술이 결합된 대표적인 문명적 특징이다.', '금속기술과 전문 장인 집단의 발전', '왕권과 제례 중심의 정치질서가 강화되었다.', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, updated_at = NOW();
+
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('west-hammurabi', '함무라비의 통치와 법전', '', 'WEST', '', 'INSTITUTION', 'A', -1792, -1750, 'approximate', '바빌론 왕 함무라비가 메소포타미아의 넓은 지역을 통합하고 법전으로 대표되는 법·행정 체계를 발전시켰다.', '고대 국가의 법과 통치가 문자로 체계화된 대표 사례로 역사·법제사 학습에 중요하다.', '바빌론의 정치적 성장과 메소포타미아 통합', '법적 규범과 왕권의 관계를 보여주는 대표적인 문헌이 남았다.', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, updated_at = NOW();
+
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('china-shang', '상 왕조의 성립과 발전', '', 'CHINA', '', 'POLITICS', 'A', -1600, -1046, 'approximate', '황허 중류를 중심으로 상 왕조가 발전하였으며 도시·왕권·군사·제례체계가 발달하였다.', '고고학적으로 확인되는 중국 초기 왕조의 대표적 사례이며 중국 정치·종교·문자문화의 중요한 기반이다.', '청동기 생산과 농업 기반의 정치적 통합', '왕권과 조상숭배, 청동기 제례문화가 발전하였다.', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, updated_at = NOW();
+
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('china-oracle-bone', '갑골문과 중국 초기 문자문화', '', 'CHINA', '', 'SCIENCE', 'A', -1250, -1046, 'approximate', '상 왕조에서 거북 배딱지와 동물 뼈에 점복 기록을 남기는 갑골문이 발전하였다.', '중국 문자의 초기 형태를 직접 보여주는 핵심 자료이며 중국의 장기적인 문자문화 전통과 연결된다.', '왕실 점복과 제례 행정의 기록 필요', '문자 기록을 통한 정치·종교 정보의 축적이 가능해졌다.', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, updated_at = NOW();
+
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('west-iron-age', '철기시대의 확산', '', 'WEST', '', 'SCIENCE', 'A', -1200, -800, 'range', '동지중해와 근동을 중심으로 철제 도구와 무기가 널리 사용되기 시작하였다.', '금속기술과 전쟁·농업 생산성의 변화를 통해 고대 국가와 사회구조에 큰 영향을 주었다.', '철 제련기술의 발전과 청동 공급망 변화', '무기와 농기구의 보급 확대 및 새로운 정치세력의 성장을 촉진하였다.', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, updated_at = NOW();
+
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('west-phoenician-alphabet', '페니키아 문자와 알파벳의 확산', '', 'WEST', '', 'SCIENCE', 'A', -1050, -800, 'range', '페니키아 상인과 도시국가를 중심으로 자음 중심의 알파벳 문자가 지중해 세계에 확산되었다.', '후대 그리스·라틴 문자 발전의 중요한 기반이 되어 서양의 문자문화에 장기적인 영향을 미쳤다.', '해상무역과 간결한 기록체계의 필요', '그리스 문자의 형성과 지중해 문자문화 발전에 영향을 주었다.', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, updated_at = NOW();
+
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('china-zhou-conquest', '주나라의 상나라 정복', '', 'CHINA', '', 'POLITICS', 'A', -1046, -1045, 'approximate', '주가 상을 무너뜨리고 중국 중원의 새로운 정치질서를 구축하였다.', '왕조 교체와 천명사상의 발전을 연결하는 중국 정치사 핵심 사건이다.', '상 왕조의 내부 문제와 주의 군사적 성장', '주 왕조가 중국 중원의 새로운 지배질서를 형성하였다.', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, updated_at = NOW();
+
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('china-mandate-heaven', '천명사상의 발전', '', 'CHINA', '', 'RELIGION', 'A', -1046, -900, 'range', '주 왕조가 상 왕조를 대신한 정당성을 하늘의 명령인 천명으로 설명하는 정치사상이 발전하였다.', '중국 역사에서 왕조 교체와 정치적 정당성을 설명하는 핵심 사상이 되었다.', '주 왕조의 상 정복에 대한 정치적 정당화 필요', '왕의 통치가 도덕적 정당성을 가져야 한다는 정치사상이 발전하였다.', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, updated_at = NOW();
+
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('china-western-zhou', '서주 왕조의 봉건적 정치질서', '', 'CHINA', '', 'INSTITUTION', 'A', -1046, -771, 'approximate', '주 왕실은 친족과 공신에게 토지를 분봉하고 지방의 정치적 지배를 조직하였다.', '중국 고대 정치·사회질서의 중요한 제도적 기반을 형성하였다.', '광범위한 영토를 안정적으로 통치할 필요', '제후국 중심의 분권적 정치구조가 발전하였다.', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, updated_at = NOW();
+
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('korea-bronze-age', '한반도 청동기문화의 등장', '', 'KOREA', '', 'SCIENCE', 'A', -1000, -700, 'approximate', '한반도에 청동기 기술과 청동 무기·의례용품이 등장하고 농경과 사회적 계층화가 진전되었다.', '고대 한반도 정치체 형성의 사회·기술적 기반을 보여주는 핵심 변화이다.', '대륙 북방지역과의 기술·문화 교류', '무기·의례품을 소유한 지배층이 등장하고 사회적 위계가 강화되었다.', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, updated_at = NOW();
+
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('west-greek-polis', '그리스 폴리스의 형성', '', 'WEST', '', 'POLITICS', 'A', -900, -700, 'range', '그리스 세계에서 독립적인 도시국가인 폴리스가 발전하였다.', '서양 정치사의 핵심 단위인 시민 공동체와 도시국가 정치가 형성되었다.', '철기시대 사회 재편과 도시 공동체의 성장', '아테네·스파르타 등 다양한 정치체제가 발전하였다.', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, updated_at = NOW();
+
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('korea-dolmen', '한반도 고인돌 문화의 확산', '', 'KOREA', '', 'ART_CULTURE', 'B', -900, -500, 'range', '한반도에서 대형 고인돌 무덤이 광범위하게 조성되었다.', '청동기시대의 사회적 위계와 집단조직, 장례문화를 보여주는 대표적인 고고학 자료이다.', '농경사회 발전과 지배계층의 형성', '사회적 위계와 집단적 노동조직의 흔적이 남았다.', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, updated_at = NOW();
+
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('korea-bronze-social-stratification', '청동기시대 한반도의 사회계층화', '', 'KOREA', '', 'INSTITUTION', 'A', -900, -500, 'range', '청동기와 위세품, 대형 무덤의 차등적 분포를 통해 사회적 계층과 정치적 권력의 성장을 확인할 수 있다.', '국가 형성 이전 한반도에서 정치적 권력이 어떻게 형성되었는지를 보여준다.', '농업생산력 증가와 청동기·위세품의 독점', '지역 지배층과 복합사회가 발전하였다.', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, updated_at = NOW();
+
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('west-greek-alphabet', '그리스 알파벳의 형성', '', 'WEST', '', 'SCIENCE', 'A', -800, -700, 'approximate', '그리스인들이 페니키아 문자에서 영향을 받아 모음을 포함하는 독자적인 알파벳 체계를 발전시켰다.', '그리스 문학·철학·과학의 기록과 전승을 가능하게 했으며 후대 라틴 문자에도 영향을 주었다.', '페니키아와의 교역 및 문자 접촉', '그리스어 문학과 철학의 기록문화 발전을 촉진하였다.', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, updated_at = NOW();
+
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('west-greek-colonization', '그리스인의 지중해 식민활동 확대', '', 'WEST', '', 'POLITICS', 'A', -800, -600, 'range', '그리스 도시국가들이 지중해와 흑해 연안에 새로운 정착지를 건설하였다.', '그리스 문화·언어·경제가 광범위한 지중해 세계로 확산되는 계기가 되었다.', '인구 증가, 토지 부족, 무역 확대와 도시국가 간 경쟁', '남이탈리아·시칠리아·흑해 등에서 그리스 문화권이 확대되었다.', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, updated_at = NOW();
+
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('korea-bronze-dagger-culture', '비파형 동검 문화의 발전', '', 'KOREA', '', 'ART_CULTURE', 'B', -800, -500, 'range', '한반도와 만주 일대에서 비파형 동검을 비롯한 독특한 청동기 문화가 발전하였다.', '초기 정치체와 지역 간 교류 및 권력 상징을 연구하는 핵심 고고학 자료이다.', '청동기 제작기술의 발전과 지역 교류', '지역 지배층의 권력과 정체성을 나타내는 청동기 문화가 발전하였다.', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, updated_at = NOW();
+
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('west-olympic-games', '올림피아 제전의 정착', '', 'WEST', '', 'RELIGION', 'B', -776, -500, 'exact', '올림피아에서 제우스에게 봉헌된 범그리스 경기대회가 정기적으로 개최되었다.', '종교·스포츠·도시국가 정체성이 결합된 범그리스 문화의 대표적인 제도였다.', '그리스 도시국가 사이의 종교적·문화적 교류', '정치적으로 분열된 그리스 세계에서 공통 문화의식 형성에 기여하였다.', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, updated_at = NOW();
+
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('china-eastern-zhou', '동주 시대의 시작', '', 'CHINA', '', 'POLITICS', 'A', -770, -769, 'exact', '주 왕실이 수도를 낙읍으로 옮기면서 동주 시대가 시작되고 왕권의 실질적 영향력이 약화되었다.', '춘추·전국시대로 이어지는 중국의 정치적 분열과 사상적 혁신의 출발점이다.', '견융의 침입과 서주의 정치적 약화', '제후국의 독립성이 증가하였다.', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, updated_at = NOW();
+
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('china-spring-autumn', '춘추시대의 시작', '', 'CHINA', '', 'POLITICS', 'A', -770, -476, 'exact', '주 왕실의 권력이 약화된 가운데 여러 제후국이 패권을 경쟁하였다.', '중국의 정치적 다원화와 군사·행정제도의 발전, 제자백가의 배경을 제공하였다.', '주 왕실 권력 약화와 제후국의 성장', '패자 경쟁과 국가개혁이 활발해졌다.', 'HIGH', 'APPROVED')
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, updated_at = NOW();
 
 
@@ -12,7 +147,47 @@ ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summar
 
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('korea-gojoseon-tradition', '고조선 형성에 관한 전승과 초기 정치체의 등장', '', 'KOREA', '', 'POLITICS', 'B', -700, -501, 'range', '한반도와 요동 일대에서 초기 정치체들이 성장했으며 후대 문헌에서는 이를 고조선과 연결한다.', '한국 고대 국가 형성의 중요한 주제이지만 구체적인 건국연대와 초기 역사에는 논쟁이 많다.', '청동기문화의 발전과 지역 정치체의 성장', '후대 고조선 관련 정치적 전통의 기반이 형성되었다.', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, updated_at = NOW();
+
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('west-greek-philosophy', '그리스 자연철학의 등장', '', 'WEST', '', 'SCIENCE', 'A', -600, -500, 'range', '탈레스·아낙시만드로스·헤라클레이토스 등 초기 철학자들이 신화적 설명을 넘어 자연현상을 이성적으로 설명하려 시도하였다.', '서양 철학과 과학적 탐구의 중요한 출발점이다.', '그리스 도시국가의 지적 교류와 문자문화 발전', '자연·우주·인간에 대한 합리적 탐구 전통이 발전하였다.', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, updated_at = NOW();
+
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('west-athens-solon', '솔론의 아테네 개혁', '', 'WEST', '', 'POLITICS', 'A', -594, -590, 'approximate', '솔론이 아테네의 사회적 갈등을 완화하기 위한 정치·경제 개혁을 실시하였다.', '아테네 민주정으로 이어지는 제도적 발전의 중요한 단계이다.', '귀족과 평민 사이의 사회경제적 갈등', '시민 정치 참여의 기반이 확대되고 이후 민주정 발전의 토대가 마련되었다.', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, updated_at = NOW();
+
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('china-confucius', '공자의 활동과 유교 사상의 형성', '', 'CHINA', '', 'RELIGION', 'A', -551, -479, 'exact', '공자가 인·예·덕을 중심으로 인간과 사회의 질서에 관한 사상을 발전시켰다.', '동아시아의 정치·교육·윤리·사회질서에 장기적인 영향을 준 유교 전통의 핵심 출발점이다.', '춘추시대 정치적 혼란과 사회질서의 재정립 요구', '유교적 정치·교육·윤리사상이 발전하였다.', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, updated_at = NOW();
+
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('china-hundred-schools', '제자백가의 등장', '', 'CHINA', '', 'RELIGION', 'A', -550, -501, 'range', '춘추전국시대의 정치적 혼란 속에서 유가·도가·묵가 등 다양한 사상 전통이 등장하였다.', '중국 철학과 정치사상의 기본 틀이 형성된 시기이다.', '정치적 분열과 국가 통치에 대한 새로운 해법의 필요', '중국 정치철학과 윤리사상의 장기적 기반이 형성되었다.', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, updated_at = NOW();
+
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('west-pythagoras', '피타고라스와 수학·철학 전통', '', 'WEST', '', 'SCIENCE', 'B', -530, -500, 'approximate', '피타고라스와 그 추종자들이 수학적 질서와 우주론을 결합한 철학적 전통을 발전시켰다.', '수학과 자연철학의 결합이라는 고대 그리스 지적 전통을 보여준다.', '그리스 자연철학과 수학적 탐구의 발전', '후대 서양 수학·철학 전통에 영향을 주었다.', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, updated_at = NOW();
+
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('west-athens-democracy', '아테네 민주정의 제도적 형성', '', 'WEST', '', 'POLITICS', 'A', -508, -507, 'exact', '클레이스테네스의 개혁으로 아테네 시민정치의 제도적 기반이 크게 재편되었다.', '직접민주주의의 대표적 역사적 기원으로 서양 정치사에 장기적인 영향을 미쳤다.', '귀족정 내부의 경쟁과 시민 정치 참여 확대 요구', '시민 공동체를 기반으로 한 아테네 민주정이 발전하였다.', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, updated_at = NOW();
+
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
 VALUES ('athens-democracy-philosophy', '그리스 아테네 민주정과 고전 철학', 'Athenian Democracy & Classical Philosophy', 'WEST', '그리스', 'POLITICS', 'A', -508, -322, 'exact', '클레이스테네스의 개혁으로 직접 민주주의가 수립되고, 소크라테스·플라톤·아리스토텔레스로 이어지는 서양 철학의 기초가 확립됨.', '서구 민주주의 정치 제도와 이성적 철학 탐구의 모태.', '솔론, 클레이스테네스 등의 개혁과 페르시아 전쟁 승리로 인한 시민 발언권 증대.', '펠로폰네소스 전쟁으로 쇠퇴 후 마케도니아 알렉산드로스 제국으로 흡수.', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, updated_at = NOW();
+
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('korea-early-iron-contact', '한반도 철기문화의 초기 전파', '', 'KOREA', '', 'SCIENCE', 'C', -501, -500, 'approximate', '철기문화가 한반도 북부와 주변지역에서 점차 확산되기 시작하였다.', '후대 철기시대와 국가 형성으로 이어지는 기술적 변화의 초기 단계이다.', '중국 동북부 및 주변지역과의 교류', '철제 무기와 도구의 확산 기반이 마련되었다.', 'HIGH', 'APPROVED')
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, updated_at = NOW();
 
 
@@ -22,22 +197,22 @@ ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summar
 
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
-VALUES ('qin-unification', '진시황의 중국 통일 및 군현제 확립', 'Qin Unification & Centralization', 'CHINA', '진(秦)', 'POLITICS', 'A', -221, -206, 'exact', '진나라 시황제가 전국 7웅을 병합하여 최초의 중앙집권적 통일 제국을 건립하고 도량형, 문자, 화폐를 통일함.', '봉건제를 폐지하고 군현제를 도입하여 이후 2천 년간 이어질 중국 제국 통치 시스템의 원형 구축.', '상앙의 변법을 통한 법가적 부국강병과 강력한 군사력.', '과도한 토목공사(만리장성, 아방궁)와 가혹한 형벌로 시황제 사후 15년 만에 멸망하고 한나라로 교체.', 'HIGH', 'APPROVED')
-ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, updated_at = NOW();
-
-
-INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
-VALUES ('roman-empire-pax-romana', '로마 제정 성립 및 팍스 로마나', 'Pax Romana & Rise of the Roman Empire', 'WEST', '로마', 'POLITICS', 'A', -27, 180, 'exact', '아우구스투스의 제정 수립 이후 지중해 전역에 걸친 약 200년간의 로마 평화기와 도로망·법률 번영.', '로마법, 건축 토목 기술, 도로망을 통해 서구 문명의 법적·공학적 기반 마련.', '카이사르 암살 후 삼두정치 종식과 옥타비아누스의 권력 장악.', '군인 황제 시대의 혼란과 3세기 위기로 이어짐.', 'HIGH', 'APPROVED')
-ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, updated_at = NOW();
-
-
-INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
 VALUES ('roman-warm-period', '로마 온난기 (Roman Warm Period)', 'Roman Warm Period', 'CLIMATE', '유럽 및 북반구', 'CLIMATE_ENVIRONMENT', 'B', -250, 400, 'approximate', '지중해와 유럽, 아시아 일대에 걸쳐 온화하고 강우량이 풍부했던 시기로, 농업 생산성과 문명 팽창을 뒷받침함.', '로마 제국과 동한(東漢)의 번영을 가능하게 했던 핵심적 자연환경 요인.', '태양 복사 활동의 극대화와 화산 활동 감소.', '5세기 이후 한랭기 도래로 유목민족 이동(게르만/훈족) 및 제국 붕괴에 영향.', 'HIGH', 'APPROVED')
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, updated_at = NOW();
 
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('qin-unification', '진시황의 중국 통일 및 군현제 확립', 'Qin Unification & Centralization', 'CHINA', '진(秦)', 'POLITICS', 'A', -221, -206, 'exact', '진나라 시황제가 전국 7웅을 병합하여 최초의 중앙집권적 통일 제국을 건립하고 도량형, 문자, 화폐를 통일함.', '봉건제를 폐지하고 군현제를 도입하여 이후 2천 년간 이어질 중국 제국 통치 시스템의 원형 구축.', '상앙의 변법을 통한 법가적 부국강병과 강력한 군사력.', '과도한 토목공사(만리장성, 아방궁)와 가혹한 형벌로 시황제 사후 15년 만에 멸망하고 한나라로 교체.', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, updated_at = NOW();
+
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
 VALUES ('han-dynasty-flourishing', '한나라의 번영과 비단길(실크로드) 개척', 'Han Dynasty & The Silk Road', 'CHINA', '한(漢)', 'POLITICS', 'A', -202, 220, 'exact', '한무제의 영토 확장과 장건의 서역 파견으로 유라시아 대륙을 잇는 비단길(실크로드)이 개척되고 유교가 국교화됨.', '동서 문명 교류의 대동맥 형성 및 중국 ''한족(漢族)'' 정체성과 한자 문화권 확립.', '초한전쟁 승리와 유방의 건국, 경제적 안정(문경의 치).', '종이 발명, 불교 전래 등으로 문화적 융성.', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, updated_at = NOW();
+
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('roman-empire-pax-romana', '로마 제정 성립 및 팍스 로마나', 'Pax Romana & Rise of the Roman Empire', 'WEST', '로마', 'POLITICS', 'A', -27, 180, 'exact', '아우구스투스의 제정 수립 이후 지중해 전역에 걸친 약 200년간의 로마 평화기와 도로망·법률 번영.', '로마법, 건축 토목 기술, 도로망을 통해 서구 문명의 법적·공학적 기반 마련.', '카이사르 암살 후 삼두정치 종식과 옥타비아누스의 권력 장악.', '군인 황제 시대의 혼란과 3세기 위기로 이어짐.', 'HIGH', 'APPROVED')
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, updated_at = NOW();
 
 
@@ -107,12 +282,17 @@ ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summar
 
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
+VALUES ('ming-dynasty-founding', '명나라 건국과 정화의 대원정', 'Founding of Ming Dynasty & Zheng He''s Voyages', 'CHINA', '명(明)', 'POLITICS', 'A', 1368, 1433, 'range', '주원장이 몽골 원나라를 북쪽으로 축출하고 한족 제국을 부활시켰으며, 영락제 시기 정화의 거대 함대가 인도양과 아프리카까지 원정함.', '동남아시아 및 인도양에 대한 조공 무역망을 구축하고 동아시아 질서를 재편.', '홍건적의 난과 원나라 내부 분열.', '정화 사후 해금령(海禁令)으로 해양 진출 중단, 이후 서양의 대항해시대와 대비됨.', 'HIGH', 'APPROVED')
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, updated_at = NOW();
+
+
+INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
 VALUES ('joseon-founding', '조선 건국과 성리학적 통치 질서 확립', 'Founding of Joseon Dynasty', 'KOREA', '조선', 'POLITICS', 'A', 1392, 1392, 'exact', '이성계와 신진사대부(정도전 등)가 고려를 무너뜨리고 유교(성리학)를 국교로 삼는 새로운 왕조를 개창함.', '500년 유교 문치주의 국가 체제 구축과 한양 천도 및 경복궁 창건.', '위화도 회군과 과전법 실시로 신흥 무인 세력과 신진사대부의 결합.', '조선왕조 500년 지속 및 세종대왕의 문화적 융성으로 연결.', 'HIGH', 'APPROVED')
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, updated_at = NOW();
 
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
-VALUES ('ming-dynasty-founding', '명나라 건국과 정화의 대원정', 'Founding of Ming Dynasty & Zheng He''s Voyages', 'CHINA', '명(明)', 'POLITICS', 'A', 1368, 1433, 'range', '주원장이 몽골 원나라를 북쪽으로 축출하고 한족 제국을 부활시켰으며, 영락제 시기 정화의 거대 함대가 인도양과 아프리카까지 원정함.', '동남아시아 및 인도양에 대한 조공 무역망을 구축하고 동아시아 질서를 재편.', '홍건적의 난과 원나라 내부 분열.', '정화 사후 해금령(海禁令)으로 해양 진출 중단, 이후 서양의 대항해시대와 대비됨.', 'HIGH', 'APPROVED')
+VALUES ('renaissance-florence', '이탈리아 르네상스와 인문주의의 개화', 'Italian Renaissance & Humanism', 'WEST', '이탈리아 피렌체', 'ART_CULTURE', 'A', 1400, 1550, 'approximate', '신 중심의 중세 세계관에서 벗어나 고대 그리스·로마의 고전을 부활시키고 인간의 이성과 예술적 잠재력을 찬양한 문화 혁신 운동.', '레오나르도 다 빈치, 미켈란젤로 등의 예술과 마키아벨리의 정치학 등 근대 서구 정신의 태동.', '비잔틴 제국 학자들의 망명, 지중해 무역으로 축적된 메디치 가문의 후원.', '알프스 이북 르네상스와 근대 과학적 사고방식의 확산.', 'HIGH', 'APPROVED')
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, updated_at = NOW();
 
 
@@ -127,11 +307,6 @@ ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summar
 
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
-VALUES ('renaissance-florence', '이탈리아 르네상스와 인문주의의 개화', 'Italian Renaissance & Humanism', 'WEST', '이탈리아 피렌체', 'ART_CULTURE', 'A', 1400, 1550, 'approximate', '신 중심의 중세 세계관에서 벗어나 고대 그리스·로마의 고전을 부활시키고 인간의 이성과 예술적 잠재력을 찬양한 문화 혁신 운동.', '레오나르도 다 빈치, 미켈란젤로 등의 예술과 마키아벨리의 정치학 등 근대 서구 정신의 태동.', '비잔틴 제국 학자들의 망명, 지중해 무역으로 축적된 메디치 가문의 후원.', '알프스 이북 르네상스와 근대 과학적 사고방식의 확산.', 'HIGH', 'APPROVED')
-ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, updated_at = NOW();
-
-
-INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
 VALUES ('age-of-discovery-columbus', '대항해시대와 콜럼버스의 신대륙 도달', 'Age of Discovery & Columbian Exchange', 'WEST', '스페인/포르투갈/아메리카', 'ECONOMY', 'A', 1492, 1522, 'exact', '콜럼버스의 대서양 횡단과 마젤란 함대의 세계 일주로 지구상의 모든 대륙이 해상 무역로를 통해 직접 연결됨.', '콜럼버스 교환(작물·가축·전염병 이동)과 은(銀)의 세계적 유통으로 자본주의와 세계 경제 체제 성립.', '오스만 제국의 지중해 무역 장악으로 인한 신항로 개척 열망과 나침반·항해술 발전.', '아메리카 원주민 문명 파괴, 대서양 노예무역, 유럽 상업혁명.', 'HIGH', 'APPROVED')
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, updated_at = NOW();
 
@@ -142,12 +317,12 @@ ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summar
 
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
-VALUES ('imjin-war-east-asia', '임진왜란과 동아시아 삼국의 격변', 'Imjin War & East Asian Transformation', 'KOREA', '조선/일본/명', 'POLITICS', 'A', 1592, 1598, 'exact', '도요토미 히데요시의 조선 침략으로 발발한 동아시아 국제 전쟁으로, 이순신의 해전 승리와 의병의 항전으로 격퇴함.', '조선 국토의 황폐화, 명나라의 국력 쇠퇴 및 청나라로의 왕조 교체, 일본 도쿠가와 이에야스의 에도 막부 수립을 촉발.', '일본 전국시대 통일 후 도요토미 히데요시의 대륙 정복 야망과 조총 보급.', '명·청 교체와 여진족(후금)의 대두, 일본의 도자기 전쟁(조선 도공 납치).', 'HIGH', 'APPROVED')
+VALUES ('scientific-revolution-newton', '과학 혁명과 뉴턴의 프린키피아', 'Scientific Revolution & Newton''s Principia', 'WEST', '영국/유럽', 'SCIENCE', 'A', 1543, 1687, 'exact', '코페르니쿠스의 지동설, 갈릴레오의 관측을 거쳐 아이작 뉴턴이 만유인력과 고전역학 체계를 확립하여 근대 과학의 패러다임을 완성함.', '자연을 수학적 법칙으로 설명하는 기계론적 세계관을 정립하고 계몽주의와 산업혁명의 지적 기초를 마련.', '경험주의(베이컨)와 합리주의(데카르트)의 융합 및 망원경 등 정밀 관측기구 발명.', '계몽사상 확산과 기술 응용을 통한 산업혁명.', 'HIGH', 'APPROVED')
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, updated_at = NOW();
 
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
-VALUES ('scientific-revolution-newton', '과학 혁명과 뉴턴의 프린키피아', 'Scientific Revolution & Newton''s Principia', 'WEST', '영국/유럽', 'SCIENCE', 'A', 1543, 1687, 'exact', '코페르니쿠스의 지동설, 갈릴레오의 관측을 거쳐 아이작 뉴턴이 만유인력과 고전역학 체계를 확립하여 근대 과학의 패러다임을 완성함.', '자연을 수학적 법칙으로 설명하는 기계론적 세계관을 정립하고 계몽주의와 산업혁명의 지적 기초를 마련.', '경험주의(베이컨)와 합리주의(데카르트)의 융합 및 망원경 등 정밀 관측기구 발명.', '계몽사상 확산과 기술 응용을 통한 산업혁명.', 'HIGH', 'APPROVED')
+VALUES ('imjin-war-east-asia', '임진왜란과 동아시아 삼국의 격변', 'Imjin War & East Asian Transformation', 'KOREA', '조선/일본/명', 'POLITICS', 'A', 1592, 1598, 'exact', '도요토미 히데요시의 조선 침략으로 발발한 동아시아 국제 전쟁으로, 이순신의 해전 승리와 의병의 항전으로 격퇴함.', '조선 국토의 황폐화, 명나라의 국력 쇠퇴 및 청나라로의 왕조 교체, 일본 도쿠가와 이에야스의 에도 막부 수립을 촉발.', '일본 전국시대 통일 후 도요토미 히데요시의 대륙 정복 야망과 조총 보급.', '명·청 교체와 여진족(후금)의 대두, 일본의 도자기 전쟁(조선 도공 납치).', 'HIGH', 'APPROVED')
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, updated_at = NOW();
 
 
@@ -162,12 +337,12 @@ ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summar
 
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
-VALUES ('french-revolution', '프랑스 대혁명과 인권 선언', 'French Revolution & Declaration of Rights of Man', 'WEST', '프랑스 파리', 'POLITICS', 'A', 1789, 1799, 'exact', '바스티유 감옥 습격으로 시작되어 절대왕정과 봉건적 신분제를 타파하고 자유·평등·우애의 이념과 근대 시민사회를 선포함.', '국민주권과 기본권 사상을 전 유럽과 세계로 확산시켜 근대 민주주의의 기틀을 확립.', '구제도의 모순(앙시앵 레짐), 삼부회의 갈등, 계몽사상 확산, 재정 파탄.', '루이 16세 처형, 나폴레옹의 등장 및 나폴레옹 법전 제정, 유럽 전역의 민족주의 고양.', 'HIGH', 'APPROVED')
+VALUES ('joseon-renaissance-jeongjo', '조선 후기 탕평책과 정조의 문예부흥 (규장각, 수원화성)', 'King Jeongjo''s Reform & Late Joseon Renaissance', 'KOREA', '조선', 'POLITICS', 'B', 1776, 1800, 'exact', '정조가 규장각을 설치하고 장용영을 육성하며, 정약용의 거중기를 활용해 수원화성을 축조하는 등 실학 중심의 개혁 정치를 펼침.', '실학사상(북학파)과 조선 후기 서민 문화(판소리, 민화, 한글 소설)가 최고조로 만개함.', '붕당정치의 폐해 극복을 위한 탕평책 추진과 서학(천주교 및 서양 과학)의 유입.', '정조 사후 세도정치(안동 김씨 등) 도래로 인한 국가적 쇠락.', 'HIGH', 'APPROVED')
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, updated_at = NOW();
 
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
-VALUES ('joseon-renaissance-jeongjo', '조선 후기 탕평책과 정조의 문예부흥 (규장각, 수원화성)', 'King Jeongjo''s Reform & Late Joseon Renaissance', 'KOREA', '조선', 'POLITICS', 'B', 1776, 1800, 'exact', '정조가 규장각을 설치하고 장용영을 육성하며, 정약용의 거중기를 활용해 수원화성을 축조하는 등 실학 중심의 개혁 정치를 펼침.', '실학사상(북학파)과 조선 후기 서민 문화(판소리, 민화, 한글 소설)가 최고조로 만개함.', '붕당정치의 폐해 극복을 위한 탕평책 추진과 서학(천주교 및 서양 과학)의 유입.', '정조 사후 세도정치(안동 김씨 등) 도래로 인한 국가적 쇠락.', 'HIGH', 'APPROVED')
+VALUES ('french-revolution', '프랑스 대혁명과 인권 선언', 'French Revolution & Declaration of Rights of Man', 'WEST', '프랑스 파리', 'POLITICS', 'A', 1789, 1799, 'exact', '바스티유 감옥 습격으로 시작되어 절대왕정과 봉건적 신분제를 타파하고 자유·평등·우애의 이념과 근대 시민사회를 선포함.', '국민주권과 기본권 사상을 전 유럽과 세계로 확산시켜 근대 민주주의의 기틀을 확립.', '구제도의 모순(앙시앵 레짐), 삼부회의 갈등, 계몽사상 확산, 재정 파탄.', '루이 16세 처형, 나폴레옹의 등장 및 나폴레옹 법전 제정, 유럽 전역의 민족주의 고양.', 'HIGH', 'APPROVED')
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, updated_at = NOW();
 
 
@@ -217,7 +392,7 @@ ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summar
 
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
-VALUES ('digital-revolution-internet', '디지털 혁명과 인터넷·정보화 시대', 'Digital Revolution & The Internet Era', 'WEST', '글로벌', 'SCIENCE', 'A', 1969, 2000, 'range', 'ARPANET에서 시작된 인터넷과 개인용 컴퓨터(PC), 월드와이드웹(WWW)의 보급으로 전 세계 지식과 경제가 실시간으로 연결됨.', '지식 정보 기반 사회와 4차 산업혁명, 글로벌 초연결 사회의 인프라 구축.', '트랜지스터 및 반도체 집적회로의 비약적 발전(무어의 법칙).', '스마트폰, 인공지능(AI), 빅데이터로 이어지는 21세기 디지털 문명.', 'HIGH', 'APPROVED')
+VALUES ('global-climate-change-anthropocene', '지구 온난화와 인류세 (Anthropocene)', 'Global Climate Change & The Anthropocene', 'CLIMATE', '지구 전역', 'CLIMATE_ENVIRONMENT', 'A', 1950, 2026, 'range', '온실가스 배출로 인한 지구 평균 기온 상승, 극단적 기상이변, 북극 빙하 감소 등 인류 활동이 지구 시스템을 변화시키는 현대 환경 위기.', '탄소 중립, 재생에너지 전환, 국제 파리 기후협약 등 21세기 인류 문명의 지속가능성을 좌우하는 핵심 과제.', '화석연료 대량 연소와 무분별한 삼림 벌채 및 산업화.', '기후 난민 발생, 해수면 상승, 에너지 대전환 가속.', 'HIGH', 'APPROVED')
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, updated_at = NOW();
 
 
@@ -227,7 +402,7 @@ ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summar
 
 
 INSERT INTO events (id, title, title_en, region_id, sub_region, category_id, importance, year_start, year_end, date_precision, summary, historical_significance, cause, consequence, confidence, review_status)
-VALUES ('global-climate-change-anthropocene', '지구 온난화와 인류세 (Anthropocene)', 'Global Climate Change & The Anthropocene', 'CLIMATE', '지구 전역', 'CLIMATE_ENVIRONMENT', 'A', 1950, 2026, 'range', '온실가스 배출로 인한 지구 평균 기온 상승, 극단적 기상이변, 북극 빙하 감소 등 인류 활동이 지구 시스템을 변화시키는 현대 환경 위기.', '탄소 중립, 재생에너지 전환, 국제 파리 기후협약 등 21세기 인류 문명의 지속가능성을 좌우하는 핵심 과제.', '화석연료 대량 연소와 무분별한 삼림 벌채 및 산업화.', '기후 난민 발생, 해수면 상승, 에너지 대전환 가속.', 'HIGH', 'APPROVED')
+VALUES ('digital-revolution-internet', '디지털 혁명과 인터넷·정보화 시대', 'Digital Revolution & The Internet Era', 'WEST', '글로벌', 'SCIENCE', 'A', 1969, 2000, 'range', 'ARPANET에서 시작된 인터넷과 개인용 컴퓨터(PC), 월드와이드웹(WWW)의 보급으로 전 세계 지식과 경제가 실시간으로 연결됨.', '지식 정보 기반 사회와 4차 산업혁명, 글로벌 초연결 사회의 인프라 구축.', '트랜지스터 및 반도체 집적회로의 비약적 발전(무어의 법칙).', '스마트폰, 인공지능(AI), 빅데이터로 이어지는 21세기 디지털 문명.', 'HIGH', 'APPROVED')
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, updated_at = NOW();
 
 COMMIT;

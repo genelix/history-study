@@ -1,5 +1,236 @@
 [
   {
+    "id": "west-agriculture-neolithic-revolution",
+    "title": "농경과 정착생활의 확산",
+    "region_id": "WEST",
+    "category_id": "INSTITUTION",
+    "importance": "A",
+    "year_start": -10000,
+    "year_end": -3000,
+    "date_precision": "range",
+    "summary": "서아시아를 중심으로 농경과 가축 사육이 확산되면서 수렵채집 중심의 생활에서 정착 농경사회로 전환하였다.",
+    "historical_significance": "잉여생산, 인구 증가, 정착촌, 사회계층, 국가와 도시의 장기적 형성을 가능하게 한 문명사의 근본적 전환이다.",
+    "cause": "기후 변화와 야생 동식물의 이용 확대 및 인간의 환경 적응",
+    "consequence": "정착촌과 사회적 분업이 발달하고 이후 도시와 국가 형성의 기반이 마련되었다.",
+    "confidence": "HIGH",
+    "related_people": [],
+    "related_events": [
+      {
+        "target_event_id": "west-first-cities",
+        "relation_type": "SYNCHRONOUS"
+      },
+      {
+        "target_event_id": "west-writing-emergence",
+        "relation_type": "SYNCHRONOUS"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Encyclopaedia Britannica - Neolithic Period"
+      }
+    ]
+  },
+  {
+    "id": "china-neolithic-agriculture",
+    "title": "황허·양쯔강 유역 농경문화의 발전",
+    "region_id": "CHINA",
+    "category_id": "INSTITUTION",
+    "importance": "A",
+    "year_start": -7000,
+    "year_end": -3000,
+    "date_precision": "range",
+    "summary": "중국 각지에서 조·벼농사를 기반으로 한 정착 농경사회가 발전하였다.",
+    "historical_significance": "후대 중국 문명의 인구·정착·사회조직 형성의 기반이 되었다.",
+    "cause": "농경기술 발전과 지역 환경에 대한 적응",
+    "consequence": "대규모 정착지와 복잡한 사회조직이 출현하였다.",
+    "confidence": "HIGH",
+    "related_people": [],
+    "related_events": [
+      {
+        "target_event_id": "china-neolithic-complex-societies",
+        "relation_type": "SYNCHRONOUS"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Encyclopaedia Britannica - China"
+      },
+      {
+        "title": "The Metropolitan Museum of Art"
+      }
+    ]
+  },
+  {
+    "id": "korea-neolithic-settlement",
+    "title": "한반도 신석기 정착농경의 발전",
+    "region_id": "KOREA",
+    "category_id": "INSTITUTION",
+    "importance": "B",
+    "year_start": -5000,
+    "year_end": -2000,
+    "date_precision": "range",
+    "summary": "한반도에서 정착생활과 농경이 점차 확대되면서 복합적인 취락사회가 발전하였다.",
+    "historical_significance": "후대 한반도 사회의 인구·경제·정착 기반을 이해하는 중요한 출발점이다.",
+    "cause": "농경기술과 정착생활의 확산",
+    "consequence": "취락 규모와 사회조직이 점차 복잡해졌다.",
+    "confidence": "HIGH",
+    "related_people": [],
+    "related_events": [
+      {
+        "target_event_id": "korea-bronze-age",
+        "relation_type": "SYNCHRONOUS"
+      }
+    ],
+    "sources": [
+      {
+        "title": "National Museum of Korea"
+      },
+      {
+        "title": "The Metropolitan Museum of Art"
+      }
+    ]
+  },
+  {
+    "id": "west-first-cities",
+    "title": "메소포타미아 도시문명의 형성",
+    "region_id": "WEST",
+    "category_id": "INSTITUTION",
+    "importance": "A",
+    "year_start": -4000,
+    "year_end": -3000,
+    "date_precision": "range",
+    "summary": "티그리스·유프라테스 유역에서 대규모 정착지와 도시가 성장하고 복잡한 행정·사회조직이 등장하였다.",
+    "historical_significance": "도시, 국가, 관료제, 계층사회가 결합하는 초기 문명 형태를 보여준다.",
+    "cause": "관개농업과 생산력 증가",
+    "consequence": "도시국가와 중앙집권적 정치조직의 발전으로 이어졌다.",
+    "confidence": "HIGH",
+    "related_people": [],
+    "related_events": [
+      {
+        "target_event_id": "west-writing-emergence",
+        "relation_type": "SYNCHRONOUS"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Encyclopaedia Britannica - Mesopotamia"
+      },
+      {
+        "title": "The Metropolitan Museum of Art"
+      }
+    ]
+  },
+  {
+    "id": "china-neolithic-complex-societies",
+    "title": "신석기 복합사회와 계층화",
+    "region_id": "CHINA",
+    "category_id": "INSTITUTION",
+    "importance": "A",
+    "year_start": -3500,
+    "year_end": -2000,
+    "date_precision": "range",
+    "summary": "중국의 여러 신석기 문화에서 대규모 취락, 전문 생산, 의례시설과 차등적인 무덤이 나타났다.",
+    "historical_significance": "국가 형성 이전의 사회적 계층화와 정치권력 출현 과정을 보여준다.",
+    "cause": "농업생산력 증가와 지역 간 교류",
+    "consequence": "초기 도시·정치체의 형성 기반이 마련되었다.",
+    "confidence": "HIGH",
+    "related_people": [],
+    "related_events": [
+      {
+        "target_event_id": "china-bronze-age",
+        "relation_type": "SYNCHRONOUS"
+      }
+    ],
+    "sources": [
+      {
+        "title": "The Metropolitan Museum of Art - Ancient China"
+      }
+    ]
+  },
+  {
+    "id": "west-writing-emergence",
+    "title": "메소포타미아 문자와 기록 행정의 등장",
+    "region_id": "WEST",
+    "category_id": "SCIENCE",
+    "importance": "A",
+    "year_start": -3400,
+    "year_end": -3000,
+    "date_precision": "approximate",
+    "summary": "메소포타미아에서 초기 문자체계가 등장하여 물자·노동·행정 정보를 기록하기 시작하였다.",
+    "historical_significance": "역사시대와 선사시대를 구분하는 핵심적 전환이며 국가 행정과 지식 축적의 기반이 되었다.",
+    "cause": "도시와 경제활동의 복잡화",
+    "consequence": "행정 기록과 법·종교·문학의 문자화가 가능해졌다.",
+    "confidence": "HIGH",
+    "related_people": [],
+    "related_events": [
+      {
+        "target_event_id": "west-first-cities",
+        "relation_type": "SYNCHRONOUS"
+      }
+    ],
+    "sources": [
+      {
+        "title": "British Museum - Cuneiform"
+      }
+    ]
+  },
+  {
+    "id": "west-egypt-unification",
+    "title": "이집트 상·하 이집트 통일",
+    "region_id": "WEST",
+    "category_id": "POLITICS",
+    "importance": "A",
+    "year_start": -3100,
+    "year_end": -3000,
+    "date_precision": "approximate",
+    "summary": "나일강 유역의 여러 정치체가 통합되면서 초기 이집트 왕국이 형성되었다.",
+    "historical_significance": "고대 세계에서 장기간 지속된 중앙집권적 국가문명의 대표적 사례가 형성되었다.",
+    "cause": "나일강 유역 농업과 정치적 통합",
+    "consequence": "파라오 중심의 중앙집권 국가와 관료체제가 발전하였다.",
+    "confidence": "HIGH",
+    "related_people": [
+      {
+        "id": "narmer",
+        "name_ko": "Narmer",
+        "role_title": "주요 인물"
+      }
+    ],
+    "related_events": [],
+    "sources": [
+      {
+        "title": "Encyclopaedia Britannica - Ancient Egypt"
+      }
+    ]
+  },
+  {
+    "id": "west-akkadian-empire",
+    "title": "아카드 제국의 형성",
+    "region_id": "WEST",
+    "category_id": "POLITICS",
+    "importance": "A",
+    "year_start": -2334,
+    "year_end": -2154,
+    "date_precision": "approximate",
+    "summary": "사르곤을 중심으로 메소포타미아의 여러 도시국가가 광범위하게 통합되었다.",
+    "historical_significance": "대규모 영토제국이라는 정치 형태의 초기 대표 사례이다.",
+    "cause": "메소포타미아 도시국가 간 경쟁과 사르곤의 군사적 통합",
+    "consequence": "후대 메소포타미아 제국들의 정치적 모델에 영향을 주었다.",
+    "confidence": "HIGH",
+    "related_people": [
+      {
+        "id": "sargon-of-akkad",
+        "name_ko": "Sargon of Akkad",
+        "role_title": "주요 인물"
+      }
+    ],
+    "related_events": [],
+    "sources": [
+      {
+        "title": "Encyclopaedia Britannica - Sargon"
+      }
+    ]
+  },
+  {
     "id": "gojoseon-founding",
     "title": "고조선 성립 및 청동기 문화",
     "title_en": "Establishment of Gojoseon & Bronze Age",
@@ -15,9 +246,572 @@
     "cause": "신석기 농경 발달과 청동기 무기 보급으로 족장 사회 형성 및 연맹 왕국 발전.",
     "consequence": "위만조선으로 이어져 한나라와 대립하다 기원전 108년 멸망 후 여러 소국(부여, 고구려, 옥저, 동예, 삼한)으로 분화.",
     "confidence": "HIGH",
-    "related_people": [{ "id": "dangun", "name_ko": "단군왕검", "role_title": "건국 시조" }],
-    "related_events": [{ "target_event_id": "china-zhou-dynasty", "relation_type": "SYNCHRONOUS", "description": "동시대 중국의 주나라 봉건제 시기" }],
-    "sources": [{ "title": "삼국유사", "author": "일연" }]
+    "related_people": [
+      {
+        "id": "dangun",
+        "name_ko": "단군왕검",
+        "role_title": "건국 시조"
+      }
+    ],
+    "related_events": [
+      {
+        "target_event_id": "china-zhou-dynasty",
+        "relation_type": "SYNCHRONOUS",
+        "description": "동시대 중국의 주나라 봉건제 시기"
+      }
+    ],
+    "sources": [
+      {
+        "title": "삼국유사",
+        "author": "일연"
+      }
+    ]
+  },
+  {
+    "id": "china-bronze-age",
+    "title": "중국 청동기문화의 발전",
+    "region_id": "CHINA",
+    "category_id": "SCIENCE",
+    "importance": "A",
+    "year_start": -2000,
+    "year_end": -1000,
+    "date_precision": "range",
+    "summary": "청동 주조기술이 발전하면서 무기·도구뿐 아니라 제례용 청동기가 정치권력과 결합하였다.",
+    "historical_significance": "중국 고대 국가의 권력·제례·기술이 결합된 대표적인 문명적 특징이다.",
+    "cause": "금속기술과 전문 장인 집단의 발전",
+    "consequence": "왕권과 제례 중심의 정치질서가 강화되었다.",
+    "confidence": "HIGH",
+    "related_people": [],
+    "related_events": [
+      {
+        "target_event_id": "china-shang",
+        "relation_type": "SYNCHRONOUS"
+      }
+    ],
+    "sources": [
+      {
+        "title": "The Metropolitan Museum of Art - Shang and Zhou Dynasties"
+      }
+    ]
+  },
+  {
+    "id": "west-hammurabi",
+    "title": "함무라비의 통치와 법전",
+    "region_id": "WEST",
+    "category_id": "INSTITUTION",
+    "importance": "A",
+    "year_start": -1792,
+    "year_end": -1750,
+    "date_precision": "approximate",
+    "summary": "바빌론 왕 함무라비가 메소포타미아의 넓은 지역을 통합하고 법전으로 대표되는 법·행정 체계를 발전시켰다.",
+    "historical_significance": "고대 국가의 법과 통치가 문자로 체계화된 대표 사례로 역사·법제사 학습에 중요하다.",
+    "cause": "바빌론의 정치적 성장과 메소포타미아 통합",
+    "consequence": "법적 규범과 왕권의 관계를 보여주는 대표적인 문헌이 남았다.",
+    "confidence": "HIGH",
+    "related_people": [
+      {
+        "id": "hammurabi",
+        "name_ko": "Hammurabi",
+        "role_title": "주요 인물"
+      }
+    ],
+    "related_events": [],
+    "sources": [
+      {
+        "title": "Louvre Museum - Code of Hammurabi"
+      },
+      {
+        "title": "Encyclopaedia Britannica"
+      }
+    ]
+  },
+  {
+    "id": "china-shang",
+    "title": "상 왕조의 성립과 발전",
+    "region_id": "CHINA",
+    "category_id": "POLITICS",
+    "importance": "A",
+    "year_start": -1600,
+    "year_end": -1046,
+    "date_precision": "approximate",
+    "summary": "황허 중류를 중심으로 상 왕조가 발전하였으며 도시·왕권·군사·제례체계가 발달하였다.",
+    "historical_significance": "고고학적으로 확인되는 중국 초기 왕조의 대표적 사례이며 중국 정치·종교·문자문화의 중요한 기반이다.",
+    "cause": "청동기 생산과 농업 기반의 정치적 통합",
+    "consequence": "왕권과 조상숭배, 청동기 제례문화가 발전하였다.",
+    "confidence": "HIGH",
+    "related_people": [],
+    "related_events": [
+      {
+        "target_event_id": "china-oracle-bone",
+        "relation_type": "SYNCHRONOUS"
+      }
+    ],
+    "sources": [
+      {
+        "title": "The Metropolitan Museum of Art - Shang and Zhou Dynasties"
+      }
+    ]
+  },
+  {
+    "id": "china-oracle-bone",
+    "title": "갑골문과 중국 초기 문자문화",
+    "region_id": "CHINA",
+    "category_id": "SCIENCE",
+    "importance": "A",
+    "year_start": -1250,
+    "year_end": -1046,
+    "date_precision": "approximate",
+    "summary": "상 왕조에서 거북 배딱지와 동물 뼈에 점복 기록을 남기는 갑골문이 발전하였다.",
+    "historical_significance": "중국 문자의 초기 형태를 직접 보여주는 핵심 자료이며 중국의 장기적인 문자문화 전통과 연결된다.",
+    "cause": "왕실 점복과 제례 행정의 기록 필요",
+    "consequence": "문자 기록을 통한 정치·종교 정보의 축적이 가능해졌다.",
+    "confidence": "HIGH",
+    "related_people": [],
+    "related_events": [
+      {
+        "target_event_id": "china-shang",
+        "relation_type": "SYNCHRONOUS"
+      }
+    ],
+    "sources": [
+      {
+        "title": "The Metropolitan Museum of Art - Shang and Zhou Dynasties"
+      },
+      {
+        "title": "British Museum"
+      }
+    ]
+  },
+  {
+    "id": "west-iron-age",
+    "title": "철기시대의 확산",
+    "region_id": "WEST",
+    "category_id": "SCIENCE",
+    "importance": "A",
+    "year_start": -1200,
+    "year_end": -800,
+    "date_precision": "range",
+    "summary": "동지중해와 근동을 중심으로 철제 도구와 무기가 널리 사용되기 시작하였다.",
+    "historical_significance": "금속기술과 전쟁·농업 생산성의 변화를 통해 고대 국가와 사회구조에 큰 영향을 주었다.",
+    "cause": "철 제련기술의 발전과 청동 공급망 변화",
+    "consequence": "무기와 농기구의 보급 확대 및 새로운 정치세력의 성장을 촉진하였다.",
+    "confidence": "HIGH",
+    "related_people": [],
+    "related_events": [
+      {
+        "target_event_id": "west-greek-polis",
+        "relation_type": "SYNCHRONOUS"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Encyclopaedia Britannica - Iron Age"
+      }
+    ]
+  },
+  {
+    "id": "west-phoenician-alphabet",
+    "title": "페니키아 문자와 알파벳의 확산",
+    "region_id": "WEST",
+    "category_id": "SCIENCE",
+    "importance": "A",
+    "year_start": -1050,
+    "year_end": -800,
+    "date_precision": "range",
+    "summary": "페니키아 상인과 도시국가를 중심으로 자음 중심의 알파벳 문자가 지중해 세계에 확산되었다.",
+    "historical_significance": "후대 그리스·라틴 문자 발전의 중요한 기반이 되어 서양의 문자문화에 장기적인 영향을 미쳤다.",
+    "cause": "해상무역과 간결한 기록체계의 필요",
+    "consequence": "그리스 문자의 형성과 지중해 문자문화 발전에 영향을 주었다.",
+    "confidence": "HIGH",
+    "related_people": [],
+    "related_events": [
+      {
+        "target_event_id": "west-greek-alphabet",
+        "relation_type": "SYNCHRONOUS"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Encyclopaedia Britannica - Phoenician Alphabet"
+      }
+    ]
+  },
+  {
+    "id": "china-zhou-conquest",
+    "title": "주나라의 상나라 정복",
+    "region_id": "CHINA",
+    "category_id": "POLITICS",
+    "importance": "A",
+    "year_start": -1046,
+    "year_end": -1045,
+    "date_precision": "approximate",
+    "summary": "주가 상을 무너뜨리고 중국 중원의 새로운 정치질서를 구축하였다.",
+    "historical_significance": "왕조 교체와 천명사상의 발전을 연결하는 중국 정치사 핵심 사건이다.",
+    "cause": "상 왕조의 내부 문제와 주의 군사적 성장",
+    "consequence": "주 왕조가 중국 중원의 새로운 지배질서를 형성하였다.",
+    "confidence": "HIGH",
+    "related_people": [
+      {
+        "id": "king-wu-of-zhou",
+        "name_ko": "King Wu of Zhou",
+        "role_title": "주요 인물"
+      }
+    ],
+    "related_events": [
+      {
+        "target_event_id": "china-mandate-heaven",
+        "relation_type": "SYNCHRONOUS"
+      }
+    ],
+    "sources": [
+      {
+        "title": "The Metropolitan Museum of Art - Shang and Zhou Dynasties"
+      }
+    ]
+  },
+  {
+    "id": "china-mandate-heaven",
+    "title": "천명사상의 발전",
+    "region_id": "CHINA",
+    "category_id": "RELIGION",
+    "importance": "A",
+    "year_start": -1046,
+    "year_end": -900,
+    "date_precision": "range",
+    "summary": "주 왕조가 상 왕조를 대신한 정당성을 하늘의 명령인 천명으로 설명하는 정치사상이 발전하였다.",
+    "historical_significance": "중국 역사에서 왕조 교체와 정치적 정당성을 설명하는 핵심 사상이 되었다.",
+    "cause": "주 왕조의 상 정복에 대한 정치적 정당화 필요",
+    "consequence": "왕의 통치가 도덕적 정당성을 가져야 한다는 정치사상이 발전하였다.",
+    "confidence": "HIGH",
+    "related_people": [],
+    "related_events": [
+      {
+        "target_event_id": "china-zhou-conquest",
+        "relation_type": "SYNCHRONOUS"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Encyclopaedia Britannica - Mandate of Heaven"
+      }
+    ]
+  },
+  {
+    "id": "china-western-zhou",
+    "title": "서주 왕조의 봉건적 정치질서",
+    "region_id": "CHINA",
+    "category_id": "INSTITUTION",
+    "importance": "A",
+    "year_start": -1046,
+    "year_end": -771,
+    "date_precision": "approximate",
+    "summary": "주 왕실은 친족과 공신에게 토지를 분봉하고 지방의 정치적 지배를 조직하였다.",
+    "historical_significance": "중국 고대 정치·사회질서의 중요한 제도적 기반을 형성하였다.",
+    "cause": "광범위한 영토를 안정적으로 통치할 필요",
+    "consequence": "제후국 중심의 분권적 정치구조가 발전하였다.",
+    "confidence": "HIGH",
+    "related_people": [],
+    "related_events": [
+      {
+        "target_event_id": "china-mandate-heaven",
+        "relation_type": "SYNCHRONOUS"
+      }
+    ],
+    "sources": [
+      {
+        "title": "The Metropolitan Museum of Art - Shang and Zhou Dynasties"
+      }
+    ]
+  },
+  {
+    "id": "korea-bronze-age",
+    "title": "한반도 청동기문화의 등장",
+    "region_id": "KOREA",
+    "category_id": "SCIENCE",
+    "importance": "A",
+    "year_start": -1000,
+    "year_end": -700,
+    "date_precision": "approximate",
+    "summary": "한반도에 청동기 기술과 청동 무기·의례용품이 등장하고 농경과 사회적 계층화가 진전되었다.",
+    "historical_significance": "고대 한반도 정치체 형성의 사회·기술적 기반을 보여주는 핵심 변화이다.",
+    "cause": "대륙 북방지역과의 기술·문화 교류",
+    "consequence": "무기·의례품을 소유한 지배층이 등장하고 사회적 위계가 강화되었다.",
+    "confidence": "HIGH",
+    "related_people": [],
+    "related_events": [
+      {
+        "target_event_id": "korea-dolmen",
+        "relation_type": "SYNCHRONOUS"
+      }
+    ],
+    "sources": [
+      {
+        "title": "The Metropolitan Museum of Art - Korea 1000 BCE–1 CE"
+      }
+    ]
+  },
+  {
+    "id": "west-greek-polis",
+    "title": "그리스 폴리스의 형성",
+    "region_id": "WEST",
+    "category_id": "POLITICS",
+    "importance": "A",
+    "year_start": -900,
+    "year_end": -700,
+    "date_precision": "range",
+    "summary": "그리스 세계에서 독립적인 도시국가인 폴리스가 발전하였다.",
+    "historical_significance": "서양 정치사의 핵심 단위인 시민 공동체와 도시국가 정치가 형성되었다.",
+    "cause": "철기시대 사회 재편과 도시 공동체의 성장",
+    "consequence": "아테네·스파르타 등 다양한 정치체제가 발전하였다.",
+    "confidence": "HIGH",
+    "related_people": [],
+    "related_events": [
+      {
+        "target_event_id": "west-greek-alphabet",
+        "relation_type": "SYNCHRONOUS"
+      },
+      {
+        "target_event_id": "west-olympic-games",
+        "relation_type": "SYNCHRONOUS"
+      }
+    ],
+    "sources": [
+      {
+        "title": "The Metropolitan Museum of Art - Geometric Art in Ancient Greece"
+      }
+    ]
+  },
+  {
+    "id": "korea-dolmen",
+    "title": "한반도 고인돌 문화의 확산",
+    "region_id": "KOREA",
+    "category_id": "ART_CULTURE",
+    "importance": "B",
+    "year_start": -900,
+    "year_end": -500,
+    "date_precision": "range",
+    "summary": "한반도에서 대형 고인돌 무덤이 광범위하게 조성되었다.",
+    "historical_significance": "청동기시대의 사회적 위계와 집단조직, 장례문화를 보여주는 대표적인 고고학 자료이다.",
+    "cause": "농경사회 발전과 지배계층의 형성",
+    "consequence": "사회적 위계와 집단적 노동조직의 흔적이 남았다.",
+    "confidence": "HIGH",
+    "related_people": [],
+    "related_events": [
+      {
+        "target_event_id": "korea-bronze-age",
+        "relation_type": "SYNCHRONOUS"
+      }
+    ],
+    "sources": [
+      {
+        "title": "The Metropolitan Museum of Art - Korea 1000 BCE–1 CE"
+      },
+      {
+        "title": "UNESCO - Gochang, Hwasun and Ganghwa Dolmen Sites"
+      }
+    ]
+  },
+  {
+    "id": "korea-bronze-social-stratification",
+    "title": "청동기시대 한반도의 사회계층화",
+    "region_id": "KOREA",
+    "category_id": "INSTITUTION",
+    "importance": "A",
+    "year_start": -900,
+    "year_end": -500,
+    "date_precision": "range",
+    "summary": "청동기와 위세품, 대형 무덤의 차등적 분포를 통해 사회적 계층과 정치적 권력의 성장을 확인할 수 있다.",
+    "historical_significance": "국가 형성 이전 한반도에서 정치적 권력이 어떻게 형성되었는지를 보여준다.",
+    "cause": "농업생산력 증가와 청동기·위세품의 독점",
+    "consequence": "지역 지배층과 복합사회가 발전하였다.",
+    "confidence": "HIGH",
+    "related_people": [],
+    "related_events": [
+      {
+        "target_event_id": "korea-dolmen",
+        "relation_type": "SYNCHRONOUS"
+      },
+      {
+        "target_event_id": "korea-bronze-age",
+        "relation_type": "SYNCHRONOUS"
+      }
+    ],
+    "sources": [
+      {
+        "title": "The Metropolitan Museum of Art - Korea 1000 BCE–1 CE"
+      }
+    ]
+  },
+  {
+    "id": "west-greek-alphabet",
+    "title": "그리스 알파벳의 형성",
+    "region_id": "WEST",
+    "category_id": "SCIENCE",
+    "importance": "A",
+    "year_start": -800,
+    "year_end": -700,
+    "date_precision": "approximate",
+    "summary": "그리스인들이 페니키아 문자에서 영향을 받아 모음을 포함하는 독자적인 알파벳 체계를 발전시켰다.",
+    "historical_significance": "그리스 문학·철학·과학의 기록과 전승을 가능하게 했으며 후대 라틴 문자에도 영향을 주었다.",
+    "cause": "페니키아와의 교역 및 문자 접촉",
+    "consequence": "그리스어 문학과 철학의 기록문화 발전을 촉진하였다.",
+    "confidence": "HIGH",
+    "related_people": [],
+    "related_events": [
+      {
+        "target_event_id": "west-phoenician-alphabet",
+        "relation_type": "SYNCHRONOUS"
+      }
+    ],
+    "sources": [
+      {
+        "title": "The Metropolitan Museum of Art - Geometric Art in Ancient Greece"
+      }
+    ]
+  },
+  {
+    "id": "west-greek-colonization",
+    "title": "그리스인의 지중해 식민활동 확대",
+    "region_id": "WEST",
+    "category_id": "POLITICS",
+    "importance": "A",
+    "year_start": -800,
+    "year_end": -600,
+    "date_precision": "range",
+    "summary": "그리스 도시국가들이 지중해와 흑해 연안에 새로운 정착지를 건설하였다.",
+    "historical_significance": "그리스 문화·언어·경제가 광범위한 지중해 세계로 확산되는 계기가 되었다.",
+    "cause": "인구 증가, 토지 부족, 무역 확대와 도시국가 간 경쟁",
+    "consequence": "남이탈리아·시칠리아·흑해 등에서 그리스 문화권이 확대되었다.",
+    "confidence": "HIGH",
+    "related_people": [],
+    "related_events": [
+      {
+        "target_event_id": "west-greek-polis",
+        "relation_type": "SYNCHRONOUS"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Encyclopaedia Britannica - Greek Colonization"
+      }
+    ]
+  },
+  {
+    "id": "korea-bronze-dagger-culture",
+    "title": "비파형 동검 문화의 발전",
+    "region_id": "KOREA",
+    "category_id": "ART_CULTURE",
+    "importance": "B",
+    "year_start": -800,
+    "year_end": -500,
+    "date_precision": "range",
+    "summary": "한반도와 만주 일대에서 비파형 동검을 비롯한 독특한 청동기 문화가 발전하였다.",
+    "historical_significance": "초기 정치체와 지역 간 교류 및 권력 상징을 연구하는 핵심 고고학 자료이다.",
+    "cause": "청동기 제작기술의 발전과 지역 교류",
+    "consequence": "지역 지배층의 권력과 정체성을 나타내는 청동기 문화가 발전하였다.",
+    "confidence": "HIGH",
+    "related_people": [],
+    "related_events": [
+      {
+        "target_event_id": "korea-bronze-age",
+        "relation_type": "SYNCHRONOUS"
+      }
+    ],
+    "sources": [
+      {
+        "title": "National Museum of Korea"
+      },
+      {
+        "title": "National Research Institute of Cultural Heritage"
+      }
+    ]
+  },
+  {
+    "id": "west-olympic-games",
+    "title": "올림피아 제전의 정착",
+    "region_id": "WEST",
+    "category_id": "RELIGION",
+    "importance": "B",
+    "year_start": -776,
+    "year_end": -500,
+    "date_precision": "exact",
+    "summary": "올림피아에서 제우스에게 봉헌된 범그리스 경기대회가 정기적으로 개최되었다.",
+    "historical_significance": "종교·스포츠·도시국가 정체성이 결합된 범그리스 문화의 대표적인 제도였다.",
+    "cause": "그리스 도시국가 사이의 종교적·문화적 교류",
+    "consequence": "정치적으로 분열된 그리스 세계에서 공통 문화의식 형성에 기여하였다.",
+    "confidence": "HIGH",
+    "related_people": [],
+    "related_events": [
+      {
+        "target_event_id": "west-greek-polis",
+        "relation_type": "SYNCHRONOUS"
+      }
+    ],
+    "sources": [
+      {
+        "title": "The Metropolitan Museum of Art - Ancient Olympic Games"
+      }
+    ]
+  },
+  {
+    "id": "china-eastern-zhou",
+    "title": "동주 시대의 시작",
+    "region_id": "CHINA",
+    "category_id": "POLITICS",
+    "importance": "A",
+    "year_start": -770,
+    "year_end": -769,
+    "date_precision": "exact",
+    "summary": "주 왕실이 수도를 낙읍으로 옮기면서 동주 시대가 시작되고 왕권의 실질적 영향력이 약화되었다.",
+    "historical_significance": "춘추·전국시대로 이어지는 중국의 정치적 분열과 사상적 혁신의 출발점이다.",
+    "cause": "견융의 침입과 서주의 정치적 약화",
+    "consequence": "제후국의 독립성이 증가하였다.",
+    "confidence": "HIGH",
+    "related_people": [],
+    "related_events": [
+      {
+        "target_event_id": "china-spring-autumn",
+        "relation_type": "SYNCHRONOUS"
+      }
+    ],
+    "sources": [
+      {
+        "title": "The Metropolitan Museum of Art - China 1000 BCE–1 CE"
+      }
+    ]
+  },
+  {
+    "id": "china-spring-autumn",
+    "title": "춘추시대의 시작",
+    "region_id": "CHINA",
+    "category_id": "POLITICS",
+    "importance": "A",
+    "year_start": -770,
+    "year_end": -476,
+    "date_precision": "exact",
+    "summary": "주 왕실의 권력이 약화된 가운데 여러 제후국이 패권을 경쟁하였다.",
+    "historical_significance": "중국의 정치적 다원화와 군사·행정제도의 발전, 제자백가의 배경을 제공하였다.",
+    "cause": "주 왕실 권력 약화와 제후국의 성장",
+    "consequence": "패자 경쟁과 국가개혁이 활발해졌다.",
+    "confidence": "HIGH",
+    "related_people": [
+      {
+        "id": "confucius",
+        "name_ko": "Confucius",
+        "role_title": "주요 인물"
+      }
+    ],
+    "related_events": [
+      {
+        "target_event_id": "china-confucius",
+        "relation_type": "SYNCHRONOUS"
+      }
+    ],
+    "sources": [
+      {
+        "title": "The Metropolitan Museum of Art - China 1000 BCE–1 CE"
+      }
+    ]
   },
   {
     "id": "china-spring-autumn-warring",
@@ -36,11 +830,289 @@
     "consequence": "진(秦)나라에 의한 최초의 중국 천하 통일로 이어짐.",
     "confidence": "HIGH",
     "related_people": [
-      { "id": "confucius", "name_ko": "공자", "role_title": "유학의 창시자" },
-      { "id": "laozi", "name_ko": "노자", "role_title": "도가의 창시자" }
+      {
+        "id": "confucius",
+        "name_ko": "공자",
+        "role_title": "유학의 창시자"
+      },
+      {
+        "id": "laozi",
+        "name_ko": "노자",
+        "role_title": "도가의 창시자"
+      }
     ],
-    "related_events": [{ "target_event_id": "athens-democracy-philosophy", "relation_type": "SYNCHRONOUS", "description": "동시대 그리스 아테네에서 소크라테스·플라톤 철학과 민주정이 꽃핌" }],
-    "sources": [{ "title": "사기(史記)", "author": "사마천" }]
+    "related_events": [
+      {
+        "target_event_id": "athens-democracy-philosophy",
+        "relation_type": "SYNCHRONOUS",
+        "description": "동시대 그리스 아테네에서 소크라테스·플라톤 철학과 민주정이 꽃핌"
+      }
+    ],
+    "sources": [
+      {
+        "title": "사기(史記)",
+        "author": "사마천"
+      }
+    ]
+  },
+  {
+    "id": "korea-gojoseon-tradition",
+    "title": "고조선 형성에 관한 전승과 초기 정치체의 등장",
+    "region_id": "KOREA",
+    "category_id": "POLITICS",
+    "importance": "B",
+    "year_start": -700,
+    "year_end": -501,
+    "date_precision": "range",
+    "summary": "한반도와 요동 일대에서 초기 정치체들이 성장했으며 후대 문헌에서는 이를 고조선과 연결한다.",
+    "historical_significance": "한국 고대 국가 형성의 중요한 주제이지만 구체적인 건국연대와 초기 역사에는 논쟁이 많다.",
+    "cause": "청동기문화의 발전과 지역 정치체의 성장",
+    "consequence": "후대 고조선 관련 정치적 전통의 기반이 형성되었다.",
+    "confidence": "HIGH",
+    "related_people": [
+      {
+        "id": "dangun",
+        "name_ko": "Dangun",
+        "role_title": "주요 인물"
+      },
+      {
+        "id": "gija",
+        "name_ko": "Gija",
+        "role_title": "주요 인물"
+      }
+    ],
+    "related_events": [
+      {
+        "target_event_id": "korea-bronze-social-stratification",
+        "relation_type": "SYNCHRONOUS"
+      }
+    ],
+    "sources": [
+      {
+        "title": "National Museum of Korea"
+      },
+      {
+        "title": "Korean Archaeological Society"
+      }
+    ]
+  },
+  {
+    "id": "west-greek-philosophy",
+    "title": "그리스 자연철학의 등장",
+    "region_id": "WEST",
+    "category_id": "SCIENCE",
+    "importance": "A",
+    "year_start": -600,
+    "year_end": -500,
+    "date_precision": "range",
+    "summary": "탈레스·아낙시만드로스·헤라클레이토스 등 초기 철학자들이 신화적 설명을 넘어 자연현상을 이성적으로 설명하려 시도하였다.",
+    "historical_significance": "서양 철학과 과학적 탐구의 중요한 출발점이다.",
+    "cause": "그리스 도시국가의 지적 교류와 문자문화 발전",
+    "consequence": "자연·우주·인간에 대한 합리적 탐구 전통이 발전하였다.",
+    "confidence": "HIGH",
+    "related_people": [
+      {
+        "id": "thales",
+        "name_ko": "Thales",
+        "role_title": "주요 인물"
+      },
+      {
+        "id": "anaximander",
+        "name_ko": "Anaximander",
+        "role_title": "주요 인물"
+      },
+      {
+        "id": "heraclitus",
+        "name_ko": "Heraclitus",
+        "role_title": "주요 인물"
+      }
+    ],
+    "related_events": [
+      {
+        "target_event_id": "west-greek-alphabet",
+        "relation_type": "SYNCHRONOUS"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Encyclopaedia Britannica - Pre-Socratic Philosophy"
+      }
+    ]
+  },
+  {
+    "id": "west-athens-solon",
+    "title": "솔론의 아테네 개혁",
+    "region_id": "WEST",
+    "category_id": "POLITICS",
+    "importance": "A",
+    "year_start": -594,
+    "year_end": -590,
+    "date_precision": "approximate",
+    "summary": "솔론이 아테네의 사회적 갈등을 완화하기 위한 정치·경제 개혁을 실시하였다.",
+    "historical_significance": "아테네 민주정으로 이어지는 제도적 발전의 중요한 단계이다.",
+    "cause": "귀족과 평민 사이의 사회경제적 갈등",
+    "consequence": "시민 정치 참여의 기반이 확대되고 이후 민주정 발전의 토대가 마련되었다.",
+    "confidence": "HIGH",
+    "related_people": [
+      {
+        "id": "solon",
+        "name_ko": "Solon",
+        "role_title": "주요 인물"
+      }
+    ],
+    "related_events": [
+      {
+        "target_event_id": "west-athens-democracy",
+        "relation_type": "SYNCHRONOUS"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Encyclopaedia Britannica - Solon"
+      }
+    ]
+  },
+  {
+    "id": "china-confucius",
+    "title": "공자의 활동과 유교 사상의 형성",
+    "region_id": "CHINA",
+    "category_id": "RELIGION",
+    "importance": "A",
+    "year_start": -551,
+    "year_end": -479,
+    "date_precision": "exact",
+    "summary": "공자가 인·예·덕을 중심으로 인간과 사회의 질서에 관한 사상을 발전시켰다.",
+    "historical_significance": "동아시아의 정치·교육·윤리·사회질서에 장기적인 영향을 준 유교 전통의 핵심 출발점이다.",
+    "cause": "춘추시대 정치적 혼란과 사회질서의 재정립 요구",
+    "consequence": "유교적 정치·교육·윤리사상이 발전하였다.",
+    "confidence": "HIGH",
+    "related_people": [
+      {
+        "id": "confucius",
+        "name_ko": "Confucius",
+        "role_title": "주요 인물"
+      }
+    ],
+    "related_events": [
+      {
+        "target_event_id": "china-spring-autumn",
+        "relation_type": "SYNCHRONOUS"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Encyclopaedia Britannica - Confucius"
+      }
+    ]
+  },
+  {
+    "id": "china-hundred-schools",
+    "title": "제자백가의 등장",
+    "region_id": "CHINA",
+    "category_id": "RELIGION",
+    "importance": "A",
+    "year_start": -550,
+    "year_end": -501,
+    "date_precision": "range",
+    "summary": "춘추전국시대의 정치적 혼란 속에서 유가·도가·묵가 등 다양한 사상 전통이 등장하였다.",
+    "historical_significance": "중국 철학과 정치사상의 기본 틀이 형성된 시기이다.",
+    "cause": "정치적 분열과 국가 통치에 대한 새로운 해법의 필요",
+    "consequence": "중국 정치철학과 윤리사상의 장기적 기반이 형성되었다.",
+    "confidence": "HIGH",
+    "related_people": [
+      {
+        "id": "confucius",
+        "name_ko": "Confucius",
+        "role_title": "주요 인물"
+      },
+      {
+        "id": "laozi",
+        "name_ko": "Laozi",
+        "role_title": "주요 인물"
+      },
+      {
+        "id": "mozi",
+        "name_ko": "Mozi",
+        "role_title": "주요 인물"
+      }
+    ],
+    "related_events": [
+      {
+        "target_event_id": "china-confucius",
+        "relation_type": "SYNCHRONOUS"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Encyclopaedia Britannica - Hundred Schools of Thought"
+      }
+    ]
+  },
+  {
+    "id": "west-pythagoras",
+    "title": "피타고라스와 수학·철학 전통",
+    "region_id": "WEST",
+    "category_id": "SCIENCE",
+    "importance": "B",
+    "year_start": -530,
+    "year_end": -500,
+    "date_precision": "approximate",
+    "summary": "피타고라스와 그 추종자들이 수학적 질서와 우주론을 결합한 철학적 전통을 발전시켰다.",
+    "historical_significance": "수학과 자연철학의 결합이라는 고대 그리스 지적 전통을 보여준다.",
+    "cause": "그리스 자연철학과 수학적 탐구의 발전",
+    "consequence": "후대 서양 수학·철학 전통에 영향을 주었다.",
+    "confidence": "HIGH",
+    "related_people": [
+      {
+        "id": "pythagoras",
+        "name_ko": "Pythagoras",
+        "role_title": "주요 인물"
+      }
+    ],
+    "related_events": [
+      {
+        "target_event_id": "west-greek-philosophy",
+        "relation_type": "SYNCHRONOUS"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Encyclopaedia Britannica - Pythagoras"
+      }
+    ]
+  },
+  {
+    "id": "west-athens-democracy",
+    "title": "아테네 민주정의 제도적 형성",
+    "region_id": "WEST",
+    "category_id": "POLITICS",
+    "importance": "A",
+    "year_start": -508,
+    "year_end": -507,
+    "date_precision": "exact",
+    "summary": "클레이스테네스의 개혁으로 아테네 시민정치의 제도적 기반이 크게 재편되었다.",
+    "historical_significance": "직접민주주의의 대표적 역사적 기원으로 서양 정치사에 장기적인 영향을 미쳤다.",
+    "cause": "귀족정 내부의 경쟁과 시민 정치 참여 확대 요구",
+    "consequence": "시민 공동체를 기반으로 한 아테네 민주정이 발전하였다.",
+    "confidence": "HIGH",
+    "related_people": [
+      {
+        "id": "cleisthenes",
+        "name_ko": "Cleisthenes",
+        "role_title": "주요 인물"
+      }
+    ],
+    "related_events": [
+      {
+        "target_event_id": "west-athens-solon",
+        "relation_type": "SYNCHRONOUS"
+      }
+    ],
+    "sources": [
+      {
+        "title": "The Metropolitan Museum of Art - Greek Art"
+      }
+    ]
   },
   {
     "id": "athens-democracy-philosophy",
@@ -59,11 +1131,56 @@
     "consequence": "펠로폰네소스 전쟁으로 쇠퇴 후 마케도니아 알렉산드로스 제국으로 흡수.",
     "confidence": "HIGH",
     "related_people": [
-      { "id": "socrates", "name_ko": "소크라테스", "role_title": "철학자" },
-      { "id": "aristotle", "name_ko": "아리스토텔레스", "role_title": "철학자/학자" }
+      {
+        "id": "socrates",
+        "name_ko": "소크라테스",
+        "role_title": "철학자"
+      },
+      {
+        "id": "aristotle",
+        "name_ko": "아리스토텔레스",
+        "role_title": "철학자/학자"
+      }
     ],
-    "related_events": [{ "target_event_id": "china-spring-autumn-warring", "relation_type": "SYNCHRONOUS" }],
-    "sources": [{ "title": "펠로폰네소스 전쟁사", "author": "투키디데스" }]
+    "related_events": [
+      {
+        "target_event_id": "china-spring-autumn-warring",
+        "relation_type": "SYNCHRONOUS"
+      }
+    ],
+    "sources": [
+      {
+        "title": "펠로폰네소스 전쟁사",
+        "author": "투키디데스"
+      }
+    ]
+  },
+  {
+    "id": "korea-early-iron-contact",
+    "title": "한반도 철기문화의 초기 전파",
+    "region_id": "KOREA",
+    "category_id": "SCIENCE",
+    "importance": "C",
+    "year_start": -501,
+    "year_end": -500,
+    "date_precision": "approximate",
+    "summary": "철기문화가 한반도 북부와 주변지역에서 점차 확산되기 시작하였다.",
+    "historical_significance": "후대 철기시대와 국가 형성으로 이어지는 기술적 변화의 초기 단계이다.",
+    "cause": "중국 동북부 및 주변지역과의 교류",
+    "consequence": "철제 무기와 도구의 확산 기반이 마련되었다.",
+    "confidence": "HIGH",
+    "related_people": [],
+    "related_events": [
+      {
+        "target_event_id": "korea-bronze-age",
+        "relation_type": "SYNCHRONOUS"
+      }
+    ],
+    "sources": [
+      {
+        "title": "The Metropolitan Museum of Art - Korea 1000 BCE–1 CE"
+      }
+    ]
   },
   {
     "id": "alexander-hellenism",
@@ -81,52 +1198,20 @@
     "cause": "마케도니아의 그리스 통일과 페르시아 정복 야망.",
     "consequence": "알렉산드로스 사후 제국 분열 및 간다라 미술(동서 융합) 태동.",
     "confidence": "HIGH",
-    "related_people": [{ "id": "alexander", "name_ko": "알렉산드로스 대왕", "role_title": "마케도니아 국왕" }],
-    "related_events": [],
-    "sources": [{ "title": "플루타르코스 영웅전", "author": "플루타르코스" }]
-  },
-  {
-    "id": "qin-unification",
-    "title": "진시황의 중국 통일 및 군현제 확립",
-    "title_en": "Qin Unification & Centralization",
-    "region_id": "CHINA",
-    "sub_region": "진(秦)",
-    "category_id": "POLITICS",
-    "importance": "A",
-    "year_start": -221,
-    "year_end": -206,
-    "date_precision": "exact",
-    "summary": "진나라 시황제가 전국 7웅을 병합하여 최초의 중앙집권적 통일 제국을 건립하고 도량형, 문자, 화폐를 통일함.",
-    "historical_significance": "봉건제를 폐지하고 군현제를 도입하여 이후 2천 년간 이어질 중국 제국 통치 시스템의 원형 구축.",
-    "cause": "상앙의 변법을 통한 법가적 부국강병과 강력한 군사력.",
-    "consequence": "과도한 토목공사(만리장성, 아방궁)와 가혹한 형벌로 시황제 사후 15년 만에 멸망하고 한나라로 교체.",
-    "confidence": "HIGH",
-    "related_people": [{ "id": "qin-shihuang", "name_ko": "진시황", "role_title": "최초의 황제" }],
-    "related_events": [{ "target_event_id": "han-dynasty-founding", "relation_type": "CAUSES" }],
-    "sources": [{ "title": "사기 진시황본기", "author": "사마천" }]
-  },
-  {
-    "id": "roman-empire-pax-romana",
-    "title": "로마 제정 성립 및 팍스 로마나",
-    "title_en": "Pax Romana & Rise of the Roman Empire",
-    "region_id": "WEST",
-    "sub_region": "로마",
-    "category_id": "POLITICS",
-    "importance": "A",
-    "year_start": -27,
-    "year_end": 180,
-    "date_precision": "exact",
-    "summary": "아우구스투스의 제정 수립 이후 지중해 전역에 걸친 약 200년간의 로마 평화기와 도로망·법률 번영.",
-    "historical_significance": "로마법, 건축 토목 기술, 도로망을 통해 서구 문명의 법적·공학적 기반 마련.",
-    "cause": "카이사르 암살 후 삼두정치 종식과 옥타비아누스의 권력 장악.",
-    "consequence": "군인 황제 시대의 혼란과 3세기 위기로 이어짐.",
-    "confidence": "HIGH",
-    "related_people": [{ "id": "augustus", "name_ko": "아우구스투스", "role_title": "로마 초대 황제" }],
-    "related_events": [
-      { "target_event_id": "roman-warm-period", "relation_type": "SYNCHRONOUS", "description": "로마 온난기로 인한 농업 생산성 증대" },
-      { "target_event_id": "han-dynasty-flourishing", "relation_type": "SYNCHRONOUS", "description": "동시대 동아시아의 한나라 번영 및 실크로드 교역" }
+    "related_people": [
+      {
+        "id": "alexander",
+        "name_ko": "알렉산드로스 대왕",
+        "role_title": "마케도니아 국왕"
+      }
     ],
-    "sources": [{ "title": "로마제국 쇠망사", "author": "에드워드 기본" }]
+    "related_events": [],
+    "sources": [
+      {
+        "title": "플루타르코스 영웅전",
+        "author": "플루타르코스"
+      }
+    ]
   },
   {
     "id": "roman-warm-period",
@@ -144,8 +1229,54 @@
     "cause": "태양 복사 활동의 극대화와 화산 활동 감소.",
     "consequence": "5세기 이후 한랭기 도래로 유목민족 이동(게르만/훈족) 및 제국 붕괴에 영향.",
     "confidence": "HIGH",
-    "related_events": [{ "target_event_id": "roman-empire-pax-romana", "relation_type": "INFLUENCED_BY" }],
-    "sources": [{ "title": "기후가 만든 인류의 역사", "author": "브라이언 페이건" }]
+    "related_events": [
+      {
+        "target_event_id": "roman-empire-pax-romana",
+        "relation_type": "INFLUENCED_BY"
+      }
+    ],
+    "sources": [
+      {
+        "title": "기후가 만든 인류의 역사",
+        "author": "브라이언 페이건"
+      }
+    ]
+  },
+  {
+    "id": "qin-unification",
+    "title": "진시황의 중국 통일 및 군현제 확립",
+    "title_en": "Qin Unification & Centralization",
+    "region_id": "CHINA",
+    "sub_region": "진(秦)",
+    "category_id": "POLITICS",
+    "importance": "A",
+    "year_start": -221,
+    "year_end": -206,
+    "date_precision": "exact",
+    "summary": "진나라 시황제가 전국 7웅을 병합하여 최초의 중앙집권적 통일 제국을 건립하고 도량형, 문자, 화폐를 통일함.",
+    "historical_significance": "봉건제를 폐지하고 군현제를 도입하여 이후 2천 년간 이어질 중국 제국 통치 시스템의 원형 구축.",
+    "cause": "상앙의 변법을 통한 법가적 부국강병과 강력한 군사력.",
+    "consequence": "과도한 토목공사(만리장성, 아방궁)와 가혹한 형벌로 시황제 사후 15년 만에 멸망하고 한나라로 교체.",
+    "confidence": "HIGH",
+    "related_people": [
+      {
+        "id": "qin-shihuang",
+        "name_ko": "진시황",
+        "role_title": "최초의 황제"
+      }
+    ],
+    "related_events": [
+      {
+        "target_event_id": "han-dynasty-founding",
+        "relation_type": "CAUSES"
+      }
+    ],
+    "sources": [
+      {
+        "title": "사기 진시황본기",
+        "author": "사마천"
+      }
+    ]
   },
   {
     "id": "han-dynasty-flourishing",
@@ -164,11 +1295,71 @@
     "consequence": "종이 발명, 불교 전래 등으로 문화적 융성.",
     "confidence": "HIGH",
     "related_people": [
-      { "id": "han-wudi", "name_ko": "한무제", "role_title": "한나라 제7대 황제" },
-      { "id": "zhang-qian", "name_ko": "장건", "role_title": "외교관/탐험가" }
+      {
+        "id": "han-wudi",
+        "name_ko": "한무제",
+        "role_title": "한나라 제7대 황제"
+      },
+      {
+        "id": "zhang-qian",
+        "name_ko": "장건",
+        "role_title": "외교관/탐험가"
+      }
     ],
-    "related_events": [{ "target_event_id": "roman-empire-pax-romana", "relation_type": "SYNCHRONOUS" }],
-    "sources": [{ "title": "한서(漢書)", "author": "반고" }]
+    "related_events": [
+      {
+        "target_event_id": "roman-empire-pax-romana",
+        "relation_type": "SYNCHRONOUS"
+      }
+    ],
+    "sources": [
+      {
+        "title": "한서(漢書)",
+        "author": "반고"
+      }
+    ]
+  },
+  {
+    "id": "roman-empire-pax-romana",
+    "title": "로마 제정 성립 및 팍스 로마나",
+    "title_en": "Pax Romana & Rise of the Roman Empire",
+    "region_id": "WEST",
+    "sub_region": "로마",
+    "category_id": "POLITICS",
+    "importance": "A",
+    "year_start": -27,
+    "year_end": 180,
+    "date_precision": "exact",
+    "summary": "아우구스투스의 제정 수립 이후 지중해 전역에 걸친 약 200년간의 로마 평화기와 도로망·법률 번영.",
+    "historical_significance": "로마법, 건축 토목 기술, 도로망을 통해 서구 문명의 법적·공학적 기반 마련.",
+    "cause": "카이사르 암살 후 삼두정치 종식과 옥타비아누스의 권력 장악.",
+    "consequence": "군인 황제 시대의 혼란과 3세기 위기로 이어짐.",
+    "confidence": "HIGH",
+    "related_people": [
+      {
+        "id": "augustus",
+        "name_ko": "아우구스투스",
+        "role_title": "로마 초대 황제"
+      }
+    ],
+    "related_events": [
+      {
+        "target_event_id": "roman-warm-period",
+        "relation_type": "SYNCHRONOUS",
+        "description": "로마 온난기로 인한 농업 생산성 증대"
+      },
+      {
+        "target_event_id": "han-dynasty-flourishing",
+        "relation_type": "SYNCHRONOUS",
+        "description": "동시대 동아시아의 한나라 번영 및 실크로드 교역"
+      }
+    ],
+    "sources": [
+      {
+        "title": "로마제국 쇠망사",
+        "author": "에드워드 기본"
+      }
+    ]
   },
   {
     "id": "paper-invention-cailun",
@@ -186,9 +1377,20 @@
     "cause": "기록 매체(비단, 죽간)의 비효율성과 행정 문서 수요 폭증.",
     "consequence": "한반도, 일본, 이슬람, 유럽으로 전파되어 세계 문자 문명의 도약.",
     "confidence": "HIGH",
-    "related_people": [{ "id": "cai-lun", "name_ko": "채륜", "role_title": "발명가/환관" }],
+    "related_people": [
+      {
+        "id": "cai-lun",
+        "name_ko": "채륜",
+        "role_title": "발명가/환관"
+      }
+    ],
     "related_events": [],
-    "sources": [{ "title": "후한서 채륜전", "author": "범엽" }]
+    "sources": [
+      {
+        "title": "후한서 채륜전",
+        "author": "범엽"
+      }
+    ]
   },
   {
     "id": "three-kingdoms-korea-flourishing",
@@ -206,9 +1408,25 @@
     "cause": "소수림왕의 율령 반포, 불교 공인, 태학 설립 등 체제 정비 완료.",
     "consequence": "장수왕의 평양 천도와 백제 한성 함락, 남진 정책으로 이어짐.",
     "confidence": "HIGH",
-    "related_people": [{ "id": "gwanggaeto", "name_ko": "광개토대왕", "role_title": "고구려 제19대 태왕" }],
-    "related_events": [{ "target_event_id": "fall-of-western-roman-empire", "relation_type": "SYNCHRONOUS" }],
-    "sources": [{ "title": "광개토대왕릉비", "author": "장수왕" }]
+    "related_people": [
+      {
+        "id": "gwanggaeto",
+        "name_ko": "광개토대왕",
+        "role_title": "고구려 제19대 태왕"
+      }
+    ],
+    "related_events": [
+      {
+        "target_event_id": "fall-of-western-roman-empire",
+        "relation_type": "SYNCHRONOUS"
+      }
+    ],
+    "sources": [
+      {
+        "title": "광개토대왕릉비",
+        "author": "장수왕"
+      }
+    ]
   },
   {
     "id": "fall-of-western-roman-empire",
@@ -226,8 +1444,18 @@
     "cause": "훈족의 침입, 게르만족의 대이동, 경제 파탄과 황제권 약화.",
     "consequence": "프랑크 왕국 성립, 비잔틴 제국과의 분화, 장원제와 기사 계급 형성.",
     "confidence": "HIGH",
-    "related_events": [{ "target_event_id": "three-kingdoms-korea-flourishing", "relation_type": "SYNCHRONOUS" }],
-    "sources": [{ "title": "서로마 제국 멸망사", "author": "피터 헤더" }]
+    "related_events": [
+      {
+        "target_event_id": "three-kingdoms-korea-flourishing",
+        "relation_type": "SYNCHRONOUS"
+      }
+    ],
+    "sources": [
+      {
+        "title": "서로마 제국 멸망사",
+        "author": "피터 헤더"
+      }
+    ]
   },
   {
     "id": "islam-founding-expansion",
@@ -245,9 +1473,25 @@
     "cause": "메카 상업 귀족의 부패와 유일신 신앙의 결집력.",
     "consequence": "스페인에서 중앙아시아에 이르는 거대 이슬람 문화권 형성.",
     "confidence": "HIGH",
-    "related_people": [{ "id": "muhammad", "name_ko": "무함마드", "role_title": "이슬람교 예언자" }],
-    "related_events": [{ "target_event_id": "tang-dynasty-founding", "relation_type": "SYNCHRONOUS" }],
-    "sources": [{ "title": "쿠란", "author": "이슬람 경전" }]
+    "related_people": [
+      {
+        "id": "muhammad",
+        "name_ko": "무함마드",
+        "role_title": "이슬람교 예언자"
+      }
+    ],
+    "related_events": [
+      {
+        "target_event_id": "tang-dynasty-founding",
+        "relation_type": "SYNCHRONOUS"
+      }
+    ],
+    "sources": [
+      {
+        "title": "쿠란",
+        "author": "이슬람 경전"
+      }
+    ]
   },
   {
     "id": "tang-dynasty-founding",
@@ -265,9 +1509,25 @@
     "cause": "수나라의 무리한 고구려 원정 실패와 농민 반란 후 이연·이세민의 건국.",
     "consequence": "국제도시 장안 번영, 안사의 난 이후 절도사 난립으로 쇠퇴.",
     "confidence": "HIGH",
-    "related_people": [{ "id": "tang-taizong", "name_ko": "당태종 이세민", "role_title": "당나라 제2대 황제" }],
-    "related_events": [{ "target_event_id": "silla-unification-korea", "relation_type": "SYNCHRONOUS" }],
-    "sources": [{ "title": "구당서/신당서", "author": "구양수" }]
+    "related_people": [
+      {
+        "id": "tang-taizong",
+        "name_ko": "당태종 이세민",
+        "role_title": "당나라 제2대 황제"
+      }
+    ],
+    "related_events": [
+      {
+        "target_event_id": "silla-unification-korea",
+        "relation_type": "SYNCHRONOUS"
+      }
+    ],
+    "sources": [
+      {
+        "title": "구당서/신당서",
+        "author": "구양수"
+      }
+    ]
   },
   {
     "id": "silla-unification-korea",
@@ -286,11 +1546,29 @@
     "consequence": "신라 황금기 및 불국사·석굴암 조성, 발해의 해동성국 번영.",
     "confidence": "HIGH",
     "related_people": [
-      { "id": "kim-yusin", "name_ko": "김유신", "role_title": "신라 장군/태대각간" },
-      { "id": "dae-joyeong", "name_ko": "대조영", "role_title": "발해 고왕" }
+      {
+        "id": "kim-yusin",
+        "name_ko": "김유신",
+        "role_title": "신라 장군/태대각간"
+      },
+      {
+        "id": "dae-joyeong",
+        "name_ko": "대조영",
+        "role_title": "발해 고왕"
+      }
     ],
-    "related_events": [{ "target_event_id": "tang-dynasty-founding", "relation_type": "SYNCHRONOUS" }],
-    "sources": [{ "title": "삼국사기", "author": "김부식" }]
+    "related_events": [
+      {
+        "target_event_id": "tang-dynasty-founding",
+        "relation_type": "SYNCHRONOUS"
+      }
+    ],
+    "sources": [
+      {
+        "title": "삼국사기",
+        "author": "김부식"
+      }
+    ]
   },
   {
     "id": "woodblock-printing-dharani",
@@ -308,7 +1586,12 @@
     "cause": "불교 경전 보급과 공덕 축적을 위한 인쇄 기술 발전.",
     "consequence": "고려 대장경 조판으로 이어지는 인쇄 문화의 원류.",
     "confidence": "HIGH",
-    "sources": [{ "title": "불국사 삼층석탑 사리장엄구 기록", "author": "국립중앙박물관" }]
+    "sources": [
+      {
+        "title": "불국사 삼층석탑 사리장엄구 기록",
+        "author": "국립중앙박물관"
+      }
+    ]
   },
   {
     "id": "goryeo-founding-metal-type",
@@ -326,9 +1609,26 @@
     "cause": "전란으로 소실된 서적 복구 필요성과 우수한 청동 주조 기술.",
     "consequence": "현존 최고 금속활자본 『직지심체요절』(1377) 간행.",
     "confidence": "HIGH",
-    "related_people": [{ "id": "wang-geon", "name_ko": "태조 왕건", "role_title": "고려 건국 군주" }],
-    "related_events": [{ "target_event_id": "gutenberg-printing-press", "relation_type": "CONTRAST_WITH", "description": "구텐베르크 활판인쇄보다 200여 년 앞섬" }],
-    "sources": [{ "title": "동국이상국집", "author": "이규보" }]
+    "related_people": [
+      {
+        "id": "wang-geon",
+        "name_ko": "태조 왕건",
+        "role_title": "고려 건국 군주"
+      }
+    ],
+    "related_events": [
+      {
+        "target_event_id": "gutenberg-printing-press",
+        "relation_type": "CONTRAST_WITH",
+        "description": "구텐베르크 활판인쇄보다 200여 년 앞섬"
+      }
+    ],
+    "sources": [
+      {
+        "title": "동국이상국집",
+        "author": "이규보"
+      }
+    ]
   },
   {
     "id": "song-dynasty-inventions",
@@ -346,9 +1646,25 @@
     "cause": "문치주의 정책과 상업·해상 무역의 팽창.",
     "consequence": "몽골 제국의 침략으로 멸망하나 기술은 세계로 확산.",
     "confidence": "HIGH",
-    "related_people": [{ "id": "zhu-xi", "name_ko": "주희(주자)", "role_title": "성리학 집대성 학자" }],
-    "related_events": [{ "target_event_id": "crusades-europe", "relation_type": "SYNCHRONOUS" }],
-    "sources": [{ "title": "몽계필담", "author": "심괄" }]
+    "related_people": [
+      {
+        "id": "zhu-xi",
+        "name_ko": "주희(주자)",
+        "role_title": "성리학 집대성 학자"
+      }
+    ],
+    "related_events": [
+      {
+        "target_event_id": "crusades-europe",
+        "relation_type": "SYNCHRONOUS"
+      }
+    ],
+    "sources": [
+      {
+        "title": "몽계필담",
+        "author": "심괄"
+      }
+    ]
   },
   {
     "id": "crusades-europe",
@@ -366,9 +1682,25 @@
     "cause": "셀주크 튀르크의 비잔틴 압박과 교황 우르바누스 2세의 클레르몽 공의회 호소.",
     "consequence": "이탈리아 해상도시(베네치아, 제노바) 번영과 르네상스의 토양 형성.",
     "confidence": "HIGH",
-    "related_people": [{ "id": "urban-ii", "name_ko": "우르바누스 2세", "role_title": "교황" }],
-    "related_events": [{ "target_event_id": "song-dynasty-inventions", "relation_type": "SYNCHRONOUS" }],
-    "sources": [{ "title": "십자군 이야기", "author": "스티븐 런시먼" }]
+    "related_people": [
+      {
+        "id": "urban-ii",
+        "name_ko": "우르바누스 2세",
+        "role_title": "교황"
+      }
+    ],
+    "related_events": [
+      {
+        "target_event_id": "song-dynasty-inventions",
+        "relation_type": "SYNCHRONOUS"
+      }
+    ],
+    "sources": [
+      {
+        "title": "십자군 이야기",
+        "author": "스티븐 런시먼"
+      }
+    ]
   },
   {
     "id": "mongol-empire-expansion",
@@ -387,11 +1719,29 @@
     "consequence": "흑사병의 대륙 간 확산 및 각 지역 민족주의/새 왕조(명, 오스만, 모스크바 대공국) 태동.",
     "confidence": "HIGH",
     "related_people": [
-      { "id": "genghis-khan", "name_ko": "칭기즈칸", "role_title": "몽골 제국 대칸" },
-      { "id": "kublai-khan", "name_ko": "쿠빌라이 칸", "role_title": "원나라 초대 황제" }
+      {
+        "id": "genghis-khan",
+        "name_ko": "칭기즈칸",
+        "role_title": "몽골 제국 대칸"
+      },
+      {
+        "id": "kublai-khan",
+        "name_ko": "쿠빌라이 칸",
+        "role_title": "원나라 초대 황제"
+      }
     ],
-    "related_events": [{ "target_event_id": "black-death-pandemic", "relation_type": "CAUSES" }],
-    "sources": [{ "title": "몽골비사", "author": "작자미상" }]
+    "related_events": [
+      {
+        "target_event_id": "black-death-pandemic",
+        "relation_type": "CAUSES"
+      }
+    ],
+    "sources": [
+      {
+        "title": "몽골비사",
+        "author": "작자미상"
+      }
+    ]
   },
   {
     "id": "little-ice-age-start",
@@ -410,10 +1760,21 @@
     "consequence": "식량 위기, 사회적 반란, 왕조 교체의 기폭제 역할.",
     "confidence": "HIGH",
     "related_events": [
-      { "target_event_id": "black-death-pandemic", "relation_type": "CAUSES" },
-      { "target_event_id": "joseon-founding", "relation_type": "SYNCHRONOUS" }
+      {
+        "target_event_id": "black-death-pandemic",
+        "relation_type": "CAUSES"
+      },
+      {
+        "target_event_id": "joseon-founding",
+        "relation_type": "SYNCHRONOUS"
+      }
     ],
-    "sources": [{ "title": "기후의 반역", "author": "필립 블롬" }]
+    "sources": [
+      {
+        "title": "기후의 반역",
+        "author": "필립 블롬"
+      }
+    ]
   },
   {
     "id": "black-death-pandemic",
@@ -432,36 +1793,21 @@
     "consequence": "장원제 붕괴, 봉건 영주 쇠퇴, 인본주의적 사고 확산.",
     "confidence": "HIGH",
     "related_events": [
-      { "target_event_id": "little-ice-age-start", "relation_type": "INFLUENCED_BY" },
-      { "target_event_id": "renaissance-florence", "relation_type": "CAUSES" }
+      {
+        "target_event_id": "little-ice-age-start",
+        "relation_type": "INFLUENCED_BY"
+      },
+      {
+        "target_event_id": "renaissance-florence",
+        "relation_type": "CAUSES"
+      }
     ],
-    "sources": [{ "title": "데카메론", "author": "보카치오" }]
-  },
-  {
-    "id": "joseon-founding",
-    "title": "조선 건국과 성리학적 통치 질서 확립",
-    "title_en": "Founding of Joseon Dynasty",
-    "region_id": "KOREA",
-    "sub_region": "조선",
-    "category_id": "POLITICS",
-    "importance": "A",
-    "year_start": 1392,
-    "year_end": 1392,
-    "date_precision": "exact",
-    "summary": "이성계와 신진사대부(정도전 등)가 고려를 무너뜨리고 유교(성리학)를 국교로 삼는 새로운 왕조를 개창함.",
-    "historical_significance": "500년 유교 문치주의 국가 체제 구축과 한양 천도 및 경복궁 창건.",
-    "cause": "위화도 회군과 과전법 실시로 신흥 무인 세력과 신진사대부의 결합.",
-    "consequence": "조선왕조 500년 지속 및 세종대왕의 문화적 융성으로 연결.",
-    "confidence": "HIGH",
-    "related_people": [
-      { "id": "yi-seong-gye", "name_ko": "태조 이성계", "role_title": "조선 초대 국왕" },
-      { "id": "jeong-do-jeon", "name_ko": "정도전", "role_title": "조선 건국 설계자" }
-    ],
-    "related_events": [
-      { "target_event_id": "ming-dynasty-founding", "relation_type": "SYNCHRONOUS", "description": "원나라 멸망 후 명나라 건국과 동시대적 교체" },
-      { "target_event_id": "renaissance-florence", "relation_type": "SYNCHRONOUS" }
-    ],
-    "sources": [{ "title": "조선왕조실록 태조실록", "author": "춘추관" }]
+    "sources": [
+      {
+        "title": "데카메론",
+        "author": "보카치오"
+      }
+    ]
   },
   {
     "id": "ming-dynasty-founding",
@@ -480,54 +1826,75 @@
     "consequence": "정화 사후 해금령(海禁令)으로 해양 진출 중단, 이후 서양의 대항해시대와 대비됨.",
     "confidence": "HIGH",
     "related_people": [
-      { "id": "zhu-yuanzhang", "name_ko": "홍무제 주원장", "role_title": "명나라 태조" },
-      { "id": "zheng-he", "name_ko": "정화", "role_title": "환관/제독" }
+      {
+        "id": "zhu-yuanzhang",
+        "name_ko": "홍무제 주원장",
+        "role_title": "명나라 태조"
+      },
+      {
+        "id": "zheng-he",
+        "name_ko": "정화",
+        "role_title": "환관/제독"
+      }
     ],
-    "related_events": [{ "target_event_id": "joseon-founding", "relation_type": "SYNCHRONOUS" }],
-    "sources": [{ "title": "명사(明史)", "author": "장정옥" }]
+    "related_events": [
+      {
+        "target_event_id": "joseon-founding",
+        "relation_type": "SYNCHRONOUS"
+      }
+    ],
+    "sources": [
+      {
+        "title": "명사(明史)",
+        "author": "장정옥"
+      }
+    ]
   },
   {
-    "id": "hangul-creation-sejong",
-    "title": "훈민정음(한글) 창제와 과학기술 진흥",
-    "title_en": "Creation of Hunminjeongeum (Hangul) & Scientific Flourishing",
+    "id": "joseon-founding",
+    "title": "조선 건국과 성리학적 통치 질서 확립",
+    "title_en": "Founding of Joseon Dynasty",
     "region_id": "KOREA",
     "sub_region": "조선",
-    "category_id": "ART_CULTURE",
+    "category_id": "POLITICS",
     "importance": "A",
-    "year_start": 1443,
-    "year_end": 1446,
+    "year_start": 1392,
+    "year_end": 1392,
     "date_precision": "exact",
-    "summary": "세종대왕이 백성을 위해 독창적이고 과학적인 음소 문자 훈민정음을 창제하고 측우기, 자격루, 칠정산 등 과학기구를 제작함.",
-    "historical_significance": "문자 독점을 타파하고 민족 문화의 자주성을 확립한 인류 언어학 역사상 최고의 업적.",
-    "cause": "한자의 어려움으로 인한 백성의 소통 단절과 농업 생산성 향상을 위한 과학 연구 필요성.",
-    "consequence": "국문 문학 발달 및 조선의 독자적 역법과 천문학 정립.",
+    "summary": "이성계와 신진사대부(정도전 등)가 고려를 무너뜨리고 유교(성리학)를 국교로 삼는 새로운 왕조를 개창함.",
+    "historical_significance": "500년 유교 문치주의 국가 체제 구축과 한양 천도 및 경복궁 창건.",
+    "cause": "위화도 회군과 과전법 실시로 신흥 무인 세력과 신진사대부의 결합.",
+    "consequence": "조선왕조 500년 지속 및 세종대왕의 문화적 융성으로 연결.",
     "confidence": "HIGH",
     "related_people": [
-      { "id": "king-sejong", "name_ko": "세종대왕", "role_title": "조선 제4대 국왕" },
-      { "id": "jang-yeong-sil", "name_ko": "장영실", "role_title": "과학자/기술자" }
+      {
+        "id": "yi-seong-gye",
+        "name_ko": "태조 이성계",
+        "role_title": "조선 초대 국왕"
+      },
+      {
+        "id": "jeong-do-jeon",
+        "name_ko": "정도전",
+        "role_title": "조선 건국 설계자"
+      }
     ],
-    "related_events": [{ "target_event_id": "gutenberg-printing-press", "relation_type": "SYNCHRONOUS", "description": "거의 동일한 시기 서양에서 구텐베르크 활판인쇄 혁명 발생" }],
-    "sources": [{ "title": "훈민정음 해례본", "author": "정인지 외 집현전 학자" }]
-  },
-  {
-    "id": "gutenberg-printing-press",
-    "title": "구텐베르크 활판 인쇄술 혁명",
-    "title_en": "Gutenberg's Movable Type Printing Revolution",
-    "region_id": "WEST",
-    "sub_region": "독일 마인츠",
-    "category_id": "SCIENCE",
-    "importance": "A",
-    "year_start": 1450,
-    "year_end": 1455,
-    "date_precision": "exact",
-    "summary": "요하네스 구텐베르크가 금속 활자와 유성 잉크, 압착 인쇄기를 결합하여 『42행 성경』을 대량 인쇄함.",
-    "historical_significance": "지식과 정보의 대중화를 이끌어 르네상스 확산, 종교개혁, 과학혁명의 결정적 매개체가 됨.",
-    "cause": "서적 수요 증가와 필사본 제작의 한계.",
-    "consequence": "루터의 95개조 반박문이 전 유럽으로 수주일 만에 퍼져나갈 수 있는 인프라 구축.",
-    "confidence": "HIGH",
-    "related_people": [{ "id": "johannes-gutenberg", "name_ko": "요하네스 구텐베르크", "role_title": "인쇄업자" }],
-    "related_events": [{ "target_event_id": "hangul-creation-sejong", "relation_type": "SYNCHRONOUS" }],
-    "sources": [{ "title": "구텐베르크 은하계", "author": "마셜 맥루언" }]
+    "related_events": [
+      {
+        "target_event_id": "ming-dynasty-founding",
+        "relation_type": "SYNCHRONOUS",
+        "description": "원나라 멸망 후 명나라 건국과 동시대적 교체"
+      },
+      {
+        "target_event_id": "renaissance-florence",
+        "relation_type": "SYNCHRONOUS"
+      }
+    ],
+    "sources": [
+      {
+        "title": "조선왕조실록 태조실록",
+        "author": "춘추관"
+      }
+    ]
   },
   {
     "id": "renaissance-florence",
@@ -546,11 +1913,107 @@
     "consequence": "알프스 이북 르네상스와 근대 과학적 사고방식의 확산.",
     "confidence": "HIGH",
     "related_people": [
-      { "id": "leonardo-da-vinci", "name_ko": "레오나르도 다 빈치", "role_title": "예술가/과학자" },
-      { "id": "michelangelo", "name_ko": "미켈란젤로", "role_title": "조각가/화가" }
+      {
+        "id": "leonardo-da-vinci",
+        "name_ko": "레오나르도 다 빈치",
+        "role_title": "예술가/과학자"
+      },
+      {
+        "id": "michelangelo",
+        "name_ko": "미켈란젤로",
+        "role_title": "조각가/화가"
+      }
     ],
-    "related_events": [{ "target_event_id": "joseon-founding", "relation_type": "SYNCHRONOUS" }],
-    "sources": [{ "title": "이탈리아 르네상스의 문화", "author": "야코프 부르크하르트" }]
+    "related_events": [
+      {
+        "target_event_id": "joseon-founding",
+        "relation_type": "SYNCHRONOUS"
+      }
+    ],
+    "sources": [
+      {
+        "title": "이탈리아 르네상스의 문화",
+        "author": "야코프 부르크하르트"
+      }
+    ]
+  },
+  {
+    "id": "hangul-creation-sejong",
+    "title": "훈민정음(한글) 창제와 과학기술 진흥",
+    "title_en": "Creation of Hunminjeongeum (Hangul) & Scientific Flourishing",
+    "region_id": "KOREA",
+    "sub_region": "조선",
+    "category_id": "ART_CULTURE",
+    "importance": "A",
+    "year_start": 1443,
+    "year_end": 1446,
+    "date_precision": "exact",
+    "summary": "세종대왕이 백성을 위해 독창적이고 과학적인 음소 문자 훈민정음을 창제하고 측우기, 자격루, 칠정산 등 과학기구를 제작함.",
+    "historical_significance": "문자 독점을 타파하고 민족 문화의 자주성을 확립한 인류 언어학 역사상 최고의 업적.",
+    "cause": "한자의 어려움으로 인한 백성의 소통 단절과 농업 생산성 향상을 위한 과학 연구 필요성.",
+    "consequence": "국문 문학 발달 및 조선의 독자적 역법과 천문학 정립.",
+    "confidence": "HIGH",
+    "related_people": [
+      {
+        "id": "king-sejong",
+        "name_ko": "세종대왕",
+        "role_title": "조선 제4대 국왕"
+      },
+      {
+        "id": "jang-yeong-sil",
+        "name_ko": "장영실",
+        "role_title": "과학자/기술자"
+      }
+    ],
+    "related_events": [
+      {
+        "target_event_id": "gutenberg-printing-press",
+        "relation_type": "SYNCHRONOUS",
+        "description": "거의 동일한 시기 서양에서 구텐베르크 활판인쇄 혁명 발생"
+      }
+    ],
+    "sources": [
+      {
+        "title": "훈민정음 해례본",
+        "author": "정인지 외 집현전 학자"
+      }
+    ]
+  },
+  {
+    "id": "gutenberg-printing-press",
+    "title": "구텐베르크 활판 인쇄술 혁명",
+    "title_en": "Gutenberg's Movable Type Printing Revolution",
+    "region_id": "WEST",
+    "sub_region": "독일 마인츠",
+    "category_id": "SCIENCE",
+    "importance": "A",
+    "year_start": 1450,
+    "year_end": 1455,
+    "date_precision": "exact",
+    "summary": "요하네스 구텐베르크가 금속 활자와 유성 잉크, 압착 인쇄기를 결합하여 『42행 성경』을 대량 인쇄함.",
+    "historical_significance": "지식과 정보의 대중화를 이끌어 르네상스 확산, 종교개혁, 과학혁명의 결정적 매개체가 됨.",
+    "cause": "서적 수요 증가와 필사본 제작의 한계.",
+    "consequence": "루터의 95개조 반박문이 전 유럽으로 수주일 만에 퍼져나갈 수 있는 인프라 구축.",
+    "confidence": "HIGH",
+    "related_people": [
+      {
+        "id": "johannes-gutenberg",
+        "name_ko": "요하네스 구텐베르크",
+        "role_title": "인쇄업자"
+      }
+    ],
+    "related_events": [
+      {
+        "target_event_id": "hangul-creation-sejong",
+        "relation_type": "SYNCHRONOUS"
+      }
+    ],
+    "sources": [
+      {
+        "title": "구텐베르크 은하계",
+        "author": "마셜 맥루언"
+      }
+    ]
   },
   {
     "id": "age-of-discovery-columbus",
@@ -569,11 +2032,29 @@
     "consequence": "아메리카 원주민 문명 파괴, 대서양 노예무역, 유럽 상업혁명.",
     "confidence": "HIGH",
     "related_people": [
-      { "id": "columbus", "name_ko": "크리스토퍼 콜럼버스", "role_title": "항해사/탐험가" },
-      { "id": "magellan", "name_ko": "페르디난드 마젤란", "role_title": "항해사" }
+      {
+        "id": "columbus",
+        "name_ko": "크리스토퍼 콜럼버스",
+        "role_title": "항해사/탐험가"
+      },
+      {
+        "id": "magellan",
+        "name_ko": "페르디난드 마젤란",
+        "role_title": "항해사"
+      }
     ],
-    "related_events": [{ "target_event_id": "protestant-reformation-luther", "relation_type": "SYNCHRONOUS" }],
-    "sources": [{ "title": "콜럼버스의 항해일지", "author": "크리스토퍼 콜럼버스" }]
+    "related_events": [
+      {
+        "target_event_id": "protestant-reformation-luther",
+        "relation_type": "SYNCHRONOUS"
+      }
+    ],
+    "sources": [
+      {
+        "title": "콜럼버스의 항해일지",
+        "author": "크리스토퍼 콜럼버스"
+      }
+    ]
   },
   {
     "id": "protestant-reformation-luther",
@@ -592,34 +2073,29 @@
     "consequence": "30년 전쟁(1618~1648) 및 종교 다원화, 베스트팔렌 평화조약.",
     "confidence": "HIGH",
     "related_people": [
-      { "id": "martin-luther", "name_ko": "마르틴 루터", "role_title": "종교개혁가" },
-      { "id": "john-calvin", "name_ko": "장 칼뱅", "role_title": "종교개혁가" }
+      {
+        "id": "martin-luther",
+        "name_ko": "마르틴 루터",
+        "role_title": "종교개혁가"
+      },
+      {
+        "id": "john-calvin",
+        "name_ko": "장 칼뱅",
+        "role_title": "종교개혁가"
+      }
     ],
-    "related_events": [{ "target_event_id": "gutenberg-printing-press", "relation_type": "INFLUENCED_BY" }],
-    "sources": [{ "title": "95개조 반박문", "author": "마르틴 루터" }]
-  },
-  {
-    "id": "imjin-war-east-asia",
-    "title": "임진왜란과 동아시아 삼국의 격변",
-    "title_en": "Imjin War & East Asian Transformation",
-    "region_id": "KOREA",
-    "sub_region": "조선/일본/명",
-    "category_id": "POLITICS",
-    "importance": "A",
-    "year_start": 1592,
-    "year_end": 1598,
-    "date_precision": "exact",
-    "summary": "도요토미 히데요시의 조선 침략으로 발발한 동아시아 국제 전쟁으로, 이순신의 해전 승리와 의병의 항전으로 격퇴함.",
-    "historical_significance": "조선 국토의 황폐화, 명나라의 국력 쇠퇴 및 청나라로의 왕조 교체, 일본 도쿠가와 이에야스의 에도 막부 수립을 촉발.",
-    "cause": "일본 전국시대 통일 후 도요토미 히데요시의 대륙 정복 야망과 조총 보급.",
-    "consequence": "명·청 교체와 여진족(후금)의 대두, 일본의 도자기 전쟁(조선 도공 납치).",
-    "confidence": "HIGH",
-    "related_people": [
-      { "id": "yi-sun-sin", "name_ko": "이순신", "role_title": "삼도수군통제사" },
-      { "id": "toyotomi-hideyoshi", "name_ko": "도요토미 히데요시", "role_title": "일본 관백" }
+    "related_events": [
+      {
+        "target_event_id": "gutenberg-printing-press",
+        "relation_type": "INFLUENCED_BY"
+      }
     ],
-    "related_events": [{ "target_event_id": "qing-dynasty-founding", "relation_type": "CAUSES" }],
-    "sources": [{ "title": "난중일기", "author": "이순신" }]
+    "sources": [
+      {
+        "title": "95개조 반박문",
+        "author": "마르틴 루터"
+      }
+    ]
   },
   {
     "id": "scientific-revolution-newton",
@@ -638,11 +2114,70 @@
     "consequence": "계몽사상 확산과 기술 응용을 통한 산업혁명.",
     "confidence": "HIGH",
     "related_people": [
-      { "id": "isaac-newton", "name_ko": "아이작 뉴턴", "role_title": "물리학자/수학자" },
-      { "id": "galileo-galilei", "name_ko": "갈릴레오 갈릴레이", "role_title": "천문학자/물리학자" }
+      {
+        "id": "isaac-newton",
+        "name_ko": "아이작 뉴턴",
+        "role_title": "물리학자/수학자"
+      },
+      {
+        "id": "galileo-galilei",
+        "name_ko": "갈릴레오 갈릴레이",
+        "role_title": "천문학자/물리학자"
+      }
     ],
-    "related_events": [{ "target_event_id": "industrial-revolution-britain", "relation_type": "CAUSES" }],
-    "sources": [{ "title": "프린키피아 (자연철학의 수학적 원리)", "author": "아이작 뉴턴" }]
+    "related_events": [
+      {
+        "target_event_id": "industrial-revolution-britain",
+        "relation_type": "CAUSES"
+      }
+    ],
+    "sources": [
+      {
+        "title": "프린키피아 (자연철학의 수학적 원리)",
+        "author": "아이작 뉴턴"
+      }
+    ]
+  },
+  {
+    "id": "imjin-war-east-asia",
+    "title": "임진왜란과 동아시아 삼국의 격변",
+    "title_en": "Imjin War & East Asian Transformation",
+    "region_id": "KOREA",
+    "sub_region": "조선/일본/명",
+    "category_id": "POLITICS",
+    "importance": "A",
+    "year_start": 1592,
+    "year_end": 1598,
+    "date_precision": "exact",
+    "summary": "도요토미 히데요시의 조선 침략으로 발발한 동아시아 국제 전쟁으로, 이순신의 해전 승리와 의병의 항전으로 격퇴함.",
+    "historical_significance": "조선 국토의 황폐화, 명나라의 국력 쇠퇴 및 청나라로의 왕조 교체, 일본 도쿠가와 이에야스의 에도 막부 수립을 촉발.",
+    "cause": "일본 전국시대 통일 후 도요토미 히데요시의 대륙 정복 야망과 조총 보급.",
+    "consequence": "명·청 교체와 여진족(후금)의 대두, 일본의 도자기 전쟁(조선 도공 납치).",
+    "confidence": "HIGH",
+    "related_people": [
+      {
+        "id": "yi-sun-sin",
+        "name_ko": "이순신",
+        "role_title": "삼도수군통제사"
+      },
+      {
+        "id": "toyotomi-hideyoshi",
+        "name_ko": "도요토미 히데요시",
+        "role_title": "일본 관백"
+      }
+    ],
+    "related_events": [
+      {
+        "target_event_id": "qing-dynasty-founding",
+        "relation_type": "CAUSES"
+      }
+    ],
+    "sources": [
+      {
+        "title": "난중일기",
+        "author": "이순신"
+      }
+    ]
   },
   {
     "id": "qing-dynasty-founding",
@@ -661,11 +2196,29 @@
     "consequence": "19세기 아편전쟁과 서구 열강의 침략으로 쇠퇴.",
     "confidence": "HIGH",
     "related_people": [
-      { "id": "kangxi-emperor", "name_ko": "강희제", "role_title": "청나라 제4대 황제" },
-      { "id": "qianlong-emperor", "name_ko": "건륭제", "role_title": "청나라 제6대 황제" }
+      {
+        "id": "kangxi-emperor",
+        "name_ko": "강희제",
+        "role_title": "청나라 제4대 황제"
+      },
+      {
+        "id": "qianlong-emperor",
+        "name_ko": "건륭제",
+        "role_title": "청나라 제6대 황제"
+      }
     ],
-    "related_events": [{ "target_event_id": "industrial-revolution-britain", "relation_type": "SYNCHRONOUS" }],
-    "sources": [{ "title": "청사고(淸史稿)", "author": "조이손" }]
+    "related_events": [
+      {
+        "target_event_id": "industrial-revolution-britain",
+        "relation_type": "SYNCHRONOUS"
+      }
+    ],
+    "sources": [
+      {
+        "title": "청사고(淸史稿)",
+        "author": "조이손"
+      }
+    ]
   },
   {
     "id": "industrial-revolution-britain",
@@ -684,37 +2237,33 @@
     "consequence": "철도망 부설, 세계 시장 통합, 환경오염 및 자본주의-사회주의 이념 대립.",
     "confidence": "HIGH",
     "related_people": [
-      { "id": "james-watt", "name_ko": "제임스 와트", "role_title": "기술자/발명가" },
-      { "id": "adam-smith", "name_ko": "애덤 스미스", "role_title": "경제학자" }
+      {
+        "id": "james-watt",
+        "name_ko": "제임스 와트",
+        "role_title": "기술자/발명가"
+      },
+      {
+        "id": "adam-smith",
+        "name_ko": "애덤 스미스",
+        "role_title": "경제학자"
+      }
     ],
     "related_events": [
-      { "target_event_id": "french-revolution", "relation_type": "SYNCHRONOUS" },
-      { "target_event_id": "scientific-revolution-newton", "relation_type": "INFLUENCED_BY" }
+      {
+        "target_event_id": "french-revolution",
+        "relation_type": "SYNCHRONOUS"
+      },
+      {
+        "target_event_id": "scientific-revolution-newton",
+        "relation_type": "INFLUENCED_BY"
+      }
     ],
-    "sources": [{ "title": "국부론", "author": "애덤 스미스" }]
-  },
-  {
-    "id": "french-revolution",
-    "title": "프랑스 대혁명과 인권 선언",
-    "title_en": "French Revolution & Declaration of Rights of Man",
-    "region_id": "WEST",
-    "sub_region": "프랑스 파리",
-    "category_id": "POLITICS",
-    "importance": "A",
-    "year_start": 1789,
-    "year_end": 1799,
-    "date_precision": "exact",
-    "summary": "바스티유 감옥 습격으로 시작되어 절대왕정과 봉건적 신분제를 타파하고 자유·평등·우애의 이념과 근대 시민사회를 선포함.",
-    "historical_significance": "국민주권과 기본권 사상을 전 유럽과 세계로 확산시켜 근대 민주주의의 기틀을 확립.",
-    "cause": "구제도의 모순(앙시앵 레짐), 삼부회의 갈등, 계몽사상 확산, 재정 파탄.",
-    "consequence": "루이 16세 처형, 나폴레옹의 등장 및 나폴레옹 법전 제정, 유럽 전역의 민족주의 고양.",
-    "confidence": "HIGH",
-    "related_people": [
-      { "id": "robespierre", "name_ko": "로베스피에르", "role_title": "혁명가/정치인" },
-      { "id": "napoleon", "name_ko": "나폴레옹 보나파르트", "role_title": "황제/군인" }
-    ],
-    "related_events": [{ "target_event_id": "industrial-revolution-britain", "relation_type": "SYNCHRONOUS" }],
-    "sources": [{ "title": "인간과 시민의 권리 선언", "author": "프랑스 국민공회" }]
+    "sources": [
+      {
+        "title": "국부론",
+        "author": "애덤 스미스"
+      }
+    ]
   },
   {
     "id": "joseon-renaissance-jeongjo",
@@ -733,11 +2282,70 @@
     "consequence": "정조 사후 세도정치(안동 김씨 등) 도래로 인한 국가적 쇠락.",
     "confidence": "HIGH",
     "related_people": [
-      { "id": "king-jeongjo", "name_ko": "정조대왕", "role_title": "조선 제22대 국왕" },
-      { "id": "jeong-yak-yong", "name_ko": "정약용", "role_title": "실학자" }
+      {
+        "id": "king-jeongjo",
+        "name_ko": "정조대왕",
+        "role_title": "조선 제22대 국왕"
+      },
+      {
+        "id": "jeong-yak-yong",
+        "name_ko": "정약용",
+        "role_title": "실학자"
+      }
     ],
-    "related_events": [{ "target_event_id": "french-revolution", "relation_type": "SYNCHRONOUS" }],
-    "sources": [{ "title": "목민심서", "author": "정약용" }]
+    "related_events": [
+      {
+        "target_event_id": "french-revolution",
+        "relation_type": "SYNCHRONOUS"
+      }
+    ],
+    "sources": [
+      {
+        "title": "목민심서",
+        "author": "정약용"
+      }
+    ]
+  },
+  {
+    "id": "french-revolution",
+    "title": "프랑스 대혁명과 인권 선언",
+    "title_en": "French Revolution & Declaration of Rights of Man",
+    "region_id": "WEST",
+    "sub_region": "프랑스 파리",
+    "category_id": "POLITICS",
+    "importance": "A",
+    "year_start": 1789,
+    "year_end": 1799,
+    "date_precision": "exact",
+    "summary": "바스티유 감옥 습격으로 시작되어 절대왕정과 봉건적 신분제를 타파하고 자유·평등·우애의 이념과 근대 시민사회를 선포함.",
+    "historical_significance": "국민주권과 기본권 사상을 전 유럽과 세계로 확산시켜 근대 민주주의의 기틀을 확립.",
+    "cause": "구제도의 모순(앙시앵 레짐), 삼부회의 갈등, 계몽사상 확산, 재정 파탄.",
+    "consequence": "루이 16세 처형, 나폴레옹의 등장 및 나폴레옹 법전 제정, 유럽 전역의 민족주의 고양.",
+    "confidence": "HIGH",
+    "related_people": [
+      {
+        "id": "robespierre",
+        "name_ko": "로베스피에르",
+        "role_title": "혁명가/정치인"
+      },
+      {
+        "id": "napoleon",
+        "name_ko": "나폴레옹 보나파르트",
+        "role_title": "황제/군인"
+      }
+    ],
+    "related_events": [
+      {
+        "target_event_id": "industrial-revolution-britain",
+        "relation_type": "SYNCHRONOUS"
+      }
+    ],
+    "sources": [
+      {
+        "title": "인간과 시민의 권리 선언",
+        "author": "프랑스 국민공회"
+      }
+    ]
   },
   {
     "id": "opium-wars-china",
@@ -755,9 +2363,25 @@
     "cause": "영국의 무역 적자 해소를 위한 아편 밀무역과 임칙서의 아편 몰수.",
     "consequence": "태평천국의 난, 양무운동, 일본의 메이지 유신 촉발.",
     "confidence": "HIGH",
-    "related_people": [{ "id": "lin-zexu", "name_ko": "임칙서", "role_title": "흠차대신" }],
-    "related_events": [{ "target_event_id": "meiji-restoration-japan", "relation_type": "CAUSES" }],
-    "sources": [{ "title": "난징 조약문", "author": "영국-청나라 정부" }]
+    "related_people": [
+      {
+        "id": "lin-zexu",
+        "name_ko": "임칙서",
+        "role_title": "흠차대신"
+      }
+    ],
+    "related_events": [
+      {
+        "target_event_id": "meiji-restoration-japan",
+        "relation_type": "CAUSES"
+      }
+    ],
+    "sources": [
+      {
+        "title": "난징 조약문",
+        "author": "영국-청나라 정부"
+      }
+    ]
   },
   {
     "id": "meiji-restoration-japan",
@@ -775,8 +2399,18 @@
     "cause": "페리 제독의 흑선 내항과 존왕양이 운동.",
     "consequence": "청일전쟁, 러일전쟁, 대한제국 강제 병합으로 이어지는 침략주의 팽창.",
     "confidence": "HIGH",
-    "related_events": [{ "target_event_id": "opium-wars-china", "relation_type": "INFLUENCED_BY" }],
-    "sources": [{ "title": "대일본제국 헌법", "author": "이토 히로부미" }]
+    "related_events": [
+      {
+        "target_event_id": "opium-wars-china",
+        "relation_type": "INFLUENCED_BY"
+      }
+    ],
+    "sources": [
+      {
+        "title": "대일본제국 헌법",
+        "author": "이토 히로부미"
+      }
+    ]
   },
   {
     "id": "donghak-peasant-revolution",
@@ -794,9 +2428,25 @@
     "cause": "고부군수 조병갑의 탐학, 외세 침탈에 대한 반발, '사람이 곧 하늘'이라는 인내천 사상.",
     "consequence": "우금치 전투의 패배, 청일전쟁 발발, 을미사변과 대한제국 선포.",
     "confidence": "HIGH",
-    "related_people": [{ "id": "jeon-bong-jun", "name_ko": "전봉준", "role_title": "녹두장군/동학농민군 지도자" }],
-    "related_events": [{ "target_event_id": "korean-empire-proclamation", "relation_type": "CAUSES" }],
-    "sources": [{ "title": "동학농민혁명 유네스코 등재 기록물", "author": "동학농민군" }]
+    "related_people": [
+      {
+        "id": "jeon-bong-jun",
+        "name_ko": "전봉준",
+        "role_title": "녹두장군/동학농민군 지도자"
+      }
+    ],
+    "related_events": [
+      {
+        "target_event_id": "korean-empire-proclamation",
+        "relation_type": "CAUSES"
+      }
+    ],
+    "sources": [
+      {
+        "title": "동학농민혁명 유네스코 등재 기록물",
+        "author": "동학농민군"
+      }
+    ]
   },
   {
     "id": "korean-empire-proclamation",
@@ -814,8 +2464,19 @@
     "cause": "아관파천 이후 자주독립 여론(독립협회 등) 고조.",
     "consequence": "을사늑약(1905)과 경술국치(1910)로 일제강점기 시작.",
     "confidence": "HIGH",
-    "related_people": [{ "id": "emperor-gojong", "name_ko": "고종 황제", "role_title": "대한제국 초대 황제" }],
-    "sources": [{ "title": "대한천명", "author": "대한제국 칙령" }]
+    "related_people": [
+      {
+        "id": "emperor-gojong",
+        "name_ko": "고종 황제",
+        "role_title": "대한제국 초대 황제"
+      }
+    ],
+    "sources": [
+      {
+        "title": "대한천명",
+        "author": "대한제국 칙령"
+      }
+    ]
   },
   {
     "id": "world-war-one-russian-revolution",
@@ -834,11 +2495,29 @@
     "consequence": "베르사유 체제 수립, 소련(USSR) 탄생, 제2차 세계대전의 씨앗 잉태.",
     "confidence": "HIGH",
     "related_people": [
-      { "id": "vladimir-lenin", "name_ko": "블라디미르 레닌", "role_title": "소련 공산당 지도자" },
-      { "id": "woodrow-wilson", "name_ko": "우드로 윌슨", "role_title": "미국 대통령" }
+      {
+        "id": "vladimir-lenin",
+        "name_ko": "블라디미르 레닌",
+        "role_title": "소련 공산당 지도자"
+      },
+      {
+        "id": "woodrow-wilson",
+        "name_ko": "우드로 윌슨",
+        "role_title": "미국 대통령"
+      }
     ],
-    "related_events": [{ "target_event_id": "march-first-movement", "relation_type": "CAUSES" }],
-    "sources": [{ "title": "역사의 교훈: 제1차 세계대전", "author": "존 키건" }]
+    "related_events": [
+      {
+        "target_event_id": "march-first-movement",
+        "relation_type": "CAUSES"
+      }
+    ],
+    "sources": [
+      {
+        "title": "역사의 교훈: 제1차 세계대전",
+        "author": "존 키건"
+      }
+    ]
   },
   {
     "id": "march-first-movement",
@@ -857,11 +2536,29 @@
     "consequence": "일제의 문화통치 전환, 중국 5·4 운동에 영향, 상하이 임시정부 출범.",
     "confidence": "HIGH",
     "related_people": [
-      { "id": "kim-gu", "name_ko": "김구", "role_title": "임시정부 주석" },
-      { "id": "yu-gwan-sun", "name_ko": "유관순", "role_title": "독립운동가" }
+      {
+        "id": "kim-gu",
+        "name_ko": "김구",
+        "role_title": "임시정부 주석"
+      },
+      {
+        "id": "yu-gwan-sun",
+        "name_ko": "유관순",
+        "role_title": "독립운동가"
+      }
     ],
-    "related_events": [{ "target_event_id": "world-war-one-russian-revolution", "relation_type": "INFLUENCED_BY" }],
-    "sources": [{ "title": "기미독립선언서", "author": "민족대표 33인" }]
+    "related_events": [
+      {
+        "target_event_id": "world-war-one-russian-revolution",
+        "relation_type": "INFLUENCED_BY"
+      }
+    ],
+    "sources": [
+      {
+        "title": "기미독립선언서",
+        "author": "민족대표 33인"
+      }
+    ]
   },
   {
     "id": "world-war-two-holocaust",
@@ -880,14 +2577,33 @@
     "consequence": "식민지 해방, 전범 재판, 브레턴우즈 체제 출범.",
     "confidence": "HIGH",
     "related_people": [
-      { "id": "winston-churchill", "name_ko": "윈스턴 처칠", "role_title": "영국 총리" },
-      { "id": "franklin-roosevelt", "name_ko": "프랭클린 루스벨트", "role_title": "미국 대통령" }
+      {
+        "id": "winston-churchill",
+        "name_ko": "윈스턴 처칠",
+        "role_title": "영국 총리"
+      },
+      {
+        "id": "franklin-roosevelt",
+        "name_ko": "프랭클린 루스벨트",
+        "role_title": "미국 대통령"
+      }
     ],
     "related_events": [
-      { "target_event_id": "korean-liberation-division", "relation_type": "CAUSES" },
-      { "target_event_id": "prc-founding-mao", "relation_type": "SYNCHRONOUS" }
+      {
+        "target_event_id": "korean-liberation-division",
+        "relation_type": "CAUSES"
+      },
+      {
+        "target_event_id": "prc-founding-mao",
+        "relation_type": "SYNCHRONOUS"
+      }
     ],
-    "sources": [{ "title": "제2차 세계대전사", "author": "앤터니 비버" }]
+    "sources": [
+      {
+        "title": "제2차 세계대전사",
+        "author": "앤터니 비버"
+      }
+    ]
   },
   {
     "id": "korean-liberation-division",
@@ -905,7 +2621,12 @@
     "cause": "얄타 회담 이후 미·소 분할 점령과 냉전 대립 격화.",
     "consequence": "휴전선 분단, 이산가족 발생, 한미상호방위조약 체결.",
     "confidence": "HIGH",
-    "sources": [{ "title": "한국전쟁사", "author": "국방부 군사편찬연구소" }]
+    "sources": [
+      {
+        "title": "한국전쟁사",
+        "author": "국방부 군사편찬연구소"
+      }
+    ]
   },
   {
     "id": "prc-founding-mao",
@@ -924,11 +2645,75 @@
     "consequence": "대약진 운동 실패와 문화대혁명 혼란, 1978년 개혁개방 노선 채택.",
     "confidence": "HIGH",
     "related_people": [
-      { "id": "mao-zedong", "name_ko": "마오쩌둥", "role_title": "중국 공산당 주석" },
-      { "id": "deng-xiaoping", "name_ko": "덩샤오핑", "role_title": "개혁개방 총설계사" }
+      {
+        "id": "mao-zedong",
+        "name_ko": "마오쩌둥",
+        "role_title": "중국 공산당 주석"
+      },
+      {
+        "id": "deng-xiaoping",
+        "name_ko": "덩샤오핑",
+        "role_title": "개혁개방 총설계사"
+      }
     ],
-    "related_events": [{ "target_event_id": "korean-liberation-division", "relation_type": "SYNCHRONOUS" }],
-    "sources": [{ "title": "현대 중국의 탄생", "author": "조너선 스펜스" }]
+    "related_events": [
+      {
+        "target_event_id": "korean-liberation-division",
+        "relation_type": "SYNCHRONOUS"
+      }
+    ],
+    "sources": [
+      {
+        "title": "현대 중국의 탄생",
+        "author": "조너선 스펜스"
+      }
+    ]
+  },
+  {
+    "id": "global-climate-change-anthropocene",
+    "title": "지구 온난화와 인류세 (Anthropocene)",
+    "title_en": "Global Climate Change & The Anthropocene",
+    "region_id": "CLIMATE",
+    "sub_region": "지구 전역",
+    "category_id": "CLIMATE_ENVIRONMENT",
+    "importance": "A",
+    "year_start": 1950,
+    "year_end": 2026,
+    "date_precision": "range",
+    "summary": "온실가스 배출로 인한 지구 평균 기온 상승, 극단적 기상이변, 북극 빙하 감소 등 인류 활동이 지구 시스템을 변화시키는 현대 환경 위기.",
+    "historical_significance": "탄소 중립, 재생에너지 전환, 국제 파리 기후협약 등 21세기 인류 문명의 지속가능성을 좌우하는 핵심 과제.",
+    "cause": "화석연료 대량 연소와 무분별한 삼림 벌채 및 산업화.",
+    "consequence": "기후 난민 발생, 해수면 상승, 에너지 대전환 가속.",
+    "confidence": "HIGH",
+    "sources": [
+      {
+        "title": "IPCC 기후변화 제6차 평가보고서",
+        "author": "UN IPCC"
+      }
+    ]
+  },
+  {
+    "id": "korean-democratization-economic-growth",
+    "title": "대한민국의 경제성장(한강의 기적)과 6월 민주항쟁",
+    "title_en": "Miracle on the Han River & June Democratic Struggle",
+    "region_id": "KOREA",
+    "sub_region": "대한민국",
+    "category_id": "POLITICS",
+    "importance": "A",
+    "year_start": 1960,
+    "year_end": 1987,
+    "date_precision": "range",
+    "summary": "전쟁의 폐허에서 고도 산업화(한강의 기적)를 달성함과 동시에 1987년 6월 항쟁으로 대통령 직선제와 완전한 민주화를 쟁취함.",
+    "historical_significance": "2차 대전 이후 독립한 국가 중 경제 발전과 민주주의를 동시에 달성한 세계적인 성공 모델.",
+    "cause": "수출 중심 산업화 정책, 국민의 높은 교육열, 시민사회의 민주화 열망.",
+    "consequence": "1988 서울올림픽 개최, OECD 가입, 글로벌 문화강국(K-Culture) 도약.",
+    "confidence": "HIGH",
+    "sources": [
+      {
+        "title": "한국 현대사",
+        "author": "서중석"
+      }
+    ]
   },
   {
     "id": "digital-revolution-internet",
@@ -947,46 +2732,28 @@
     "consequence": "스마트폰, 인공지능(AI), 빅데이터로 이어지는 21세기 디지털 문명.",
     "confidence": "HIGH",
     "related_people": [
-      { "id": "tim-berners-lee", "name_ko": "팀 버너스리", "role_title": "WWW 창시자" },
-      { "id": "steve-jobs", "name_ko": "스티브 잡스", "role_title": "애플 공동창업자" }
+      {
+        "id": "tim-berners-lee",
+        "name_ko": "팀 버너스리",
+        "role_title": "WWW 창시자"
+      },
+      {
+        "id": "steve-jobs",
+        "name_ko": "스티브 잡스",
+        "role_title": "애플 공동창업자"
+      }
     ],
-    "related_events": [{ "target_event_id": "korean-democratization-economic-growth", "relation_type": "SYNCHRONOUS" }],
-    "sources": [{ "title": "이노베이터", "author": "월터 아이작슨" }]
-  },
-  {
-    "id": "korean-democratization-economic-growth",
-    "title": "대한민국의 경제성장(한강의 기적)과 6월 민주항쟁",
-    "title_en": "Miracle on the Han River & June Democratic Struggle",
-    "region_id": "KOREA",
-    "sub_region": "대한민국",
-    "category_id": "POLITICS",
-    "importance": "A",
-    "year_start": 1960,
-    "year_end": 1987,
-    "date_precision": "range",
-    "summary": "전쟁의 폐허에서 고도 산업화(한강의 기적)를 달성함과 동시에 1987년 6월 항쟁으로 대통령 직선제와 완전한 민주화를 쟁취함.",
-    "historical_significance": "2차 대전 이후 독립한 국가 중 경제 발전과 민주주의를 동시에 달성한 세계적인 성공 모델.",
-    "cause": "수출 중심 산업화 정책, 국민의 높은 교육열, 시민사회의 민주화 열망.",
-    "consequence": "1988 서울올림픽 개최, OECD 가입, 글로벌 문화강국(K-Culture) 도약.",
-    "confidence": "HIGH",
-    "sources": [{ "title": "한국 현대사", "author": "서중석" }]
-  },
-  {
-    "id": "global-climate-change-anthropocene",
-    "title": "지구 온난화와 인류세 (Anthropocene)",
-    "title_en": "Global Climate Change & The Anthropocene",
-    "region_id": "CLIMATE",
-    "sub_region": "지구 전역",
-    "category_id": "CLIMATE_ENVIRONMENT",
-    "importance": "A",
-    "year_start": 1950,
-    "year_end": 2026,
-    "date_precision": "range",
-    "summary": "온실가스 배출로 인한 지구 평균 기온 상승, 극단적 기상이변, 북극 빙하 감소 등 인류 활동이 지구 시스템을 변화시키는 현대 환경 위기.",
-    "historical_significance": "탄소 중립, 재생에너지 전환, 국제 파리 기후협약 등 21세기 인류 문명의 지속가능성을 좌우하는 핵심 과제.",
-    "cause": "화석연료 대량 연소와 무분별한 삼림 벌채 및 산업화.",
-    "consequence": "기후 난민 발생, 해수면 상승, 에너지 대전환 가속.",
-    "confidence": "HIGH",
-    "sources": [{ "title": "IPCC 기후변화 제6차 평가보고서", "author": "UN IPCC" }]
+    "related_events": [
+      {
+        "target_event_id": "korean-democratization-economic-growth",
+        "relation_type": "SYNCHRONOUS"
+      }
+    ],
+    "sources": [
+      {
+        "title": "이노베이터",
+        "author": "월터 아이작슨"
+      }
+    ]
   }
 ]
