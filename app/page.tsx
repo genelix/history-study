@@ -33,6 +33,11 @@ export default function ChronoScopeHome() {
   const [selectedEvent, setSelectedEvent] = useState<HistoricalEvent | null>(null);
   const [isSyncModalOpen, setIsSyncModalOpen] = useState(false);
   const [isLoading, setIsLoading] = useState(true);
+  const [isMounted, setIsMounted] = useState(false);
+
+  useEffect(() => {
+    setIsMounted(true);
+  }, []);
 
   // 이벤트 데이터 로드
   useEffect(() => {
@@ -106,6 +111,17 @@ export default function ChronoScopeHome() {
       handleJumpToYear(found.year_start);
     }
   };
+
+  if (!isMounted) {
+    return (
+      <div className="flex h-screen w-screen flex-col items-center justify-center bg-slate-950 text-slate-400 font-sans">
+        <div className="flex items-center gap-3 animate-pulse">
+          <div className="h-8 w-8 rounded-lg bg-indigo-600/50" />
+          <span className="text-sm font-semibold text-slate-300">ChronoScope 역사 시간지도 로딩 중...</span>
+        </div>
+      </div>
+    );
+  }
 
   return (
     <div className="flex h-screen w-screen flex-col overflow-hidden bg-slate-950 text-slate-100 font-sans">
