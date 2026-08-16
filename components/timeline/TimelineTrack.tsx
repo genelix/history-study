@@ -53,7 +53,7 @@ export const TimelineTrack: React.FC<TimelineTrackProps> = ({
       {/* 이벤트 배치 영역 */}
       <div
         style={{ width: `${dimensions.widthPx}px`, height: `${trackHeight}px` }}
-        className="relative overflow-hidden"
+        className="relative overflow-visible"
       >
         {placedEvents.length === 0 ? (
           <div className="absolute inset-0 flex items-center justify-center text-xs text-slate-600 italic select-none">

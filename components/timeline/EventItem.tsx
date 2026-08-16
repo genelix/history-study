@@ -37,7 +37,9 @@ export const EventItem: React.FC<EventItemProps> = ({ event, onSelect, isSelecte
         top: `${laneTopPx}px`,
         width: event.isPoint ? 'auto' : `${event.widthPx}px`,
       }}
-      className="absolute group z-10 select-none cursor-pointer"
+      className={`absolute group select-none cursor-pointer transition-all ${
+        showTooltip ? 'z-[60]' : isSelected ? 'z-30' : 'z-10 hover:z-50'
+      }`}
       onClick={() => onSelect(event)}
       onMouseEnter={() => setShowTooltip(true)}
       onMouseLeave={() => setShowTooltip(false)}
@@ -104,22 +106,24 @@ export const EventItem: React.FC<EventItemProps> = ({ event, onSelect, isSelecte
         </div>
       )}
 
-      {/* 호버 마이크로 툴팁 */}
+      {/* 호버 마이크로 툴팁 / 미니 모달 (최상단 z-[70] 레이어로 표시) */}
       {showTooltip && (
-        <div className="absolute left-0 -top-12 z-50 pointer-events-none min-w-[220px] max-w-xs rounded-lg border border-slate-700 bg-slate-900/95 p-2.5 text-xs text-slate-200 shadow-xl backdrop-blur-md transition-opacity">
-          <div className="flex items-center justify-between gap-2 mb-1">
-            <span className="font-bold text-amber-300">{event.title}</span>
-            <span className="text-[10px] font-mono text-slate-400">
+        <div className="absolute left-0 bottom-full mb-2.5 z-[70] pointer-events-none min-w-[240px] max-w-sm rounded-xl border border-slate-600/90 bg-slate-950/98 p-3 text-xs text-slate-100 shadow-2xl backdrop-blur-xl animate-in fade-in zoom-in-95 duration-150">
+          <div className="flex items-start justify-between gap-3 mb-1.5 border-b border-slate-800/80 pb-1.5">
+            <span className="font-bold text-amber-300 leading-snug text-[13px]">{event.title}</span>
+            <span className="text-[11px] font-mono text-slate-400 shrink-0 bg-slate-900 px-1.5 py-0.5 rounded border border-slate-800">
               {formatYearRange(event.year_start, event.year_end, event.date_precision)}
             </span>
           </div>
-          <p className="line-clamp-2 text-[11px] text-slate-300 leading-snug">
+          <p className="line-clamp-3 text-[11.5px] text-slate-200 leading-relaxed">
             {event.summary}
           </p>
-          <div className="mt-1.5 flex items-center justify-between text-[10px] text-slate-400">
-            <span>{event.sub_region || event.region_id}</span>
-            <span className={colors.text}>클릭하여 상세 정보 보기 →</span>
+          <div className="mt-2 pt-1.5 border-t border-slate-800/60 flex items-center justify-between text-[10px] text-slate-400">
+            <span className="font-medium text-slate-300">{event.sub_region || event.region_id}</span>
+            <span className={`${colors.text} font-semibold`}>클릭하여 상세 정보 보기 →</span>
           </div>
+          {/* 말풍선 아래쪽 꼭짓점 화살표 */}
+          <div className="absolute left-6 -bottom-1.5 w-3 h-3 bg-slate-950 border-r border-b border-slate-600/90 transform rotate-45" />
         </div>
       )}
     </div>
