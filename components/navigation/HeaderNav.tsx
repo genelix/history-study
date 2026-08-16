@@ -59,7 +59,7 @@ export const HeaderNav: React.FC<HeaderNavProps> = ({
           <div>
             <div className="flex items-center gap-2">
               <h1 className="text-xl font-bold tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-amber-200 via-sky-200 to-indigo-200">
-                ChronoScope
+                HistoryGrid
               </h1>
               <span className="rounded-full bg-indigo-500/10 px-2 py-0.5 text-xs font-semibold text-indigo-400 border border-indigo-500/20">
                 통섭형 세계사

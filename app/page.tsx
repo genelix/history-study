@@ -117,7 +117,7 @@ export default function ChronoScopeHome() {
       <div className="flex h-screen w-screen flex-col items-center justify-center bg-slate-950 text-slate-400 font-sans">
         <div className="flex items-center gap-3 animate-pulse">
           <div className="h-8 w-8 rounded-lg bg-indigo-600/50" />
-          <span className="text-sm font-semibold text-slate-300">ChronoScope 역사 시간지도 로딩 중...</span>
+          <span className="text-sm font-semibold text-slate-300">HistoryGrid 역사 시간지도 로딩 중...</span>
         </div>
       </div>
     );
