@@ -36,7 +36,7 @@ export const EventItem: React.FC<EventItemProps> = ({ event, onSelect, isSelecte
   const isA = event.importance === 'A';
   const isB = event.importance === 'B';
 
-  const laneTopPx = event.lane * 38; // 레인당 38px 간격
+  const laneTopPx = event.lane * 40; // 레인당 40px 간격 (카드 높이 30px + 수직 여백 10px)
   const isTopLane = event.lane <= 1; // 상단 0, 1번 레인은 아래로 모달 표시, 하단 레인은 위로 표시
 
   const handleMouseEnter = (e: React.MouseEvent<HTMLDivElement>) => {

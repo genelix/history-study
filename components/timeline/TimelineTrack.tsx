@@ -32,11 +32,22 @@ export const TimelineTrack: React.FC<TimelineTrackProps> = ({
   selectedEventId,
   onSelectEvent,
 }) => {
-  const placedEvents = calculateEventLanes(events, dimensions);
+  // 현재 가시 뷰포트 및 전후 버퍼 범위 내의 이벤트만 필터링하여 레인 배치 최적화
+  const visibleEvents = React.useMemo(() => {
+    const span = dimensions.windowEnd - dimensions.windowStart;
+    const buffer = span * 0.8; // 좌우 80% 여유 버퍼
+    const minYear = dimensions.windowStart - buffer;
+    const maxYear = dimensions.windowEnd + buffer;
+    return events.filter((e) => !(e.year_start > maxYear || e.year_end < minYear));
+  }, [events, dimensions.windowStart, dimensions.windowEnd]);
+
+  const placedEvents = React.useMemo(() => {
+    return calculateEventLanes(visibleEvents, dimensions);
+  }, [visibleEvents, dimensions]);
   
-  // 최대 레인 수에 따라 트랙 높이 동적 계산 (기본 최소 130px)
+  // 최대 레인 수에 따라 트랙 높이 동적 계산 (기본 최소 140px, 레인당 40px)
   const maxLane = placedEvents.reduce((max, e) => Math.max(max, e.lane), 0);
-  const trackHeight = Math.max(130, (maxLane + 1) * 38 + 24);
+  const trackHeight = Math.max(140, (maxLane + 1) * 40 + 24);
 
   const badge = REGION_BADGES[regionId] || REGION_BADGES.WEST;
 

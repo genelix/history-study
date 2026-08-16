@@ -68,14 +68,13 @@ export function pixelToYear(pixelX: number, dimensions: TimelineDimensions): num
 }
 
 /**
- * 동일 지역/트랙 내의 이벤트들을 겹치지 않도록 서브 레인(Lane)으로 배치합니다.
+ * 동일 지역/트랙 내의 이벤트들을 겹치지 않도록 실제 시각적 카드 크기 기반으로 서브 레인(Lane)에 최적 배치합니다.
  */
 export function calculateEventLanes(
   events: HistoricalEvent[],
-  dimensions: TimelineDimensions,
-  minEventWidthPx: number = 36
+  dimensions: TimelineDimensions
 ): PlacedEvent[] {
-  // 시작 연도 순으로 정렬 (연도가 같으면 긴 이벤트 먼저)
+  // 시작 연도 순으로 정렬 (연도가 같으면 긴 기간 이벤트 먼저)
   const sorted = [...events].sort((a, b) => {
     if (a.year_start !== b.year_start) return a.year_start - b.year_start;
     return (b.year_end - b.year_start) - (a.year_end - a.year_start);
@@ -88,32 +87,45 @@ export function calculateEventLanes(
     const leftPx = yearToPixel(event.year_start, dimensions);
     const rightPx = yearToPixel(event.year_end, dimensions);
     const isPoint = event.year_start === event.year_end;
+    const rawWidth = Math.max(0, rightPx - leftPx);
     
-    // 최소 너비 보장 (가독성 및 클릭 영역)
-    const rawWidth = rightPx - leftPx;
-    const widthPx = Math.max(isPoint ? 28 : minEventWidthPx, rawWidth);
-    const eventEndPx = leftPx + widthPx + 12; // 12px 간격 버퍼
+    // 실제 DOM에 렌더링되는 시각적 최소 폭 계산 (아이콘 + 표제 + 연도 뱃지 + 여백)
+    const titleLength = event.title ? event.title.length : 8;
+    let visualWidth: number;
 
-    // 겹치지 않는 가장 낮은 번호의 레인 찾기
+    if (isPoint) {
+      // 포인트 이벤트: 원형 아이콘(12px) + 표제(글자당 ~12px, 최대 150px) + 연도(50px) + 패딩(25px)
+      const textWidth = Math.min(150, titleLength * 12);
+      visualWidth = Math.max(160, textWidth + 80);
+    } else {
+      // 기간형 바: 중요도 뱃지(24px) + 표제(최소 80px) + 연도 범위(70px) + 패딩(20px)
+      const minTitleWidth = Math.max(140, Math.min(240, titleLength * 11 + 60));
+      visualWidth = Math.max(rawWidth, minTitleWidth);
+    }
+
+    // 카드 간 16px 안전 여백을 둔 충돌 경계선 계산
+    const cardEndPx = leftPx + visualWidth + 16;
+
+    // 겹치지 않는 가장 낮은 번호의 빈 레인 찾기 (0행부터 아래로 차례대로 빈 공간 탐색)
     let assignedLane = -1;
     for (let l = 0; l < laneEndPositions.length; l++) {
       if (laneEndPositions[l] <= leftPx) {
         assignedLane = l;
-        laneEndPositions[l] = eventEndPx;
+        laneEndPositions[l] = cardEndPx;
         break;
       }
     }
 
-    // 모든 기존 레인과 겹치면 새 레인 생성
+    // 기존의 모든 레인이 사용 중이면 새로운 하위 레인(행) 생성하여 아래쪽 빈 공간으로 배치
     if (assignedLane === -1) {
       assignedLane = laneEndPositions.length;
-      laneEndPositions.push(eventEndPx);
+      laneEndPositions.push(cardEndPx);
     }
 
     placed.push({
       ...event,
       leftPx,
-      widthPx,
+      widthPx: isPoint ? visualWidth : Math.max(36, rawWidth),
       lane: assignedLane,
       isPoint,
     });
