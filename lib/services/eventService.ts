@@ -136,6 +136,7 @@ export class HistoricalEventService {
     west: HistoricalEvent[];
     china: HistoricalEvent[];
     korea: HistoricalEvent[];
+    other: HistoricalEvent[];
     climate: HistoricalEvent[];
   } {
     const halfSpan = spanYears / 2;
@@ -149,6 +150,7 @@ export class HistoricalEventService {
       west: inRange.filter((e) => e.region_id === 'WEST'),
       china: inRange.filter((e) => e.region_id === 'CHINA'),
       korea: inRange.filter((e) => e.region_id === 'KOREA'),
+      other: inRange.filter((e) => e.region_id === 'OTHER_REGIONS'),
       climate: inRange.filter((e) => e.region_id === 'CLIMATE' || e.category_id === 'CLIMATE_ENVIRONMENT'),
     };
   }

@@ -51,6 +51,14 @@ const REGION_STYLES: Record<
     badgeText: 'text-sky-200',
     leftAccent: 'border-l-2 border-l-sky-500/80',
   },
+  OTHER_REGIONS: {
+    bgGradient: 'bg-gradient-to-r from-amber-950/35 via-slate-950/60 to-amber-950/15 bg-gradient-to-b from-amber-950/25 via-slate-950/50 to-slate-950/90',
+    border: 'border-b border-amber-900/40',
+    badgeBg: 'bg-amber-950/90',
+    badgeBorder: 'border-amber-700/60',
+    badgeText: 'text-amber-200',
+    leftAccent: 'border-l-2 border-l-amber-500/80',
+  },
   CLIMATE: {
     bgGradient: 'bg-gradient-to-r from-teal-950/40 via-slate-950/60 to-teal-950/20 bg-gradient-to-b from-teal-950/30 via-slate-950/50 to-slate-950/90',
     border: 'border-b border-teal-900/40',

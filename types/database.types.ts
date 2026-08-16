@@ -1,4 +1,4 @@
-export type RegionId = 'WEST' | 'CHINA' | 'KOREA' | 'CLIMATE';
+export type RegionId = 'WEST' | 'CHINA' | 'KOREA' | 'OTHER_REGIONS' | 'CLIMATE';
 
 export type CategoryId =
   | 'POLITICS'

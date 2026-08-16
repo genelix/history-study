@@ -16,6 +16,7 @@ const REGION_OPTIONS: { id: RegionId; label: string; flag: string }[] = [
   { id: 'WEST', label: '서양사 (WEST)', flag: '🏛️' },
   { id: 'CHINA', label: '중국사 (CHINA)', flag: '🏯' },
   { id: 'KOREA', label: '한국사 (KOREA)', flag: '🇰🇷' },
+  { id: 'OTHER_REGIONS', label: '아시아·아프리카·아메리카 (GLOBAL)', flag: '🌐' },
   { id: 'CLIMATE', label: '기후·환경 (CLIMATE)', flag: '🌍' },
 ];
 

@@ -20,6 +20,7 @@ const REGION_METAS: { id: RegionId; title: string; flag: string }[] = [
   { id: 'WEST', title: '서양사 (Western)', flag: '🏛️' },
   { id: 'CHINA', title: '중국사 (Chinese)', flag: '🏯' },
   { id: 'KOREA', title: '한국사 (Korean)', flag: '🇰🇷' },
+  { id: 'OTHER_REGIONS', title: '아시아·아프리카·아메리카 (Global)', flag: '🌐' },
   { id: 'CLIMATE', title: '기후·환경 (Climate & Nature)', flag: '🌍' },
 ];
 
@@ -105,6 +106,7 @@ export const TimelineContainer: React.FC<TimelineContainerProps> = ({
       WEST: [],
       CHINA: [],
       KOREA: [],
+      OTHER_REGIONS: [],
       CLIMATE: [],
     };
     events.forEach((evt) => {

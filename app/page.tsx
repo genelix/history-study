@@ -12,7 +12,7 @@ import { PlacedEvent, ZOOM_CONFIGS } from '@/lib/timeline/coordinates';
 
 export default function ChronoScopeHome() {
   const [filterState, setFilterState] = useState<TimelineFilterState>({
-    regions: ['WEST', 'CHINA', 'KOREA', 'CLIMATE'],
+    regions: ['WEST', 'CHINA', 'KOREA', 'OTHER_REGIONS', 'CLIMATE'],
     categories: [
       'POLITICS',
       'PERSON',
