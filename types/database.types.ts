@@ -80,6 +80,7 @@ export interface HistoricalEvent {
   date_precision: DatePrecision;
   year_display?: string;
   summary: string;
+  detailed_description?: string; // 심층 상세 해설 및 역사적 전개 서술
   historical_significance?: string;
   cause?: string;
   consequence?: string;

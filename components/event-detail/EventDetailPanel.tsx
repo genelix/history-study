@@ -3,7 +3,7 @@
 import React from 'react';
 import { HistoricalEvent } from '@/types/database.types';
 import { formatYearRange } from '@/lib/dates/yearFormatter';
-import { X, Calendar, Globe, Bookmark, Award, User, Link2, BookOpen, CheckCircle2, Navigation } from 'lucide-react';
+import { X, Calendar, Globe, Bookmark, Award, User, Link2, BookOpen, CheckCircle2, Navigation, Sparkles } from 'lucide-react';
 
 interface EventDetailPanelProps {
   event: HistoricalEvent | null;
@@ -11,6 +11,17 @@ interface EventDetailPanelProps {
   onSelectRelatedEventId: (id: string) => void;
   onJumpToEventYear: (year: number) => void;
 }
+
+const CATEGORY_LABELS: Record<string, string> = {
+  POLITICS: '정치·전쟁',
+  PERSON: '인물',
+  INSTITUTION: '제도·사회',
+  RELIGION: '종교·사상',
+  SCIENCE: '과학·기술',
+  ART_CULTURE: '예술·문화',
+  CLIMATE_ENVIRONMENT: '기후환경',
+  ECONOMY: '경제·무역',
+};
 
 export const EventDetailPanel: React.FC<EventDetailPanelProps> = ({
   event,
@@ -20,55 +31,58 @@ export const EventDetailPanel: React.FC<EventDetailPanelProps> = ({
 }) => {
   if (!event) return null;
 
+  const categoryLabel = CATEGORY_LABELS[event.category_id] || event.category_id;
+
   return (
-    <aside className="fixed inset-y-0 right-0 z-50 w-full sm:w-[420px] md:w-[460px] bg-slate-950/95 border-l border-slate-800 text-slate-100 shadow-2xl backdrop-blur-xl flex flex-col overflow-hidden transition-all duration-300 animate-slide-left">
+    <aside className="fixed inset-y-0 right-0 z-50 w-full sm:w-[480px] md:w-[540px] bg-slate-950/98 border-l border-slate-800/90 text-slate-100 shadow-2xl backdrop-blur-2xl flex flex-col overflow-hidden transition-all duration-300 animate-slide-left">
       {/* 패널 헤더 */}
-      <div className="flex items-center justify-between p-4 border-b border-slate-800/80 bg-slate-900/60">
+      <div className="flex items-center justify-between p-4 border-b border-slate-800/80 bg-slate-900/80 backdrop-blur-md">
         <div className="flex items-center gap-2">
-          <span className="rounded bg-amber-400/20 text-amber-300 border border-amber-400/40 px-2 py-0.5 text-xs font-bold">
-            등급 {event.importance}
+          <span className="rounded bg-amber-400/20 text-amber-300 border border-amber-400/40 px-2.5 py-0.5 text-xs font-extrabold shadow-sm">
+            중요도 {event.importance}등급
           </span>
-          <span className="rounded bg-indigo-500/20 text-indigo-300 border border-indigo-500/30 px-2 py-0.5 text-xs font-semibold">
-            {event.category_id}
+          <span className="rounded bg-indigo-500/20 text-indigo-300 border border-indigo-500/30 px-2.5 py-0.5 text-xs font-bold">
+            {categoryLabel}
           </span>
         </div>
         <button
           onClick={onClose}
-          className="rounded-full p-1 text-slate-400 hover:bg-slate-800 hover:text-slate-200 transition-colors"
+          className="rounded-full p-1.5 text-slate-400 hover:bg-slate-800 hover:text-slate-100 transition-colors"
+          title="닫기"
         >
           <X className="h-5 w-5" />
         </button>
       </div>
 
       {/* 패널 바디 (스크롤) */}
-      <div className="flex-1 overflow-y-auto p-5 space-y-5">
+      <div className="flex-1 overflow-y-auto p-6 space-y-6">
         {/* 사건 타이틀 및 기간 */}
-        <div>
-          <h2 className="text-xl font-bold text-white tracking-tight leading-snug">
+        <div className="border-b border-slate-800/80 pb-5">
+          <h2 className="text-2xl font-extrabold text-white tracking-tight leading-snug">
             {event.title}
           </h2>
           {event.title_en && (
-            <p className="text-xs font-medium text-slate-400 mt-0.5">
+            <p className="text-xs font-medium text-slate-400 mt-1">
               {event.title_en}
             </p>
           )}
 
-          <div className="mt-3 flex flex-wrap items-center gap-3 text-xs text-slate-300">
-            <div className="flex items-center gap-1 bg-slate-900/80 px-2.5 py-1 rounded-md border border-slate-800">
+          <div className="mt-4 flex flex-wrap items-center gap-2.5 text-xs text-slate-300">
+            <div className="flex items-center gap-1.5 bg-amber-500/10 px-3 py-1 rounded-md border border-amber-500/30 text-amber-300 font-mono font-bold shadow-sm">
               <Calendar className="h-3.5 w-3.5 text-amber-400" />
-              <span className="font-mono text-amber-300 font-semibold">
+              <span>
                 {formatYearRange(event.year_start, event.year_end, event.date_precision)}
               </span>
             </div>
 
-            <div className="flex items-center gap-1 bg-slate-900/80 px-2.5 py-1 rounded-md border border-slate-800">
+            <div className="flex items-center gap-1.5 bg-slate-900 px-3 py-1 rounded-md border border-slate-800 text-slate-300">
               <Globe className="h-3.5 w-3.5 text-sky-400" />
               <span>{event.region_id} {event.sub_region ? `· ${event.sub_region}` : ''}</span>
             </div>
 
             <button
               onClick={() => onJumpToEventYear(event.year_start)}
-              className="flex items-center gap-1 rounded-md bg-indigo-600/30 border border-indigo-500/40 px-2.5 py-1 text-indigo-300 hover:bg-indigo-600/50 transition-colors"
+              className="flex items-center gap-1 rounded-md bg-indigo-600/30 border border-indigo-500/40 px-3 py-1 text-indigo-300 hover:bg-indigo-600/50 transition-colors font-medium ml-auto"
             >
               <Navigation className="h-3.5 w-3.5" />
               <span>시간축 이동</span>
@@ -77,23 +91,52 @@ export const EventDetailPanel: React.FC<EventDetailPanelProps> = ({
         </div>
 
         {/* 요약 (Summary) */}
-        <div className="rounded-xl border border-slate-800 bg-slate-900/50 p-3.5">
-          <h3 className="text-xs font-bold text-slate-400 mb-1.5 uppercase tracking-wider">
-            사건 개요
+        <div className="rounded-xl border border-slate-800 bg-slate-900/60 p-4 shadow-sm">
+          <h3 className="text-xs font-bold text-slate-400 mb-1.5 uppercase tracking-wider flex items-center gap-1.5">
+            <Bookmark className="h-3.5 w-3.5 text-amber-400" />
+            사건 개요 (Summary)
           </h3>
-          <p className="text-sm text-slate-200 leading-relaxed font-normal">
+          <p className="text-sm text-slate-200 leading-relaxed font-normal break-keep">
             {event.summary}
           </p>
         </div>
 
+        {/* 📖 심층 상세 해설 (Detailed Historical Narrative) */}
+        <div className="rounded-2xl border border-sky-900/50 bg-gradient-to-b from-sky-950/30 via-slate-900/70 to-slate-950/90 p-5 shadow-xl">
+          <div className="flex items-center justify-between border-b border-sky-900/40 pb-3 mb-3.5">
+            <h3 className="text-sm font-extrabold text-sky-300 uppercase tracking-wider flex items-center gap-2">
+              <BookOpen className="h-4 w-4 text-sky-400" />
+              심층 상세 해설 및 역사적 전개
+            </h3>
+            <span className="text-[11px] font-semibold text-sky-400/80 bg-sky-950/80 px-2 py-0.5 rounded border border-sky-700/40 flex items-center gap-1">
+              <Sparkles className="h-3 w-3 text-sky-400" />
+              통섭 분석
+            </span>
+          </div>
+
+          <div className="text-[13.5px] text-slate-100/95 leading-relaxed space-y-3 font-normal break-keep">
+            {event.detailed_description ? (
+              event.detailed_description.split('\n\n').map((paragraph, idx) => (
+                <p key={idx} className="leading-relaxed text-slate-200">
+                  {paragraph}
+                </p>
+              ))
+            ) : (
+              <p className="leading-relaxed text-slate-200">
+                {event.summary}
+              </p>
+            )}
+          </div>
+        </div>
+
         {/* 역사적 의미 (Historical Significance) */}
         {event.historical_significance && (
-          <div className="rounded-xl border border-indigo-900/30 bg-indigo-950/20 p-3.5">
-            <h3 className="text-xs font-bold text-indigo-400 mb-1.5 uppercase tracking-wider flex items-center gap-1.5">
-              <Award className="h-3.5 w-3.5" />
-              역사적 의미와 통섭적 영향
+          <div className="rounded-xl border border-indigo-900/40 bg-indigo-950/25 p-4 shadow-sm">
+            <h3 className="text-xs font-bold text-indigo-300 mb-1.5 uppercase tracking-wider flex items-center gap-1.5">
+              <Award className="h-4 w-4 text-amber-400" />
+              역사적 의미와 문명사적 영향
             </h3>
-            <p className="text-sm text-indigo-100/90 leading-relaxed">
+            <p className="text-sm text-indigo-100/95 leading-relaxed break-keep">
               {event.historical_significance}
             </p>
           </div>
@@ -101,24 +144,24 @@ export const EventDetailPanel: React.FC<EventDetailPanelProps> = ({
 
         {/* 원인 및 결과 (Cause & Consequence) */}
         {(event.cause || event.consequence) && (
-          <div className="space-y-2.5">
+          <div className="space-y-3">
             {event.cause && (
-              <div className="rounded-xl border border-slate-800/80 bg-slate-900/40 p-3">
-                <span className="text-[11px] font-bold text-amber-400 block mb-1">
-                  🔍 배경 및 원인
+              <div className="rounded-xl border border-amber-900/40 bg-amber-950/20 p-3.5">
+                <span className="text-xs font-bold text-amber-300 block mb-1 flex items-center gap-1">
+                  🔍 배경 및 촉발 원인
                 </span>
-                <p className="text-xs text-slate-300 leading-relaxed">
+                <p className="text-xs text-slate-300 leading-relaxed break-keep">
                   {event.cause}
                 </p>
               </div>
             )}
 
             {event.consequence && (
-              <div className="rounded-xl border border-slate-800/80 bg-slate-900/40 p-3">
-                <span className="text-[11px] font-bold text-emerald-400 block mb-1">
+              <div className="rounded-xl border border-emerald-900/40 bg-emerald-950/20 p-3.5">
+                <span className="text-xs font-bold text-emerald-300 block mb-1 flex items-center gap-1">
                   ⚡ 결과 및 파급 효과
                 </span>
-                <p className="text-xs text-slate-300 leading-relaxed">
+                <p className="text-xs text-slate-300 leading-relaxed break-keep">
                   {event.consequence}
                 </p>
               </div>
