@@ -1,8 +1,9 @@
 'use client';
 
 import React, { useState } from 'react';
-import { Search, Compass, ZoomIn, ZoomOut, Sparkles, Clock, Layers, ArrowLeft, ArrowRight } from 'lucide-react';
+import { Search, Compass, ZoomIn, ZoomOut, Sparkles, Clock, Layers, ArrowLeft, ArrowRight, Sun, Moon } from 'lucide-react';
 import { formatYear } from '@/lib/dates/yearFormatter';
+import { useTheme } from '@/lib/theme/ThemeContext';
 
 interface HeaderNavProps {
   currentCenterYear: number;
@@ -47,6 +48,8 @@ export const HeaderNav: React.FC<HeaderNavProps> = ({
     const step = zoomLevel === '1000' ? 500 : zoomLevel === '100' ? 100 : 20;
     onJumpToYear(currentCenterYear + delta * step);
   };
+
+  const { theme, toggleTheme } = useTheme();
 
   return (
     <header className="sticky top-0 z-40 w-full border-b border-slate-800 bg-slate-950/90 backdrop-blur-md px-4 py-3 text-slate-100 shadow-lg">
@@ -155,6 +158,25 @@ export const HeaderNav: React.FC<HeaderNavProps> = ({
           >
             <Sparkles className="h-3.5 w-3.5 text-amber-400" />
             동시대 통섭 비교
+          </button>
+
+          {/* 주간 / 야간 테마 토글 버튼 */}
+          <button
+            onClick={toggleTheme}
+            title={theme === 'dark' ? '주간 테마(밝은 모드)로 전환' : '야간 테마(다크 모드)로 전환'}
+            className="flex items-center gap-1.5 rounded-lg border border-slate-700 bg-slate-900/90 px-2.5 py-1.5 text-xs font-semibold text-slate-200 hover:border-amber-400/50 hover:bg-slate-800 transition-all shadow-sm group"
+          >
+            {theme === 'dark' ? (
+              <>
+                <Sun className="h-4 w-4 text-amber-400 transition-transform group-hover:rotate-45" />
+                <span className="text-[11px] text-amber-200 font-medium">주간 모드</span>
+              </>
+            ) : (
+              <>
+                <Moon className="h-4 w-4 text-indigo-500 transition-transform group-hover:-rotate-12" />
+                <span className="text-[11px] text-slate-700 font-medium">야간 모드</span>
+              </>
+            )}
           </button>
         </div>
       </div>
